@@ -3,7 +3,7 @@
 ## Session Continuity Document
 
 **Date:** 2026-07-16
-**Status:** Phase One COMPLETE — Phase Two Philosophy COMPLETE — Phase Three Candidate Generation COMPLETE — Phase Four Semi-Finalist Review COMPLETE — Phase Five (Series Architecture) PENDING
+**Status:** Phase One COMPLETE — Phase Two Philosophy COMPLETE — Phase Three Candidate Generation COMPLETE — Phase Four Semi-Finalist Review COMPLETE — Phase Five Series Architecture COMPLETE — Phase Six (Production Decision) PENDING
 **Profile:** horror-series
 **Working Directory:** `/home/andrew/novel-production-system`
 **Repository:** `https://github.com/Sirvenis/novel-production-system`
@@ -91,16 +91,21 @@ Total: 1 commit pushed to GitHub. Repository at 32e1cef.
 
 ---
 
-## NEXT TASK (Phase Five)
+## NEXT TASK (Phase Six)
 
-Pending Arden's review of the semi-finalist comparison, advance 1 candidate to full series architecture (5-book outline, protagonist design, first-chapter sketch).
+Pending Arden's review of the stress-test architecture:
 
-**Recommended prioritisation:**
-1. **Candidate 1 (The Better Version)** — Highest Arden fit (59/60), strongest intimacy, lowest commercial risk.
-2. **Fallback: Candidate 10 (The Accumulation)** — Most grounded, strongest emotional engine, if Candidate 1 reveals structural weaknesses during architecture.
-3. **Reserve: Candidate 2 (The Certain Death)** — Requires revision (working-class protagonist, intimacy test) before architecture viable.
+**If approved:** Proceed to Book 1 production. Requirements before drafting:
+- Expand first-chapter sketch to full chapter for voice approval
+- Detail Book 1 architecture to chapter-level Job Statements
+- Formally deactivate Candidate 10 fallback
+- Establish production pipeline (profiles, tracking, handoff cadence)
 
-**Skill saved:** `horror-concept-generation` — Fear-first methodology reusable across horror, thriller, mystery, SF, literary drama.
+**Stress-test verdict:** The Better Version PASSED — architecture is series-viable across all 9 dimensions.
+
+**Fallback remains active:** Candidate 10 (The Accumulation) if Book 1 production reveals structural weakness.
+
+**Skill updated:** `horror-concept-generation` now covers full pipeline: fear-first generation → 9-criteria evaluation → semi-finalist comparison → reserve protocol → selection.
 
 ---
 
