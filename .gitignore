@@ -1,0 +1,30 @@
+# Machine-specific and private
+.env
+.env.local
+*.pem
+*.key
+config.yaml
+cache/
+logs/
+*.log
+auth.lock
+image_cache/
+audio_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Secrets and credentials
+*token*
+*secret*
+*password*
+*credential*
+*oauth*
