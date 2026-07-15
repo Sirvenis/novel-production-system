@@ -3,7 +3,7 @@
 ## Session Continuity Document
 
 **Date:** 2026-07-16
-**Status:** Phase One COMPLETE — Phase Two Philosophy COMPLETE — Phase Three Candidate Generation COMPLETE — Phase Four (Selection + Series Architecture) PENDING
+**Status:** Phase One COMPLETE — Phase Two Philosophy COMPLETE — Phase Three Candidate Generation COMPLETE — Phase Four Semi-Finalist Review COMPLETE — Phase Five (Series Architecture) PENDING
 **Profile:** horror-series
 **Working Directory:** `/home/andrew/novel-production-system`
 **Repository:** `https://github.com/Sirvenis/novel-production-system`
@@ -91,14 +91,16 @@ Total: 1 commit pushed to GitHub. Repository at 32e1cef.
 
 ---
 
-## NEXT TASK (Phase Four)
+## NEXT TASK (Phase Five)
 
-Pending Arden's review of the 10 candidates, select 1-2 for series architecture (5-book outline, protagonist design, first-chapter sketch).
+Pending Arden's review of the semi-finalist comparison, advance 1 candidate to full series architecture (5-book outline, protagonist design, first-chapter sketch).
 
-Recommended prioritisation in candidate document:
-- **Most Arden-compatible:** Candidate 1 (Replaced While Still Present)
-- **Most formally innovative:** Candidate 2 (Correct Prediction)
-- **Most grounded/literary:** Candidate 10 (Good Decisions Gone Bad)
+**Recommended prioritisation:**
+1. **Candidate 1 (The Better Version)** — Highest Arden fit (59/60), strongest intimacy, lowest commercial risk.
+2. **Fallback: Candidate 10 (The Accumulation)** — Most grounded, strongest emotional engine, if Candidate 1 reveals structural weaknesses during architecture.
+3. **Reserve: Candidate 2 (The Certain Death)** — Requires revision (working-class protagonist, intimacy test) before architecture viable.
+
+**Skill saved:** `horror-concept-generation` — Fear-first methodology reusable across horror, thriller, mystery, SF, literary drama.
 
 ---
 
