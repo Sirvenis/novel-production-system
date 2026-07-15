@@ -179,3 +179,6 @@ To make any monster frightening again, reverse the four steps:
 
 **The fifth step (Arden addition):**
 5. **Make it personal.** The monster is not a distant threat. It is in your house, in your family, in your mind. The horror is intimacy.
+
+**The sixth principle (Arden correction):**
+6. **Partial understanding amplifies fear.** Complete understanding kills fear — but partial understanding, the glimpse of a pattern just large enough to know it is hostile but not large enough to predict it, is the most effective state for producing dread. The reader should learn just enough to be more afraid, not enough to feel safe.

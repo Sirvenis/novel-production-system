@@ -14,7 +14,19 @@ Arden Studios asks: "What if the monster was not the point?"
 
 The Arden horror is not the creature in the dark. The Arden horror is the realisation that the dark itself is wrong. That the rules you thought you knew were never true. That your mind, your body, your community — the things you trusted most — have been compromised without your knowledge.
 
-## The Five Pillars of Arden Horror
+### 6. The Horror of Competence
+
+The protagonists are not foolish. They do not make the mistakes that let the reader feel safe. They investigate, cooperate, make intelligent decisions — and they still lose. The horror is that adequacy is not enough.
+
+**From the current series:**
+- Nate's technical expertise with the Mark devices is sound. The problem is not his competence but his incomplete knowledge. Every correct action produces an unforeseen consequence.
+- The crew does not fail because they are inadequate. They fail because the universe is not fair.
+
+**For future series:**
+- The protagonist's ordinary skill becomes their only weapon — and it is not enough.
+- The reader cannot dismiss events by thinking "I'd never do something that stupid." They think: "I'd have done exactly that." And it still wouldn't have been enough.
+
+## The Six Pillars of Arden Horror
 
 ### 1. The Horror of Intimacy
 
@@ -68,9 +80,9 @@ The protagonists are not chosen. They are not special. They are people with jobs
 - The protagonist's ordinary skill becomes their only weapon. A plumber who understands pressure. A teacher who understands influence. A truck driver who understands routes.
 - The horror is not that they are inadequate. The horror is that adequacy is not enough.
 
-### 5. The Horror of the Australian Mundane
+### 5. The Horror of the Ordinary
 
-The cosmic horror does not arrive in New York or London. It arrives in Innisfail, in Mossman, in the cane fields and the mangrove swamps. The horror is that the apocalypse happens in a town with one pub and no hospital.
+The threat arrives in ordinary lives. Sometimes it's Innisfail. Sometimes it's a Yorkshire village. Sometimes it's a trawler in the North Sea. Sometimes it's suburban America. The horror is that the apocalypse happens in a town with one pub and no hospital — or a street you have walked a thousand times.
 
 **From the current series:**
 - The Great Barrier Reef is not a pristine wonder. It is a workplace. The horror is that the sublime has become the ordinary, and the ordinary has become wrong.
@@ -79,7 +91,7 @@ The cosmic horror does not arrive in New York or London. It arrives in Innisfail
 **For future series:**
 - The horror is not in the wilderness but in the suburban backyard.
 - The threat does not arrive from space but from the soil, the water, the air — things that have always been here.
-- The Australian landscape is not backdrop. It is antagonist.
+- The landscape is not backdrop. It is antagonist. The geography can change. The philosophy travels.
 
 ## The Arden Voice
 

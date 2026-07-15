@@ -53,12 +53,13 @@ Total: 4 commits pushed to GitHub.
 
 **Restoration strategy:** Reverse all four + make it personal.
 
-### Arden Studios Signature (5 Pillars)
+### Arden Studios Signature (6 Pillars)
 1. **Horror of Intimacy** — The threat is in your house, family, body.
 2. **Horror of Understanding** — Knowledge is conversion, not protection.
 3. **Horror of Partial Success** — Every solution makes things worse.
 4. **Horror of Working-Class Pragmatism** — Ordinary people, extraordinary threat.
-5. **Horror of the Australian Mundane** — The apocalypse happens in Innisfail.
+5. **Horror of the Ordinary** — The apocalypse happens where you live.
+6. **Horror of Competence** — Smart choices, correct actions, still lose.
 
 **Voice:** Understated, working-class, profane, funny, Australian.
 **Rule:** Never explain too much. Answer one question, raise three.
