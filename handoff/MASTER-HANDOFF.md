@@ -3,7 +3,7 @@
 ## Session Continuity Document
 
 **Date:** 2026-07-16
-**Status:** Phase One COMPLETE — Phase Two Philosophy COMPLETE — Phase Three (Candidate Generation) PENDING
+**Status:** Phase One COMPLETE — Phase Two Philosophy COMPLETE — Phase Three Candidate Generation COMPLETE — Phase Four (Selection + Series Architecture) PENDING
 **Profile:** horror-series
 **Working Directory:** `/home/andrew/novel-production-system`
 **Repository:** `https://github.com/Sirvenis/novel-production-system`
@@ -30,11 +30,35 @@ Created 4 foundational documents in `docs/`:
 1. **HORROR_LANDSCAPE_SURVEY.md** — 18 horror sub-genres analysed
 2. **WHAT_CREATES_FEAR.md** — 5 mechanisms of narrative fear from neuroscience
 3. **WHAT_DESTROYED_MONSTERS.md** — Case-by-case erosion of 7 classic monsters
-4. **ARDEN_SIGNATURE.md** — Arden Studios signature horror philosophy (5 pillars, voice, reader experience, series philosophy)
+4. **ARDEN_SIGNATURE.md** — Arden Studios signature horror philosophy (6 pillars, voice, reader experience, series philosophy)
+
+**Post-review corrections applied (per Arden feedback):**
+- Pillar 5 renamed: Horror of the Australian Mundane → **Horror of the Ordinary**
+- Added **Horror of Competence** (6th pillar): smart protagonists, correct choices, still lose
+- Added **Partial Understanding Principle** to monster restoration: complete understanding kills fear, partial understanding amplifies it
 
 Total: 4 commits pushed to GitHub.
 
----
+### Phase Three — Candidate Generation
+
+Created `docs/CANDIDATES_PHASE_THREE.md` — 10 fear-driven horror candidates with full evaluation:
+
+| # | Candidate | Core Fear |
+|---|-----------|-----------|
+| 1 | **The Better Version** | Being replaced while still present |
+| 2 | **The Certain Death** | Correct prediction without escape |
+| 3 | **The Patient** | Being understood completely by something inhuman |
+| 4 | **The Last Witness** | Collective forgetting with one witness |
+| 5 | **The Container** | Being necessary — suffering as infrastructure |
+| 6 | **The Translation** | Successful communication with something alien |
+| 7 | **The Dreaming Self** | Boundary dissolution between sleep and wake |
+| 8 | **The Exception** | Being the last one who hasn't changed |
+| 9 | **The Facility** | Benevolent imprisonment through comfort |
+| 10 | **The Accumulation** | Good decisions gone bad through time |
+
+Each evaluated against 9 criteria (8 landscape + Book One immunity).
+
+Total: 1 commit pushed to GitHub. Repository at 32e1cef.
 
 ## PHILOSOPHY SUMMARY
 
@@ -67,32 +91,14 @@ Total: 4 commits pushed to GitHub.
 
 ---
 
-## NEXT TASK (Phase Three)
+## NEXT TASK (Phase Four)
 
-Generate **10 serious horror candidates** with full criteria per Arden's specification:
+Pending Arden's review of the 10 candidates, select 1-2 for series architecture (5-book outline, protagonist design, first-chapter sketch).
 
-For each candidate:
-- Core premise
-- Emotional experience the reader should have
-- Deepest human fear it exploits
-- Why modern readers haven't become immune to it
-- How it differs from existing horror traditions
-- Whether it can sustain a five-book series
-- What its "never explain too much" boundary is
-- Can this premise still frighten someone after they've finished Book One?
-
-Evaluate each against the 8 criteria from the landscape survey:
-1. Fear restoration
-2. Sympathy test
-3. Rule test
-4. Distance test
-5. Agency test
-6. Explanation test
-7. Intimacy test
-8. Complicity test
-
-Plus Arden's additional criterion:
-9. **Can this premise still frighten someone after they've finished Book One?**
+Recommended prioritisation in candidate document:
+- **Most Arden-compatible:** Candidate 1 (Replaced While Still Present)
+- **Most formally innovative:** Candidate 2 (Correct Prediction)
+- **Most grounded/literary:** Candidate 10 (Good Decisions Gone Bad)
 
 ---
 
