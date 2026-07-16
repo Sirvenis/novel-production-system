@@ -3,7 +3,7 @@
 ## Session Continuity Document
 
 **Date:** 2026-07-16
-**Status:** Phase One COMPLETE — Phase Two Philosophy COMPLETE — Phase Three Candidate Generation COMPLETE — Phase Four Semi-Finalist Review COMPLETE — Phase Five Series Architecture COMPLETE — Phase Six (Production Decision) PENDING
+**Status:** Phase One COMPLETE — Phase Two Philosophy COMPLETE — Phase Three Candidate Generation COMPLETE — Phase Four Semi-Finalist Review COMPLETE — Phase Five Series Architecture COMPLETE — Setting-Drift Correction COMPLETE — Phase Six (Production Decision) PENDING
 **Profile:** horror-series
 **Working Directory:** `/home/andrew/novel-production-system`
 **Repository:** `https://github.com/Sirvenis/novel-production-system`
@@ -103,9 +103,28 @@ Pending Arden's review of the stress-test architecture:
 
 **Stress-test verdict:** The Better Version PASSED — architecture is series-viable across all 9 dimensions.
 
+**Setting-drift correction applied:** Removed all Australian default assumptions (Innisfail, Queensland, Coles, cane farm, fibro, kelpie, smoko, Tim Tams). Replaced with setting-neutral placeholders. Added 3 deliberate setting options (UK deindustrialised, US Rust Belt, Australia deliberate-only). Setting Decision Log created. See `docs/THE_BETTER_VERSION_ARCHITECTURE.md` Setting Decision Log section.
+
 **Fallback remains active:** Candidate 10 (The Accumulation) if Book 1 production reveals structural weakness.
 
-**Skill updated:** `horror-concept-generation` now covers full pipeline: fear-first generation → 9-criteria evaluation → semi-finalist comparison → reserve protocol → selection.
+**Skill updated:** `horror-concept-generation` now covers full pipeline including Setting-Discipline Rules.
+
+---
+
+## NEXT TASK (Phase Six)
+
+Pending Arden's review of the stress-test architecture:
+
+**Critical decision required before any drafting:**
+| Decision | Status |
+|----------|--------|
+| Approve The Better Version for production? | PENDING |
+| **Choose deliberate setting** (UK, US Rust Belt, or Australia deliberate-only)? | **PENDING** |
+| Expand first-chapter sketch to full chapter? | PENDING |
+| Detail Book 1 architecture to chapter-level Job Statements? | PENDING |
+| Establish production pipeline? | PENDING |
+
+**Important rule going forward:** The backpacker horror series may use Innisfail/Australia. Other horror series must not inherit that setting automatically. Setting is a deliberate creative decision, not inherited context.
 
 ---
 
