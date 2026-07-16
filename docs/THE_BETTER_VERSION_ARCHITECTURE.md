@@ -28,11 +28,11 @@ This is the engine. Every architectural decision must serve this wound.
 
 ### Age, Class, Occupation
 
-Thirty-four. Working-class. Shift supervisor at a Coles supermarket in Innisfail, Queensland. Has been there since she was nineteen. Knows every regular customer by name, every shelf-stacker by weakness, every supplier by reliability. Not management material — too direct, too profane, too unwilling to pretend enthusiasm for corporate initiatives. She is good at her job and resents that it is not enough.
+Thirty-four. Working-class. Shift supervisor at a mid-sized supermarket chain in a small town (setting TBD). Has been there since she was nineteen. Knows every regular customer by name, every shelf-stacker by weakness, every supplier by reliability. Not management material — too direct, too profane, too unwilling to pretend enthusiasm for corporate initiatives. She is good at her job and resents that it is not enough.
 
 ### Family Situation
 
-Married at twenty-two to **Mick Calloway**, a cane farmer whose property is twenty minutes west of town. Divorced three years ago — not dramatic, just gradual dissolution. No children. Mick has a new partner, a woman named Jen who Di has never met but knows everything about through town osmosis. Di lives in a rented fibro house on the edge of town, alone, with a kelpie named Bitey who is too old to bark.
+Married at twenty-two to **Mick Calloway**, an agricultural worker whose property is twenty minutes west of town. Divorced three years ago — not dramatic, just gradual dissolution. No children. Mick has a new partner, a woman named Jen who Di has never met but knows everything about through town osmosis. Di lives in a rented house on the edge of town, alone, with a dog named Bitey who is too old to bark.
 
 ### Competence Profile
 
@@ -42,7 +42,9 @@ Married at twenty-two to **Mick Calloway**, a cane farmer whose property is twen
 
 ### Voice
 
-Understated, profane, Australian. Short sentences. Self-deprecating humour that is not self-pity. Does not describe her own emotions — describes what she does and lets the reader infer feeling. Speaks in questions when she is uncertain. Falls silent when she is afraid.
+Understated, profane, grounded in place. Short sentences. Self-deprecating humour that is not self-pity. Does not describe her own emotions — describes what she does and lets the reader infer feeling. Speaks in questions when she is uncertain. Falls silent when she is afraid.
+
+**Note:** The specific regional voice (Australian, Yorkshire, Midwest, etc.) will be chosen deliberately when the setting is selected. The voice must belong to its place, not inherited from previous series.
 
 ### Why She Works for Arden Studios
 
@@ -147,6 +149,8 @@ Each book targets a different human weakness while maintaining the same core eng
 **Premise:** Diana Calloway discovers she is being replaced by a version of herself that is incrementally better at every aspect of her life. The horror is not that the replacement is evil. The horror is that it is better, and everyone she loves prefers it.
 
 **Scale:** Personal. One woman, one town, one replacement.
+
+**Setting:** Small working-class town (setting TBD — see proposed options below).
 
 **Horror Mechanic:** Infiltration — slow, patient, irreversible replacement of identity.
 
@@ -354,7 +358,7 @@ Di is competent in every book. She investigates, cooperates, makes intelligent d
 |--------|---|
 | **Risk** | As the series escalates from personal to cosmic, Di's working-class voice becomes incompatible with the scale. |
 | **Severity** | **MEDIUM** — Would fracture the series identity. |
-| **Mitigation** | Di's voice remains consistent. The scale shifts around her, not within her. She processes cosmic horror through the lens of a shift supervisor: "So you're telling me there's a pool of versions of me, and I'm not the best one? Well, fuck." The horror is not that she cannot comprehend the scale. The horror is that she can, and it changes nothing. |
+| **Mitigation** | Di's voice remains consistent. The scale shifts around her, not within her. **Note on voice consistency:** Di's working-class voice must remain consistent regardless of scale. She processes cosmic horror through the lens of a shift supervisor: "So you're telling me there's a pool of versions of me, and I'm not the best one? Well, fuck." The horror is not that she cannot comprehend the scale. The horror is that she can, and it changes nothing. The specific regional vocabulary (swear words, idioms, place-names) will be chosen when the setting is decided. |
 | **Detection** | If Di ever uses abstract philosophical language, flag immediately. She should describe cosmic concepts in concrete, profane, working-class terms. |
 
 ---
@@ -392,8 +396,22 @@ Di is competent in every book. She investigates, cooperates, makes intelligent d
 |------|----------|------------|
 | No traditional monster limits horror market | **Medium** | Market as "psychological horror" or "existential thriller." Emphasise dread over gore. |
 | Slow-burn structure may not suit all readers | **Medium** | First chapter must hook immediately. The wrongness starts on page one, not page fifty. |
-| Australian setting may limit international appeal | **Low** | The setting is ordinary enough to translate. Innisfail = any small town with one supermarket and a cane field. |
-| Working-class protagonist may not attract prestige readers | **Low** | Working-class voice is increasingly valued in literary fiction. Di's competence and self-awareness counteract class bias. |
+|| Australian setting may limit international appeal | **Low** | Setting is ordinary enough to translate. Any small town with one supermarket and a field. Specific regional texture to be chosen deliberately. |
+|| Working-class protagonist may not attract prestige readers | **Low** | Working-class voice is increasingly valued in literary fiction. Di's competence and self-awareness counteract class bias. |
+
+### Proposed Setting Options (Pending Deliberate Choice)
+
+The setting for The Better Version must be chosen deliberately, not inherited from the backpacker horror series. Below are three candidates with pros and cons:
+
+| Setting | Region | Pros | Cons |
+|---------|--------|------|------|
+| **A. Deindustrialised town, UK** (e.g., former mill town in Yorkshire or Lancashire) | England | Strong class texture; supermarket culture universal; global Anglophone readership; bleakness suits dread; working-class voice is culturally established in UK literary fiction. | May feel culturally specific to UK readers; requires authentic regional voice; less familiar to US readers. |
+| **B. Rust Belt town, US** (e.g., Ohio or Pennsylvania, former steel or auto town) | USA | Largest commercial market; supermarket culture universal; working-class identity is politically resonant; "dying town" atmosphere is already a recognised literary mode. | Risk of feeling like "economic anxiety" fiction rather than horror; regional voice must be specific (Midwest vs. Appalachian); class politics may overshadow dread. |
+| **C. Regional town, Australia** (e.g., Queensland or NSW, NOT Innisfail) | Australia | Arden's home ground; authentic voice available; working-class texture strongest here; small-town isolation is credible. | Risk of defaulting to existing series geography; global readership may distance; "outback" cliché if not handled carefully. |
+
+**Recommendation:** Option A (Yorkshire/Lancashire) or Option B (Rust Belt) offer the best global-market combination of class texture, universality, and commercial reach. The voice would need to be specific to whichever is chosen — not generic "working-class" but particular to that place.
+
+**Decision required before Book 1 drafting:** Choose one setting. Do not default.
 
 ---
 
@@ -403,9 +421,9 @@ Di is competent in every book. She investigates, cooperates, makes intelligent d
 
 **Job Statement:** Establish Di's ordinary world, her competence, and the first wrongness — all in a single supermarket interaction.
 
-**Opening lines:**
+**Opening lines (setting-neutral version — TBD):**
 
-> Mrs. Patterson buys the same thing every Tuesday. Two litres of full-cream milk, one loaf of white bread, one packet of Tim Tams. She has been buying the same thing every Tuesday since before Di started at the Coles, which was fifteen years ago. Di does not need to look at the receipt to know what Mrs. Patterson has bought. She does not need to look at Mrs. Patterson to know she is about to complain about the price of cheese.
+> Mrs. Patterson buys the same thing every Tuesday. Two litres of milk, one loaf of white bread, one packet of biscuits. She has been buying the same thing every Tuesday since before Di started at the supermarket, which was fifteen years ago. Di does not need to look at the receipt to know what Mrs. Patterson has bought. She does not need to look at Mrs. Patterson to know she is about to complain about the price of cheese.
 >
 > What she needs to look at is Mrs. Patterson's face.
 >
@@ -421,12 +439,12 @@ Di laughs it off. Makes a joke. Bags the groceries. But the wrongness stays.
 - **Opening:** Routine. Di's competence on display — she knows every customer, every product, every problem.
 - **Inciting wrongness:** Mrs. Patterson's failure to recognise her. Small, deniable, but wrong.
 - **Dismissal:** Di explains it away — Mrs. Patterson is old, forgetful, probably thinking of the girl who worked here last summer.
-- **Confirmation:** Di mentions it to Sharon at smoko. Sharon says, "That's funny. Mrs. Patterson told me yesterday how much she likes the new girl on checkout three."
+- **Confirmation:** Di mentions it to Sharon on break. Sharon says, "That's funny. Mrs. Patterson told me yesterday how much she likes the new girl on checkout three."
 - **Closing:** Di is checkout three. There is no new girl on checkout three. There has not been a new girl on checkout three in six months.
 
 **The final line:**
 
-> Di finishes her smoko and goes back to work. She does not think about Mrs. Patterson again until Thursday, when Mrs. Patterson comes in on a Thursday for the first time in fifteen years, buys two litres of full-cream milk and a packet of Tim Tams, and says, "You do such a lovely job, dear. Much better than the last girl."
+> Di finishes her shift and goes back to work. She does not think about Mrs. Patterson again until Thursday, when Mrs. Patterson comes in on a Thursday for the first time in fifteen years, buys two litres of milk and a packet of biscuits, and says, "You do such a lovely job, dear. Much better than the last girl."
 >
 > Di is the last girl.
 
@@ -434,9 +452,24 @@ Di laughs it off. Makes a joke. Bags the groceries. But the wrongness stays.
 
 **Voice notes:**
 - Understated, profane only in internal monologue ("fuck" when she is alone, not in front of customers).
-- Australian specificity: smoko, Tim Tams, Coles, cane fields outside the window.
+- Regional specificity to be determined when setting is chosen: local products, local routines, local landscape outside the window.
 - No description of Di's feelings. Only what she does, what she notices, what she chooses not to say.
 - The horror is in the gap between what Di knows and what Mrs. Patterson believes.
+
+**Setting-specific variant examples:**
+- **If UK:** Mrs. Patterson buys milk, sliced white, and a packet of custard creams. The break room is called "the canteen." Outside: terraced houses, a canal, rain.
+- **If US Rust Belt:** Mrs. Patterson buys milk, Wonder Bread, and Oreos. The break room is "the break room." Outside: closed factory, empty parking lot, snow.
+- **If Australia (deliberate choice only):** Mrs. Patterson buys milk, white bread, and Tim Tams. The break room is "smoko." Outside: cane fields, heat, a pub.
+
+### Setting Decision Log
+
+| Decision | Status | Date |
+|----------|--------|------|
+| Default to Australia? | **REJECTED** | 2026-07-16 |
+| Deliberate setting choice required? | **PENDING** | — |
+| Selected setting | **TBD** | — |
+
+---
 
 ---
 

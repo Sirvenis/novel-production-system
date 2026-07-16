@@ -82,7 +82,7 @@ The protagonists are not chosen. They are not special. They are people with jobs
 
 ### 5. The Horror of the Ordinary
 
-The threat arrives in ordinary lives. Sometimes it's Innisfail. Sometimes it's a Yorkshire village. Sometimes it's a trawler in the North Sea. Sometimes it's suburban America. The horror is that the apocalypse happens in a town with one pub and no hospital — or a street you have walked a thousand times.
+The threat arrives in ordinary lives. Sometimes it's a Yorkshire village. Sometimes it's suburban Ohio. Sometimes it's a trawler in the North Sea. Sometimes it's a council estate in Glasgow. The horror is that the apocalypse happens in a town with one pub and no hospital — or a street you have walked a thousand times.
 
 **From the current series:**
 - The Great Barrier Reef is not a pristine wonder. It is a workplace. The horror is that the sublime has become the ordinary, and the ordinary has become wrong.
@@ -100,7 +100,7 @@ The Arden voice is:
 - **Working-class.** The prose is practical, not poetic. The beauty is accidental, not deliberate.
 - **Profane.** Characters swear because people swear. Profanity is rhythm, not decoration.
 - **Funny.** Humour is not relief from horror. It is the human response to horror. The joke that lands just before the scare.
-- **Australian.** The idioms, the landscape, the assumptions, the silences.
+- **Grounded in place.** The idioms, landscape, assumptions, and silences of a specific region — but the region is chosen deliberately, not inherited. Australian is one voice. Yorkshire is another. The Midwest, the Rust Belt, the north of England — all are valid. The voice must belong to its place.
 
 ## The Arden Reader Experience
 
