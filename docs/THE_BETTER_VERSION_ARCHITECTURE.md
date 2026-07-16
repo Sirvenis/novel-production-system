@@ -1,7 +1,7 @@
 # Phase Five — Series Architecture: The Better Version
 
 **Date:** 2026-07-16
-**Status:** Stress-test architecture phase — NOT YET COMMITTED TO PRODUCTION
+**Status:** Setting decision complete. Architecture approved for further development. NOT YET COMMITTED TO PRODUCTION.
 **Profile:** horror-series
 **Working Directory:** `/home/andrew/novel-production-system`
 **Purpose:** Prove whether The Better Version can carry a full series before committing production resources
@@ -28,11 +28,11 @@ This is the engine. Every architectural decision must serve this wound.
 
 ### Age, Class, Occupation
 
-Thirty-four. Working-class. Shift supervisor at a mid-sized supermarket chain in a small town (setting TBD). Has been there since she was nineteen. Knows every regular customer by name, every shelf-stacker by weakness, every supplier by reliability. Not management material — too direct, too profane, too unwilling to pretend enthusiasm for corporate initiatives. She is good at her job and resents that it is not enough.
+Thirty-four. Working-class. Shift supervisor at a mid-sized supermarket chain in a former mill town in South Yorkshire. Has been there since she was nineteen. Knows every regular customer by name, every shelf-stacker by weakness, every supplier by reliability. Not management material — too direct, too profane, too unwilling to pretend enthusiasm for corporate initiatives. She is good at her job and resents that it is not enough.
 
 ### Family Situation
 
-Married at twenty-two to **Mick Calloway**, an agricultural worker whose property is twenty minutes west of town. Divorced three years ago — not dramatic, just gradual dissolution. No children. Mick has a new partner, a woman named Jen who Di has never met but knows everything about through town osmosis. Di lives in a rented house on the edge of town, alone, with a dog named Bitey who is too old to bark.
+Married at twenty-two to **Mick Calloway**, a farm labourer with a smallholding twenty minutes west of town. Divorced three years ago — not dramatic, just gradual dissolution. No children. Mick has a new partner, a woman named Jen who Di has never met but knows everything about through town osmosis. Di lives in a rented terrace on the edge of town, alone, with a dog named Bitey who is too old to bark.
 
 ### Competence Profile
 
@@ -42,9 +42,9 @@ Married at twenty-two to **Mick Calloway**, an agricultural worker whose propert
 
 ### Voice
 
-Understated, profane, grounded in place. Short sentences. Self-deprecating humour that is not self-pity. Does not describe her own emotions — describes what she does and lets the reader infer feeling. Speaks in questions when she is uncertain. Falls silent when she is afraid.
+Understated, profane, specifically Northern English. Short sentences. Self-deprecating humour that is not self-pity. Does not describe her own emotions — describes what she does and lets the reader infer feeling. Speaks in questions when she is uncertain. Falls silent when she is afraid.
 
-**Note:** The specific regional voice (Australian, Yorkshire, Midwest, etc.) will be chosen deliberately when the setting is selected. The voice must belong to its place, not inherited from previous series.
+**Note:** The voice is South Yorkshire working-class — dry, profane, rhythmic, allergic to pretension. 'Sound' instead of 'okay.' 'Reckon' instead of 'think.' 'Summat' instead of 'something.' The profanity is punctuation, not emphasis. Sentences drop final words when the meaning is obvious. The voice must never become stage-Northern or Coronation Street caricature.
 
 ### Why She Works for Arden Studios
 
@@ -150,7 +150,7 @@ Each book targets a different human weakness while maintaining the same core eng
 
 **Scale:** Personal. One woman, one town, one replacement.
 
-**Setting:** Small working-class town (setting TBD — see proposed options below).
+**Setting:** A former mill town in South Yorkshire. The pit closed in the nineties. The high street has a Tesco, a bookie's, three pubs, and a lot of empty storefronts. Terraced houses, back alleys, rain that doesn't stop so much as pause.
 
 **Horror Mechanic:** Infiltration — slow, patient, irreversible replacement of identity.
 
@@ -359,7 +359,7 @@ Di is competent in every book. She investigates, cooperates, makes intelligent d
 | **Risk** | As the series escalates from personal to cosmic, Di's working-class voice becomes incompatible with the scale. |
 | **Severity** | **MEDIUM** — Would fracture the series identity. |
 | **Mitigation** | Di's voice remains consistent. The scale shifts around her, not within her. **Note on voice consistency:** Di's working-class voice must remain consistent regardless of scale. She processes cosmic horror through the lens of a shift supervisor: "So you're telling me there's a pool of versions of me, and I'm not the best one? Well, fuck." The horror is not that she cannot comprehend the scale. The horror is that she can, and it changes nothing. The specific regional vocabulary (swear words, idioms, place-names) will be chosen when the setting is decided. |
-| **Detection** | If Di ever uses abstract philosophical language, flag immediately. She should describe cosmic concepts in concrete, profane, working-class terms. |
+|| **Detection** | If Di ever uses abstract philosophical language, flag immediately. She should describe cosmic concepts in concrete, profane, working-class terms. The voice is South Yorkshire: dry, rhythmic, allergic to pretension. 'Sound,' 'reckon,' 'summat,' 'nowt' — these are not affectations. They are her native grammar. ||
 
 ---
 
@@ -396,22 +396,96 @@ Di is competent in every book. She investigates, cooperates, makes intelligent d
 |------|----------|------------|
 | No traditional monster limits horror market | **Medium** | Market as "psychological horror" or "existential thriller." Emphasise dread over gore. |
 | Slow-burn structure may not suit all readers | **Medium** | First chapter must hook immediately. The wrongness starts on page one, not page fifty. |
-|| Australian setting may limit international appeal | **Low** | Setting is ordinary enough to translate. Any small town with one supermarket and a field. Specific regional texture to be chosen deliberately. |
+||| Highly specific regional voice may alienate some readers | **Low** | Northern English working-class voice is increasingly valued in literary fiction. Di's competence and self-awareness counteract class bias. Context must carry meaning — no glossaries, no footnotes, no translation. |
 || Working-class protagonist may not attract prestige readers | **Low** | Working-class voice is increasingly valued in literary fiction. Di's competence and self-awareness counteract class bias. |
 
-### Proposed Setting Options (Pending Deliberate Choice)
+### Setting Decision: South Yorkshire
 
-The setting for The Better Version must be chosen deliberately, not inherited from the backpacker horror series. Below are three candidates with pros and cons:
+**Status: DECIDED — Former mill town, South Yorkshire**
 
-| Setting | Region | Pros | Cons |
-|---------|--------|------|------|
-| **A. Deindustrialised town, UK** (e.g., former mill town in Yorkshire or Lancashire) | England | Strong class texture; supermarket culture universal; global Anglophone readership; bleakness suits dread; working-class voice is culturally established in UK literary fiction. | May feel culturally specific to UK readers; requires authentic regional voice; less familiar to US readers. |
-| **B. Rust Belt town, US** (e.g., Ohio or Pennsylvania, former steel or auto town) | USA | Largest commercial market; supermarket culture universal; working-class identity is politically resonant; "dying town" atmosphere is already a recognised literary mode. | Risk of feeling like "economic anxiety" fiction rather than horror; regional voice must be specific (Midwest vs. Appalachian); class politics may overshadow dread. |
-| **C. Regional town, Australia** (e.g., Queensland or NSW, NOT Innisfail) | Australia | Arden's home ground; authentic voice available; working-class texture strongest here; small-town isolation is credible. | Risk of defaulting to existing series geography; global readership may distance; "outback" cliché if not handled carefully. |
+The setting for The Better Version was evaluated across four candidates. The decision is **South Yorkshire, UK**.
 
-**Recommendation:** Option A (Yorkshire/Lancashire) or Option B (Rust Belt) offer the best global-market combination of class texture, universality, and commercial reach. The voice would need to be specific to whichever is chosen — not generic "working-class" but particular to that place.
+#### Why South Yorkshire
 
-**Decision required before Book 1 drafting:** Choose one setting. Do not default.
+The deindustrialised North of England offers the strongest combination of class texture, horror atmosphere, voice authenticity, and global readership for this concept. The closed pit, the empty high street, the terraced houses, the rain — this landscape already embodies obsolescence. The replacement horror literalises what the mills already did: made human beings redundant not through malice but through optimisation.
+
+#### Evaluation of Candidates
+
+**A. UK Deindustrialised Town (Yorkshire/Lancashire) — SELECTED**
+
+|| Criterion | Rating | Notes ||
+||-----------|--------|-------||
+|| Class texture | **Excellent** | Post-industrial working-class identity is deeply encoded. The "left behind" narrative is culturally central. ||
+|| Supermarket/workplace realism | **Excellent** | Tesco, Asda, Aldi, Lidl — distinct UK supermarket culture. The shift supervisor role has specific class markers. ||
+|| Family and neighbour pressure | **Excellent** | Northern working-class communities have intense neighbour surveillance. "Who does she think she is?" is a weapon. ||
+|| Atmosphere | **Excellent** | Rain, grey skies, terraced houses, canals, abandoned mills. The ordinary is already slightly desolate. ||
+|| Global readership | **Good** | UK settings travel well. US readers are familiar with Northern English settings through film/TV. ||
+|| Horror potential | **Excellent** | The landscape embodies obsolescence. The "canny" tradition fits Arden's partial-understanding model. ||
+|| Cliché risk | **Medium** | Risk of "grim up North" poverty tourism or Coronation Street caricature. Requires discipline. ||
+|| Voice implications | **Excellent** | Northern English working-class voice is dry, profane, rhythmic — one of the most distinctive voices in English literature. ||
+|| Research burden | **Low** | General UK cultural knowledge is widespread. Specific detail requires care but is accessible. ||
+|| Five-book sustainability | **Excellent** | Deep social structures: work, family, pub, football, church (or absence), class resentment, regional identity. ||
+
+**B. US Rust Belt Town (Ohio/Pennsylvania)**
+
+|| Criterion | Rating | Notes ||
+||-----------|--------|-------||
+|| Class texture | **Good** | Post-industrial American working-class identity is resonant but more racialised and politically charged. ||
+|| Supermarket/workplace realism | **Good** | US supermarket culture is universal to American readers. ||
+|| Family and neighbour pressure | **Good** | Exists but expresses differently — less claustrophobic surveillance, more opinionated interference. ||
+|| Atmosphere | **Good** | Closed factories, empty parking lots, snow. Strong visual language but heavily mined already. ||
+|| Global readership | **Excellent** | Largest commercial market. ||
+|| Horror potential | **Good** | The abandoned factory as metaphor is powerful but may feel political rather than existential. ||
+|| Cliché risk | **High** | Risk of "economic anxiety" fiction, opioid crisis backdrop, prestige-TV dying-town tropes. ||
+|| Voice implications | **Moderate** | Midwestern working-class voice is harder to render distinctively without caricature. ||
+|| Research burden | **Medium** | High risk of getting class texture wrong for a non-American writer. ||
+|| Five-book sustainability | **Good** | American social structures may feel thinner across five books without repeating "economic decline." ||
+
+**Verdict:** Strong commercial case but high cliché risk and voice difficulty. Not selected.
+
+**C. Regional Australia (Queensland/NSW, NOT Innisfail) — REJECTED**
+
+Per standing rule: the backpacker horror series owns Australian ground. Deliberate re-use would require a specific story reason that outweighs the risk of series blurring. No such reason exists for The Better Version.
+
+**D. Irish Midlands/West Town (Post-Celtic Tiger) — RUNNER-UP**
+
+|| Criterion | Rating | Notes ||
+||-----------|--------|-------||
+|| Class texture | **Excellent** | Post-boom Irish precarity is distinctive. Ghost estates, abandoned developments, disappointed aspiration. ||
+|| Supermarket/workplace realism | **Good** | Tesco, Lidl, Aldi, SuperValu — the dominance of foreign chains subtly mirrors the replacement theme. ||
+|| Family and neighbour pressure | **Excellent** | Possibly the most intense neighbour-surveillance culture in the Anglophone world. ||
+|| Atmosphere | **Excellent** | Rain, bog, limestone, grey light, empty housing estates, pubs that stay open because there's nowhere else. ||
+|| Global readership | **Good** | Irish settings travel well (Sally Rooney, Claire Keegan, Tana French). ||
+|| Horror potential | **Excellent** | Strong tradition of the "strange." The replacement would extend existing Irish anxieties: emigration, foreign dominance, ancient landscape. ||
+|| Cliché risk | **Medium** | Risk of "Oirish" stereotypes (pubs, paddywhackery, priests). Post-boom setting avoids most of these. ||
+|| Voice implications | **Excellent** | Irish working-class voice is musical, profane, masterful at understatement. Distinct from UK and US. ||
+|| Research burden | **Medium** | Requires knowledge of Irish social structures (GAA, parish, family name). English-language research is abundant. ||
+|| Five-book sustainability | **Excellent** | Deep structures: family, parish, GAA, pub, small business, emigration/return, relationship with Britain and Europe. ||
+
+**Verdict:** Strongest alternative. If the UK option feels too familiar or too "grim up North," Ireland offers genuine differentiation with equal depth. Reserved as fallback if Yorkshire voice proves difficult in drafting.
+
+#### The Choice Rationale
+
+South Yorkshire was selected because:
+
+1. **The landscape already knows replacement.** The closed pit, the empty mill, the high street with more bookies than shops — this is a place that has already been optimised. The horror is not foreign to the landscape. It is the next iteration.
+2. **The voice is ready.** Northern English working-class voice is one of the most codified and literary regional voices in English. It can be specific without being obscure.
+3. **The dread is atmospheric, not political.** Unlike the US Rust Belt, the Yorkshire deindustrialised town does not immediately signal "economic anxiety" or "left behind" political narrative. The dread can remain existential.
+4. **The neighbour pressure is perfect.** Small-town Northern England operates on a precise economy of recognition and dismissal. Being seen but not known — or known but not valued — is the daily texture. The replacement exploits this perfectly.
+5. **Global reach is strong.** UK settings travel. US readers consume Northern English settings constantly. The voice is accessible but distinctive.
+
+#### Setting-Specific Details (Canonical)
+
+|| Element | South Yorkshire Specification ||
+||---------|------------------------------||
+|| Supermarket | Tesco (dominant chain in post-industrial Northern towns) ||
+|| Break room | "The canteen" ||
+|| Housing | Terraced houses, back-to-backs, council estates ||
+|| Landscape | Moorland, abandoned pitheads, canals, rain ||
+|| Pub culture | Working men's clubs, spit-and-sawdust pubs ||
+|| Class markers | Pit closure as generational trauma; "management" as suspect; competence as virtue; pretension as betrayal ||
+|| Voice markers | 'Sound,' 'reckon,' 'summat,' 'nowt,' 'proper,' 'mardy' — used naturally, not for colour ||
+|| Weather | Rain. Not dramatic rain. Persistent rain. Rain that has been there longer than the town. ||
 
 ---
 
@@ -421,9 +495,9 @@ The setting for The Better Version must be chosen deliberately, not inherited fr
 
 **Job Statement:** Establish Di's ordinary world, her competence, and the first wrongness — all in a single supermarket interaction.
 
-**Opening lines (setting-neutral version — TBD):**
+**Opening lines (South Yorkshire):**
 
-> Mrs. Patterson buys the same thing every Tuesday. Two litres of milk, one loaf of white bread, one packet of biscuits. She has been buying the same thing every Tuesday since before Di started at the supermarket, which was fifteen years ago. Di does not need to look at the receipt to know what Mrs. Patterson has bought. She does not need to look at Mrs. Patterson to know she is about to complain about the price of cheese.
+> Mrs. Patterson buys the same thing every Tuesday. Two litres of milk, one loaf of sliced white, one packet of custard creams. She has been buying the same thing every Tuesday since before Di started at Tesco, which was fifteen years ago. Di does not need to look at the receipt to know what Mrs. Patterson has bought. She does not need to look at Mrs. Patterson to know she is about to complain about the price of cheese.
 >
 > What she needs to look at is Mrs. Patterson's face.
 >
@@ -439,12 +513,12 @@ Di laughs it off. Makes a joke. Bags the groceries. But the wrongness stays.
 - **Opening:** Routine. Di's competence on display — she knows every customer, every product, every problem.
 - **Inciting wrongness:** Mrs. Patterson's failure to recognise her. Small, deniable, but wrong.
 - **Dismissal:** Di explains it away — Mrs. Patterson is old, forgetful, probably thinking of the girl who worked here last summer.
-- **Confirmation:** Di mentions it to Sharon on break. Sharon says, "That's funny. Mrs. Patterson told me yesterday how much she likes the new girl on checkout three."
+- **Confirmation:** Di mentions it to Sharon in the canteen. Sharon says, "That's funny. Mrs. Patterson told me yesterday how much she likes the new girl on checkout three."
 - **Closing:** Di is checkout three. There is no new girl on checkout three. There has not been a new girl on checkout three in six months.
 
 **The final line:**
 
-> Di finishes her shift and goes back to work. She does not think about Mrs. Patterson again until Thursday, when Mrs. Patterson comes in on a Thursday for the first time in fifteen years, buys two litres of milk and a packet of biscuits, and says, "You do such a lovely job, dear. Much better than the last girl."
+> Di finishes her shift and goes back to work. She does not think about Mrs. Patterson again until Thursday, when Mrs. Patterson comes in on a Thursday for the first time in fifteen years, buys two litres of milk and a packet of custard creams, and says, "You do such a lovely job, dear. Much better than the last girl."
 >
 > Di is the last girl.
 
@@ -452,22 +526,18 @@ Di laughs it off. Makes a joke. Bags the groceries. But the wrongness stays.
 
 **Voice notes:**
 - Understated, profane only in internal monologue ("fuck" when she is alone, not in front of customers).
-- Regional specificity to be determined when setting is chosen: local products, local routines, local landscape outside the window.
+- Regional specificity: Tesco, custard creams, the canteen, terraced houses visible from the staff entrance, rain on the window that has been there since October.
 - No description of Di's feelings. Only what she does, what she notices, what she chooses not to say.
 - The horror is in the gap between what Di knows and what Mrs. Patterson believes.
 
-**Setting-specific variant examples:**
-- **If UK:** Mrs. Patterson buys milk, sliced white, and a packet of custard creams. The break room is called "the canteen." Outside: terraced houses, a canal, rain.
-- **If US Rust Belt:** Mrs. Patterson buys milk, Wonder Bread, and Oreos. The break room is "the break room." Outside: closed factory, empty parking lot, snow.
-- **If Australia (deliberate choice only):** Mrs. Patterson buys milk, white bread, and Tim Tams. The break room is "smoko." Outside: cane fields, heat, a pub.
-
 ### Setting Decision Log
 
-| Decision | Status | Date |
-|----------|--------|------|
-| Default to Australia? | **REJECTED** | 2026-07-16 |
-| Deliberate setting choice required? | **PENDING** | — |
-| Selected setting | **TBD** | — |
+|| Decision | Status | Date ||
+||----------|--------|------||
+|| Default to Australia? | **REJECTED** | 2026-07-16 ||
+|| Deliberate setting choice required? | **APPROVED** | 2026-07-16 ||
+|| Selected setting | **South Yorkshire, UK** | 2026-07-16 ||
+|| Ireland reserved as fallback? | **YES** | 2026-07-16 ||
 
 ---
 
@@ -493,10 +563,11 @@ The architecture satisfies every requirement:
 
 ### Conditions for Proceeding to Production
 
-1. Arden approves this architecture.
-2. The first-chapter sketch is expanded to a full chapter and approved for voice.
-3. The Book 1 architecture is detailed to chapter-level Job Statements.
-4. The fallback (Candidate 10) is formally deactivated.
+1. ~~Arden approves this architecture.~~ **APPROVED.**
+2. ~~Setting decision.~~ **DECIDED: South Yorkshire, UK.**
+3. The first-chapter sketch is expanded to a full chapter and approved for voice.
+4. The Book 1 architecture is detailed to chapter-level Job Statements.
+5. The fallback (Candidate 10) is formally deactivated.
 
 ### If The Better Version Weakens During Production
 
