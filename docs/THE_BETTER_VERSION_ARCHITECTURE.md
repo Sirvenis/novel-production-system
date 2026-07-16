@@ -1,11 +1,11 @@
 # Phase Five — Series Architecture: The Better Version
 
 **Date:** 2026-07-16
-**Status:** Setting decision complete. Architecture approved for further development. NOT YET COMMITTED TO PRODUCTION.
+**Status:** Setting decided. Voice approved (Chapter 1). Architecture approved for production. Candidate 10 deactivated as active fallback; preserved as reserve concept.
 **Profile:** horror-series
 **Working Directory:** `/home/andrew/novel-production-system`
 **Purpose:** Prove whether The Better Version can carry a full series before committing production resources
-**Fallback:** Candidate 10 (The Accumulation) active if this architecture reveals structural weakness
+**Fallback:** Candidate 10 (The Accumulation) preserved as reserve concept for future development.
 
 ---
 
@@ -565,9 +565,9 @@ The architecture satisfies every requirement:
 
 1. ~~Arden approves this architecture.~~ **APPROVED.**
 2. ~~Setting decision.~~ **DECIDED: South Yorkshire, UK.**
-3. The first-chapter sketch is expanded to a full chapter and approved for voice.
-4. The Book 1 architecture is detailed to chapter-level Job Statements.
-5. The fallback (Candidate 10) is formally deactivated.
+3. ~~The first-chapter sketch is expanded to a full chapter and approved for voice.~~ **COMPLETE: Chapter 1 voice approved (3,613 words). Father line patched per editorial note.**
+4. The Book 1 architecture is detailed to chapter-level Job Statements. **NEXT DELIVERABLE.**
+5. ~~The fallback (Candidate 10) is formally deactivated.~~ **DEACTIVATED as active fallback; preserved as reserve concept.**
 
 ### If The Better Version Weakens During Production
 
