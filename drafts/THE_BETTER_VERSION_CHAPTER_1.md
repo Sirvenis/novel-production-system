@@ -326,7 +326,7 @@ She looks at Sharon. Sharon is looking at Mrs. Patterson's back, at the red purs
 
 Di stands up. She walks to the window. The rain has started again, a fine persistent rain that does not stop so much as continue. Mrs. Patterson is at the bus stop now, waiting for the 47, the same bus she has taken for fifteen years.
 
-Di is nineteen again, ringing up her first customer, learning the barcode scanner, dropping a pound coin and watching it roll under the till. She is twenty-two, wearing her mother's earrings, getting married at the registry office while her father sits in the front row and does not cry because Yorkshire men of his generation do not cry. She is thirty-one, signing divorce papers in a solicitor's office in Sheffield, listening to Mick say "it's not working" in a voice that suggests he has rehearsed it. She is thirty-four, standing in a canteen window, watching an old woman wait for a bus she has taken two thousand times.
+Di is nineteen again, ringing up her first customer, learning the barcode scanner, dropping a pound coin and watching it roll under the till. She is twenty-two, wearing her mother's earrings, getting married at the registry office while her father sits in the front row and does not cry because he would rather choke than do it in public. She is thirty-one, signing divorce papers in a solicitor's office in Sheffield, listening to Mick say "it's not working" in a voice that suggests he has rehearsed it. She is thirty-four, standing in a canteen window, watching an old woman wait for a bus she has taken two thousand times.
 
 The old woman does not know her.
 
