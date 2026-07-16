@@ -18,19 +18,32 @@ Di Calloway sounds like she does because of where she was born, where she works,
 
 ## Eight Operational Rules
 
-### 1. Regional markers are light, not loud
+### 1. Regional markers are light by default — but stronger dialect may be used sparingly for dramatic purpose
 
-Dialect markers must appear sparingly. A few words per chapter at most — never every paragraph. If a reader starts noticing the dialect, it has become costume.
+Dialect and regional voice should generally remain light and natural. However, stronger South Yorkshire speech may be used sparingly when it performs clear story work.
 
-**Acceptable:**
+**Use stronger dialect when it changes:**
+- **Power** — someone asserts dominance or resists it through speech
+- **Belonging** — marking who is from the town and who is not
+- **Threat** — ordinary words carrying menace because of how they are delivered
+- **Intimacy** — characters dropping into shared, coded speech that excludes outsiders
+- **Withholding** — information is held back because the dialect is opaque to the person listening
+- **Social exclusion** — the outsider cannot follow the conversation, and the locals know it
+
+**Do not use stronger dialect merely for flavour, colour, or atmosphere.**
+
+**Acceptable (light, default):**
 > "You sound tired, love."
 > "I reckon she's got nowt better to do."
 > "Summat's off with that delivery."
 
-**Unacceptable:**
+**Acceptable (stronger, dramatic purpose — marking insider status):**
+> The man at the bar turned. He looked Di up and down the way people look at someone who has got above themselves. "You not from round here, then?" he said. Not a question. A verdict.
+
+**Unacceptable (stronger, no dramatic purpose — flavour only):**
 > "Ee bah gum, it's reet proper mardy out there, love, and I'm not chuffed about it, like."
 
-The test: if a sentence reads like someone doing an impression of the North, rewrite it in plain English.
+**The test:** If removing the dialect would not change what the reader understands about power, threat, intimacy, or exclusion, use plain English instead.
 
 ### 2. Class texture comes through life, not vocabulary
 
@@ -138,8 +151,10 @@ Before finalising any sentence in Di's voice, ask:
 3. If I removed all regional markers, would the sentence still work?
 4. Is the emotion coming through, or is the dialect getting in the way?
 5. Would a South Yorkshire reader recognise this as real, or as an outsider's impression?
+6. **If stronger dialect is used:** Does it change power, threat, intimacy, exclusion, or belonging? If not, use plain English.
 
 If the answer to (5) is uncertain, rewrite in plain English.
+If the answer to (6) is no, use plain English.
 
 ---
 
