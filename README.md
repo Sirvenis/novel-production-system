@@ -64,16 +64,18 @@ novel-production-system/
 git clone https://github.com/Sirvenis/novel-production-system.git
 
 # 2. Create your creative repository (manuscripts live here)
-gh repo create my-new-novel --public --clone
+gh repo create my-new-novel --private --clone
 
 # 3. Copy the templates into your creative repo
 mkdir -p my-new-novel/{drafts,tracking,handoff,manuscript}
 cp novel-production-system/templates/* my-new-novel/templates/
 
 # 4. Read PRODUCTION_PIPELINE.md and adapt for your genre
-# 5. Create your first ARCHITECTURE.md
+# 5. Create your first ARCHITECTURE.md in your creative repo
 # 6. Begin drafting
 ```
+
+**Important:** This repository contains reusable infrastructure only. Unpublished creative material (manuscripts, project-specific architecture, character designs, voice guardrails) belongs in a dedicated private creative repository. See `docs/REPO_ORGANISATION.md` for the repository governance model.
 
 ## The 9 Stages at a Glance
 
@@ -104,6 +106,10 @@ cp novel-production-system/templates/* my-new-novel/templates/
 ## Origin
 
 Developed during the production of a three-book cosmic horror-comedy series (2026). The pipeline evolved from a loose 4-pass system to a disciplined 9-stage machine with profile-based agent delegation, comprehensive tracking, and verification protocols. Every rule in this repository exists because something broke first.
+
+## Repository Governance Note
+
+In July 2026, the Arden Studios horror project *The Better Version* was created and its creative material (manuscripts, series architecture, voice guardrails, decision records) was moved to its own private creative repository: `Sirvenis/the-better-version`. This repository now contains only reusable infrastructure. The repository governance model is documented in `docs/REPO_ORGANISATION.md`.
 
 ## Licence
 
