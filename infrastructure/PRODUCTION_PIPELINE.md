@@ -10,6 +10,60 @@ This document describes the complete production pipeline for a multi-book novel 
 
 ---
 
+## Stage 0: Voice Test & Guardrails (CRITICAL — Before Architecture)
+
+**Purpose:** Test the protagonist's voice, the setting's texture, and the fear engine in prose BEFORE architecting the entire novel around them. Voice is the project engine. If voice fails, the project stops.
+
+**When:** After setting decision is finalized, after high-level series architecture is approved, BEFORE chapter-level Job Statements.
+
+**Inputs:**
+- Setting decision (deliberate choice, not inherited)
+- High-level series concept
+- Protagonist sketch
+
+**Process:**
+1. **Create Voice Guardrails** (`voice/VOICE_GUARDRAILS_<SETTING>.md`):
+   - Golden Rule: Voice is not costume. Voice is consequence.
+   - Operational Rules (6-10): dialect discipline, class texture sources, prohibited constructions, profanity register, plain English preference
+   - Dramatic-purpose dialect rule: stronger dialect ONLY when changing power, belonging, threat, intimacy, withholding, or exclusion
+   - Prohibited Constructions Table
+   - Confidence Test: 5-6 questions to ask before finalising any sentence
+   - Scope: Frozen after creation. Amendments require explicit approval.
+
+2. **Draft Chapter 1 for Voice Test ONLY:**
+   - Complete Chapter 1 (3,000-3,500 words)
+   - Include: protagonist at work, protagonist at home, supporting character, first wrongness, first escalation
+   - Do NOT draft beyond Chapter 1
+   - Do NOT create Job Statements for later chapters
+   - Purpose is NOT to begin the novel — it is to test voice on the page
+
+3. **Self-Review Against Guardrails:**
+   - Produce `CHAPTER_1_VOICE_TEST_REVIEW.md`
+   - Word count, regional marker density, class texture sources, profanity register, prohibited constructions check, flagged passages, setting authenticity risks, concept survival
+   - Verdict: PASS / PASS WITH NOTES / FAIL — EDIT FIRST / FAIL — SETTING FALLBACK / FAIL — CONCEPT FALLBACK
+
+4. **External Review Package:**
+   - Assemble `reviews/CHAPTER_1_REVIEW_PACKAGE.md`
+   - Three focused review questions tailored to project risks
+   - Voice guardrail summary, flagged passages, full Chapter 1 draft
+   - Distinguish provisional vs. final approval
+
+5. **Fallback Protocol:**
+   - Light edit of flagged passages first
+   - If still false, test runner-up setting
+   - Only if both settings fail, activate reserve candidate concept
+   - Do NOT abandon on first voice failure
+
+**Outputs:**
+- `voice/VOICE_GUARDRAILS_<SETTING>.md` (frozen)
+- `drafts/chapter-1-voice-test.md` (may be discarded or kept)
+- `reviews/CHAPTER_1_VOICE_TEST_REVIEW.md`
+- `reviews/CHAPTER_1_REVIEW_PACKAGE.md`
+
+**Verdict to proceed:** PASS or PASS WITH NOTES. Any FAIL verdict triggers fallback protocol. No architecture until voice is approved.
+
+---
+
 ## Stage 1: Architecture
 
 **Purpose:** Blueprint before prose. Every chapter declares what it must make the reader believe or feel.
@@ -289,4 +343,7 @@ The reader's "Must Address" findings are NOT automatically MUST FIX. The author/
 4. **Discovery before editorial.** Run pure inventory before any assessment.
 5. **Copy edit is mechanical only.** No stylistic improvements in Stage 7.
 6. **Autonomy triples velocity.** Grant tactical autonomy; intervene only for blockers.
-7. **Every book teaches the pipeline.** Update this system after each production.
+7. **Voice before architecture.** Test voice on the page before building the novel around it.
+8. **Every book teaches the pipeline.** Update this system after each production.
+9. **Setting is deliberate, not inherited.** Each series must choose its own setting.
+10. **Chapter Job Statements are contracts.** Deviations must be tracked.

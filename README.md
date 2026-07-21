@@ -22,7 +22,7 @@ novel-production-system/
 │   ├── REPO_ORGANISATION.md     # How this repo is structured and why
 │   └── ADAPTATION_GUIDE.md      # How to customise the pipeline for different genres
 ├── infrastructure/
-│   ├── PRODUCTION_PIPELINE.md   # The 9-stage system (overview)
+│   ├── PRODUCTION_PIPELINE.md   # The pipeline: Stage 0 (Voice Test) + 9-Stage system
 │   ├── EDITORIAL_STAGES.md      # Each stage: purpose, inputs, outputs, verdicts
 │   ├── MULTI_PROFILE_WORKFLOW.md # Hermes profile-based agent pipeline
 │   ├── CRAFT_TECHNIQUES.md      # Reusable craft rules (genre-agnostic)
@@ -37,7 +37,10 @@ novel-production-system/
 │   ├── READER_AUDIT_TEMPLATE.md
 │   ├── TRACKER_TEMPLATE.md
 │   ├── HANDOFF_TEMPLATE.md
-│   └── DECISION_LOG_ENTRY.md
+│   ├── DECISION_LOG_ENTRY.md
+│   ├── VOICE_GUARDRAILS_TEMPLATE.md
+│   ├── CHAPTER_1_VOICE_TEST_REVIEW_TEMPLATE.md
+│   └── CHAPTER_1_REVIEW_PACKAGE_TEMPLATE.md
 ├── case-studies/
 │   └── horror-series-production/
 │       ├── OVERVIEW.md          # Anonymised summary of 3-book production
