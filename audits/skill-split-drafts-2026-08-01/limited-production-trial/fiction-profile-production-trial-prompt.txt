@@ -1,0 +1,19 @@
+You are running under the `fiction` profile as a limited production trial of the staged fiction skill split.
+
+Use the `longform-fiction-production` router and the appropriate task-class skills. This is a real file-writing test, but ONLY inside this disposable sandbox:
+
+/home/andrew/novel-production-system/audits/skill-split-drafts-2026-08-01/limited-production-trial/sandbox-fiction-project
+
+Strict scope:
+- Do not touch any canonical fiction repo.
+- Do not touch live Hermes skill/profile/config files.
+- Do not edit anything outside the sandbox path above.
+- Draft only Chapter 1 from briefs/chapter_01_brief.md.
+- Save it to manuscript/chapters/chapter-01.md.
+- Target 700-1,000 words.
+- Update PROJECT_STATUS.yml and handoff/CURRENT_PROJECT_HANDOFF.md.
+- Create a brief completion report under reports/CHAPTER_01_COMPLETION_REPORT.md.
+- Commit the sandbox repo changes.
+- Stop after Chapter 1.
+
+Return a concise final with files changed, word count, commit hash, and whether scope was respected.

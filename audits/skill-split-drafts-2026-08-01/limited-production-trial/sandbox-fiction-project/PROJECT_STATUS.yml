@@ -1,0 +1,15 @@
+project: sandbox-fiction-skill-trial
+canonical: false
+production_trial: true
+prose_authorized: true
+current_gate: chapter_1_sample_complete
+next_step: stop_after_chapter_1_no_further_story
+stop_after: chapter_1_sample_complete
+last_completed:
+  chapter: 1
+  file: manuscript/chapters/chapter-01.md
+  report: reports/CHAPTER_01_COMPLETION_REPORT.md
+scope:
+  sandbox_only: true
+  canonical_repos_touched: false
+  live_hermes_files_touched: false
