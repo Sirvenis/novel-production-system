@@ -55,6 +55,10 @@ Draft fiction only after approval gates are satisfied. Covers one approved chapt
 
 A canary must be small, representative, verifiable, and logged. Assess instruction adherence, output quality, pipeline compliance, state management, and drift before granting autonomy.
 
+## Linked References
+
+- `references/legacy-generalized-lessons-20260801.md` — compact cross-series lessons distilled from legacy global references for this task class.
+
 ## Pitfalls
 
 - Continuing on fallback when the project requires a specific model.

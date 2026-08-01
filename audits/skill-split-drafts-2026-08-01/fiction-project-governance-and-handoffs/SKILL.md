@@ -57,6 +57,10 @@ A project is cleanly paused only when:
 - no uncommitted generated/prose files remain unaccounted for;
 - the next action is bounded and explicit.
 
+## Linked References
+
+- `references/legacy-generalized-lessons-20260801.md` — compact cross-series lessons distilled from legacy global references for this task class.
+
 ## Pitfalls
 
 - Reporting a commit as pushed before `git push` and clean tracking verification.

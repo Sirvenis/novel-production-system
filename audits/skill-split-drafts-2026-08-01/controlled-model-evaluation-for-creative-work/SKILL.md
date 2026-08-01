@@ -40,6 +40,10 @@ Do not use for normal chapter drafting. Do not run experiments just because a mo
 9. Synthesize results without confusing winner, base candidate, revised candidate, and canonical promotion.
 10. Promote only the explicitly approved candidate and verify prose preservation.
 
+## Linked References
+
+- `references/legacy-generalized-lessons-20260801.md` — compact cross-series lessons distilled from legacy global references for this task class.
+
 ## Pitfalls
 
 - Letting identity leak into blind evaluation.

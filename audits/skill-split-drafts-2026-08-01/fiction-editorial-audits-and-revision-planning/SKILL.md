@@ -50,6 +50,10 @@ Separate inventory, judgement, and planning from prose changes. This skill cover
 
 Use actual file reads and search counts. Flag issues with evidence. Do not repair during the check.
 
+## Linked References
+
+- `references/legacy-generalized-lessons-20260801.md` — compact cross-series lessons distilled from legacy global references for this task class.
+
 ## Pitfalls
 
 - Combining audit with immediate rewriting.

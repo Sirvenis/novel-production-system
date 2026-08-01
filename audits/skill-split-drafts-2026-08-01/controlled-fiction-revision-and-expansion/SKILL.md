@@ -48,6 +48,10 @@ Execute approved prose-changing passes safely. This skill covers Pass 1/Pass 2 w
 
 Expansion should add reader value: dramatized pressure, atmosphere, relationship texture, or consequence. Do not pad word count mechanically.
 
+## Linked References
+
+- `references/legacy-generalized-lessons-20260801.md` — compact cross-series lessons distilled from legacy global references for this task class.
+
 ## Pitfalls
 
 - Asking an LLM to rewrite a whole chapter and receiving a summary.

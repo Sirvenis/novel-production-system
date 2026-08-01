@@ -25,3 +25,12 @@ Drafted structure follows the sharper GPT-5.6 Sol boundary model with Scout's or
 ## Important
 
 Do not copy these into `~/.hermes/skills` yet. Next step is review, footprint comparison, and canary planning.
+## Cross-series condensation pass
+
+Completed after preservation:
+
+- `CROSS_SERIES_CONDENSATION_REPORT.md`
+- `*/references/legacy-generalized-lessons-20260801.md` under 8 staged task skills
+- `_manual-review-quarantine/HIGH_IMPACT_RUNTIME_DEPLOYMENT_REFERENCES_20260801.md`
+
+Still do not copy these draft skills into `~/.hermes/skills` or modify the live `longform-fiction-series-drafting` skill until after review/canary approval.

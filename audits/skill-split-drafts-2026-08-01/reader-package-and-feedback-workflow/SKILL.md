@@ -46,6 +46,10 @@ Do not use for manuscript revision. Do not deploy to VPS from this skill alone. 
 - Keep family-reader forms warm and simple.
 - Use project-specific addresses/templates where already chosen.
 
+## Linked References
+
+- `references/legacy-generalized-lessons-20260801.md` — compact cross-series lessons distilled from legacy global references for this task class.
+
 ## Pitfalls
 
 - Monolithic reader pages so large novels become unreadable.

@@ -49,6 +49,10 @@ Handle final mechanical manuscript operations after drafting/revision: ordered a
 
 A freeze is a governance act. Do not freeze a manuscript just because final QA passed. Confirm the repo/status says freeze is the current gate.
 
+## Linked References
+
+- `references/legacy-generalized-lessons-20260801.md` — compact cross-series lessons distilled from legacy global references for this task class.
+
 ## Pitfalls
 
 - Silent omission of chapters 10+ from shell globs.

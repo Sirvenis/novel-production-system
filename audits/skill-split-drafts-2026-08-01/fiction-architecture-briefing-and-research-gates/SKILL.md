@@ -55,6 +55,10 @@ A chapter brief should include:
 - what must change by the end;
 - explicit stop condition before prose if prose is not authorized.
 
+## Linked References
+
+- `references/legacy-generalized-lessons-20260801.md` — compact cross-series lessons distilled from legacy global references for this task class.
+
 ## Pitfalls
 
 - Turning a “review/refine” request into architecture or drafting.
