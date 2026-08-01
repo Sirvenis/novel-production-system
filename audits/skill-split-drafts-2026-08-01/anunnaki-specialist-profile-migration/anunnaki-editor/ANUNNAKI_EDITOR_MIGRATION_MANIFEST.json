@@ -1,0 +1,36 @@
+{
+  "profile": "anunnaki-editor",
+  "profile_path": "/home/andrew/.hermes/profiles/anunnaki-editor",
+  "skills_installed": [
+    "controlled-fiction-drafting-and-autonomous-runs",
+    "controlled-fiction-revision-and-expansion",
+    "controlled-model-evaluation-for-creative-work",
+    "fiction-architecture-briefing-and-research-gates",
+    "fiction-assembly-final-qa-and-freeze",
+    "fiction-editorial-audits-and-revision-planning",
+    "fiction-project-governance-and-handoffs",
+    "longform-fiction-production",
+    "reader-package-and-feedback-workflow"
+  ],
+  "old_skill_removed_from_enabled": true,
+  "old_skill_added_to_disabled": true,
+  "global_old_skill_deleted": false,
+  "snapshots": {
+    "config.yaml": {
+      "bytes": 3227,
+      "sha256": "9dfea3d8a7fbbede81817add31e3b3f7e40bd01daf56452e75f4c1c62ee3b8f1"
+    },
+    "SOUL.md": {
+      "bytes": 2571,
+      "sha256": "b3f0494f42701967b3e8f4bbce02741fa86032ab7ac0be52360f014d8087cb34"
+    },
+    "after_config.yaml": {
+      "bytes": 1765,
+      "sha256": "1182a1ff274050726dab082c51368036a398d65d0e40d6421590b045f1290aa3"
+    },
+    "after_SOUL.md": {
+      "bytes": 2571,
+      "sha256": "b3f0494f42701967b3e8f4bbce02741fa86032ab7ac0be52360f014d8087cb34"
+    }
+  }
+}

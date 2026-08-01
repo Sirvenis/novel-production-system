@@ -1,0 +1,62 @@
+{
+  "installed": [
+    {
+      "skill": "controlled-fiction-drafting-and-autonomous-runs",
+      "destination": "/home/andrew/.hermes/skills/creative/controlled-fiction-drafting-and-autonomous-runs",
+      "before": null,
+      "after": "dd79fd3786fc9eb07ada08c0caba178cb8dd2c9c87aa5785c432c91524a6820b"
+    },
+    {
+      "skill": "controlled-fiction-revision-and-expansion",
+      "destination": "/home/andrew/.hermes/skills/creative/controlled-fiction-revision-and-expansion",
+      "before": null,
+      "after": "08c5f1830439184e69c5c5d98f5dc13315cbe8fc117bec4fe1eb3d045d6915aa"
+    },
+    {
+      "skill": "controlled-model-evaluation-for-creative-work",
+      "destination": "/home/andrew/.hermes/skills/creative/controlled-model-evaluation-for-creative-work",
+      "before": null,
+      "after": "c10d517de93bd9483d66ec86cae6b8b13ef87e12ba8cb27400463024cc74af1f"
+    },
+    {
+      "skill": "fiction-architecture-briefing-and-research-gates",
+      "destination": "/home/andrew/.hermes/skills/creative/fiction-architecture-briefing-and-research-gates",
+      "before": null,
+      "after": "6148ccb435deee7bb3934e00165657565907ee224defee8bcd4bb8484904f055"
+    },
+    {
+      "skill": "fiction-assembly-final-qa-and-freeze",
+      "destination": "/home/andrew/.hermes/skills/creative/fiction-assembly-final-qa-and-freeze",
+      "before": null,
+      "after": "2ddc4783da1d47b819b030a5a386591ae82cfb87a8edbb3306c8366cc6a80bfd"
+    },
+    {
+      "skill": "fiction-editorial-audits-and-revision-planning",
+      "destination": "/home/andrew/.hermes/skills/creative/fiction-editorial-audits-and-revision-planning",
+      "before": null,
+      "after": "868d62cac2f0b2e7f59203a3951a2b1d3c49ad734eda499fb3871f9898ed2cf4"
+    },
+    {
+      "skill": "fiction-project-governance-and-handoffs",
+      "destination": "/home/andrew/.hermes/skills/creative/fiction-project-governance-and-handoffs",
+      "before": null,
+      "after": "00cd93443cf83ec1d76304c63f31e552753093a4adee7e216f6b398a20ed44ba"
+    },
+    {
+      "skill": "longform-fiction-production",
+      "destination": "/home/andrew/.hermes/skills/creative/longform-fiction-production",
+      "before": null,
+      "after": "31165fdd8600423956ebc4918885bedf02c9dcda5e1f47c6caec0dbcd60daf13"
+    },
+    {
+      "skill": "reader-package-and-feedback-workflow",
+      "destination": "/home/andrew/.hermes/skills/creative/reader-package-and-feedback-workflow",
+      "before": null,
+      "after": "3c382b419483500e91ac290a795df0e7069a0131184c48c9a55237bd93590106"
+    }
+  ],
+  "old_skill_hash_before": "bbd5fd26ec5747a8f95837756ff028420f08c10e4e59773399d39a375479531a",
+  "old_skill_hash_after": "bbd5fd26ec5747a8f95837756ff028420f08c10e4e59773399d39a375479531a",
+  "old_skill_unchanged": true,
+  "old_skill_deleted": false
+}
