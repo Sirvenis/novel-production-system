@@ -1,0 +1,152 @@
+model:
+  provider: ollama-launch
+  base_url: http://127.0.0.1:11434/v1
+  api_mode: chat_completions
+  auto_restore_config_primary: true
+  default: kimi-k2.6:cloud
+providers:
+  ollama-launch:
+    base_url: http://127.0.0.1:11434/v1
+    name: Ollama
+    models:
+      - kimi-k2.6:cloud
+      - deepseek-v3.2:cloud
+      - qwen3.5:cloud
+  openai-codex:
+    name: OpenAI Codex (ChatGPT Pro)
+  openrouter:
+    name: OpenRouter
+    models:
+      - nvidia/nemotron-3-super-120b-a12b:free
+      - openai/gpt-oss-120b:free
+      - stepfun/step-3.7-flash:free
+  nous:
+    name: Nous Research
+    models:
+      - nvidia/nemotron-3-ultra:free
+fallback_providers:
+  - provider: ollama-launch
+    model: deepseek-v3.2:cloud
+    base_url: http://127.0.0.1:11434/v1
+    api_key: ollama
+    api_mode: chat_completions
+  - provider: ollama-launch
+    model: qwen3.5:cloud
+    base_url: http://127.0.0.1:11434/v1
+    api_key: ollama
+    api_mode: chat_completions
+  - provider: openrouter
+    model: nvidia/nemotron-3-super-120b-a12b:free
+  - provider: openrouter
+    model: openai/gpt-oss-120b:free
+  - provider: openrouter
+    model: stepfun/step-3.7-flash:free
+toolsets:
+  - hermes-cli
+  - web
+  - terminal
+  - file
+  - skills
+  - memory
+  - todo
+  - delegation
+  - session_search
+  - clarify
+  - cronjob
+agent:
+  max_turns: 120
+  gateway_timeout: 1800
+  api_max_retries: 3
+  reasoning_effort: medium
+  verbose: false
+  disabled_toolsets:
+    - browser
+    - computer_use
+    - spotify
+    - yuanbao
+    - tts
+    - video
+    - video_gen
+    - x_search
+    - moa
+    - image_gen
+  verify_on_stop: false
+delegation:
+  model: kimi-k2.6:cloud
+  provider: ollama-launch
+  max_concurrent_children: 2
+  max_spawn_depth: 1
+  orchestrator_enabled: false
+  default_toolsets:
+    - terminal
+    - file
+    - skills
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  memory_char_limit: 64800
+  provider: holographic
+skills:
+  external_dirs: []
+  disabled:
+    - '*'
+  enabled:
+    - creative/longform-fiction-series-drafting
+    - creative/humanizer
+    - software-development/plan
+    - software-development/spike
+    - software-development/writing-plans
+    - note-taking/obsidian
+    - research/llm-wiki
+    - mcp/native-mcp
+    - mcp/mcporter
+timezone: Australia/Brisbane
+terminal:
+  backend: local
+  cwd: /home/andrew/projects/active/last-clean-up-crew
+  timeout: 180
+onboarding:
+  seen:
+    tool_progress_prompt: true
+    busy_input_prompt: true
+plugins:
+  enabled: []
+_config_version: 33
+
+# ── Security ──────────────────────────────────────────────────────────
+# Secret redaction is ON by default — strings that look like API keys,
+# tokens, and passwords are masked in tool output, logs, and chat
+# responses before the model or user ever sees them. Set redact_secrets
+# to false to disable (e.g. when developing the redactor itself).
+# tirith pre-exec scanning is enabled by default when the tirith binary
+# is available. Configure via security.tirith_* keys or env vars
+# (TIRITH_ENABLED, TIRITH_BIN, TIRITH_TIMEOUT, TIRITH_FAIL_OPEN).
+#
+# security:
+#   redact_secrets: true
+#   tirith_enabled: true
+#   tirith_path: "tirith"
+#   tirith_timeout: 5
+#   tirith_fail_open: true
+
+# ── Fallback Model ────────────────────────────────────────────────────
+# Automatic provider failover when primary is unavailable.
+# Uncomment and configure to enable. Triggers on rate limits (429),
+# overload (529), service errors (503), or connection failures.
+#
+# Supported providers:
+#   openrouter   (OPENROUTER_API_KEY)  — routes to any model
+#   openai-codex (OAuth — hermes auth) — OpenAI Codex
+#   nous         (OAuth — hermes auth) — Nous Portal
+#   zai          (ZAI_API_KEY)         — Z.AI / GLM
+#   kimi-coding  (KIMI_API_KEY)        — Kimi / Moonshot
+#   kimi-coding-cn (KIMI_CN_API_KEY)   — Kimi / Moonshot (China)
+#   minimax      (MINIMAX_API_KEY)     — MiniMax
+#   minimax-cn   (MINIMAX_CN_API_KEY)  — MiniMax (China)
+#   bedrock      (AWS IAM / boto3)     — AWS Bedrock (Converse API)
+#
+# For custom OpenAI-compatible endpoints, add base_url and key_env.
+#
+# fallback_model:
+#   provider: openrouter
+#   model: anthropic/claude-sonnet-4

@@ -1,0 +1,36 @@
+{
+  "profile": "horror-series",
+  "profile_path": "/home/andrew/.hermes/profiles/horror-series",
+  "skills_installed": [
+    "controlled-fiction-drafting-and-autonomous-runs",
+    "controlled-fiction-revision-and-expansion",
+    "controlled-model-evaluation-for-creative-work",
+    "fiction-architecture-briefing-and-research-gates",
+    "fiction-assembly-final-qa-and-freeze",
+    "fiction-editorial-audits-and-revision-planning",
+    "fiction-project-governance-and-handoffs",
+    "longform-fiction-production",
+    "reader-package-and-feedback-workflow"
+  ],
+  "old_skill_removed_from_enabled": true,
+  "old_skill_added_to_disabled": true,
+  "global_old_skill_deleted": false,
+  "snapshots": {
+    "config.yaml": {
+      "bytes": 4380,
+      "sha256": "4265bb48fc6629a6abcba42da2948e2af97af1f15bfc4b4cf9db3cd71a6c2d8e"
+    },
+    "SOUL.md": {
+      "bytes": 1418,
+      "sha256": "b5ccda0eb72cafa5676fc30ea87be861bd202b2e47da6bb7e624e3b73b428f1b"
+    },
+    "after_config.yaml": {
+      "bytes": 2856,
+      "sha256": "6dbf8fe892019857e5695020c81ab5cc6bc7aad3b6bae888db8466fce2b25662"
+    },
+    "after_SOUL.md": {
+      "bytes": 1418,
+      "sha256": "b5ccda0eb72cafa5676fc30ea87be861bd202b2e47da6bb7e624e3b73b428f1b"
+    }
+  }
+}

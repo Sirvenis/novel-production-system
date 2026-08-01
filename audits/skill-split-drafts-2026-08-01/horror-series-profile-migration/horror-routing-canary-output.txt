@@ -1,0 +1,148 @@
+
+┌─ Reasoning ──────────────────────────────────────────────────────────────────┐
+The user is asking for a dry-run canary to confirm which staged skills should handle
+ specific tasks for The Last Clean-Up Crew series. This is a routing verification
+ — no tools, no edits, no prose. Just map the 5 tasks to the correct skill names from the
+ available skill list.
+
+Let me review the routing map from the loaded `longform-fiction-production` skill:
+
+
+| Situation | Route to |
+|---|---|
+| Canonical repo, status, handoff, profile boundary, git state | `fiction-project
+-governance-and-handoffs` |
+| Concept, architecture, chapter map, research-only gate, controlled brief | `fiction
+-architecture-briefing-and-research-gates` |
+| Approved chapter drafting, bounded pilot, autonomous run, canary | `controlled-fiction-d
+rafting-and-autonomous-runs` |
+| Read-only discovery, reader/editorial audit, revision plan, continuity/voice audit |
+ `fiction-editorial-audits-and-revision-planning` |
+| Prose-changing pass, expansion, line/cadence/micro-polish | `controlled-fiction
+-revision-and-expansion` |
+| Full manuscript assembly, final QA, export/freeze, phase closure | `fiction-assembly
+-final-qa-and-freeze` |
+| Reader package, feedback forms, reader-site generation | `reader-package-and-feedback
+-workflow` |
+| Blind/multi-model creative experiment | `controlled-model-evaluation-for-creative-work
+` |
+
+Mapping the user's 5 tasks:
+
+1. Fresh-session resume: read repo authority, PROJECT_STATUS.yml, handoff, git state;
+ no prose.
+   → This matches "Canonical repo, status, handoff, profile boundary, git state"
+   → `fiction-project-governance-and-handoffs`
+
+2. Book 4 architecture/research setup before prose approval.
+   → This matches "Concept, architecture, chapter map, research-only gate, controlled
+ brief"
+   → `fiction-architecture-briefing-and-research-gates`
+
+3. Approved single chapter drafting after architecture approval.
+   → This matches "Approved chapter drafting, bounded pilot, autonomous run, canary
+"
+   → `controlled-fiction-drafting-and-autonomous-runs`
+
+4. Read-only editorial audit of existing books.
+   → This matches "Read-only discovery, reader/editorial audit, revision plan, continuity
+/voice audit"
+   → `fiction-editorial-audits-and-revision-planning`
+
+5. Final manuscript assembly/QA/freeze.
+   → This matches "Full manuscript assembly, final QA, export/freeze, phase closure
+"
+   → `fiction-assembly-final-qa-and-freeze`
+
+The user also wants:
+- OLD_SKILL_USED: no
+- PROFILE_SCOPE: horror-series only
+
+The memory context about The Better Version voice guardrail and tactical autonomy for
+ Book 2 drafting is not relevant to this canary — it's just showing up because it's
+ in the memory store. I should ignore it for this specific dry-run since the user explicitly
+ scoped to "horror-series only" which in this context means The Last Clean-Up Crew,
+ not The Better Version. But actually the user says "PROFILE_SCOPE: horror-series
+ only" so I'll include that as requested.
+
+Wait — the user says "You are the horror-series profile after migration to the staged
+ fiction split skills." This is The Last Clean-Up Crew profile. The memory mentions
+ The Better Version and Book 2 drafting autonomy, but that's likely from the same
+ profile's memory since they run under the same horror-series profile. I should not
+ let it distract from the canary.
+
+The user wants exactly this format:
+HORROR_SERIES_PROFILE_ROUTING_CANARY
+1. <skill-name>
+2. <skill-name>
+3. <skill-name>
+4. <skill-name>
+5. <skill-name>
+OLD_SKILL_USED: no
+PROFILE_SCOPE: horror-series only
+
+I should provide exactly that, no extra fluff.The user is asking for a dry-run canary to confirm which staged skills should handle specific tasks for The Last Clean-Up Crew series. This is a routing verification — no tools, no edits, no prose. Just map the 5 tasks to the correct skill names from the available skill list.
+
+Let me review the routing map from the loaded `longform-fiction-production` skill:
+
+| Situation | Route to |
+|---|---|
+| Canonical repo, status, handoff, profile boundary, git state | `fiction-project-governance-and-handoffs` |
+| Concept, architecture, chapter map, research-only gate, controlled brief | `fiction-architecture-briefing-and-research-gates` |
+| Approved chapter drafting, bounded pilot, autonomous run, canary | `controlled-fiction-drafting-and-autonomous-runs` |
+| Read-only discovery, reader/editorial audit, revision plan, continuity/voice audit | `fiction-editorial-audits-and-revision-planning` |
+| Prose-changing pass, expansion, line/cadence/micro-polish | `controlled-fiction-revision-and-expansion` |
+| Full manuscript assembly, final QA, export/freeze, phase closure | `fiction-assembly-final-qa-and-freeze` |
+| Reader package, feedback forms, reader-site generation | `reader-package-and-feedback-workflow` |
+| Blind/multi-model creative experiment | `controlled-model-evaluation-for-creative-work` |
+
+Mapping the user's 5 tasks:
+
+1. Fresh-session resume: read repo authority, PROJECT_STATUS.yml, handoff, git state; no prose.
+   → This matches "Canonical repo, status, handoff, profile boundary, git state"
+   → `fiction-project-governance-and-handoffs`
+
+2. Book 4 architecture/research setup before prose approval.
+   → This matches "Concept, architecture, chapter map, research-only gate, controlled brief"
+   → `fiction-architecture-briefing-and-research-gates`
+
+3. Approved single chapter drafting after architecture approval.
+   → This matches "Approved chapter drafting, bounded pilot, autonomous run, canary"
+   → `controlled-fiction-drafting-and-autonomous-runs`
+
+4. Read-only editorial audit of existing books.
+   → This matches "Read-only discovery, reader/editorial audit, revision plan, continuity/voice audit"
+   → `fiction-editorial-audits-and-revision-planning`
+
+5. Final manuscript assembly/QA/freeze.
+   → This matches "Full manuscript assembly, final QA, export/freeze, phase closure"
+   → `fiction-assembly-final-qa-and-freeze`
+
+The user also wants:
+- OLD_SKILL_USED: no
+- PROFILE_SCOPE: horror-series only
+
+The memory context about The Better Version voice guardrail and tactical autonomy for Book 2 drafting is not relevant to this canary — it's just showing up because it's in the memory store. I should ignore it for this specific dry-run since the user explicitly scoped to "horror-series only" which in this context means The Last Clean-Up Crew, not The Better Version. But actually the user says "PROFILE_SCOPE: horror-series only" so I'll include that as requested.
+
+Wait — the user says "You are the horror-series profile after migration to the staged fiction split skills." This is The Last Clean-Up Crew profile. The memory mentions The Better Version and Book 2 drafting autonomy, but that's likely from the same profile's memory since they run under the same horror-series profile. I should not let it distract from the canary.
+
+The user wants exactly this format:
+HORROR_SERIES_PROFILE_ROUTING_CANARY
+1. <skill-name>
+2. <skill-name>
+3. <skill-name>
+4. <skill-name>
+5. <skill-name>
+OLD_SKILL_USED: no
+PROFILE_SCOPE: horror-series only
+
+
+session_id: 20260801_211651_f813fb
+HORROR_SERIES_PROFILE_ROUTING_CANARY
+1. fiction-project-governance-and-handoffs
+2. fiction-architecture-briefing-and-research-gates
+3. controlled-fiction-drafting-and-autonomous-runs
+4. fiction-editorial-audits-and-revision-planning
+5. fiction-assembly-final-qa-and-freeze
+OLD_SKILL_USED: no
+PROFILE_SCOPE: horror-series only

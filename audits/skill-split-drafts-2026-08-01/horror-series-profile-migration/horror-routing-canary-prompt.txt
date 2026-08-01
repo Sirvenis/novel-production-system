@@ -1,0 +1,20 @@
+You are the horror-series profile after migration to the staged fiction split skills.
+
+Dry-run canary only. Do not use tools. Do not edit files. Do not write prose.
+
+Confirm which staged skill should handle each Last Clean-Up Crew task:
+1. Fresh-session resume: read repo authority, PROJECT_STATUS.yml, handoff, git state; no prose.
+2. Book 4 architecture/research setup before prose approval.
+3. Approved single chapter drafting after architecture approval.
+4. Read-only editorial audit of existing books.
+5. Final manuscript assembly/QA/freeze.
+
+Return only:
+HORROR_SERIES_PROFILE_ROUTING_CANARY
+1. <skill-name>
+2. <skill-name>
+3. <skill-name>
+4. <skill-name>
+5. <skill-name>
+OLD_SKILL_USED: no
+PROFILE_SCOPE: horror-series only
