@@ -1,0 +1,13 @@
+
+┌─ Reasoning ──────────────────────────────────────────────────────────────────┐
+**Confirming skill preloading and routing****Confirming skill preloading and routing**
+
+session_id: 20260801_211323_60a6ca
+ANUNNAKI_PROFILE_ROUTING_CANARY
+1. fiction-project-governance-and-handoffs
+2. fiction-architecture-briefing-and-research-gates
+3. controlled-fiction-drafting-and-autonomous-runs
+4. fiction-editorial-audits-and-revision-planning
+5. fiction-assembly-final-qa-and-freeze
+OLD_SKILL_USED: no
+PROFILE_SCOPE: anunnaki only

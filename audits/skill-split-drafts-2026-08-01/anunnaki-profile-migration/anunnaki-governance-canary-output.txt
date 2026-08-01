@@ -1,0 +1,34 @@
+
+┌─ Reasoning ──────────────────────────────────────────────────────────────────┐
+**Planning repository status and authority reads****Searching for source of truth files**
+**Planning repository status and authority reads**
+**Searching for source of truth files****Verifying repository status and plan handoff**
+**Reading source of truth and git status****Verifying repository status and plan handoff**
+**Reading source of truth and git status****Summarizing repo status and next steps**
+
+session_id: 20260801_211409_287a08
+Dry-run governance canary complete. Read-only only; no files edited.
+
+Canonical repo:
+- Path: /home/andrew/projects/active/anunnaki-chronicles-novel
+- GitHub: https://github.com/Sirvenis/anunnaki-chronicles-novel.git
+- Authority: SOURCE_OF_TRUTH.md says CANONICAL SOURCE; REPOSITORY_AUTHORITY.md names Sirvenis/anunnaki-chronicles-novel on main as canonical prose repo.
+
+Current gate:
+- Book 4 targeted developmental revision plan is complete.
+- Gate is Andrew review of book4/reports/book4-targeted-developmental-revision-plan.md.
+- Handoff states: “TARGETED DEVELOPMENTAL REVISION PLAN COMPLETE — AWAITING ANDREW REVIEW. NO REVISION YET AUTHORISED.”
+
+Is prose authorized?
+- No.
+- PROJECT_STATUS and handoff both block manuscript revision, expansion, line edit, copyedit, proofread, packaging, publishing, reader-site update, canon/architecture change, fallback/alternate model use, and model experiments unless Andrew separately authorizes.
+
+Git state:
+- Branch: main
+- Tracking: origin/main
+- Latest commit: 7dfbc80 docs: preserve migrated fiction skill references
+- Working tree: clean; `git status --porcelain=v1` returned no changes.
+- Local main appears aligned with origin/main.
+
+Next safe non-prose action:
+- Andrew review/read-only discussion of book4/reports/book4-targeted-developmental-revision-plan.md, with no manuscript/prose changes.

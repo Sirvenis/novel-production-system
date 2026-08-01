@@ -1,0 +1,89 @@
+model:
+  provider: openai-codex
+  base_url: https://chatgpt.com/backend-api/codex
+  api_mode: codex_responses
+  auto_restore_config_primary: true
+  default: gpt-5.5
+providers:
+  openai-codex:
+    name: OpenAI Codex (ChatGPT Pro)
+toolsets:
+- hermes-cli
+- terminal
+- file
+- skills
+- memory
+- todo
+- session_search
+- delegation
+- cronjob
+agent:
+  max_turns: 100
+  gateway_timeout: 1800
+  api_max_retries: 2
+  reasoning_effort: high
+  verbose: false
+  disabled_toolsets:
+  - browser
+  - computer_use
+  - spotify
+  - yuanbao
+  - tts
+  - video
+  - video_gen
+  - x_search
+  - moa
+  - image_gen
+  verify_on_stop: false
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  memory_char_limit: 64800
+  provider: holographic
+  nudge_interval: 0
+skills:
+  external_dirs: []
+  disabled:
+  - '*'
+  - creative/longform-fiction-series-drafting
+  enabled:
+  - creative/humanizer
+  - software-development/plan
+  - software-development/spike
+  - software-development/writing-plans
+  - note-taking/obsidian
+  - research/llm-wiki
+  - mcp/native-mcp
+  - mcp/mcporter
+  - creative/controlled-fiction-drafting-and-autonomous-runs
+  - creative/controlled-fiction-revision-and-expansion
+  - creative/controlled-model-evaluation-for-creative-work
+  - creative/fiction-architecture-briefing-and-research-gates
+  - creative/fiction-assembly-final-qa-and-freeze
+  - creative/fiction-editorial-audits-and-revision-planning
+  - creative/fiction-project-governance-and-handoffs
+  - creative/longform-fiction-production
+  - creative/reader-package-and-feedback-workflow
+timezone: Australia/Brisbane
+terminal:
+  backend: local
+  cwd: /home/andrew/projects/active/anunnaki-chronicles-novel
+  timeout: 180
+onboarding:
+  seen:
+    tool_progress_prompt: true
+    busy_input_prompt: true
+delegation:
+  model: gpt-5.5
+  provider: openai-codex
+  base_url: https://chatgpt.com/backend-api/codex
+  max_concurrent_children: 2
+  max_spawn_depth: 1
+  orchestrator_enabled: false
+  default_toolsets:
+  - terminal
+  - file
+  - skills
+plugins:
+  enabled: []
+_config_version: 33

@@ -1,0 +1,11 @@
+You are the migrated `anunnaki` profile running a dry-run governance canary.
+
+Use `longform-fiction-production` and `fiction-project-governance-and-handoffs`.
+
+Strict rules:
+- Read-only only.
+- Do not edit files.
+- Do not write prose.
+- Do not modify PROJECT_STATUS, handoff, trackers, manuscripts, skills, profiles, or config.
+- Verify current repo authority/status/handoff/git state for `/home/andrew/projects/active/anunnaki-chronicles-novel`.
+- Return concise report: canonical repo, current gate, whether prose is authorized, git clean/dirty, and next safe non-prose action.
