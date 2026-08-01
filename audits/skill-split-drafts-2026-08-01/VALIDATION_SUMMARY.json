@@ -1,0 +1,70 @@
+{
+  "draft_dir": "/home/andrew/novel-production-system/audits/skill-split-drafts-2026-08-01",
+  "skill_count": 9,
+  "total_bytes": 24134,
+  "validation": [
+    {
+      "file": "controlled-fiction-drafting-and-autonomous-runs/SKILL.md",
+      "bytes": 2783,
+      "lines": 73,
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "controlled-fiction-revision-and-expansion/SKILL.md",
+      "bytes": 2528,
+      "lines": 66,
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "controlled-model-evaluation-for-creative-work/SKILL.md",
+      "bytes": 2411,
+      "lines": 58,
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "fiction-architecture-briefing-and-research-gates/SKILL.md",
+      "bytes": 2678,
+      "lines": 71,
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "fiction-assembly-final-qa-and-freeze/SKILL.md",
+      "bytes": 2354,
+      "lines": 66,
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "fiction-editorial-audits-and-revision-planning/SKILL.md",
+      "bytes": 2608,
+      "lines": 66,
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "fiction-project-governance-and-handoffs/SKILL.md",
+      "bytes": 2964,
+      "lines": 73,
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "longform-fiction-production/SKILL.md",
+      "bytes": 3276,
+      "lines": 71,
+      "ok": true,
+      "error": ""
+    },
+    {
+      "file": "reader-package-and-feedback-workflow/SKILL.md",
+      "bytes": 2532,
+      "lines": 64,
+      "ok": true,
+      "error": ""
+    }
+  ]
+}
