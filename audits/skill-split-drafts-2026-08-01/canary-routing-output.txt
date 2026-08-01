@@ -1,0 +1,13 @@
+  ⚠ tirith security scanner enabled but not available — command scanning will use pattern matching only
+
+session_id: 20260801_144652_910ab1
+CANARY_ROUTE_RESULT
+1. fiction-project-governance-and-handoffs
+2. fiction-architecture-briefing-and-research-gates
+3. controlled-fiction-drafting-and-autonomous-runs
+4. fiction-editorial-audits-and-revision-planning
+5. controlled-fiction-revision-and-expansion
+6. fiction-assembly-final-qa-and-freeze
+7. reader-package-and-feedback-workflow
+8. controlled-model-evaluation-for-creative-work
+LIVE_SKILLS_CHANGED: no

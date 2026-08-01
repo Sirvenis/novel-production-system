@@ -1,0 +1,22 @@
+You are running inside the test-only profile `fiction-skill-canary`.
+
+This is a dry-run routing canary for the staged fiction skill split. Do not edit files. Do not call tools. Do not modify manuscripts. Do not modify live Hermes skills or profiles.
+
+Using the loaded `longform-fiction-production` router skill, map each scenario to exactly one primary staged task skill:
+
+1. Resuming a fiction project after /new; verify canonical repo, status, handoff, git state; no prose work.
+2. Planning a book/act/chapter map or research dossier before prose is approved.
+3. Draft one approved chapter, write file safely, verify word count, update tracker, stop.
+4. Read a completed manuscript and produce a revision plan without editing prose.
+5. Apply an approved prose-changing expansion or line/cadence pass.
+6. Assemble/freeze/export a complete manuscript and create final QA hashes.
+7. Create a reader package or feedback forms; deployment remains out of scope unless separately approved.
+8. Run a blind/multi-model creative test on frozen inputs and record results before promotion.
+
+Return only:
+CANARY_ROUTE_RESULT
+1. <skill-name>
+2. <skill-name>
+...
+8. <skill-name>
+LIVE_SKILLS_CHANGED: no
