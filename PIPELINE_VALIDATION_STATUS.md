@@ -89,4 +89,4 @@ No model benchmark runs have been performed. The pack does not change canonical 
 
 ## Immediate next gate
 
-Present the candidate order in `benchmarks/fiction-role-benchmark-v1/CANDIDATE_TEST_ORDER.md` to Andrew. Begin model runs only after Andrew authorises the run phase; Kimi K3 and any other extra-credit use remain separately cost-gated. Record exact served routes and preserve failed attempts rather than silently retrying or accepting fallback output.
+Andrew authorised continuation of the pipeline project and its benchmark run phase on 2026-08-10. Start with Wave 0 calibration from `benchmarks/fiction-role-benchmark-v1/CANDIDATE_TEST_ORDER.md`: rerun deterministic pack validation, then perform only the included ordinary-account Codex comparison route if allowance permits. Calibrate prompts, output budgets, scoring spread, route evidence, and blinding before Wave 1. Kimi K3 and any other extra-credit use remain separately cost-gated. Record exact served routes and preserve failed attempts rather than silently retrying or accepting fallback output.
