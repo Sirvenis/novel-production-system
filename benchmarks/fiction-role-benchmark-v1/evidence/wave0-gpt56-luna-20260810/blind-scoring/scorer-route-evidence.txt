@@ -1,0 +1,29 @@
+2026-08-10 08:10:49,328 INFO [20260810_081049_c9ecc8] agent.turn_context: conversation turn: session=20260810_081049_c9ecc8 model=kimi-k2.6:cloud provider=custom platform=subagent history=0 msg='Blind-score Wave 0 fiction benchmark aliases CANDIDATE-002 (reader), CANDIDATE-0...'
+2026-08-10 08:10:49,346 INFO [20260810_081049_1f6c3f] agent.turn_context: conversation turn: session=20260810_081049_1f6c3f model=kimi-k2.6:cloud provider=custom platform=subagent history=0 msg='Blind-score Wave 0 fiction benchmark aliases CANDIDATE-005 (mechanical-QA) and C...'
+2026-08-10 08:10:49,356 INFO [20260810_081048_fc5ff0] agent.turn_context: conversation turn: session=20260810_081048_fc5ff0 model=kimi-k2.6:cloud provider=custom platform=subagent history=0 msg='Blind-score Wave 0 fiction benchmark aliases CANDIDATE-001 (editor) and CANDIDAT...'
+2026-08-10 08:10:51,311 INFO [20260810_081049_c9ecc8] agent.chat_completion_helpers: Fallback activated: kimi-k2.6:cloud → gpt-5.5 (openai-codex)
+2026-08-10 08:10:51,323 INFO [20260810_081049_1f6c3f] agent.chat_completion_helpers: Fallback activated: kimi-k2.6:cloud → gpt-5.5 (openai-codex)
+2026-08-10 08:10:51,501 INFO [20260810_081048_fc5ff0] agent.chat_completion_helpers: Fallback activated: kimi-k2.6:cloud → gpt-5.5 (openai-codex)
+2026-08-10 08:10:53,664 INFO [20260810_081049_1f6c3f] agent.conversation_loop: API call #1: model=gpt-5.5 provider=openai-codex in=11828 out=52 total=11880 latency=4.0s
+2026-08-10 08:10:54,038 INFO [20260810_081049_c9ecc8] agent.conversation_loop: API call #1: model=gpt-5.5 provider=openai-codex in=11833 out=53 total=11886 latency=4.4s
+2026-08-10 08:10:54,490 INFO [20260810_081048_fc5ff0] agent.conversation_loop: API call #1: model=gpt-5.5 provider=openai-codex in=11824 out=60 total=11884 latency=4.8s
+2026-08-10 08:11:00,589 INFO [20260810_081049_1f6c3f] agent.conversation_loop: API call #2: model=gpt-5.5 provider=openai-codex in=12771 out=311 total=13082 latency=6.7s cache=10752/12771 (84%)
+2026-08-10 08:11:01,006 INFO [20260810_081048_fc5ff0] agent.conversation_loop: API call #2: model=gpt-5.5 provider=openai-codex in=12775 out=294 total=13069 latency=6.5s cache=10752/12775 (84%)
+2026-08-10 08:11:02,865 INFO [20260810_081049_c9ecc8] agent.conversation_loop: API call #2: model=gpt-5.5 provider=openai-codex in=12777 out=411 total=13188 latency=8.8s cache=10752/12777 (84%)
+2026-08-10 08:11:07,106 INFO [20260810_081049_1f6c3f] agent.conversation_loop: API call #3: model=gpt-5.5 provider=openai-codex in=15405 out=277 total=15682 latency=6.4s
+2026-08-10 08:11:08,220 INFO [20260810_081048_fc5ff0] agent.conversation_loop: API call #3: model=gpt-5.5 provider=openai-codex in=15424 out=276 total=15700 latency=7.1s cache=11776/15424 (76%)
+2026-08-10 08:11:10,965 INFO [20260810_081049_c9ecc8] agent.conversation_loop: API call #3: model=gpt-5.5 provider=openai-codex in=16282 out=370 total=16652 latency=8.0s cache=11776/16282 (72%)
+2026-08-10 08:11:29,867 INFO [20260810_081049_c9ecc8] agent.conversation_loop: API call #4: model=gpt-5.5 provider=openai-codex in=19710 out=890 total=20600 latency=18.8s cache=15872/19710 (81%)
+2026-08-10 08:11:33,150 INFO [20260810_081049_c9ecc8] agent.conversation_loop: API call #5: model=gpt-5.5 provider=openai-codex in=20677 out=83 total=20760 latency=3.2s cache=18944/20677 (92%)
+2026-08-10 08:11:39,004 INFO [20260810_081048_fc5ff0] agent.conversation_loop: API call #4: model=gpt-5.5 provider=openai-codex in=19000 out=1591 total=20591 latency=30.7s cache=14848/19000 (78%)
+2026-08-10 08:11:40,784 INFO [20260810_081049_1f6c3f] agent.conversation_loop: API call #4: model=gpt-5.5 provider=openai-codex in=19455 out=1762 total=21217 latency=33.6s cache=14848/19455 (76%)
+2026-08-10 08:11:44,818 INFO [20260810_081048_fc5ff0] agent.conversation_loop: API call #5: model=gpt-5.5 provider=openai-codex in=20857 out=249 total=21106 latency=5.7s cache=17920/20857 (86%)
+2026-08-10 08:11:47,921 INFO [20260810_081049_1f6c3f] agent.conversation_loop: API call #5: model=gpt-5.5 provider=openai-codex in=21483 out=239 total=21722 latency=7.0s cache=18944/21483 (88%)
+2026-08-10 08:11:51,915 INFO [20260810_081049_1f6c3f] agent.conversation_loop: API call #6: model=gpt-5.5 provider=openai-codex in=21828 out=139 total=21967 latency=3.8s cache=20992/21828 (96%)
+2026-08-10 08:11:51,932 INFO [20260810_081049_1f6c3f] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=gpt-5.5 api_calls=6/50 budget=6/50 tool_turns=5 last_msg_role=assistant response_len=321 session=20260810_081049_1f6c3f
+2026-08-10 08:11:52,409 INFO [20260810_081048_fc5ff0] agent.conversation_loop: API call #6: model=gpt-5.5 provider=openai-codex in=21183 out=186 total=21369 latency=7.4s cache=19968/21183 (94%)
+2026-08-10 08:11:52,427 INFO [20260810_081048_fc5ff0] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=gpt-5.5 api_calls=6/50 budget=6/50 tool_turns=5 last_msg_role=assistant response_len=251 session=20260810_081048_fc5ff0
+2026-08-10 08:12:19,625 INFO [20260810_081049_c9ecc8] agent.conversation_loop: API call #6: model=gpt-5.5 provider=openai-codex in=20804 out=2473 total=23277 latency=46.4s cache=19968/20804 (96%)
+2026-08-10 08:12:27,022 INFO [20260810_081049_c9ecc8] agent.conversation_loop: API call #7: model=gpt-5.5 provider=openai-codex in=23675 out=259 total=23934 latency=7.2s cache=19968/23675 (84%)
+2026-08-10 08:12:30,841 INFO [20260810_081049_c9ecc8] agent.conversation_loop: API call #8: model=gpt-5.5 provider=openai-codex in=24084 out=120 total=24204 latency=3.6s cache=23040/24084 (96%)
+2026-08-10 08:12:30,861 INFO [20260810_081049_c9ecc8] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=gpt-5.5 api_calls=8/50 budget=8/50 tool_turns=7 last_msg_role=assistant response_len=377 session=20260810_081049_c9ecc8
