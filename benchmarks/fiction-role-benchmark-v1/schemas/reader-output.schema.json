@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "hook",
+    "tension",
+    "clarity",
+    "character_pull",
+    "emotional_movement",
+    "strongest_moment",
+    "confusions",
+    "predictions",
+    "desire_to_continue",
+    "confidence"
+  ],
+  "properties": {
+    "hook": {
+      "type": "string"
+    },
+    "tension": {
+      "type": "string"
+    },
+    "clarity": {
+      "type": "string"
+    },
+    "character_pull": {
+      "type": "string"
+    },
+    "emotional_movement": {
+      "type": "string"
+    },
+    "strongest_moment": {
+      "type": "string"
+    },
+    "confusions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "predictions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "desire_to_continue": {
+      "enum": [
+        "yes",
+        "maybe",
+        "no"
+      ]
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

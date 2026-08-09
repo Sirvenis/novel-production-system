@@ -81,6 +81,12 @@ Run one approved new book through the preferred pipeline from voice test to free
 
 Scout produces the final evidence synthesis. Andrew approves or rejects the proposed standard. Only after approval may the framework be labelled the final Arden Studios novel-production pipeline and rolled out across every series suite.
 
-## Immediate next step
+## Gate 2 benchmark-pack state
 
-Complete the Ollama Cloud model inventory and create the reusable role-benchmark pack. Do not change canonical prose or live series model policies during catalogue research.
+`benchmarks/fiction-role-benchmark-v1/` is built and deterministically verified as the first reusable noncanonical role-evaluation pack. It contains frozen SHA-256 inputs, seven separated role tasks and rubrics, output/run/score schemas, route and failure evidence fields, private blind-mapping tooling, and validators for preservation, required beats, forbidden language/events, structure, packet-local citations, continuity traps, and exact mechanical correction.
+
+No model benchmark runs have been performed. The pack does not change canonical prose, live profile configuration, series model policy, or the provisional status of this pipeline.
+
+## Immediate next gate
+
+Present the candidate order in `benchmarks/fiction-role-benchmark-v1/CANDIDATE_TEST_ORDER.md` to Andrew. Begin model runs only after Andrew authorises the run phase; Kimi K3 and any other extra-credit use remain separately cost-gated. Record exact served routes and preserve failed attempts rather than silently retrying or accepting fallback output.

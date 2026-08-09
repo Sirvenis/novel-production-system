@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "corrected_text",
+    "issues",
+    "source_sha256",
+    "corrected_sha256",
+    "scope"
+  ],
+  "properties": {
+    "corrected_text": {
+      "type": "string"
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "original",
+          "replacement",
+          "rule"
+        ],
+        "properties": {
+          "original": {
+            "type": "string"
+          },
+          "replacement": {
+            "type": "string"
+          },
+          "rule": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "source_sha256": {
+      "type": "string"
+    },
+    "corrected_sha256": {
+      "type": "string"
+    },
+    "scope": {
+      "const": "mechanical-only"
+    }
+  }
+}

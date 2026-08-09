@@ -1,0 +1,6 @@
+runs/
+blind-output/
+evaluator-private/maps/
+evaluator-private/seeds/
+__pycache__/
+*.pyc

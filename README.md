@@ -43,6 +43,8 @@ novel-production-system/
 │   ├── VOICE_GUARDRAILS_TEMPLATE.md
 │   ├── CHAPTER_1_VOICE_TEST_REVIEW_TEMPLATE.md
 │   └── CHAPTER_1_REVIEW_PACKAGE_TEMPLATE.md
+├── benchmarks/
+│   └── fiction-role-benchmark-v1/ # Frozen noncanonical role/model evaluation pack
 ├── case-studies/
 │   └── horror-series-production/
 │       ├── OVERVIEW.md          # Anonymised summary of 3-book production

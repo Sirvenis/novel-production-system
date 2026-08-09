@@ -1,0 +1,83 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "benchmark_id",
+    "pack_version",
+    "role",
+    "blind_alias",
+    "scorer_id",
+    "rubric_scores",
+    "human_total",
+    "deterministic_penalty",
+    "final_score",
+    "critical_flags",
+    "evidence",
+    "scored_at"
+  ],
+  "properties": {
+    "benchmark_id": {
+      "const": "fiction-role-benchmark-v1"
+    },
+    "pack_version": {
+      "const": "1.0.0"
+    },
+    "role": {
+      "enum": [
+        "showrunner",
+        "writer",
+        "editor",
+        "reader",
+        "researcher",
+        "continuity",
+        "mechanical-qa"
+      ]
+    },
+    "blind_alias": {
+      "type": "string"
+    },
+    "scorer_id": {
+      "type": "string"
+    },
+    "rubric_scores": {
+      "type": "object"
+    },
+    "human_total": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "deterministic_penalty": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 30
+    },
+    "final_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "critical_flags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scored_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  }
+}

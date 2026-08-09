@@ -1,0 +1,117 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1",
+  "pack_version": "1.0.0",
+  "algorithm": "sha256",
+  "scope": [
+    "packets/*.md",
+    "tasks/*.md",
+    "schemas/*-output.schema.json"
+  ],
+  "files": [
+    {
+      "path": "packets/common.md",
+      "bytes": 1996,
+      "sha256": "3e03a10f5c8ddf04c345a734e5616b0008ea4fd8da1d3ebe109529aec84d2dc3"
+    },
+    {
+      "path": "packets/continuity.md",
+      "bytes": 785,
+      "sha256": "09dc61bfea8efbc1fc6c1d4af5871cb11acfcccf588712e910fe676b8e192fa9"
+    },
+    {
+      "path": "packets/editor.md",
+      "bytes": 1757,
+      "sha256": "211a1bbba110b42ce276d58f7e0d1f39d6bee039933317f5c7b608e6a6ca2e8c"
+    },
+    {
+      "path": "packets/mechanical-qa.md",
+      "bytes": 903,
+      "sha256": "ac421433fd01b4fbd86e0c1c2b1d1999fa4cec38f903b9ab5130ac3f606b023b"
+    },
+    {
+      "path": "packets/reader.md",
+      "bytes": 1378,
+      "sha256": "791ea8a7fb74b3851772e5f3b876de6d12cf6da11121407f729e658253863444"
+    },
+    {
+      "path": "packets/researcher.md",
+      "bytes": 1940,
+      "sha256": "29008282863b9c54d450d5a34dd5b3c044fd6125d4f7f29228d4aa4bf9e6d7f4"
+    },
+    {
+      "path": "packets/showrunner.md",
+      "bytes": 864,
+      "sha256": "379ea0edbd73fc0804b57d5d7ce4978a9264ab55dec41689e3e21e12acd9f83f"
+    },
+    {
+      "path": "packets/writer.md",
+      "bytes": 811,
+      "sha256": "c1d6991b359f3643da238688c0e175bcfc91e4a4bfa8f28e6a9117225ce55397"
+    },
+    {
+      "path": "schemas/continuity-output.schema.json",
+      "bytes": 1313,
+      "sha256": "38d03ea7dba33d8759602833b5d939c29578be097556998d808b21767b204676"
+    },
+    {
+      "path": "schemas/editor-output.schema.json",
+      "bytes": 1537,
+      "sha256": "4e75f1e0bf73b2d84cf12d0f9f4f37105b6b6633bbc492ffa6e5f007ba7386e4"
+    },
+    {
+      "path": "schemas/mechanical-output.schema.json",
+      "bytes": 1001,
+      "sha256": "3ef75d6419232d881985069abb21adfda312d4b24a69f42d638e0c7aca1bde88"
+    },
+    {
+      "path": "schemas/reader-output.schema.json",
+      "bytes": 1055,
+      "sha256": "e985ffc08bc65d5bb14ca502b32dfffe7351274fdf6223eaaeb5db7b60a79361"
+    },
+    {
+      "path": "schemas/researcher-output.schema.json",
+      "bytes": 1495,
+      "sha256": "c157baceffd41df3ec42e43b090afaea59bd28adb6b92e72f62bc509118ad09a"
+    },
+    {
+      "path": "schemas/showrunner-output.schema.json",
+      "bytes": 1705,
+      "sha256": "9fd1519a5bc28d234e8e601d538ec2f7473f283dea776aaa9c8128761b1a41e7"
+    },
+    {
+      "path": "tasks/continuity.md",
+      "bytes": 654,
+      "sha256": "b47c13af6b909e1e6a8c25f4dab74cd5335fbacaaae446f84334e22bbf4ce5e2"
+    },
+    {
+      "path": "tasks/editor.md",
+      "bytes": 783,
+      "sha256": "8cb4669b64ef5001b716ba20796e5536e5e27ed3c2a8731beafac80e429c67ef"
+    },
+    {
+      "path": "tasks/mechanical-qa.md",
+      "bytes": 611,
+      "sha256": "748654fa6b166db6b4094a4c0374f06deb205808ccfe6f05cef4d337ac615fd1"
+    },
+    {
+      "path": "tasks/reader.md",
+      "bytes": 614,
+      "sha256": "442b35c0200ba08279bc58cbfcccdae989eeaf3d746a18f3a269c607a8aa9848"
+    },
+    {
+      "path": "tasks/researcher.md",
+      "bytes": 645,
+      "sha256": "b4a6f267bd8168e28dcf71736a3dda1796e78f36202b4d590bb4ca71999fd7de"
+    },
+    {
+      "path": "tasks/showrunner.md",
+      "bytes": 674,
+      "sha256": "eae9be00e3197c3af68cabebb7d28dd111bfa090af3c841dc44b2721e883a946"
+    },
+    {
+      "path": "tasks/writer.md",
+      "bytes": 544,
+      "sha256": "c390a6112a50cce3c58b94eb388512950a3fe7d33174bcb2e524518bb902e0d7"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1",
+  "pack_version": "1.0.0",
+  "role": "writer",
+  "attempt_id": "replace-me",
+  "requested_route": {
+    "provider": "replace-me",
+    "model": "replace-me",
+    "profile": null,
+    "evidence_path": null
+  },
+  "served_route": null,
+  "routing_status": "not_started",
+  "usage_class": "unknown",
+  "entitlement_or_cost_gate": "none known",
+  "packet_manifest_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "started_at": "1970-01-01T00:00:00Z",
+  "ended_at": "1970-01-01T00:00:00Z",
+  "latency_ms": 0,
+  "settings": {
+    "temperature": null,
+    "reasoning": "record exact setting",
+    "max_output_tokens": null,
+    "tool_access": "none",
+    "fresh_session": true
+  },
+  "status": "not_started",
+  "failures": [],
+  "artifacts": [],
+  "usage": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "cached_tokens": null,
+    "provider_reported_cost": null
+  },
+  "notes": "",
+  "score": null
+}
