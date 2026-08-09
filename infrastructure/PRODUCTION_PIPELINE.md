@@ -1,12 +1,14 @@
-# Production Pipeline — The 9-Stage System
+# Production Pipeline — Current Candidate Framework
 
 ## Overview
 
-This document describes the complete production pipeline for a multi-book novel series, from architecture through freeze. Each stage has defined inputs, outputs, criteria, and verdicts.
+This document describes the current candidate production framework for a multi-book novel series, from architecture through freeze. Each stage has defined inputs, outputs, criteria, and verdicts, but the framework remains under model, role, cross-series, and cross-genre validation.
+
+**Status:** Experimental baseline. It must not be described as Arden Studios' final universal pipeline until the validation programme in `../PIPELINE_VALIDATION_STATUS.md` passes and Andrew approves the resulting standard.
 
 **Origin:** Developed and refined across three complete books of a working-class cosmic horror series (2026). Every rule exists because something broke.
 
-**Assumption:** You have already confirmed your pipeline approach (see `GETTING_STARTED.md`).
+**Assumption:** The owning series has approved this candidate framework for its current experiment or production run. That local approval does not make the framework the final institutional standard.
 
 ---
 

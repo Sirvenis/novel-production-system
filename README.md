@@ -1,6 +1,8 @@
 # Novel Production System
 
-A reference implementation of a mature, multi-stage editorial pipeline for multi-book novel series, developed and battle-tested across three complete books.
+A candidate multi-stage editorial pipeline for multi-book novel series, developed through several completed books and still undergoing cross-series validation.
+
+**Current authority:** The final Arden Studios novel-production pipeline has not yet been selected. All existing pipeline variants, profiles, model assignments, and case studies remain evidence from testing. See `PIPELINE_VALIDATION_STATUS.md`.
 
 ## What This Is
 
@@ -80,7 +82,7 @@ cp novel-production-system/templates/* my-new-novel/templates/
 
 **Important:** This repository contains reusable infrastructure only. Unpublished creative material (manuscripts, project-specific architecture, character designs, voice guardrails) belongs in a dedicated private creative repository. See `docs/REPO_ORGANISATION.md` for the repository governance model.
 
-## The 9 Stages at a Glance
+## The Current Candidate Stages at a Glance
 
 | Stage | Name | Purpose | Who |
 |-------|------|---------|-----|
@@ -108,7 +110,7 @@ cp novel-production-system/templates/* my-new-novel/templates/
 
 ## Origin
 
-Developed during the production of a three-book cosmic horror-comedy series (2026). The pipeline evolved from a loose 4-pass system to a disciplined 9-stage machine with profile-based agent delegation, comprehensive tracking, and verification protocols. Every rule in this repository exists because something broke first.
+Developed during the production of a three-book cosmic horror-comedy series (2026). The pipeline evolved from a loose 4-pass system to a disciplined candidate framework with profile-based agent delegation, comprehensive tracking, and verification protocols. It is a strong working baseline, not yet the final universal Arden Studios pipeline.
 
 ## Repository Governance Note
 
