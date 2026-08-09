@@ -1,0 +1,27 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1",
+  "pack_version": "1.0.0",
+  "role": "showrunner",
+  "blind_alias": "CANDIDATE-004",
+  "scorer_id": "blind-terra-wave0-a",
+  "rubric_scores": {
+    "causal_architecture_and_escalation": 24,
+    "reader_effect_reasoning": 19,
+    "canon_protection_and_restraint": 18,
+    "decision_and_gate_quality": 19,
+    "production_usability": 14
+  },
+  "human_total": 94,
+  "deterministic_penalty": 0,
+  "final_score": 94,
+  "critical_flags": [],
+  "evidence": [
+    "Causal architecture and escalation: seven ordered beats move from \"Mara notices fresh water where it should not be\" to \"Nessa links the anomaly to Eli\", Saye's redirection, the \"maintenance stair alarm\", and Mara descending alone into a harder next problem.",
+    "Reader-effect reasoning: each beat separates visible action from intended effect, e.g. S2 \"Turns a mechanical irregularity into a personal threat for Mara\" and S5 \"Converts suspicion into a documented breach while preserving multiple possible explanations\".",
+    "Canon protection and restraint: continuity risks repeatedly prohibit overreach, including \"Eli cannot physically appear\", \"Saye's document case must not be damaged or opened\", \"Tom must remain in the wheelhouse\", and \"The compass may react but cannot identify a person\".",
+    "Decision and gate quality: the stop decision is explicit and bounded: \"Mara checks the maintenance stair before confronting Nessa\" because \"The alarm record and fresh water provide an immediate vessel-safety threat\" while Nessa can be questioned later.",
+    "Production usability: the plan is concise, ordered, and executable across sessions via named beat ids S1-S7, concrete exit conditions, and testable constraints such as \"The alarm log must be accurate and use actual time\" and \"the case stays intact\"."
+  ],
+  "scored_at": "2026-08-10T00:00:00Z",
+  "confidence": 0.86
+}

@@ -1,0 +1,31 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1",
+  "pack_version": "1.0.0",
+  "role": "mechanical-qa",
+  "blind_alias": "CANDIDATE-005",
+  "scorer_id": "blind-gpt55-fallback-wave0-c",
+  "rubric_scores": {
+    "correction_accuracy": 35,
+    "false_positive_avoidance": 24,
+    "exact_preservation": 18,
+    "issue_ledger_completeness": 10,
+    "scope_and_provenance_discipline": 4
+  },
+  "human_total": 91,
+  "deterministic_penalty": 0,
+  "final_score": 91,
+  "critical_flags": [
+    "scope_and_provenance_discipline below half: source_sha256 and corrected_sha256 are null rather than valid recorded hashes",
+    "DETERMINISTIC HARD-GATE FAILURE: run is ineligible regardless of human score",
+    "Scorer metadata corrected after route verification: delegated scorer requested Kimi K2.6, fell back, and was served by gpt-5.5/openai-codex; original incorrectly said terra."
+  ],
+  "evidence": [
+    "Correction accuracy: the output records all eight apparent objective fixes, including time style ('11:55 pm' -> '11:55 p.m.' and '11.55 p.m' -> '11:55 p.m.'), vessel term ('wheel house' -> 'wheelhouse'), agreement ('backpack were' -> 'backpack was'; 'reason were' -> 'reason was'), name spelling ('Hugh Say' -> 'Hugh Saye'), apostrophe ('Toms still' -> 'Tom's still'), and Australian spelling ('gray' -> 'grey').",
+    "False-positive avoidance: the declared scope says 'type': 'mechanical_only' and 'style_changes': false, and the corrected passage remains plain rather than visibly rewritten; no unseeded stylistic substitution is apparent from the submitted corrected passage.",
+    "Exact preservation: the submission declares 'sentence_order_preserved': true and the corrected passage preserves the same sentence sequence and paragraph breaks around 'At 11:55 p.m.', 'Tom's still upstairs,' and the final estuary sentence, though byte-equivalence cannot be fully verified from the blind bundle alone.",
+    "Issue-ledger completeness: the 'issues' array contains eight source-to-replacement entries, each with location, original, corrected, and reason fields, matching the rubric's expected eight seeded mechanical/style-sheet errors.",
+    "Scope and provenance discipline: scope is clearly declared as mechanical only, but provenance is weak because 'source_sha256': null and 'corrected_sha256': null rather than valid hashes."
+  ],
+  "scored_at": "2026-08-10T00:00:00Z",
+  "confidence": 0.82
+}

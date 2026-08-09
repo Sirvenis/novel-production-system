@@ -12,7 +12,7 @@
     "continuity",
     "mechanical-qa"
   ],
-  "model_runs_performed": 0,
+  "model_runs_performed": 14,
   "cost_gate": "No extra-credit runs without Andrew approval",
   "packet_manifest": "packet-sha256.json"
 }

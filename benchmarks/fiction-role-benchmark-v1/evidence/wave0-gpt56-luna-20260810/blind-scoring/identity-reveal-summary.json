@@ -1,0 +1,63 @@
+{
+  "revealed_after_score_files_existed_and_passed_schema_validation": true,
+  "private_map_path": "outside Git; not copied",
+  "scorer_actual_route": "gpt-5.5/openai-codex after configured Kimi K2.6 fallback activation",
+  "results": [
+    {
+      "alias": "CANDIDATE-001",
+      "role": "editor",
+      "human": 90,
+      "penalty": 10,
+      "final": 80,
+      "eligible": false
+    },
+    {
+      "alias": "CANDIDATE-002",
+      "role": "reader",
+      "human": 94,
+      "penalty": 0,
+      "final": 94,
+      "eligible": false
+    },
+    {
+      "alias": "CANDIDATE-003",
+      "role": "researcher",
+      "human": 93,
+      "penalty": 0,
+      "final": 93,
+      "eligible": false
+    },
+    {
+      "alias": "CANDIDATE-004",
+      "role": "showrunner",
+      "human": 94,
+      "penalty": 2,
+      "final": 92,
+      "eligible": false
+    },
+    {
+      "alias": "CANDIDATE-005",
+      "role": "mechanical-qa",
+      "human": 91,
+      "penalty": 0,
+      "final": 91,
+      "eligible": false
+    },
+    {
+      "alias": "CANDIDATE-006",
+      "role": "writer",
+      "human": 92,
+      "penalty": 0,
+      "final": 92,
+      "eligible": false
+    },
+    {
+      "alias": "CANDIDATE-007",
+      "role": "continuity",
+      "human": 91,
+      "penalty": 0,
+      "final": 91,
+      "eligible": false
+    }
+  ]
+}

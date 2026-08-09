@@ -83,10 +83,14 @@ Scout produces the final evidence synthesis. Andrew approves or rejects the prop
 
 ## Gate 2 benchmark-pack state
 
-`benchmarks/fiction-role-benchmark-v1/` is built and deterministically verified as the first reusable noncanonical role-evaluation pack. It contains frozen SHA-256 inputs, seven separated role tasks and rubrics, output/run/score schemas, route and failure evidence fields, private blind-mapping tooling, and validators for preservation, required beats, forbidden language/events, structure, packet-local citations, continuity traps, and exact mechanical correction.
+`benchmarks/fiction-role-benchmark-v1/` was built and deterministically verified as the first reusable noncanonical role-evaluation pack. Wave 0 then ran one ordinary-account comparison route across all seven roles: `gpt-5.6-luna` via `openai-codex`.
 
-No model benchmark runs have been performed. The pack does not change canonical prose, live profile configuration, series model policy, or the provisional status of this pipeline.
+Wave 0 preserved fourteen attempts: seven invalid launcher attempts with unintended tool availability and seven controlled no-tool attempts. Exact routing passed 7/7 controlled cells, but deterministic eligibility was 0/7. The principal defect is the execution contract: the documented no-tool workflow gives structured roles task prompts that reference schemas by path without supplying the schema contents, forcing candidates to guess strict field names and enums. The writer also exceeded its word range and beat-order contract.
+
+Blind craft scores were compressed at 90–94 even though every run was hard-gate ineligible. This confirms that human craft scoring and deterministic compliance measure different things, but the current single-scorer spread is not discriminating enough for model selection. Full evidence and route corrections are recorded in `reports/FICTION_ROLE_BENCHMARK_WAVE0_CALIBRATION_2026-08-10.md`.
+
+No canonical prose, live profile configuration, series model policy, deployment, payment infrastructure, or extra-credit model was changed.
 
 ## Immediate next gate
 
-Andrew authorised continuation of the pipeline project and its benchmark run phase on 2026-08-10. Start with Wave 0 calibration from `benchmarks/fiction-role-benchmark-v1/CANDIDATE_TEST_ORDER.md`: rerun deterministic pack validation, then perform only the included ordinary-account Codex comparison route if allowance permits. Calibrate prompts, output budgets, scoring spread, route evidence, and blinding before Wave 1. Kimi K3 and any other extra-credit use remain separately cost-gated. Record exact served routes and preserve failed attempts rather than silently retrying or accepting fallback output.
+Wave 0 is complete. Stop before Wave 1 for evidence review. The next proposed gate is a bounded benchmark-pack revision under a new version/hash: make the no-tool launcher explicit, supply each strict output contract without exposing rubrics or ground truth, preserve raw provider output separately from CLI wrapper text, correct scorer-route capture, strengthen pre-reveal score locking/hashing, and recalibrate writer length/beat compliance. Do not start that revision or any Wave 1 model screen until Andrew authorises the next phase. Kimi K3 and all other extra-credit use remain separately cost-gated.

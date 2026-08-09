@@ -1,0 +1,49 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1",
+  "pack_version": "1.0.0",
+  "role": "reader",
+  "blind_alias": "CANDIDATE-002",
+  "scorer_id": "blind-gpt55-fallback-wave0-b",
+  "rubric_scores": {
+    "experiential_authenticity": {
+      "score": 23,
+      "max": 25,
+      "evidence": "\"High. I want to know what is behind the maintenance door\" and \"Mara moves from investigating an odd physical detail to confronting the return of a family wound\" sound like reader experience, though the phrasing is somewhat polished."
+    },
+    "text_grounded_specificity": {
+      "score": 19,
+      "max": 20,
+      "evidence": "Grounded in exact moments and objects: \"fresh water tracing a line from beneath the door,\" \"the stamped 23:40 ticket,\" \"Tom needs Mara in the wheelhouse,\" and \"Saye's document case.\""
+    },
+    "role_separation": {
+      "score": 18,
+      "max": 20,
+      "evidence": "The response reports reactions and uncertainties rather than fixes: \"It is not yet clear whether Eli's message was recent\"; minor craft-audit language appears in \"strongest emotional beat\" and \"converge cleanly.\""
+    },
+    "uncertainty_and_prediction_quality": {
+      "score": 19,
+      "max": 20,
+      "evidence": "Predictions are plausibly hedged: \"I am not confident that Eli himself is physically present\" and \"Tom's request for Mara may be a genuine operational emergency, but it may also pull her away.\""
+    },
+    "commercial_continuation_signal": {
+      "score": 15,
+      "max": 15,
+      "evidence": "The continuation signal is explicit and motivated: \"High. I want to know what is behind the maintenance door, whether Eli truly contacted Nessa, and why Saye treats her ticket as evidence of something impossible.\""
+    }
+  },
+  "human_total": 94,
+  "deterministic_penalty": 0,
+  "final_score": 94,
+  "critical_flags": [
+    "DETERMINISTIC HARD-GATE FAILURE: run is ineligible regardless of human score",
+    "Scorer metadata corrected after route verification: delegated scorer requested Kimi K2.6, fell back, and was served by gpt-5.5/openai-codex; original incorrectly said terra."
+  ],
+  "evidence": [
+    "\"The fresh water trapped beneath the enclosed vehicle lane is immediately unsettling\" establishes a reader-facing hook.",
+    "\"The exact relationship between Nessa, Eli, Saye, and the case is deliberately unclear, but not confusing\" distinguishes productive ambiguity from confusion.",
+    "\"I am unsure whether the stamped 23:40 ticket is connected to Eli\" preserves uncertainty rather than overclaiming.",
+    "\"The short crossing and the storm make the remaining time feel usefully limited\" explains the desire to continue."
+  ],
+  "scored_at": "2026-08-09T22:11:33.204236Z",
+  "confidence": 0.92
+}

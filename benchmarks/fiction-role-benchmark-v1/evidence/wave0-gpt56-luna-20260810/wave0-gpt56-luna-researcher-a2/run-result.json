@@ -79,6 +79,14 @@
     "cached_tokens": null,
     "provider_reported_cost": null
   },
-  "notes": "Fresh isolated Hermes session 20260810_080504_511028; raw stdout preserved unchanged. Attempt 2. Known CLI warning prefix was preserved in raw stdout and removed from submission extraction.",
-  "score": null
+  "notes": "Fresh isolated Hermes session 20260810_080504_511028; raw stdout preserved unchanged. Attempt 2. Known CLI warning prefix was preserved in raw stdout and removed from submission extraction. Blind human score locked before deterministic adjudication; run remains ineligible due hard-gate failure.",
+  "score": {
+    "human_total": 93,
+    "deterministic_penalty": 0,
+    "final_score": 93,
+    "scorer_count": 1,
+    "score_record_paths": [
+      "evidence/wave0-gpt56-luna-20260810/blind-scoring/adjudicated/CANDIDATE-003.score.json"
+    ]
+  }
 }

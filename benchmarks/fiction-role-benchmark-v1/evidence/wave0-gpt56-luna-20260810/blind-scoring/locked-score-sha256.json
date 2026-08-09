@@ -1,0 +1,40 @@
+{
+  "note": "Hashes generated immediately after blind score schema verification; Scout revealed the private identity map before this hash file was written. Original score files were not modified.",
+  "files": [
+    {
+      "path": "locked-original/CANDIDATE-001.score.json",
+      "sha256": "8b1cc2dfeb3c7abd256434c0373959a333da6413695d39feb91ca000c2620ad0",
+      "bytes": 1941
+    },
+    {
+      "path": "locked-original/CANDIDATE-002.score.json",
+      "sha256": "85c5fb69c5fedb1e920442c6cc092d553ac4a2bd2f6b44e67bc17aa7541a2dc4",
+      "bytes": 2477
+    },
+    {
+      "path": "locked-original/CANDIDATE-003.score.json",
+      "sha256": "2c62a76773afb76bd670f7818ec618d35ababe4e65ef550760ce2c32a582c890",
+      "bytes": 2351
+    },
+    {
+      "path": "locked-original/CANDIDATE-004.score.json",
+      "sha256": "55d98b56827d798ecbac31c933404a9cef87a3033f51cae4580bb1ca998d7a68",
+      "bytes": 1918
+    },
+    {
+      "path": "locked-original/CANDIDATE-005.score.json",
+      "sha256": "83264e18f3fcef6afb4f0d91bd792a8e908fb3e419187bc3949f0ccf694be233",
+      "bytes": 2126
+    },
+    {
+      "path": "locked-original/CANDIDATE-006.score.json",
+      "sha256": "b493a98d2d615f353fcff84ee8d35861dec3d1782987fd659d89d836ec1296e0",
+      "bytes": 2013
+    },
+    {
+      "path": "locked-original/CANDIDATE-007.score.json",
+      "sha256": "1b00bdbaabff4641fc6aaa116513e852989108d8db29679d8a0db4a2fee3ecd3",
+      "bytes": 2675
+    }
+  ]
+}

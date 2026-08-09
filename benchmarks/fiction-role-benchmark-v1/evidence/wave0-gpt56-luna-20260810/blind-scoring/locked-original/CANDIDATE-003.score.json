@@ -1,0 +1,47 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1",
+  "pack_version": "1.0.0",
+  "role": "researcher",
+  "blind_alias": "CANDIDATE-003",
+  "scorer_id": "blind-terra-wave0-b",
+  "rubric_scores": {
+    "evidence_verdict_accuracy": {
+      "score": 27,
+      "max": 30,
+      "evidence": "Verdicts generally match the stated evidence and preserve the difference between proof and limits: R2 says the ticket \"establishes the intended sailing, not the holder's identity or exact boarding time,\" while R5 says the compass \"does not by itself establish a supernatural cause.\""
+    },
+    "citation_integrity": {
+      "score": 24,
+      "max": 25,
+      "evidence": "Each material assessment cites a packet source ID in the evidence field: \"[S3]\", \"[S6]\", \"[S4]\", \"[S2]\", and \"[S5]\"; no outside or decorative citations appear."
+    },
+    "evidence_inference_separation": {
+      "score": 19,
+      "max": 20,
+      "evidence": "The output separates \"evidence\" from \"inference\" for every claim, e.g. R3 evidence says the alarm \"does not identify who opened it\" and the inference narrows that to \"cannot prove that a passenger entered the stair.\""
+    },
+    "qualification_and_uncertainty": {
+      "score": 14,
+      "max": 15,
+      "evidence": "Causal and evidentiary limits are explicit: \"does not by itself identify its source,\" \"cannot prove,\" and \"does not prove\" keep absence of proof distinct from contrary proof."
+    },
+    "production_usefulness": {
+      "score": 9,
+      "max": 10,
+      "evidence": "The report is concise and ordered by R1-R5 with verdict, evidence, inference, and confidence fields, making it directly usable with little cleanup."
+    }
+  },
+  "human_total": 93,
+  "deterministic_penalty": 0,
+  "final_score": 93,
+  "critical_flags": [],
+  "evidence": [
+    "R1: \"Fresh water found in the covered centre lane is inconsistent with the recorded rain path, although this does not by itself identify its source.\"",
+    "R2: \"The ticket cannot prove that Nessa boarded at exactly 23:40.\"",
+    "R3: \"The alarm cannot prove that a passenger entered the stair.\"",
+    "R4: \"An alarm-log time of 11:55 corresponds to 11:48 on the ferry clock.\"",
+    "R5: \"The compass turn does not prove that a supernatural force acted.\""
+  ],
+  "scored_at": "2026-08-09T22:11:33.204236Z",
+  "confidence": 0.86
+}

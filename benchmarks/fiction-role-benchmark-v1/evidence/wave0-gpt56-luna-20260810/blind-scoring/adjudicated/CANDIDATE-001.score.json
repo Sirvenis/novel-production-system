@@ -1,0 +1,30 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1",
+  "pack_version": "1.0.0",
+  "role": "editor",
+  "blind_alias": "CANDIDATE-001",
+  "scorer_id": "blind-gpt55-fallback-wave0-a",
+  "rubric_scores": {
+    "diagnosis_accuracy_and_priority": 23,
+    "surgical_improvement": 22,
+    "voice_and_event_preservation": 18,
+    "scope_discipline_and_restraint": 18,
+    "editorial_record_quality": 9
+  },
+  "human_total": 90,
+  "deterministic_penalty": 10,
+  "final_score": 80,
+  "critical_flags": [
+    "DETERMINISTIC HARD-GATE FAILURE: run is ineligible regardless of human score",
+    "Scorer metadata corrected after route verification: delegated scorer requested Kimi K2.6, fell back, and was served by gpt-5.5/openai-codex; original incorrectly said terra."
+  ],
+  "evidence": [
+    "Diagnosis accuracy and priority: identifies redundancy with exact evidence: \"The water was cold. It was very cold\" and \"which meant that the water around the ferry was salt water\"; also targets explanatory viewpoint in \"This was surprising because...\" and \"She realised she was afraid\".",
+    "Surgical improvement: revision sharpens the same local passage through specific substitutions such as \"It was cold, clear rather than oily\", \"It was fresh\", and the tighter action line \"The stair took precedence. She rose and moved towards it.\"",
+    "Voice and event preservation: the revision keeps the core sequence of Mara testing water, Nessa asking, the alarm, Saye redirecting to the ticket, the compass turning, and Mara choosing the maintenance stair; Mara's grounded register remains practical in \"Rain might have explained that, except the centre lane was roofed\".",
+    "Scope discipline and restraint: no obvious new lore or explanation is introduced; the output preserves uncertainty with \"The source does not confirm whether the fresh water has a natural or uncanny explanation\" and declares \"new_canon_claims_added\": false.",
+    "Editorial record quality: diagnoses map visibly to changes, and deferred issues are explicit: \"The passage does not yet establish what Nessa’s ticket means\" and \"resolving that belongs to a later scene.\""
+  ],
+  "scored_at": "2026-08-10T00:00:00Z",
+  "confidence": 0.79
+}

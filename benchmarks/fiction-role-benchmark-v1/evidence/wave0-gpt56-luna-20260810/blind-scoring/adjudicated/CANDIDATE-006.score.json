@@ -1,0 +1,30 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1",
+  "pack_version": "1.0.0",
+  "role": "writer",
+  "blind_alias": "CANDIDATE-006",
+  "scorer_id": "blind-gpt55-fallback-wave0-c",
+  "rubric_scores": {
+    "voice_and_viewpoint_stability": 18,
+    "scene_embodiment_and_sensory_specificity": 19,
+    "character_and_emotional_movement": 18,
+    "tension_and_beat_integration": 19,
+    "originality_and_restraint": 18
+  },
+  "human_total": 92,
+  "deterministic_penalty": 0,
+  "final_score": 92,
+  "critical_flags": [
+    "DETERMINISTIC HARD-GATE FAILURE: run is ineligible regardless of human score",
+    "Scorer metadata corrected after route verification: delegated scorer requested Kimi K2.6, fell back, and was served by gpt-5.5/openai-codex; original incorrectly said terra."
+  ],
+  "evidence": [
+    "Voice and viewpoint stability: the narration stays close to Mara through perception and professional judgement, e.g. 'Mara heard the accusation beneath the word' and 'She could take the phone, demand the message'; Australian usage is natural in 'under way', 'authorisation', and ferry-specific diction rather than decorative slang.",
+    "Scene embodiment and sensory specificity: the ferry is physically present through causal details such as 'steel roof above, side doors dogged shut', 'Rain struck the roof in hard bursts', 'the deck vibrated through the soles of her boots', and the wet latch at the endpoint.",
+    "Character and emotional movement: Eli's name creates a marked interior turn, from procedural ticket/alarm control to 'Eleven years without a message' and the compass memory; Nessa's rigidity and Saye's case-clutching/controlling speech make them distinct through behaviour.",
+    "Tension and beat integration: beats escalate in order from anomalous fresh water, to the ticket time discrepancy, to Nessa saying 'Eli sent me a message tonight,' to the maintenance alarm and Mara opening the stair door, giving a strong door-opening endpoint.",
+    "Originality and restraint: the compass anomaly deepens uncertainty without explaining it ('No direction. No answer.'), while the prose generally avoids stock suspense and lore dump, relying instead on concrete procedural pressure and withheld history."
+  ],
+  "scored_at": "2026-08-10T00:00:00Z",
+  "confidence": 0.88
+}

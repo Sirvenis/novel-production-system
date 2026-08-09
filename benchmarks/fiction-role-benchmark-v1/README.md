@@ -1,8 +1,10 @@
 # Fiction Role Benchmark v1
 
-Status: noncanonical reusable evaluation pack; no benchmark model outputs have been run or promoted.
+Status: noncanonical evaluation pack; Wave 0 calibration completed on 2026-08-10, with no output promoted.
 
 Purpose: compare models by fiction-production role using identical frozen packets, exact route evidence, blind scoring, deterministic checks, and role-specific human judgement. This pack is evidence for Arden Studios pipeline validation; it is not a manuscript, series bible, model assignment, or final pipeline decision.
+
+Wave 0 result: the first controlled route exposed a no-tool execution-contract defect and produced 0/7 deterministically eligible cells. Do not begin Wave 1 from v1 without evidence review. See `../../reports/FICTION_ROLE_BENCHMARK_WAVE0_CALIBRATION_2026-08-10.md`.
 
 ## Roles
 

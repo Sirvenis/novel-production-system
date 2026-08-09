@@ -1,0 +1,51 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1",
+  "pack_version": "1.0.0",
+  "role": "continuity",
+  "blind_alias": "CANDIDATE-007",
+  "scorer_id": "blind-gpt55-fallback-wave0-b",
+  "rubric_scores": {
+    "seeded_defect_recall": {
+      "score": 26,
+      "max": 30,
+      "evidence": "The findings cover most seeded areas: Tom/person position in CT-001, time in CT-002 and CT-006, water/roof in CT-003, ticket in CT-004, message admission in CT-005, compass in CT-007, and case/records in CT-008/CT-009. Location is less fully isolated as its own defect."
+    },
+    "precision_and_false_positive_control": {
+      "score": 23,
+      "max": 25,
+      "evidence": "Most findings map a specific fragment to specific canon evidence, e.g. \"Nessa shows a digital ticket stamped 23:40\" against \"paper ticket stamped 23:40\" and \"maintenance alarm records its opening at 11:55 on the ferry clock\" against actual timestamps."
+    },
+    "canon_grounding": {
+      "score": 19,
+      "max": 20,
+      "evidence": "Findings consistently cite supplied canon limits and distinguish contradiction from unsupported certainty, e.g. CT-008 says \"Its contents and whether Saye opens it are not established\" rather than inventing a repair."
+    },
+    "severity_and_classification_judgement": {
+      "score": 13,
+      "max": 15,
+      "evidence": "Classifications are mostly controlled: paper-vs-digital ticket is a \"contradiction\" and case contents are \"unsupported_certainty\"; severity is plausible but slightly soft/uneven for operational defects such as Tom leaving the wheelhouse and alarm-clock confusion."
+    },
+    "role_restraint": {
+      "score": 10,
+      "max": 10,
+      "evidence": "The auditor records defects only; examples such as CT-007 \"Since the marina fire, Eli's old brass compass points inland, not north\" do not rewrite prose or propose plot repairs."
+    }
+  },
+  "human_total": 91,
+  "deterministic_penalty": 0,
+  "final_score": 91,
+  "critical_flags": [
+    "DETERMINISTIC HARD-GATE FAILURE: run is ineligible regardless of human score",
+    "Scorer metadata corrected after route verification: delegated scorer requested Kimi K2.6, fell back, and was served by gpt-5.5/openai-codex; original incorrectly said terra."
+  ],
+  "evidence": [
+    "CT-001: \"Tom never leaves the wheelhouse while the vessel is under way.\"",
+    "CT-003: \"Salt water on the vehicle deck is ordinary. Fresh water there is anomalous because rain cannot reach beneath the enclosed centre lane.\"",
+    "CT-004: \"Nessa is travelling with a paper ticket stamped 23:40.\"",
+    "CT-006: \"The maintenance stair alarm records openings with actual timestamps, not ferry-clock timestamps.\"",
+    "CT-007: \"Eli's old brass compass points inland, not north.\"",
+    "CT-008: \"The canon establishes only that Councillor Hugh Saye is transporting a locked grey document case.\""
+  ],
+  "scored_at": "2026-08-09T22:11:33.204236Z",
+  "confidence": 0.9
+}

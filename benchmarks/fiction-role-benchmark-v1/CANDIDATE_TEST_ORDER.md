@@ -2,11 +2,13 @@
 
 No runs are authorised by this document. It sequences candidates to settle cheap questions before expensive ones.
 
-## Wave 0 — Calibration
+## Wave 0 — Calibration — COMPLETE; EVIDENCE REVIEW REQUIRED
 
 - Deterministic validators against included positive/negative tests.
 - One already-included Codex comparison route only if ordinary account allowance permits and Andrew starts the run phase.
 - Purpose: calibrate prompts, output budgets, scoring spread, and blinding—not select winners.
+
+Result: completed 2026-08-10. The controlled route produced 0/7 deterministic eligibility because the no-tool workflow did not supply strict schema contracts and the writer exceeded length/beat-order gates. Stop before Wave 1. See `../../reports/FICTION_ROLE_BENCHMARK_WAVE0_CALIBRATION_2026-08-10.md`.
 
 ## Wave 1 — Low/medium usage role screens
 
