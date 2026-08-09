@@ -1,0 +1,82 @@
+{
+  "role": "continuity",
+  "attempt": 2,
+  "extraction": {
+    "removed_cli_prefix": true,
+    "raw_sha256": "44ed8899b36e932da13a6c1a1e825ce95eb80a7ede0dffcabc6ffad0e494951b",
+    "submission_sha256": "18ff91c08d719aa9d00855f91c3a69cb57592c7ecf5a6fdb71b41c17931adcb5"
+  },
+  "custom_validator": {
+    "role": "continuity",
+    "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1/runs/wave0-gpt56-luna-continuity-a2/submission.json",
+    "hard_failures": [
+      "required top-level JSON fields missing"
+    ],
+    "warnings": [],
+    "checks": {
+      "missing_top_level_fields": [
+        "checked_domains"
+      ],
+      "expected_concepts_found": [
+        "Tom",
+        "wheelhouse",
+        "seawater",
+        "roof",
+        "digital ticket",
+        "alarm",
+        "ferry clock",
+        "north",
+        "case"
+      ],
+      "expected_concept_recall": 0.8182,
+      "repair_scope_hits": [],
+      "global_forbidden_hits": []
+    },
+    "penalty": 0,
+    "eligible": false
+  },
+  "json_schema_errors": [
+    {
+      "path": "",
+      "message": "Additional properties are not allowed ('checked_canon_domains' was unexpected)"
+    },
+    {
+      "path": "",
+      "message": "'checked_domains' is a required property"
+    },
+    {
+      "path": "findings/1/classification",
+      "message": "'unsupported_certainty' is not one of ['contradiction', 'unsupported-certainty']"
+    },
+    {
+      "path": "findings/2/classification",
+      "message": "'unsupported_certainty' is not one of ['contradiction', 'unsupported-certainty']"
+    },
+    {
+      "path": "findings/4/severity",
+      "message": "'moderate' is not one of ['critical', 'major', 'minor']"
+    },
+    {
+      "path": "findings/4/classification",
+      "message": "'unsupported_certainty' is not one of ['contradiction', 'unsupported-certainty']"
+    },
+    {
+      "path": "findings/7/severity",
+      "message": "'moderate' is not one of ['critical', 'major', 'minor']"
+    },
+    {
+      "path": "findings/7/classification",
+      "message": "'unsupported_certainty' is not one of ['contradiction', 'unsupported-certainty']"
+    },
+    {
+      "path": "findings/8/severity",
+      "message": "'moderate' is not one of ['critical', 'major', 'minor']"
+    },
+    {
+      "path": "findings/8/classification",
+      "message": "'unsupported_certainty' is not one of ['contradiction', 'unsupported-certainty']"
+    }
+  ],
+  "schema_ok": false,
+  "eligible": false
+}

@@ -1,0 +1,18 @@
+{
+  "role": "researcher",
+  "attempt": 2,
+  "started_at": "2026-08-09T22:05:03.642819+00:00",
+  "ended_at": "2026-08-09T22:05:25.926512+00:00",
+  "wall_latency_ms": 21463,
+  "cli": "EXIT 0 OUT 1851 ERR 36",
+  "session_id": "20260810_080504_511028",
+  "route_parse": [
+    "gpt-5.6-luna",
+    "openai-codex",
+    "1721",
+    "1022",
+    "2743",
+    "20.2"
+  ],
+  "tool_turns": 0
+}

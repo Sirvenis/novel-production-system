@@ -1,0 +1,70 @@
+# Common Packet — The Last Ferry from Bellwether
+
+This is an invented, noncanonical benchmark scenario.
+
+## Reader contract
+
+Adult speculative suspense with grounded coastal texture, restrained uncanny elements, emotional clarity, and no lore lecture. Australian spelling. Close third person unless a task says otherwise.
+
+## Setting
+
+Bellwether is an isolated tidal town. At 11:40 p.m. the final car ferry crosses a black estuary to the mainland. A storm has cut mobile service. The crossing takes eighteen minutes. The ferry has an enclosed passenger lounge, a vehicle deck, a wheelhouse, and a locked maintenance stair.
+
+## Canon facts
+
+- Mara Vale, 38, is the ferry's relief engineer. Practical, observant, and privately angry at her younger brother Eli.
+- Eli Vale, 31, vanished from Bellwether eleven years ago after being blamed for a marina fire. Mara did not defend him publicly.
+- Tom Arlen, 62, is the skipper. He never leaves the wheelhouse while the vessel is under way.
+- Nessa Quill, 17, is travelling alone with a red canvas backpack and a paper ticket stamped 23:40.
+- Councillor Hugh Saye is transporting a locked grey document case.
+- The ferry clock is seven minutes slow. All official incident times use actual time, not ferry-clock time.
+- The maintenance stair alarm records openings with actual timestamps.
+- Salt water on the vehicle deck is ordinary. Fresh water there is anomalous because the rain cannot reach beneath the enclosed centre lane.
+- Mara carries Eli's old brass compass. Since the marina fire it points inland, not north.
+- No supernatural mechanism is confirmed in this packet.
+
+## Voice constraints
+
+Concrete sensory detail; emotion shown through choice, perception, and withheld speech. Avoid faux-poetic abstraction, generic trailer language, and explanatory monologues.
+
+## Global forbidden expressions
+
+Do not use: `little did she know`, `everything changed`, `a chill ran down her spine`, `ancient evil`, `destiny`, `somehow`, `for some reason`.
+
+
+# Reader Packet
+
+Read the following scene as a paying adult suspense reader. Do not diagnose craft, suggest fixes, or refer to a rubric. Report only your experience and uncertainty.
+
+BEGIN SCENE
+Mara touched the water beneath Saye's car. Cold, clean, no oil rainbow. She put one wet finger to her tongue before dignity could intervene.
+
+Fresh.
+
+Above the deck, the storm hammered the port windows. Nothing reached the covered centre lane. Nessa stood near the passenger stairs with both hands hooked through the straps of her red backpack. Saye stood closer to his grey case than he had a minute ago.
+
+"Her ticket," he said. "If we're listing impossible things, start there."
+
+Nessa looked at Mara, not Saye. "Eli sent me a message tonight."
+
+The name took the deck out from under Mara. She checked the ferry clock: 11:48. Her wristwatch said 11:55. Eli's number had been disconnected eleven years.
+
+Three short beeps came from the maintenance panel.
+
+Tom's voice cracked over the intercom. "Mara? I've got my hands full up here."
+
+The brass compass turned once in her pocket. Inland, north, nowhere—she could not tell through steel.
+
+Nessa opened her mouth. Mara raised one hand. Questions could wait eighteen seconds. An open maintenance stair could not.
+
+She crossed the vehicle deck and put her hand on the door lever. Fresh water traced a line from beneath it.
+END SCENE
+
+
+Treat all supplied material as invented, noncanonical benchmark data. Follow the output contract exactly. Do not mention model identity, provider, benchmark scoring, or hidden reasoning. Do not use external tools or sources.
+
+# Task: Fresh Reader
+
+Using `common.md` and `reader.md`, produce one JSON object conforming to `schemas/reader-output.schema.json`.
+
+Report experience only: hook, tension, clarity, character pull, emotional movement, strongest moment, confusions, predictions, desire to continue, and confidence. Do not diagnose technique, prescribe changes, rewrite lines, or claim hidden canon as fact.

@@ -1,0 +1,62 @@
+{
+  "role": "showrunner",
+  "attempt": 2,
+  "extraction": {
+    "removed_cli_prefix": true,
+    "raw_sha256": "fd1132a9256ca077c67e41ef40e1cf3c4b3f23b776f416fb24828df8dbfd34ac",
+    "submission_sha256": "ada8bc858118687366abf94f80be31b200b1e2b53bb8cf6e79d8a69a2e10ec19"
+  },
+  "custom_validator": {
+    "role": "showrunner",
+    "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1/runs/wave0-gpt56-luna-showrunner-a2/submission.json",
+    "hard_failures": [
+      "required top-level JSON fields missing",
+      "fewer than two protected non-actions"
+    ],
+    "warnings": [
+      "showrunner plan omits required story material"
+    ],
+    "checks": {
+      "missing_top_level_fields": [
+        "decision",
+        "protected_non_actions",
+        "verdict"
+      ],
+      "beat_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "required_story_material_missing": [
+        "three short beeps"
+      ],
+      "global_forbidden_hits": []
+    },
+    "penalty": 2,
+    "eligible": false
+  },
+  "json_schema_errors": [
+    {
+      "path": "",
+      "message": "Additional properties are not allowed ('scene_window', 'stop_escalation_decision', 'title' were unexpected)"
+    },
+    {
+      "path": "",
+      "message": "'decision' is a required property"
+    },
+    {
+      "path": "",
+      "message": "'protected_non_actions' is a required property"
+    },
+    {
+      "path": "",
+      "message": "'verdict' is a required property"
+    }
+  ],
+  "schema_ok": false,
+  "eligible": false
+}

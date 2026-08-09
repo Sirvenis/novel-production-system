@@ -1,0 +1,61 @@
+Warning: Unknown toolsets: none
+{
+  "corrected_passage": "At 11:55 p.m., Mara leant against the wheelhouse door. Nessa's red backpack was on the deck beside her, and Councillor Hugh Saye watched it as if it might move. The grey case remained shut.\n\n\"Tom's still upstairs,\" Nessa said.\n\nMara checked Eli's compass; its needle had turned, but the reason was unclear. She wrote the time in the log as 11:55 p.m. and underlined it twice. Outside, the estuary was grey.",
+  "issues": [
+    {
+      "location": "Sentence 1",
+      "original": "11:55 pm",
+      "corrected": "11:55 p.m.",
+      "reason": "Corrected the narrative time style."
+    },
+    {
+      "location": "Sentence 1",
+      "original": "wheel house",
+      "corrected": "wheelhouse",
+      "reason": "Corrected the vessel term."
+    },
+    {
+      "location": "Sentence 2",
+      "original": "backpack were",
+      "corrected": "backpack was",
+      "reason": "Corrected subject–verb agreement."
+    },
+    {
+      "location": "Sentence 2",
+      "original": "Hugh Say",
+      "corrected": "Hugh Saye",
+      "reason": "Corrected the character spelling."
+    },
+    {
+      "location": "Sentence 4",
+      "original": "Toms still",
+      "corrected": "Tom's still",
+      "reason": "Inserted the missing apostrophe in the contraction."
+    },
+    {
+      "location": "Sentence 6",
+      "original": "reason were",
+      "corrected": "reason was",
+      "reason": "Corrected subject–verb agreement."
+    },
+    {
+      "location": "Sentence 6",
+      "original": "11.55 p.m",
+      "corrected": "11:55 p.m.",
+      "reason": "Corrected the narrative time style and punctuation."
+    },
+    {
+      "location": "Sentence 6",
+      "original": "gray",
+      "corrected": "grey",
+      "reason": "Corrected to Australian English spelling."
+    }
+  ],
+  "source_sha256": null,
+  "corrected_sha256": null,
+  "scope": {
+    "type": "mechanical_only",
+    "style_changes": false,
+    "sentence_order_preserved": true
+  }
+}

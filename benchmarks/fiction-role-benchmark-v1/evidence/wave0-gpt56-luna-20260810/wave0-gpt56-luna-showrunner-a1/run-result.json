@@ -1,0 +1,74 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1",
+  "pack_version": "1.0.0",
+  "role": "showrunner",
+  "attempt_id": "wave0-gpt56-luna-showrunner-a1",
+  "requested_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "evidence_path": "route-evidence.log"
+  },
+  "served_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "evidence_path": "route-evidence.log"
+  },
+  "routing_status": "verified_exact",
+  "usage_class": "low",
+  "entitlement_or_cost_gate": "ordinary ChatGPT Pro Codex allowance; no extra-credit spend",
+  "packet_manifest_sha256": "bd30312a7fa23ff226cbe06c32992d7b7de982c2a1741e4cfe7543f95777e282",
+  "started_at": "2026-08-09T21:59:43.006467+00:00",
+  "ended_at": "2026-08-09T22:00:21.448997+00:00",
+  "latency_ms": 37679,
+  "settings": {
+    "temperature": null,
+    "reasoning": "medium",
+    "max_output_tokens": 4096,
+    "tool_access": "profile tools unintentionally available",
+    "fresh_session": true
+  },
+  "status": "invalid",
+  "failures": [
+    {
+      "class": "instruction",
+      "message": "Attempt invalidated: empty --toolsets override was ignored; tool access remained available (tool_turns=0). Retried with --toolsets none.",
+      "retryable": false
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "prompt.txt",
+      "sha256": "9fc24763f83bfbddb01cc1a04912dc5577eb7f72c8cded9ae2a3c6e3fad3bdd3"
+    },
+    {
+      "path": "raw-stdout.txt",
+      "sha256": "302bf00cc7b954fc3a4d60dccb84b58bc8f0b6abdc8217d2c33b567d94e26278"
+    },
+    {
+      "path": "raw-stderr.txt",
+      "sha256": "a38ec1034d504e49743a0a27ba6e72a3964beb68da7ee5fec5a8ede51cc68166"
+    },
+    {
+      "path": "route-evidence.log",
+      "sha256": "59cf07c45fd76a2b52b4b30100dfd86f2fd037ab7dfa2ed2de90ff659cbe0115"
+    },
+    {
+      "path": "submission.json",
+      "sha256": "302bf00cc7b954fc3a4d60dccb84b58bc8f0b6abdc8217d2c33b567d94e26278"
+    },
+    {
+      "path": "validation-result.json",
+      "sha256": "99bb4bee313e046d70e7d3add2f5e2c01fa090063d77139b69d0861ebf5f385a"
+    }
+  ],
+  "usage": {
+    "input_tokens": 12247,
+    "output_tokens": 1929,
+    "cached_tokens": null,
+    "provider_reported_cost": null
+  },
+  "notes": "Fresh isolated Hermes session 20260810_075943_b5c29f; raw stdout preserved unchanged. Attempt 1.",
+  "score": null
+}

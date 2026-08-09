@@ -1,0 +1,149 @@
+{
+  "role": "mechanical-qa",
+  "attempt": 2,
+  "extraction": {
+    "removed_cli_prefix": true,
+    "raw_sha256": "7bbb7052fdef1df6d6600ba7731f9b684b822351913badc28ce5e4ed2d343285",
+    "submission_sha256": "ee82b151410316d0741bd8c50120a3429e2838b1ebc4b04f8e4d910909506114"
+  },
+  "custom_validator": {
+    "role": "mechanical-qa",
+    "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1/runs/wave0-gpt56-luna-mechanical-qa-a2/submission.json",
+    "hard_failures": [
+      "required top-level JSON fields missing",
+      "corrected passage differs from exact mechanical answer"
+    ],
+    "warnings": [],
+    "checks": {
+      "missing_top_level_fields": [
+        "corrected_text"
+      ],
+      "exact_expected_match": false,
+      "expected_change_count": 8,
+      "reported_issue_count": 8,
+      "global_forbidden_hits": []
+    },
+    "penalty": 0,
+    "eligible": false
+  },
+  "json_schema_errors": [
+    {
+      "path": "",
+      "message": "Additional properties are not allowed ('corrected_passage' was unexpected)"
+    },
+    {
+      "path": "",
+      "message": "'corrected_text' is a required property"
+    },
+    {
+      "path": "issues/0",
+      "message": "Additional properties are not allowed ('corrected', 'location', 'reason' were unexpected)"
+    },
+    {
+      "path": "issues/0",
+      "message": "'replacement' is a required property"
+    },
+    {
+      "path": "issues/0",
+      "message": "'rule' is a required property"
+    },
+    {
+      "path": "issues/1",
+      "message": "Additional properties are not allowed ('corrected', 'location', 'reason' were unexpected)"
+    },
+    {
+      "path": "issues/1",
+      "message": "'replacement' is a required property"
+    },
+    {
+      "path": "issues/1",
+      "message": "'rule' is a required property"
+    },
+    {
+      "path": "issues/2",
+      "message": "Additional properties are not allowed ('corrected', 'location', 'reason' were unexpected)"
+    },
+    {
+      "path": "issues/2",
+      "message": "'replacement' is a required property"
+    },
+    {
+      "path": "issues/2",
+      "message": "'rule' is a required property"
+    },
+    {
+      "path": "issues/3",
+      "message": "Additional properties are not allowed ('corrected', 'location', 'reason' were unexpected)"
+    },
+    {
+      "path": "issues/3",
+      "message": "'replacement' is a required property"
+    },
+    {
+      "path": "issues/3",
+      "message": "'rule' is a required property"
+    },
+    {
+      "path": "issues/4",
+      "message": "Additional properties are not allowed ('corrected', 'location', 'reason' were unexpected)"
+    },
+    {
+      "path": "issues/4",
+      "message": "'replacement' is a required property"
+    },
+    {
+      "path": "issues/4",
+      "message": "'rule' is a required property"
+    },
+    {
+      "path": "issues/5",
+      "message": "Additional properties are not allowed ('corrected', 'location', 'reason' were unexpected)"
+    },
+    {
+      "path": "issues/5",
+      "message": "'replacement' is a required property"
+    },
+    {
+      "path": "issues/5",
+      "message": "'rule' is a required property"
+    },
+    {
+      "path": "issues/6",
+      "message": "Additional properties are not allowed ('corrected', 'location', 'reason' were unexpected)"
+    },
+    {
+      "path": "issues/6",
+      "message": "'replacement' is a required property"
+    },
+    {
+      "path": "issues/6",
+      "message": "'rule' is a required property"
+    },
+    {
+      "path": "issues/7",
+      "message": "Additional properties are not allowed ('corrected', 'location', 'reason' were unexpected)"
+    },
+    {
+      "path": "issues/7",
+      "message": "'replacement' is a required property"
+    },
+    {
+      "path": "issues/7",
+      "message": "'rule' is a required property"
+    },
+    {
+      "path": "source_sha256",
+      "message": "None is not of type 'string'"
+    },
+    {
+      "path": "corrected_sha256",
+      "message": "None is not of type 'string'"
+    },
+    {
+      "path": "scope",
+      "message": "'mechanical-only' was expected"
+    }
+  ],
+  "schema_ok": false,
+  "eligible": false
+}

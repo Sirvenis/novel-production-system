@@ -1,0 +1,20 @@
+{
+  "role": "editor",
+  "attempt": 1,
+  "custom_validator": {
+    "role": "editor",
+    "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1/runs/wave0-gpt56-luna-editor-a1/submission.json",
+    "hard_failures": [
+      "parse/structure error: Expecting value: line 1 column 1 (char 0)"
+    ],
+    "warnings": [],
+    "checks": {},
+    "penalty": 0,
+    "eligible": false
+  },
+  "json_schema_errors": [
+    "JSON parse error: Expecting value: line 1 column 1 (char 0)"
+  ],
+  "schema_ok": false,
+  "eligible": false
+}

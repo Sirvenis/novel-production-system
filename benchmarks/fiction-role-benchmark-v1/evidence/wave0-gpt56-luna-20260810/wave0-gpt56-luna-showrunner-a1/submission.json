@@ -1,0 +1,88 @@
+{
+  "title": "The Last Ferry from Bellwether",
+  "beats": [
+    {
+      "id": "S1",
+      "time": "11:52 p.m. actual time",
+      "purpose": "Place Mara in a practical investigation and introduce the anomalous evidence beneath Saye's vehicle.",
+      "visible_action": "Mara moves along the enclosed centre lane of the vehicle deck during the crossing, checks a spreading patch of clear fresh water beneath Councillor Saye's car, touches it, and confirms it is not salt water or rain runoff.",
+      "reader_effect": "Creates a concrete, contained impossibility while keeping Mara's response controlled and professional.",
+      "continuity_risk": "The water must be clearly fresh without implying an identified source or supernatural cause; the vehicle deck remains enclosed and the ferry is already under way.",
+      "exit_condition": "Mara notices that the water is collecting beneath the locked grey document case in Saye's boot area, then hears movement or a disturbance from the passenger lounge."
+    },
+    {
+      "id": "S2",
+      "time": "11:53 p.m. actual time",
+      "purpose": "Bring Nessa's claim into the scene and connect her to Eli without resolving whether the claim is true.",
+      "visible_action": "Mara finds Nessa near the lounge entrance with her red canvas backpack and paper ticket stamped 23:40. Nessa says Eli sent her a message that evening and that she boarded because he told her to leave Bellwether.",
+      "reader_effect": "Shifts the mystery from unexplained evidence to a personal wound, making Mara's restraint more difficult to maintain.",
+      "continuity_risk": "Nessa must not be exposed as knowingly lying; her wording and behaviour should allow sincere belief, confusion, coercion, or an unexplained message.",
+      "exit_condition": "Mara asks to see the message, while privately recognising that Eli's number was disconnected eleven years ago."
+    },
+    {
+      "id": "S3",
+      "time": "11:54 p.m. actual time",
+      "purpose": "Force Mara to process the contradiction between Nessa's account and the known history of Eli's number.",
+      "visible_action": "Mara checks Nessa's phone without taking it from her, sees the message thread or its notification details only partially, and withholds the fact that Eli's number was disconnected after the marina fire. Her old brass compass hangs against her palm and points inland.",
+      "reader_effect": "Builds emotional pressure through withheld speech and makes the compass a reactive but unreliable detail rather than an answer.",
+      "continuity_risk": "The compass may react but cannot identify Eli, verify the message, or direct Mara to a solution. Mara's knowledge of the disconnected number must remain certain.",
+      "exit_condition": "A sharp alarm sounds from the locked maintenance stair, and the ferry's incident panel displays an opening at 11:55 p.m. actual time."
+    },
+    {
+      "id": "S4",
+      "time": "11:55 p.m. actual time",
+      "purpose": "Create the central choice between confronting Nessa and checking a potentially occupied maintenance stair.",
+      "visible_action": "Mara reads the alarm log, confirms the opening time against the actual-time system, and looks from Nessa to the maintenance-stair door. Tom remains visible through the wheelhouse glass, hands on the controls, and does not leave the wheelhouse.",
+      "reader_effect": "Turns the scene into an immediate tactical dilemma while preserving the ferry's operational constraints.",
+      "continuity_risk": "The ferry clock must remain seven minutes slow; the alarm's 11:55 reading is actual time. Tom cannot investigate in person or abandon the wheelhouse.",
+      "exit_condition": "Mara chooses to check the maintenance stair before pressing Nessa for an explanation, leaving Nessa in the lounge with her backpack."
+    },
+    {
+      "id": "S5",
+      "time": "11:56 p.m. actual time",
+      "purpose": "Show Saye attempting to control the investigation and redirect suspicion onto Nessa.",
+      "visible_action": "As Mara reaches the stair door, Saye steps between her and the lounge, raises Nessa's paper ticket, and insists the stamped 23:40 ticket is irregular or fraudulent. He points out that Nessa travelled alone and urges Mara to deal with her first.",
+      "reader_effect": "Makes Saye's urgency suspicious without proving guilt and increases the cost of Mara's decision to proceed toward the stair.",
+      "continuity_risk": "Saye must not be allowed to open or lose the document case; the case remains intact for downstream chapters. His ticket objection must be plausible enough to distract without establishing a definitive discrepancy.",
+      "exit_condition": "Mara refuses to seize Nessa's ticket or accuse her, orders Saye to stay clear of the stair, and enters the maintenance passage."
+    },
+    {
+      "id": "S6",
+      "time": "11:57 p.m. actual time",
+      "purpose": "Escalate the physical threat while keeping the source of the alarm and fresh water unresolved.",
+      "visible_action": "Mara unlocks the maintenance stair and descends partway. She finds the door ajar, fresh water beading on the steps above the ordinary bilge damp, and a smear or displaced object that suggests recent passage without revealing who entered or left. From below comes a metallic impact. She radios Tom, who answers from the wheelhouse but cannot abandon his post.",
+      "reader_effect": "Converts suspicion into immediate danger and rewards Mara's choice while denying her confirmation.",
+      "continuity_risk": "No body, Eli, supernatural mechanism, or definitive intruder may appear. The fresh water remains anomalous, and the compass may pull inland without solving the scene.",
+      "exit_condition": "The ferry reaches mid-channel at 11:58 p.m.; a second sound comes from below as the stair door begins to swing shut behind Mara."
+    },
+    {
+      "id": "S7",
+      "time": "11:58 p.m. actual time",
+      "purpose": "End on Mara's danger-increasing decision and preserve multiple explanations for the evidence.",
+      "visible_action": "Mara wedges the stair door open with Eli's brass compass instead of retreating to confront Nessa or returning to secure Saye's case. She switches off her radio to avoid broadcasting her position, keeps one hand on the rail, and descends toward the unseen source of the impact.",
+      "reader_effect": "Leaves Mara committed to the more dangerous path, with Nessa, Saye, the case, and the possible intruder still active above and below her.",
+      "continuity_risk": "Explicit non-actions: Mara does not accuse Nessa of knowingly lying; Mara does not open, confiscate, or damage Saye's locked document case. Eli does not physically appear, and the compass does not solve the mystery.",
+      "exit_condition": "The scene stops with Mara descending into the enclosed stairwell as the ferry moves through mid-channel, while the origin of the fresh water, the alarm opening, and Nessa's message remains ambiguous."
+    }
+  ],
+  "escalation_curve": [
+    "S1: physical anomaly discovered",
+    "S2: personal connection to Eli introduced",
+    "S3: factual contradiction and emotional restraint",
+    "S4: alarm creates a tactical choice",
+    "S5: Saye redirects suspicion",
+    "S6: possible intruder and constrained support",
+    "S7: Mara chooses the dangerous unknown over immediate confrontation"
+  ],
+  "stop_escalation_decision": {
+    "decision_maker": "Mara Vale",
+    "decision": "Check the maintenance stair before confronting Nessa.",
+    "immediate_cost": "Mara gives up the chance to control Nessa's account and leaves Saye and Nessa active on the vehicle deck and in the lounge.",
+    "danger_increased_by": "Mara descends alone, disables her radio, and wedges the stair open with the compass while an unidentified presence may be below.",
+    "ambiguity_preserved": true
+  },
+  "downstream_canon_protections": [
+    "Mara does not accuse Nessa of knowingly lying, allowing Nessa's belief in Eli's message to remain unresolved.",
+    "Mara does not open, confiscate, or damage Saye's locked grey document case, leaving it intact for later chapters."
+  ]
+}

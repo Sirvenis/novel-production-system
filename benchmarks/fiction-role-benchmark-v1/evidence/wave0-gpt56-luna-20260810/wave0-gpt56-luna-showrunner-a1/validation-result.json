@@ -1,0 +1,52 @@
+{
+  "role": "showrunner",
+  "attempt": 1,
+  "custom_validator": {
+    "role": "showrunner",
+    "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1/runs/wave0-gpt56-luna-showrunner-a1/submission.json",
+    "hard_failures": [
+      "required top-level JSON fields missing",
+      "fewer than two protected non-actions"
+    ],
+    "warnings": [
+      "showrunner plan omits required story material"
+    ],
+    "checks": {
+      "missing_top_level_fields": [
+        "decision",
+        "protected_non_actions",
+        "verdict"
+      ],
+      "beat_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5",
+        "S6",
+        "S7"
+      ],
+      "required_story_material_missing": [
+        "three short beeps"
+      ],
+      "global_forbidden_hits": []
+    },
+    "penalty": 2,
+    "eligible": false
+  },
+  "json_schema_errors": [
+    "Additional properties are not allowed ('downstream_canon_protections', 'stop_escalation_decision', 'title' were unexpected)",
+    "'decision' is a required property",
+    "'protected_non_actions' is a required property",
+    "'verdict' is a required property",
+    "Additional properties are not allowed ('time' was unexpected)",
+    "Additional properties are not allowed ('time' was unexpected)",
+    "Additional properties are not allowed ('time' was unexpected)",
+    "Additional properties are not allowed ('time' was unexpected)",
+    "Additional properties are not allowed ('time' was unexpected)",
+    "Additional properties are not allowed ('time' was unexpected)",
+    "Additional properties are not allowed ('time' was unexpected)"
+  ],
+  "schema_ok": false,
+  "eligible": false
+}

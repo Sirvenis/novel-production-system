@@ -1,0 +1,84 @@
+⚠️  Reached maximum iterations (1). Requesting summary...
+{
+  "findings": [
+    {
+      "finding_id": "CONT-001",
+      "summary_fragment": "Mara leaves Tom on the vehicle deck; Tom follows her to the wheelhouse.",
+      "canon_evidence": [
+        "Tom Arlen never leaves the wheelhouse while the vessel is under way.",
+        "The final car ferry crosses the estuary at 11:40 p.m.; the summary places these events during that crossing."
+      ],
+      "severity": "major",
+      "classification": "contradiction"
+    },
+    {
+      "finding_id": "CONT-002",
+      "summary_fragment": "Beneath Saye's car she finds seawater that could only have fallen through the open roof.",
+      "canon_evidence": [
+        "Salt water on the vehicle deck is ordinary.",
+        "Fresh water beneath the enclosed centre lane is anomalous because rain cannot reach it.",
+        "The canon does not establish an open roof or that seawater could only have arrived through it."
+      ],
+      "severity": "major",
+      "classification": "unsupported_certainty"
+    },
+    {
+      "finding_id": "CONT-003",
+      "summary_fragment": "Nessa shows a digital ticket stamped 23:40.",
+      "canon_evidence": [
+        "Nessa is travelling with a paper ticket stamped 23:40."
+      ],
+      "severity": "major",
+      "classification": "contradiction"
+    },
+    {
+      "finding_id": "CONT-004",
+      "summary_fragment": "Nessa admits she invented the message from Eli.",
+      "canon_evidence": [
+        "The canon establishes Nessa's identity, age, travel status, backpack, and ticket, but does not establish that she sent or invented a message from Eli."
+      ],
+      "severity": "moderate",
+      "classification": "unsupported_certainty"
+    },
+    {
+      "finding_id": "CONT-005",
+      "summary_fragment": "The maintenance alarm records its opening at 11:55 on the ferry clock.",
+      "canon_evidence": [
+        "The maintenance stair alarm records openings with actual timestamps.",
+        "The ferry clock is seven minutes slow."
+      ],
+      "severity": "major",
+      "classification": "contradiction"
+    },
+    {
+      "finding_id": "CONT-006",
+      "summary_fragment": "Mara uses Eli's compass to establish that the maintenance stair lies due north.",
+      "canon_evidence": [
+        "Since the marina fire, Eli's brass compass points inland, not north."
+      ],
+      "severity": "major",
+      "classification": "contradiction"
+    },
+    {
+      "finding_id": "CONT-007",
+      "summary_fragment": "Saye opens the grey case, revealing marina-fire records.",
+      "canon_evidence": [
+        "The canon establishes only that Councillor Hugh Saye is transporting a locked grey document case.",
+        "The case's contents are not specified."
+      ],
+      "severity": "moderate",
+      "classification": "unsupported_certainty"
+    }
+  ],
+  "checked_canon_domains": [
+    "timeline_and_clock",
+    "ferry_operations",
+    "character_actions",
+    "passenger_documents",
+    "maintenance_stair_alarm",
+    "vehicle_deck_water",
+    "Eli's compass",
+    "Saye's document case"
+  ],
+  "verdict": "contradictions_and_unsupported_certainties_found"
+}

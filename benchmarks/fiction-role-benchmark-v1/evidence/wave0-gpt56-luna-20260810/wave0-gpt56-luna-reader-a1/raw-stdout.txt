@@ -1,0 +1,20 @@
+{
+  "hook": "The fresh water beneath the enclosed vehicle lane immediately makes the crossing feel unsafe and specific. Eli's name, the impossible ticket, and the maintenance alarm add three different kinds of threat without explaining them.",
+  "tension": "The tension rises sharply once Nessa says Eli sent her a message. Mara has only eighteen seconds to investigate the stair while something—or someone—may already be inside it.",
+  "clarity": "I understand the immediate situation, the ferry's layout, the time discrepancy, and why the fresh water matters. I am uncertain whether the three beeps mean the maintenance stair has opened, is being opened, or are an alarm for another problem.",
+  "character_pull": "Mara feels capable but emotionally compromised. Her reaction to Eli's name makes me want to know what happened between them and why she failed to defend him.",
+  "emotional_movement": "The scene moves Mara from practical investigation into personal shock, then forces her to suppress questions and act. Her private anger becomes harder to separate from fear and guilt.",
+  "strongest_moment": "The strongest moment is Mara putting one wet finger to her tongue before dignity can intervene, then realising the water is fresh. It makes her investigation physical and credible before the uncanny elements arrive.",
+  "confusions": [
+    "I do not know why Nessa has Eli's message or whether she believes Eli is alive.",
+    "I am unsure what Saye thinks is impossible about the ticket.",
+    "The compass turning is intriguing, but its significance is still unclear."
+  ],
+  "predictions": [
+    "Someone or something has used the maintenance stair and may be waiting below or on the vehicle deck.",
+    "Nessa's ticket and Eli's message are connected to the ferry's crossing.",
+    "Saye's locked case contains information connected to the marina fire or Eli's disappearance."
+  ],
+  "desire_to_continue": "High. I want Mara to open the stair door, but I also want to hear what Nessa knows before the threat interrupts her.",
+  "confidence": 0.94
+}

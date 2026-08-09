@@ -1,0 +1,24 @@
+{
+  "role": "reader",
+  "attempt": 1,
+  "custom_validator": {
+    "role": "reader",
+    "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1/runs/wave0-gpt56-luna-reader-a1/submission.json",
+    "hard_failures": [
+      "invalid desire_to_continue"
+    ],
+    "warnings": [],
+    "checks": {
+      "missing_top_level_fields": [],
+      "editorial_contamination_hits": [],
+      "global_forbidden_hits": []
+    },
+    "penalty": 0,
+    "eligible": false
+  },
+  "json_schema_errors": [
+    "'High. I want Mara to open the stair door, but I also want to hear what Nessa knows before the threat interrupts her.' is not one of ['yes', 'maybe', 'no']"
+  ],
+  "schema_ok": false,
+  "eligible": false
+}

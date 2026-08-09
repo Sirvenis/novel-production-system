@@ -1,0 +1,40 @@
+Warning: Unknown toolsets: none
+{
+  "assessments": [
+    {
+      "claim_id": "R1",
+      "verdict": "supported",
+      "evidence": "[S3] The centre vehicle lane is roofed, and wind-driven rain is not expected beneath vehicles parked in that lane.",
+      "inference": "Fresh water found in the covered centre lane is inconsistent with the recorded rain path, although this does not by itself identify its source.",
+      "confidence": 0.95
+    },
+    {
+      "claim_id": "R2",
+      "verdict": "contradicted",
+      "evidence": "[S6] A 23:40 ticket establishes the intended sailing, not the holder's identity or exact boarding time.",
+      "inference": "The ticket cannot prove that Nessa boarded at exactly 23:40.",
+      "confidence": 0.99
+    },
+    {
+      "claim_id": "R3",
+      "verdict": "contradicted",
+      "evidence": "[S4] Three short beeps show that the maintenance-stair door circuit changed from closed to open; the signal does not identify who opened it and does not prove entry.",
+      "inference": "The alarm cannot prove that a passenger entered the stair.",
+      "confidence": 0.99
+    },
+    {
+      "claim_id": "R4",
+      "verdict": "supported",
+      "evidence": "[S2] The ferry clock is seven minutes slow, while alarm logs use an independent controller synchronised to actual local time.",
+      "inference": "An alarm-log time of 11:55 corresponds to 11:48 on the ferry clock, so Mara should treat them as the same moment.",
+      "confidence": 1.0
+    },
+    {
+      "claim_id": "R5",
+      "verdict": "contradicted",
+      "evidence": "[S5] A compass turn aboard a steel vessel can result from ferrous structures or electrical equipment and does not by itself establish a supernatural cause.",
+      "inference": "The compass turn does not prove that a supernatural force acted.",
+      "confidence": 0.98
+    }
+  ]
+}

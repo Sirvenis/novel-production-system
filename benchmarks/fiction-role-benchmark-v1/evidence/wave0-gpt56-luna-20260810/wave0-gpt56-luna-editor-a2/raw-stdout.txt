@@ -1,0 +1,32 @@
+Warning: Unknown toolsets: none
+{
+  "diagnosed_issues": [
+    {
+      "issue": "Redundant description weakens the initial discovery.",
+      "evidence": "“The water was cold. It was very cold” repeats the same sensory observation, while “which meant that the water around the ferry was salt water” explains an implication the setting already establishes.",
+      "severity": "medium"
+    },
+    {
+      "issue": "The viewpoint becomes explanatory rather than immediate.",
+      "evidence": "“This was surprising because...” and “She realised she was afraid” name and explain Mara’s response instead of filtering the anomaly and fear through her active perceptions.",
+      "severity": "high"
+    },
+    {
+      "issue": "Tension is diluted by explicit interpretation and repeated qualification.",
+      "evidence": "“It was the kind of casual movement that was not casual at all” tells the reader how to read Saye’s movement, and “Both choices seemed important” restates the decision without sharpening the competing priorities.",
+      "severity": "medium"
+    }
+  ],
+  "revision": "Mara crouched beside the councillor’s sedan and put two fingers into the narrow ribbon of water. It was cold, clear rather than oily. Before she could talk herself out of it, she tasted it.\n\nIt was fresh.\n\nRain might have explained that, except the centre lane was roofed and the storm blew from the port side. They were crossing a salt estuary; beneath the ferry’s steel, the water should have been salt. Mara looked up at the roof, then around at the people watching her.\n\n“What is it?” Nessa asked.\n\nThe maintenance alarm gave three short beeps.\n\nMara’s hand tightened against the wet deck. Her pulse kicked hard. Councillor Saye moved closer to his grey document case, keeping his face turned towards her. The case remained locked between his shoes.\n\n“Her ticket,” Saye said. “You should be asking how she got on with that ticket.”\n\nThe brass compass turned once in Mara's pocket and stopped.\n\nMara looked at Nessa, then at the maintenance stair. She could question the girl, or find out what had triggered the alarm. The stair took precedence. She rose and moved towards it.",
+  "preservation_declaration": {
+    "protected_sentences_preserved_exactly": true,
+    "events_retained": true,
+    "global_forbidden_expressions_removed": true,
+    "minimum_word_count_requirement_met": true,
+    "new_canon_claims_added": false
+  },
+  "deferred_issues": [
+    "The passage does not yet establish what Nessa’s ticket means or why Saye is focused on it; resolving that belongs to a later scene.",
+    "The source does not confirm whether the fresh water has a natural or uncanny explanation, so the revision preserves that uncertainty."
+  ]
+}

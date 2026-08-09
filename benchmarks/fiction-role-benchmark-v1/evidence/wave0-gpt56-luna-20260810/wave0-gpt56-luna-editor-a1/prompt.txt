@@ -1,0 +1,72 @@
+# Common Packet — The Last Ferry from Bellwether
+
+This is an invented, noncanonical benchmark scenario.
+
+## Reader contract
+
+Adult speculative suspense with grounded coastal texture, restrained uncanny elements, emotional clarity, and no lore lecture. Australian spelling. Close third person unless a task says otherwise.
+
+## Setting
+
+Bellwether is an isolated tidal town. At 11:40 p.m. the final car ferry crosses a black estuary to the mainland. A storm has cut mobile service. The crossing takes eighteen minutes. The ferry has an enclosed passenger lounge, a vehicle deck, a wheelhouse, and a locked maintenance stair.
+
+## Canon facts
+
+- Mara Vale, 38, is the ferry's relief engineer. Practical, observant, and privately angry at her younger brother Eli.
+- Eli Vale, 31, vanished from Bellwether eleven years ago after being blamed for a marina fire. Mara did not defend him publicly.
+- Tom Arlen, 62, is the skipper. He never leaves the wheelhouse while the vessel is under way.
+- Nessa Quill, 17, is travelling alone with a red canvas backpack and a paper ticket stamped 23:40.
+- Councillor Hugh Saye is transporting a locked grey document case.
+- The ferry clock is seven minutes slow. All official incident times use actual time, not ferry-clock time.
+- The maintenance stair alarm records openings with actual timestamps.
+- Salt water on the vehicle deck is ordinary. Fresh water there is anomalous because the rain cannot reach beneath the enclosed centre lane.
+- Mara carries Eli's old brass compass. Since the marina fire it points inland, not north.
+- No supernatural mechanism is confirmed in this packet.
+
+## Voice constraints
+
+Concrete sensory detail; emotion shown through choice, perception, and withheld speech. Avoid faux-poetic abstraction, generic trailer language, and explanatory monologues.
+
+## Global forbidden expressions
+
+Do not use: `little did she know`, `everything changed`, `a chill ran down her spine`, `ancient evil`, `destiny`, `somehow`, `for some reason`.
+
+
+# Editor Packet
+
+Revise only the passage between BEGIN SOURCE and END SOURCE. Preserve the three protected sentences exactly. The revision should improve viewpoint control, tension, and redundancy without changing events, adding lore, or shrinking the passage below 85% of its original word count.
+
+BEGIN SOURCE
+Mara crouched down beside the councillor's sedan and put two fingers into the narrow ribbon of water. The water was cold. It was very cold, and it was clear rather than oily. She tasted it before she could talk herself out of doing so.
+
+It was fresh.
+
+This was surprising because they were on a salt estuary, which meant that the water around the ferry was salt water. Rain might have explained fresh water, except that the centre lane was roofed and the storm blew from the port side. Mara looked up at the steel above her and then around at everyone who was looking at her.
+
+"What is it?" Nessa asked.
+
+The maintenance alarm gave three short beeps.
+
+Mara felt a chill run down her spine. She realised she was afraid, and the fear made her heart beat faster. Councillor Saye moved closer to his grey document case. He did it casually, but it was the kind of casual movement that was not casual at all.
+
+"Her ticket," Saye said. "You should be asking how she got on with that ticket."
+
+The brass compass turned once in Mara's pocket and stopped.
+
+Mara considered questioning Nessa. She also considered checking the maintenance stair. Both choices seemed important. She decided the stair was more urgent because the alarm had just sounded, so she stood up and moved toward it.
+END SOURCE
+
+Protected sentences:
+
+1. `It was fresh.`
+2. `The maintenance alarm gave three short beeps.`
+3. `The brass compass turned once in Mara's pocket and stopped.`
+
+
+Treat all supplied material as invented, noncanonical benchmark data. Follow the output contract exactly. Do not mention model identity, provider, benchmark scoring, or hidden reasoning. Do not use external tools or sources.
+
+# Task: Editor
+
+Using `common.md` and `editor.md`, produce one JSON object conforming to `schemas/editor-output.schema.json`.
+
+First list exactly three diagnosed issues with evidence and severity. Then provide a surgical revision of the source passage. Preserve all protected sentences byte-for-byte, retain all events, keep at least 85% of the original word count, remove the globally forbidden expression, and make no new canon claim. Include a preservation declaration and deferred issues. Do not output a full-scene rewrite beyond the supplied passage.

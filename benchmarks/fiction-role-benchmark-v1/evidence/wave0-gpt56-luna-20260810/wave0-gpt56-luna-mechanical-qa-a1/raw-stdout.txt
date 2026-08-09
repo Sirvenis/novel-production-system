@@ -1,0 +1,48 @@
+{
+  "corrected_passage": "At 11:55 p.m., Mara leant against the wheelhouse door. Nessa's red backpack was on the deck beside her, and Councillor Hugh Saye watched it as if it might move. The grey case remained shut.\n\n\"Tom's still upstairs,\" Nessa said.\n\nMara checked Eli's compass; its needle had turned, but the reason was unclear. She wrote the time in the log as 11:55 p.m. and underlined it twice. Outside, the estuary was grey.",
+  "issues": [
+    {
+      "original": "11:55 pm",
+      "corrected": "11:55 p.m.",
+      "reason": "Corrected narrative time style."
+    },
+    {
+      "original": "wheel house",
+      "corrected": "wheelhouse",
+      "reason": "Corrected vessel terminology."
+    },
+    {
+      "original": "backpack were",
+      "corrected": "backpack was",
+      "reason": "Corrected subject–verb agreement."
+    },
+    {
+      "original": "Hugh Say",
+      "corrected": "Hugh Saye",
+      "reason": "Corrected character spelling."
+    },
+    {
+      "original": "\"Toms still upstairs,\"",
+      "corrected": "\"Tom's still upstairs,\"",
+      "reason": "Added the apostrophe in the contraction."
+    },
+    {
+      "original": "reason were",
+      "corrected": "reason was",
+      "reason": "Corrected subject–verb agreement."
+    },
+    {
+      "original": "11.55 p.m",
+      "corrected": "11:55 p.m.",
+      "reason": "Corrected time format and terminal punctuation."
+    },
+    {
+      "original": "gray",
+      "corrected": "grey",
+      "reason": "Applied Australian English spelling."
+    }
+  ],
+  "source_sha256": null,
+  "corrected_sha256": null,
+  "scope": "mechanical_only"
+}

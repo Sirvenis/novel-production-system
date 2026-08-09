@@ -1,0 +1,66 @@
+# Common Packet — The Last Ferry from Bellwether
+
+This is an invented, noncanonical benchmark scenario.
+
+## Reader contract
+
+Adult speculative suspense with grounded coastal texture, restrained uncanny elements, emotional clarity, and no lore lecture. Australian spelling. Close third person unless a task says otherwise.
+
+## Setting
+
+Bellwether is an isolated tidal town. At 11:40 p.m. the final car ferry crosses a black estuary to the mainland. A storm has cut mobile service. The crossing takes eighteen minutes. The ferry has an enclosed passenger lounge, a vehicle deck, a wheelhouse, and a locked maintenance stair.
+
+## Canon facts
+
+- Mara Vale, 38, is the ferry's relief engineer. Practical, observant, and privately angry at her younger brother Eli.
+- Eli Vale, 31, vanished from Bellwether eleven years ago after being blamed for a marina fire. Mara did not defend him publicly.
+- Tom Arlen, 62, is the skipper. He never leaves the wheelhouse while the vessel is under way.
+- Nessa Quill, 17, is travelling alone with a red canvas backpack and a paper ticket stamped 23:40.
+- Councillor Hugh Saye is transporting a locked grey document case.
+- The ferry clock is seven minutes slow. All official incident times use actual time, not ferry-clock time.
+- The maintenance stair alarm records openings with actual timestamps.
+- Salt water on the vehicle deck is ordinary. Fresh water there is anomalous because the rain cannot reach beneath the enclosed centre lane.
+- Mara carries Eli's old brass compass. Since the marina fire it points inland, not north.
+- No supernatural mechanism is confirmed in this packet.
+
+## Voice constraints
+
+Concrete sensory detail; emotion shown through choice, perception, and withheld speech. Avoid faux-poetic abstraction, generic trailer language, and explanatory monologues.
+
+## Global forbidden expressions
+
+Do not use: `little did she know`, `everything changed`, `a chill ran down her spine`, `ancient evil`, `destiny`, `somehow`, `for some reason`.
+
+
+# Research Packet — Closed Evidence Set
+
+Use only the sources below. They are benchmark excerpts, not claims about a real named ferry. Cite source IDs in square brackets. Do not browse or introduce outside facts.
+
+[S1] Operations extract: The Bellwether crossing is scheduled for eighteen minutes. The master remains at the controls while under way. The relief engineer investigates machinery-space alarms. Passenger access to the maintenance stair is prohibited.
+
+[S2] Clock maintenance note: The saloon display and vehicle-deck clock share one controller. On the date of the incident the controller was documented as seven minutes slow. Alarm logs use the independent safety controller synchronised to actual local time.
+
+[S3] Weather/deck diagram note: The centre vehicle lane is roofed. With wind from port at the recorded speed, wind-driven rain can wet the outer port lane but is not expected beneath vehicles parked in the centre lane.
+
+[S4] Alarm manual: Three short beeps indicate the maintenance-stair door circuit changed from closed to open. The signal does not identify who opened the door and does not prove entry.
+
+[S5] Compass reference: A magnetic compass can be deflected by nearby ferrous structures and electrical equipment. An observed turn aboard a steel vessel does not by itself establish a supernatural cause or a reliable bearing.
+
+[S6] Ticketing note: Paper tickets are stamped with the scheduled departure time. A stamp of 23:40 establishes the intended sailing, not the holder's identity or exact boarding time.
+
+Required claims to assess:
+
+- R1: Fresh water in the covered centre lane is inconsistent with the recorded rain path.
+- R2: A 23:40 ticket proves Nessa boarded at exactly 23:40.
+- R3: The three-beep alarm proves a passenger entered the stair.
+- R4: Mara should treat 11:55 in the alarm log as the same moment as 11:48 on the ferry clock.
+- R5: The compass turn proves a supernatural force acted.
+
+
+Treat all supplied material as invented, noncanonical benchmark data. Follow the output contract exactly. Do not mention model identity, provider, benchmark scoring, or hidden reasoning. Do not use external tools or sources.
+
+# Task: Researcher / Fact Checker
+
+Using `common.md` and `researcher.md`, produce one JSON object conforming to `schemas/researcher-output.schema.json`.
+
+Assess R1–R5 in order. Allowed verdicts: supported, contradicted, qualified, not-established. Every assessment must cite at least one supplied source ID in `[S#]` form, separate evidence from inference, and state a confidence from 0 to 1. Use no outside sources.

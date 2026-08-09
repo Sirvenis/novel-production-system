@@ -1,0 +1,16 @@
+{
+  "role": "showrunner",
+  "started_at": "2026-08-09T21:59:43.006467+00:00",
+  "ended_at": "2026-08-09T22:00:21.448997+00:00",
+  "wall_latency_ms": 37679,
+  "cli": "EXIT 0\nSTDOUT_CHARS 8145\nSTDERR_CHARS 36",
+  "session_id": "20260810_075943_",
+  "route_parse": [
+    "gpt-5.6-luna",
+    "openai-codex",
+    "12247",
+    "1929",
+    "14176",
+    "36.3"
+  ]
+}

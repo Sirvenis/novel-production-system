@@ -1,0 +1,84 @@
+{
+  "title": "The Last Ferry from Bellwether",
+  "scene_window": {
+    "start": "11:52 p.m. actual time",
+    "end": "11:58 p.m. actual time",
+    "location": "Ferry en route from Bellwether, approaching mid-channel"
+  },
+  "escalation_curve": [
+    "Unease: Mara notices fresh water where it should not be.",
+    "Personal threat: Nessa links the anomaly to Eli.",
+    "Credibility conflict: Saye attempts to make the ticket, rather than the water, the issue.",
+    "Mechanical confirmation: The maintenance stair alarm records an opening at 11:55 p.m. actual time.",
+    "Constrained danger: Mara chooses the stair over an immediate confrontation, leaving Nessa and Saye together in the lounge."
+  ],
+  "beats": [
+    {
+      "id": "S1",
+      "purpose": "Establish the physical anomaly and place Mara in a practical investigative role.",
+      "visible_action": "At 11:52 p.m. actual time, Mara checks the vehicle deck after hearing water shift beneath the enclosed centre lane. She finds a clean, shallow spread of fresh water beneath Councillor Saye's locked grey car, separate from the ordinary salt spray near the loading ramp. She touches it, smells it, and checks the dry overhead panels before looking towards the passenger lounge.",
+      "reader_effect": "Creates grounded unease through a verifiable contradiction and makes the vehicle deck the first active mystery.",
+      "continuity_risk": "The water must remain unexplained rather than implying a confirmed supernatural source; Saye's document case must not be damaged or opened.",
+      "exit_condition": "Mara hears movement from the lounge and returns far enough to keep the car in sight while asking who has been below."
+    },
+    {
+      "id": "S2",
+      "purpose": "Connect the anomaly to Eli without allowing Eli to appear or solve the mystery.",
+      "visible_action": "Nessa stands near the lounge doorway with her red canvas backpack held against her ribs. When Mara asks why she came to Bellwether's final ferry, Nessa says Eli sent her a message that evening and told her to take the 23:40 crossing. Mara sees the paper ticket stamped 23:40 and remembers that Eli's number was disconnected eleven years ago.",
+      "reader_effect": "Turns a mechanical irregularity into a personal threat for Mara while preserving uncertainty about the message's source and Nessa's honesty.",
+      "continuity_risk": "Nessa cannot be framed as knowingly lying, and Eli cannot physically appear; the message must remain an unverified claim.",
+      "exit_condition": "Mara asks to see the message, but before Nessa can produce it, Saye interrupts from beside his car."
+    },
+    {
+      "id": "S3",
+      "purpose": "Introduce social pressure and give Saye a plausible reason to redirect the investigation.",
+      "visible_action": "Saye steps between Mara and Nessa, keeping one hand on the grey document case. He points at Nessa's ticket and insists the stamped time is inconsistent with the ferry's loading record, urging Mara to check whether she boarded after the gate closed. He does not explain why his car is wet beneath the centre lane.",
+      "reader_effect": "Creates competing explanations and makes Saye appear controlled but invested in preventing attention from settling on the car or the stair.",
+      "continuity_risk": "Saye's redirection must not prove guilt or expose the case's contents; the case remains locked and intact.",
+      "exit_condition": "Mara notices that Saye is watching the maintenance stair door rather than Nessa's ticket."
+    },
+    {
+      "id": "S4",
+      "purpose": "Force Mara's immediate choice between confronting Nessa and checking the vessel's restricted access.",
+      "visible_action": "Mara takes Eli's brass compass from her pocket. Its needle pulls inland, then trembles towards the locked maintenance stair. She hears a faint metallic knock behind the door. Tom remains in the wheelhouse, visible through the rain-streaked window, hands fixed on the controls and unable to leave while under way. Mara tells Nessa to stay in the lounge and tells Saye not to move his car.",
+      "reader_effect": "Makes the stair feel like the more urgent, tangible threat while keeping the compass suggestive rather than authoritative.",
+      "continuity_risk": "The compass may react but cannot identify a person, explain the water, or establish Eli's presence. Tom must remain in the wheelhouse.",
+      "exit_condition": "Mara chooses to check the maintenance stair before confronting Nessa about the message."
+    },
+    {
+      "id": "S5",
+      "purpose": "Confirm escalation through an official mechanical record rather than an apparition or direct revelation.",
+      "visible_action": "At 11:55 p.m. actual time, the maintenance stair alarm panel records an opening. Mara reads the timestamp against the ferry clock, which shows 11:48 because it is seven minutes slow. She finds the alarm reset but the stair door still secured from the lounge side. No one in the wheelhouse has left, and no passenger admits touching it.",
+      "reader_effect": "Converts suspicion into a documented breach while preserving multiple possible explanations: faulty access, concealed movement, or deliberate interference.",
+      "continuity_risk": "The alarm log must be accurate and use actual time; the event cannot reveal Eli or establish a supernatural mechanism.",
+      "exit_condition": "A second sound comes from below the stair door, followed by a thin run of fresh water crossing the threshold towards Mara's boots."
+    },
+    {
+      "id": "S6",
+      "purpose": "Increase danger by separating Mara from the people who may possess relevant information.",
+      "visible_action": "Mara reaches for the stair key, then stops when the lounge door bangs open behind her. Saye calls that Nessa has moved towards the passenger exit and again demands that Mara inspect the ticket. Nessa says she has not touched the stair and asks Mara whether Eli is on the other side. Mara does not accuse Nessa of knowingly lying and does not open or search Saye's locked document case.",
+      "reader_effect": "Creates a split-second trap: the physical threat is below, while the human witnesses and the possible evidence are behind Mara.",
+      "continuity_risk": "The two non-actions protect downstream canon: Nessa remains potentially truthful rather than exposed as a deliberate liar, and the document case remains intact for later chapters.",
+      "exit_condition": "The stair alarm sounds again without a new recorded opening, and the fresh water reaches the first metal step."
+    },
+    {
+      "id": "S7",
+      "purpose": "End on a decision that heightens danger while preserving ambiguity.",
+      "visible_action": "Mara wedges the stair door open with a maintenance bar and steps down alone, leaving Nessa and Saye in the lounge with the case and the ticket. She calls to Tom through the intercom but does not ask him to leave the wheelhouse. Before descending out of sight, she pockets the compass and tells Nessa to keep the passenger door shut.",
+      "reader_effect": "Ends with Mara committing to the restricted space, isolating herself from witnesses and allowing both the water and Eli's message to remain unresolved.",
+      "continuity_risk": "The stair must not reveal Eli physically, the cause of the fresh water, or a confirmed supernatural mechanism. Nessa and Saye remain available for downstream conflict, and the case stays intact.",
+      "exit_condition": "Mara's boot meets water on a stair that should be dry; below, something closes a door before she can see who or what moved."
+    }
+  ],
+  "stop_escalation_decision": {
+    "decision": "Mara checks the maintenance stair before confronting Nessa.",
+    "reason": "The alarm record and fresh water provide an immediate vessel-safety threat, while Nessa's message can still be questioned later.",
+    "danger_increased_by": "Mara descends alone, leaves two conflicting witnesses together, and gives up immediate control of the ticket and the locked case.",
+    "ambiguity_preserved_by": [
+      "Nessa's message may be genuine, forged, delayed, or sent by an unknown person.",
+      "The alarm may indicate a hidden entrant, a fault, or deliberate manipulation.",
+      "The fresh water has a physical presence but no confirmed source.",
+      "The compass reacts towards the stair without proving Eli is aboard."
+    ]
+  }
+}

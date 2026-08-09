@@ -1,0 +1,26 @@
+⚠️  Reached maximum iterations (1). Requesting summary...
+{
+  "diagnosed_issues": [
+    {
+      "issue": "The opening repeats the same sensory information and delays the anomalous detail.",
+      "evidence": "\"The water was cold. It was very cold\" and the subsequent explanation repeat rather than intensify Mara's observation.",
+      "severity": "medium"
+    },
+    {
+      "issue": "The passage states Mara's fear and the logic of her reaction directly instead of filtering them through close viewpoint.",
+      "evidence": "\"Mara felt a chill down her spine. She realised she was afraid\" and \"the fear made her heart beat faster\" explain an emotion in generic terms.",
+      "severity": "high"
+    },
+    {
+      "issue": "Several sentences explain implications that the physical evidence and character behaviour already convey.",
+      "evidence": "\"This was surprising because they were on a salt estuary\" and the explanation that Saye's movement \"was not casual at all\" reduce tension by interpreting the scene for the reader.",
+      "severity": "medium"
+    }
+  ],
+  "revised_passage": "Mara crouched beside the councillor's sedan and put two fingers into the narrow ribbon of water. It was cold, clear rather than oily. She tasted it before she could talk herself out of doing so.\n\nIt was fresh.\n\nFresh water had no business on a salt estuary. Rain might have explained it, except the centre lane was roofed, and the storm was blowing from the port side. Mara looked up at the steel above her, then around at the people watching her.\n\n\"What is it?\" Nessa asked.\n\nThe maintenance alarm gave three short beeps.\n\nMara pulled her hand from the water. Her mouth had gone dry. Councillor Saye moved closer to his grey document case, keeping one hand near its lock.\n\n\"Her ticket,\" Saye said. \"You should be asking how she got on with that ticket.\"\n\nThe brass compass turned once in Mara's pocket and stopped.\n\nMara could question Nessa. She could check the maintenance stair. The alarm had sounded; that made the stair the choice she could not put off. She stood and moved towards it.",
+  "preservation_declaration": "The three protected sentences are preserved byte-for-byte. All source events are retained: Mara samples the water; the water is fresh beneath the enclosed centre lane; Nessa asks what it is; the maintenance alarm sounds three times; Mara reacts with fear; Saye approaches and protects the document case; he redirects attention to Nessa's ticket; Eli's compass turns and stops; Mara chooses to inspect the maintenance stair before questioning Nessa.",
+  "deferred_issues": [
+    "The passage does not establish what opened the maintenance stair or whether Nessa's ticket is authentic; those questions should remain unresolved here.",
+    "The broader conflict between Mara and Eli is outside this supplied passage and should not be introduced during this revision."
+  ]
+}

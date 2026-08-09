@@ -1,0 +1,67 @@
+{
+  "role": "editor",
+  "attempt": 2,
+  "extraction": {
+    "removed_cli_prefix": true,
+    "raw_sha256": "caf6bc9c8ca928cb38db4eada423078467752de323b299e29d49cda6753fe477",
+    "submission_sha256": "2c8559995fd8849982827591c7090a76d048f7ce741af26bb1a24f64779b2d4e"
+  },
+  "custom_validator": {
+    "role": "editor",
+    "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1/runs/wave0-gpt56-luna-editor-a2/submission.json",
+    "hard_failures": [
+      "required top-level JSON fields missing",
+      "protected sentence changed or removed",
+      "revision shrank below 85% preservation floor",
+      "editor must provide exactly three diagnoses"
+    ],
+    "warnings": [
+      "revision may have removed source events"
+    ],
+    "checks": {
+      "missing_top_level_fields": [
+        "diagnoses",
+        "revised_text",
+        "preservation"
+      ],
+      "protected_missing": [
+        "It was fresh.",
+        "The maintenance alarm gave three short beeps.",
+        "The brass compass turned once in Mara's pocket and stopped."
+      ],
+      "word_retention": 0.0,
+      "diagnosis_count": 0,
+      "event_markers_missing": [
+        "Nessa",
+        "Saye",
+        "document case",
+        "maintenance alarm",
+        "compass",
+        "maintenance stair"
+      ],
+      "global_forbidden_hits": []
+    },
+    "penalty": 10,
+    "eligible": false
+  },
+  "json_schema_errors": [
+    {
+      "path": "",
+      "message": "Additional properties are not allowed ('diagnosed_issues', 'preservation_declaration', 'revision' were unexpected)"
+    },
+    {
+      "path": "",
+      "message": "'diagnoses' is a required property"
+    },
+    {
+      "path": "",
+      "message": "'revised_text' is a required property"
+    },
+    {
+      "path": "",
+      "message": "'preservation' is a required property"
+    }
+  ],
+  "schema_ok": false,
+  "eligible": false
+}

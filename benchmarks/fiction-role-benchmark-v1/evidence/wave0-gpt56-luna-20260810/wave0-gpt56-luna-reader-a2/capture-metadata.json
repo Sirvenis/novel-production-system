@@ -1,0 +1,18 @@
+{
+  "role": "reader",
+  "attempt": 2,
+  "started_at": "2026-08-09T22:05:25.929552+00:00",
+  "ended_at": "2026-08-09T22:05:46.147837+00:00",
+  "wall_latency_ms": 19680,
+  "cli": "EXIT 0 OUT 2909 ERR 36",
+  "session_id": "20260810_080526_7aa616",
+  "route_parse": [
+    "gpt-5.6-luna",
+    "openai-codex",
+    "1604",
+    "857",
+    "2461",
+    "17.1"
+  ],
+  "tool_turns": 0
+}

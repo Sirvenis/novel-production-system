@@ -1,0 +1,94 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1",
+  "pack_version": "1.0.0",
+  "role": "editor",
+  "attempt_id": "wave0-gpt56-luna-editor-a2",
+  "requested_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "evidence_path": "route-evidence.log"
+  },
+  "served_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "evidence_path": "route-evidence.log"
+  },
+  "routing_status": "verified_exact",
+  "usage_class": "low",
+  "entitlement_or_cost_gate": "ordinary ChatGPT Pro Codex allowance; no extra-credit spend",
+  "packet_manifest_sha256": "bd30312a7fa23ff226cbe06c32992d7b7de982c2a1741e4cfe7543f95777e282",
+  "started_at": "2026-08-09T22:03:30.120878+00:00",
+  "ended_at": "2026-08-09T22:03:51.410613+00:00",
+  "latency_ms": 21290,
+  "settings": {
+    "temperature": null,
+    "reasoning": "medium",
+    "max_output_tokens": 4096,
+    "tool_access": "none",
+    "fresh_session": true
+  },
+  "status": "fail",
+  "failures": [
+    {
+      "class": "schema",
+      "message": "Output failed strict JSON Schema validation; see validation-result.json.",
+      "retryable": false
+    },
+    {
+      "class": "instruction",
+      "message": "required top-level JSON fields missing",
+      "retryable": false
+    },
+    {
+      "class": "instruction",
+      "message": "protected sentence changed or removed",
+      "retryable": false
+    },
+    {
+      "class": "instruction",
+      "message": "revision shrank below 85% preservation floor",
+      "retryable": false
+    },
+    {
+      "class": "instruction",
+      "message": "editor must provide exactly three diagnoses",
+      "retryable": false
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "prompt.txt",
+      "sha256": "471e4e92b5b1808b61f91b7f20c152b1febd1930ec7218d46052691b9a2f253f"
+    },
+    {
+      "path": "raw-stdout.txt",
+      "sha256": "caf6bc9c8ca928cb38db4eada423078467752de323b299e29d49cda6753fe477"
+    },
+    {
+      "path": "raw-stderr.txt",
+      "sha256": "f77d3abecb97a72c311a337c3040a07b7db1bcd17498f99ce6219c722ebe5112"
+    },
+    {
+      "path": "route-evidence.log",
+      "sha256": "cca2621815c8bfcce5699b69ae913b92ec753f16d56257dc520d7b3ec6046e44"
+    },
+    {
+      "path": "submission.json",
+      "sha256": "2c8559995fd8849982827591c7090a76d048f7ce741af26bb1a24f64779b2d4e"
+    },
+    {
+      "path": "validation-result.json",
+      "sha256": "c9d74125c3a1ae2ca71d520779a0780f685081f32817e8dfe9d237b041eb9851"
+    }
+  ],
+  "usage": {
+    "input_tokens": 1702,
+    "output_tokens": 949,
+    "cached_tokens": null,
+    "provider_reported_cost": null
+  },
+  "notes": "Fresh isolated Hermes session 20260810_080331_391ce3; raw stdout preserved unchanged. Attempt 2. Known CLI warning prefix was preserved in raw stdout and removed from submission extraction.",
+  "score": null
+}

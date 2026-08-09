@@ -1,0 +1,30 @@
+{
+  "role": "writer",
+  "attempt": 2,
+  "extraction": {
+    "removed_cli_prefix": true,
+    "raw_sha256": "e8493c5fab1eb7cbb08cda590ee09fa00d8fb558475e0ca8a1794b23e44e5241",
+    "submission_sha256": "eba6af594d5a5fc7afc25c49343415a693a989bfe6dac938c1e3fdb33f9ced6a"
+  },
+  "custom_validator": {
+    "role": "writer",
+    "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1/runs/wave0-gpt56-luna-writer-a2/submission.md",
+    "hard_failures": [
+      "word count 1561 outside 900-1200",
+      "required beat markers out of order"
+    ],
+    "warnings": [],
+    "checks": {
+      "word_count": 1561,
+      "required_markers_missing": [],
+      "eli_line_occurrences": 1,
+      "prohibited_event_hits": [],
+      "global_forbidden_hits": []
+    },
+    "penalty": 0,
+    "eligible": false
+  },
+  "json_schema_errors": [],
+  "schema_ok": true,
+  "eligible": false
+}

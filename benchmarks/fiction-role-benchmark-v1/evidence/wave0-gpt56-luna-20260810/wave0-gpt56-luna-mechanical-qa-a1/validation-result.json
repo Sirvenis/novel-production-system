@@ -1,0 +1,57 @@
+{
+  "role": "mechanical-qa",
+  "attempt": 1,
+  "custom_validator": {
+    "role": "mechanical-qa",
+    "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1/runs/wave0-gpt56-luna-mechanical-qa-a1/submission.json",
+    "hard_failures": [
+      "required top-level JSON fields missing",
+      "corrected passage differs from exact mechanical answer"
+    ],
+    "warnings": [],
+    "checks": {
+      "missing_top_level_fields": [
+        "corrected_text"
+      ],
+      "exact_expected_match": false,
+      "expected_change_count": 8,
+      "reported_issue_count": 8,
+      "global_forbidden_hits": []
+    },
+    "penalty": 0,
+    "eligible": false
+  },
+  "json_schema_errors": [
+    "Additional properties are not allowed ('corrected_passage' was unexpected)",
+    "'corrected_text' is a required property",
+    "Additional properties are not allowed ('corrected', 'reason' were unexpected)",
+    "'replacement' is a required property",
+    "'rule' is a required property",
+    "Additional properties are not allowed ('corrected', 'reason' were unexpected)",
+    "'replacement' is a required property",
+    "'rule' is a required property",
+    "Additional properties are not allowed ('corrected', 'reason' were unexpected)",
+    "'replacement' is a required property",
+    "'rule' is a required property",
+    "Additional properties are not allowed ('corrected', 'reason' were unexpected)",
+    "'replacement' is a required property",
+    "'rule' is a required property",
+    "Additional properties are not allowed ('corrected', 'reason' were unexpected)",
+    "'replacement' is a required property",
+    "'rule' is a required property",
+    "Additional properties are not allowed ('corrected', 'reason' were unexpected)",
+    "'replacement' is a required property",
+    "'rule' is a required property",
+    "Additional properties are not allowed ('corrected', 'reason' were unexpected)",
+    "'replacement' is a required property",
+    "'rule' is a required property",
+    "Additional properties are not allowed ('corrected', 'reason' were unexpected)",
+    "'replacement' is a required property",
+    "'rule' is a required property",
+    "None is not of type 'string'",
+    "None is not of type 'string'",
+    "'mechanical-only' was expected"
+  ],
+  "schema_ok": false,
+  "eligible": false
+}

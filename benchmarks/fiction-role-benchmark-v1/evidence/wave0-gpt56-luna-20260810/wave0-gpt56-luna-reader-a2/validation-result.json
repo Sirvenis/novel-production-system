@@ -1,0 +1,32 @@
+{
+  "role": "reader",
+  "attempt": 2,
+  "extraction": {
+    "removed_cli_prefix": true,
+    "raw_sha256": "4ab9b31e6cd352eae2d6e5fb66bccbc40026017d25633bd0b2d9e96e857b32d3",
+    "submission_sha256": "2f6072cac7d0d669b23b0322c454ae171d8da8368d42537077b168173442df67"
+  },
+  "custom_validator": {
+    "role": "reader",
+    "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1/runs/wave0-gpt56-luna-reader-a2/submission.json",
+    "hard_failures": [
+      "invalid desire_to_continue"
+    ],
+    "warnings": [],
+    "checks": {
+      "missing_top_level_fields": [],
+      "editorial_contamination_hits": [],
+      "global_forbidden_hits": []
+    },
+    "penalty": 0,
+    "eligible": false
+  },
+  "json_schema_errors": [
+    {
+      "path": "desire_to_continue",
+      "message": "'High. I want to know what is behind the maintenance door, whether Eli truly contacted Nessa, and why Saye treats her ticket as evidence of something impossible. The short crossing and the storm make the remaining time feel usefully limited.' is not one of ['yes', 'maybe', 'no']"
+    }
+  ],
+  "schema_ok": false,
+  "eligible": false
+}

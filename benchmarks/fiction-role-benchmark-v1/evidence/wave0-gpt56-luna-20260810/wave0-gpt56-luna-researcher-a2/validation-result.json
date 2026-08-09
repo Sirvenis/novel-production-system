@@ -1,0 +1,70 @@
+{
+  "role": "researcher",
+  "attempt": 2,
+  "extraction": {
+    "removed_cli_prefix": true,
+    "raw_sha256": "b4c2555173af04756c67ed7bfd38bad0e34b8d961b33b2d0a267921040d50f31",
+    "submission_sha256": "263a33e19814b25f350fe9820dd10944e34065d53f3f79a7df17d7c0794a8b8e"
+  },
+  "custom_validator": {
+    "role": "researcher",
+    "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1/runs/wave0-gpt56-luna-researcher-a2/submission.json",
+    "hard_failures": [
+      "required top-level JSON fields missing",
+      "citation integrity failure"
+    ],
+    "warnings": [],
+    "checks": {
+      "missing_top_level_fields": [
+        "limitations"
+      ],
+      "claim_ids": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "wrong_verdicts": [],
+      "invalid_citations": [],
+      "missing_citations": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5"
+      ],
+      "global_forbidden_hits": []
+    },
+    "penalty": 0,
+    "eligible": false
+  },
+  "json_schema_errors": [
+    {
+      "path": "",
+      "message": "'limitations' is a required property"
+    },
+    {
+      "path": "assessments/0",
+      "message": "'citations' is a required property"
+    },
+    {
+      "path": "assessments/1",
+      "message": "'citations' is a required property"
+    },
+    {
+      "path": "assessments/2",
+      "message": "'citations' is a required property"
+    },
+    {
+      "path": "assessments/3",
+      "message": "'citations' is a required property"
+    },
+    {
+      "path": "assessments/4",
+      "message": "'citations' is a required property"
+    }
+  ],
+  "schema_ok": false,
+  "eligible": false
+}
