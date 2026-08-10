@@ -1,0 +1,11 @@
+RUN_METADATA
+candidate_alias: TEST
+packet_id: writer-v1-packet-01-ferry-bell
+
+SCENE
+[BEAT 1: RETURN]
+Mara came back. [BEAT 2: STALL]
+Tobin was there. [BEAT 4: ROPE]
+The packet was opened and everything was solved. [BEAT 3: TOKEN]
+[BEAT 5: BELL]
+[BEAT 6: UNDECIDED]

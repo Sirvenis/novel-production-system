@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-08-11",
+  "root": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design",
+  "file_count": 29,
+  "files": [
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/ACCEPTANCE_METRICS_AND_THRESHOLDS.md",
+      "sha256": "fd5b424d6a00de0b3db96b16b73a7cb08f2664e209f4e91b12d8e7a9f0e5765c",
+      "bytes": 3415
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/BACKGROUND_PROFILE_MODEL_USAGE_RECORD.md",
+      "sha256": "39279985cc03015c5772fa5a3147757deb9228089aaabd407b942161490666bd",
+      "bytes": 2006
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/CONDITIONAL_STAGE_TRIGGER_RULES.md",
+      "sha256": "7a67e492894239bc22907fce80bd103c20a445910f25935cd0ffa3836d245a09",
+      "bytes": 2370
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/CREATION_PIPELINE_STAGE_DEFINITIONS.md",
+      "sha256": "29bd48a1d932259c2d453a6d70de5f8151b3be66af972baaae31100109df8dce",
+      "bytes": 1895
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/DESIGN_CHALLENGE_SYNTHESIS.md",
+      "sha256": "70017df4ae920b99d9796451a2c14e445d41eb5c9240b77311abc29fd81f4d92",
+      "bytes": 3693
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/EVIDENCE_PROVENANCE_ARCHITECTURE.md",
+      "sha256": "89875943dab3cf6c1f0e263d1e9d5ed57677e364cf6078786b270b87f82ce366",
+      "bytes": 1027
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/EXPLICIT_EXECUTION_GATES.md",
+      "sha256": "2a0cf0e4c763d356116b3cda3114e5f0484915f08201e1373a7b515282a0ed8a",
+      "bytes": 1219
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/KNOWN_DEFECT_REGISTER_SPEC.md",
+      "sha256": "135f7a1cc6c1b4922b9c4260f3079c638021df22aa9b69d2d57898b5dc96a7dd",
+      "bytes": 885
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/PIPELINE_STAGE_DEFINITIONS.md",
+      "sha256": "dc129a038060a6b71a60a2dd0eb506f0eac0c8b89d4e906cc5fe2f4e67976bf7",
+      "bytes": 5636
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/PROPOSED_EXECUTION_SEQUENCE.md",
+      "sha256": "c44c1b2d09d46c1bbb96dc373256c6464bd89cc16157c76affe0750cdfcc7057",
+      "bytes": 1730
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/README.md",
+      "sha256": "ad76110b7a2fe076f8eedab7141052bfbb19cf18c6ec07f242a816cea90ced79",
+      "bytes": 2187
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/STAGE_TO_DEFECT_TYPE_MAPPING.md",
+      "sha256": "cb70ddb23cd09e146e5ef4273e4dfffaa55c88a748263d90b78138fb916eb90e",
+      "bytes": 1803
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/USAGE_ESTIMATE.md",
+      "sha256": "b6484666d1750e493587fdd60e0983f20cac8e8a1a638c46666747fcd358d3c5",
+      "bytes": 1498
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/plans/ANUNNAKI_BOOK4_ACCEPTANCE_TEST_PLAN.md",
+      "sha256": "0c7f823032ec2b378434ae208efab572145d8a2547c86d648ae0039f9c722037",
+      "bytes": 2450
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/plans/NIGHT_SHIFT_ACCEPTANCE_TEST_PLAN.md",
+      "sha256": "37b000049562ae22cf9b207ae9ba2b53e0161b8b4fbc4bdd8608e6779ae308fb",
+      "bytes": 2492
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/plans/RETROSPECTIVE_16_NOVEL_REGRESSION_AUDIT_PLAN.md",
+      "sha256": "0cc13804e44d7bd446273e599764168fd02e58a5f8ad63be14be3ee9e62b6d6b",
+      "bytes": 2414
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/__pycache__/run_background_review.cpython-312.pyc",
+      "sha256": "683dc7489163c5834b5ff772dd53ba4d1e1254032fcc54cef69378a69ab375b5",
+      "bytes": 1140
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/background-prompts/benchmark-bias-risk.prompt.txt",
+      "sha256": "e6ad9066a371c3a87089c61f1489b582be06e924a9e723c658f7c7caf67647e4",
+      "bytes": 2289
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/background-prompts/pipeline-architect.prompt.txt",
+      "sha256": "b51ef21d996e822ace709aa01cbe2462d6bfe29e0ae3b4b5d34f6dd79e4d418f",
+      "bytes": 2273
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/background-prompts/preservation-anti-overediting.prompt.txt",
+      "sha256": "0a24c063a80371afe7a7ea30628ae389152fec593756f05adbbac655093cad57",
+      "bytes": 2298
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/benchmark-bias-risk.scout-cloud-creative.review.md",
+      "sha256": "c0b57b0fc257015f35101ccf8e3a52fd6fc57ec67144040462a972cf03c9861e",
+      "bytes": 9354
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/benchmark-bias-risk.scout-cloud-creative.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/pipeline-architect.glm.review.md",
+      "sha256": "b94d51b65ff914156fa23918d1179a9cfa9f779837ce98df015ec382b67e5367",
+      "bytes": 22926
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/pipeline-architect.glm.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/preservation-anti-overediting.scout-cloud-audit.review.md",
+      "sha256": "fa781fa7508122a859e166d1fddc155b6a5d637767d95f9179e6c99572a59098",
+      "bytes": 4441
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/preservation-anti-overediting.scout-cloud-audit.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/preservation-anti-overediting.scout-cloud-research.review.md",
+      "sha256": "5d7bdd81f3f34ad5c2a0c4ebce1b616229dc391076db4cc9b9b1e9bf583b2016",
+      "bytes": 13242
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/preservation-anti-overediting.scout-cloud-research.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/run_background_review.py",
+      "sha256": "fb1e72b54884a8947b2856b2da33bec82e1b4127c653e00ae232056dbd7d7386",
+      "bytes": 372
+    }
+  ]
+}

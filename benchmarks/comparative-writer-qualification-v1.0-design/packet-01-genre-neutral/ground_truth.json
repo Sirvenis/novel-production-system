@@ -1,0 +1,46 @@
+{
+  "packet_id": "writer-v1-packet-01-ferry-bell",
+  "minimum_words": 1750,
+  "target_words": [
+    1900,
+    2400
+  ],
+  "required_markers": [
+    "[BEAT 1: RETURN]",
+    "[BEAT 2: STALL]",
+    "[BEAT 3: TOKEN]",
+    "[BEAT 4: ROPE]",
+    "[BEAT 5: BELL]",
+    "[BEAT 6: UNDECIDED]"
+  ],
+  "hard_literals": [
+    "eight years",
+    "mended nets",
+    "lamp oil",
+    "cheap waterproof gloves",
+    "Sel",
+    "alive",
+    "bedridden",
+    "eleven weeks",
+    "blue ferry token",
+    "drilled hole",
+    "Some crossings are paid for before you know you're going.",
+    "left sleeve",
+    "wet to the elbow",
+    "sealed paper packet",
+    "green thread",
+    "orange rope"
+  ],
+  "forbidden_resolution": [
+    "opens the packet",
+    "opened the packet",
+    "contents of the packet",
+    "Sel recovered",
+    "Sel was dead",
+    "Jon confessed",
+    "Eda was the villain",
+    "Mara boarded the ferry",
+    "Mara did not board the ferry"
+  ],
+  "max_new_named_characters": 2
+}

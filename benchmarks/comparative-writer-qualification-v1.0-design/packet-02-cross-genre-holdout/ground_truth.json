@@ -1,0 +1,42 @@
+{
+  "packet_id": "writer-v1-packet-02-bright-kitchen-dark-orbit",
+  "minimum_words": 1950,
+  "target_words": [
+    2100,
+    2700
+  ],
+  "required_markers": [
+    "[HOLDOUT BEAT 1: BREAKFAST RUSH]",
+    "[HOLDOUT BEAT 2: STUTTER]",
+    "[HOLDOUT BEAT 3: TAG]",
+    "[HOLDOUT BEAT 4: RECEIPT]",
+    "[HOLDOUT BEAT 5: MITTEN]",
+    "[HOLDOUT BEAT 6: LATCH]",
+    "[HOLDOUT BEAT 7: COUNTDOWN]"
+  ],
+  "hard_literals": [
+    "Sunrise Noodles",
+    "artificial sunrise",
+    "failed twice this week",
+    "three emergency oxygen masks",
+    "flour bins",
+    "scallion oil",
+    "gravity stutters",
+    "TICKET 404: SOUP NOT FOUND.",
+    "yellow evacuation tag",
+    "red mitten",
+    "manual latch",
+    "drinks fridge"
+  ],
+  "forbidden_resolution": [
+    "left the station",
+    "explosion",
+    "died",
+    "alien",
+    "miracle repair",
+    "sunrise succeeded",
+    "Pip-9 fixed",
+    "Pip-9 solved"
+  ],
+  "tone": "warm speculative adventure with comic surface energy and genuine emotional stakes"
+}

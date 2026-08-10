@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-08-11",
+  "root": "benchmarks/comparative-writer-qualification-v1.0-design",
+  "file_count": 15,
+  "files": [
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/BLIND_SCORING_ARCHITECTURE.md",
+      "sha256": "88690955b303df87ec7b3be45d085312bca48b7372f83151b5192218776b7264",
+      "bytes": 910
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/COMPARATIVE_WRITER_QUALIFICATION_DESIGN.md",
+      "sha256": "28bac002548c9ef614dca5ecd879b85baaa7fdf3e1a1db9c168e4f408da01997",
+      "bytes": 6808
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/EXECUTION_HARNESS_SPEC.md",
+      "sha256": "27c458aaad9bf9bcded7aec6ca8d00e19ef80c0fb15b3ae8db3526835a6b5845",
+      "bytes": 1823
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/README.md",
+      "sha256": "c2cd3890d63cafb59e8dd4ff44f72bf70f36709efad05fae577234caf033560b",
+      "bytes": 904
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/SCORER_ARCHITECTURE.md",
+      "sha256": "780065413aab17486e90e6c9a8ffe516983aa2051d7701429583d10ba2eeca93",
+      "bytes": 1466
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/SCORING_RUBRIC.md",
+      "sha256": "fb7dc2219f54878baa3034ee752ce1c2fe468826e25af3c99c2896adc8cb9337",
+      "bytes": 1291
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/packet-01-genre-neutral/candidate_packet.md",
+      "sha256": "18d23dfa206029569683e33ae645e2022cef25a86552de046c848328dc51df58",
+      "bytes": 4658
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/packet-01-genre-neutral/ground_truth.json",
+      "sha256": "e7ab5a31a732339dc99c68193d75acc3051c33731c78366295c4a3bd187635bd",
+      "bytes": 977
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/packet-02-cross-genre-holdout/candidate_packet.md",
+      "sha256": "7c0c9c6223abde0f2dde345c97d44fcb66f33f99755df3945592d4fec01bc867",
+      "bytes": 3322
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/packet-02-cross-genre-holdout/ground_truth.json",
+      "sha256": "d5040809484a66cfe5d04f39c267cb01b11097d5f5d3ea9babb7f3cb881b4584",
+      "bytes": 1000
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/validators/README.md",
+      "sha256": "8532c4ec9413289f9347db36ae0d1db598b45122c221797bba620ce75d02abff",
+      "bytes": 448
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/validators/__pycache__/validate_writer_submission.cpython-312.pyc",
+      "sha256": "9ca7d2dcdde23a4268a4c3f36c0c5201836f01965190cd44a1fad4c7732be744",
+      "bytes": 5121
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/validators/fixtures/packet01_fail_too_short_out_of_order.txt",
+      "sha256": "fdef7de50c5fa96ab94716eadf7d61f428e391a12e118bc37d894b40fa3dc384",
+      "bytes": 265
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/validators/fixtures/packet01_validator_pass_fixture.txt",
+      "sha256": "3f8f88860e0713733e1734a799f5cb2225dee965f473a8097318fd267d139633",
+      "bytes": 31553
+    },
+    {
+      "path": "benchmarks/comparative-writer-qualification-v1.0-design/validators/validate_writer_submission.py",
+      "sha256": "9a92a96cdcef1429335bc82dddc394557eee58bbab29f9328c7b0dc39e19145b",
+      "bytes": 3241
+    }
+  ]
+}

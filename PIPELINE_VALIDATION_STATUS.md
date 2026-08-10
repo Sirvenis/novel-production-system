@@ -144,3 +144,31 @@ Verified portfolio result: 16 Library-ready novels plus two complete novel-lengt
 The audit recommends, but does not authorise, a fresh controlled Writer comparison of GPT-5.5 vs Kimi K2.6 vs GLM-5.2 followed by a cross-genre holdout for survivors. No benchmark was executed, no GLM fiction test was run, and no role assignment, prose, model policy, profile, routing, runtime, configuration, or web project changed.
 
 Current gate: stop for Andrew / Arden review and candidate selection.
+
+## Planning phase: Writer qualification + real-manuscript acceptance architecture
+
+Andrew / Arden authorised design-only planning for two workstreams. Scout completed and froze the design package without crossing execution gates.
+
+Workstream A deliverables live under `benchmarks/comparative-writer-qualification-v1.0-design/`:
+
+- comparative Writer qualification design;
+- frozen Packet 01: genre-neutral `The Ferry Bell`;
+- frozen Packet 02: cross-genre transfer holdout `Bright Kitchen, Dark Orbit`;
+- deterministic validator and fixtures;
+- blind scoring/scorer architecture;
+- execution harness specification;
+- packet/hash manifest.
+
+Workstream B deliverables live under `acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/`:
+
+- Novel Production Pipeline Acceptance Programme;
+- Night Shift recovery-test plan;
+- Anunnaki Book 4 preservation/restraint-test plan;
+- 16-novel retrospective diagnosis/audit-only regression plan;
+- stage definitions, conditional triggers, defect mapping, known-defect register spec, acceptance metrics, provenance architecture, usage estimate, challenge synthesis, explicit gates, and hash manifest.
+
+Independent challenge reviews were run via GLM-5.2, Kimi K2.6, and Qwen3.5 cloud profiles. One DeepSeek V3.2 profile attempt failed because the model is retired (HTTP 410), and that failure is preserved as provenance. Reviews were design challenges only, not controlled benchmark evidence.
+
+Validation report: `reports/NOVEL_PRODUCTION_SYSTEM_DESIGN_VALIDATION_2026-08-11.md`. Planning-phase report: `reports/NOVEL_PRODUCTION_SYSTEM_PLANNING_PHASE_DESIGN_2026-08-11.md`.
+
+Current gate: STOP. Andrew / Arden must review and approve before any Writer cell, Night Shift processing, Anunnaki Book 4 processing, or 16-novel regression audit runs. No canonical prose, model policy, role assignment, Hermes config, deployment, payment, or VPS infrastructure changed.
