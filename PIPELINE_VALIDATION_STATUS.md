@@ -121,6 +121,14 @@ Both cells used exact `gpt-5.6-luna / openai-codex` through `gpt56-luna`, with 0
 
 Full report: `reports/FICTION_ROLE_BENCHMARK_WAVE1C_2026-08-10.md`. Canonical evidence: `benchmarks/fiction-role-benchmark-v1.2-wave1c-holdout/evidence/wave1c-gpt56-luna-20260810/`.
 
+## Final role disposition and Showrunner compliance gate
+
+Andrew / Arden accepted the Wave 1C evidence and fixed the role disposition: Mechanical QA and Fresh Reader approved for bounded production assignment; Editor approved only with explicit `diagnosis-only` or `authorised surgical revision` scope; Continuity approved as a bounded secondary audit; Researcher rejected and closed to rerun/re-prompting unless explicitly reconsidered; Writer remains `WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION`.
+
+One final Showrunner-only compliance gate then ran on a separately frozen fresh package. The single `gpt-5.6-luna / openai-codex` candidate attempt used 0 tools, served the exact route, passed the exact `additionalProperties: false` schema with no `$schema` or other structural contamination, and scored 98/100 in blind substantive review with no material regression. The binary gate passed.
+
+Recommendation only: `SHOWRUNNER — ELIGIBLE FOR ANDREW / ARDEN FINAL PRODUCTION-ASSIGNMENT APPROVAL.` No assignment or policy change has occurred. Full report: `reports/FINAL_SHOWRUNNER_COMPLIANCE_GATE_2026-08-10.md`. Evidence: `benchmarks/fiction-role-benchmark-v1.3-final-showrunner-compliance-gate/`.
+
 ## Immediate next gate
 
-Stop for Andrew / Arden's final Wave 1C production-assignment review. Do not assign Researcher or Showrunner to production, rerun Writer, test extra-credit models, promote Luna universally, enable automatic routing, change production model policy/profile/configuration/runtime state, alter canonical prose, or begin unrelated work.
+Stop for Andrew's final production-assignment decision on Showrunner. Do not implement the recommendation, reopen Researcher/Writer testing, rerun any approved role, test extra models, promote Luna universally, enable automatic routing, change production model policy/profile/configuration/runtime state, or alter canonical prose.

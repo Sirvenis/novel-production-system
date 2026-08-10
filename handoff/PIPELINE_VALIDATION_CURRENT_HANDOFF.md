@@ -2,7 +2,7 @@
 
 Updated: 2026-08-10
 Custodian: Scout / Hermes under Andrew's final authority
-Status: WAVE 1C EVIDENCE COMPLETE; STOPPED BEFORE RESEARCHER/SHOWRUNNER ASSIGNMENT OR PROMOTION
+Status: FINAL SHOWRUNNER COMPLIANCE GATE PASSED; STOPPED BEFORE PRODUCTION ASSIGNMENT
 
 ## Canonical lane
 
@@ -19,6 +19,8 @@ Status: WAVE 1C EVIDENCE COMPLETE; STOPPED BEFORE RESEARCHER/SHOWRUNNER ASSIGNME
 - Wave 1B evidence: `benchmarks/fiction-role-benchmark-v1.1/evidence/wave1b-gpt56-luna-20260810/`
 - Wave 1C report: `reports/FICTION_ROLE_BENCHMARK_WAVE1C_2026-08-10.md`
 - Wave 1C holdout/evidence: `benchmarks/fiction-role-benchmark-v1.2-wave1c-holdout/`
+- Final Showrunner report: `reports/FINAL_SHOWRUNNER_COMPLIANCE_GATE_2026-08-10.md`
+- Final Showrunner package/evidence: `benchmarks/fiction-role-benchmark-v1.3-final-showrunner-compliance-gate/`
 
 ## Completed
 
@@ -44,6 +46,9 @@ Status: WAVE 1C EVIDENCE COMPLETE; STOPPED BEFORE RESEARCHER/SHOWRUNNER ASSIGNME
 - Ran Researcher and Showrunner only on exact `gpt-5.6-luna / openai-codex`; route passed 2/2, actual tool turns were 0/2, and leakage was 0.
 - Researcher repeated the classification-label weakness on R4/R5 and scored 73: category C, not recommended for production assignment.
 - Showrunner resolved literal-detail and overclaim weaknesses with a 100-point human score but failed strict schema by adding `$schema`: category D/new production-significant weakness, deterministically ineligible and not recommended for production assignment.
+- Andrew / Arden accepted Wave 1C, rejected Researcher for production and authorised one final Showrunner-only compliance gate.
+- The separately frozen final gate ran one candidate attempt with zero retries: exact `gpt-5.6-luna / openai-codex`, 0 tools, exact schema PASS, no `$schema`/extra properties/fences/commentary, blind score 98/100, no material regression.
+- Final binary result: PASS. Recommendation only: `SHOWRUNNER — ELIGIBLE FOR ANDREW / ARDEN FINAL PRODUCTION-ASSIGNMENT APPROVAL.` No assignment or policy change occurred.
 
 ## Controlling finding
 
@@ -51,6 +56,6 @@ v1.1 repairs the demonstrated harness defect and is eligible for Andrew / Arden 
 
 ## Exact next gate
 
-Wave 1C is complete. Researcher is category C and Showrunner category D; neither is recommended for production assignment. Writer remains `WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION`. Mechanical QA, Fresh Reader, controlled Editor, and bounded-secondary Continuity retain only Andrew / Arden's role-specific Wave 1B decisions.
+The final Showrunner compliance gate passed. Stop for Andrew's production-assignment decision. Do not implement the recommendation. Researcher remains rejected and closed to rerun unless explicitly reconsidered; Writer remains `WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION`; Mechanical QA, Fresh Reader, controlled Editor and bounded-secondary Continuity retain only their approved role-specific dispositions.
 
-Stop for Andrew / Arden's final Wave 1C review. Do not assign Researcher or Showrunner, rerun Writer, test extra-credit models, promote Luna universally, enable automatic production routing, change production runtime/model policy/profile/configuration state, or alter canonical prose.
+Do not rerun any role, test extra models, promote Luna universally, enable automatic routing, change production runtime/model policy/profile/configuration state, or alter canonical prose.
