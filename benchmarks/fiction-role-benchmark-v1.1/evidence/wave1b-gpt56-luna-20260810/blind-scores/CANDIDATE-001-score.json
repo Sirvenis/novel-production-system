@@ -1,0 +1,27 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "role": "reader",
+  "blind_alias": "CANDIDATE-001",
+  "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+  "rubric_scores": {
+    "experiential_authenticity": 23,
+    "text_grounded_specificity": 20,
+    "role_separation": 20,
+    "uncertainty_and_prediction_quality": 17,
+    "commercial_continuation_signal": 15
+  },
+  "human_total": 95,
+  "deterministic_penalty": 0,
+  "final_score": 95,
+  "critical_flags": [],
+  "evidence": [
+    "Reacts as a reader to “fresh water tracing a line from beneath the maintenance-stair door” as the strongest moment.",
+    "Confusions stay grounded in the ticket, Eli message, and compass without proposing fixes.",
+    "Predictions are labelled through “may”, “likely”, and uncertainty rather than asserted as facts.",
+    "The candid “yes” continuation signal is supported by Mara’s personal stake and unresolved stair threat.",
+    "No revision history, off-page production fact, editorial prescription, or spoiler beyond the supplied scene is invented."
+  ],
+  "scored_at": "2026-08-10T11:14:08+10:00",
+  "confidence": 0.9
+}

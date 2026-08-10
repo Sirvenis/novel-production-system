@@ -1,0 +1,8 @@
+{
+  "normalization_actions": [],
+  "provider_response_sha256": "52eab15d273d44e6122fa13be812376634425e68f0aa2139027b1e2aa9f835e7",
+  "wrapper_stdout_sha256": "fb082a09c30b9b178596f8c2d98d3623a14b5158843f6bd756fce6db9a057145",
+  "wrapper_stderr_sha256": "06b292b292f3ee2eb1fe7f0d2a993016f9cc8e8d83483cfd44ae03180c7c1ba7",
+  "wrapper_notice_separated": true,
+  "submission_sha256": "52eab15d273d44e6122fa13be812376634425e68f0aa2139027b1e2aa9f835e7"
+}

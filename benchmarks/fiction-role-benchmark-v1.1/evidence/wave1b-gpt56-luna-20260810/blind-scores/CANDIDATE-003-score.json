@@ -1,0 +1,27 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "role": "researcher",
+  "blind_alias": "CANDIDATE-003",
+  "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+  "rubric_scores": {
+    "evidence_verdict_accuracy": 26,
+    "citation_integrity": 25,
+    "evidence_inference_separation": 20,
+    "qualification_and_uncertainty": 14,
+    "production_usefulness": 10
+  },
+  "human_total": 95,
+  "deterministic_penalty": 4,
+  "final_score": 91,
+  "critical_flags": [],
+  "evidence": [
+    "R1–R4 correctly distinguish inconsistency, proof limits, and clock reconciliation with packet citations.",
+    "Every material assessment uses one valid closed-packet source ID; no external evidence appears.",
+    "Evidence and inference are explicitly separated in every assessment.",
+    "Limitations correctly state that water source, opener identity, entry, and supernatural mechanism are not established.",
+    "R5 repeats the Wave 1A verdict mismatch: “not-established” rather than harness ground truth “contradicted”; deterministic penalty applies."
+  ],
+  "scored_at": "2026-08-10T11:14:08+10:00",
+  "confidence": 0.9
+}

@@ -99,6 +99,16 @@ Writer was deliberately not rerun and remains: `WRITER ROLE — INELIGIBLE UNDER
 
 Full report: `reports/FICTION_ROLE_BENCHMARK_WAVE1A_2026-08-10.md`. Canonical evidence: `benchmarks/fiction-role-benchmark-v1.1/evidence/wave1a-gpt56-luna-20260810/`.
 
+## Wave 1B promotion-readiness evidence
+
+Andrew / Arden accepted Wave 1A eligibility evidence and authorised Wave 1B only. Six fresh independent non-writer runs used the same frozen corrected v1.1 tasks because the 45-file pack contains no alternate variants and could not be modified without creating a new benchmark version. All six Wave 1B submission hashes differ from Wave 1A.
+
+Exact route passed 6/6, actual tool turns were 0/6, deterministic eligibility passed 6/6, and blind leakage scanning passed with 0 leaks. Blind final scores were Mechanical QA 100, Fresh Reader 95, Editor 96, Researcher 91, Showrunner 87, and Continuity 93.
+
+Mechanical QA, Fresh Reader, Editor, and Continuity now have enough repeated corrected-pack evidence for Andrew / Arden production-assignment review. Showrunner and Researcher require Wave 1C because their Wave 1A warning modes repeated: Showrunner again omitted the literal `three short beeps`, while Researcher again classified R5 as `not-established` rather than the harness ground-truth `contradicted`. Writer remains `WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION`.
+
+Full report: `reports/FICTION_ROLE_BENCHMARK_WAVE1B_2026-08-10.md`. Canonical evidence: `benchmarks/fiction-role-benchmark-v1.1/evidence/wave1b-gpt56-luna-20260810/`.
+
 ## Immediate next gate
 
-Wave 1A evidence is ready for Andrew / Arden role-promotion review. All six tested non-writer roles clear the pack's review threshold, with Mechanical QA and Fresh Reader holding the strongest repeated corrected-pack evidence. No model has been promoted. Stop before Wave 1B, extra-credit testing, production model-policy changes, profile/configuration changes, or canonical prose work. Further Wave 1B replication/comparison requires separate authorization.
+Wave 1B evidence is ready for Andrew / Arden production-assignment review. Mechanical QA, Fresh Reader, Editor, and Continuity are proposed for review only; Showrunner and Researcher require Wave 1C; Writer remains ineligible. No model has been promoted or assigned. Stop before production use, Wave 1C, extra-credit testing, production model-policy changes, profile/configuration changes, or canonical prose work.

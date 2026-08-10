@@ -1,0 +1,7 @@
+{
+  "blind_alias": "CANDIDATE-005",
+  "role": "continuity",
+  "submission_file": "submission.json",
+  "submission_sha256": "a7801427b2a4e7df12c3a456cdea9a9e8386742f1ee8855083b162e7256e1166",
+  "pack_version": "1.1.0"
+}

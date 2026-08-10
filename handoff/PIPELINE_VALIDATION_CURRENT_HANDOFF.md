@@ -2,7 +2,7 @@
 
 Updated: 2026-08-10
 Custodian: Scout / Hermes under Andrew's final authority
-Status: WAVE 1A EVIDENCE COMPLETE; STOPPED BEFORE PROMOTION OR WAVE 1B
+Status: WAVE 1B EVIDENCE COMPLETE; STOPPED BEFORE PRODUCTION ASSIGNMENT OR PROMOTION
 
 ## Canonical lane
 
@@ -15,6 +15,8 @@ Status: WAVE 1A EVIDENCE COMPLETE; STOPPED BEFORE PROMOTION OR WAVE 1B
 - Calibration evidence: `benchmarks/fiction-role-benchmark-v1.1/evidence/wave0b-gpt56-luna-20260810/`
 - Wave 1A report: `reports/FICTION_ROLE_BENCHMARK_WAVE1A_2026-08-10.md`
 - Wave 1A evidence: `benchmarks/fiction-role-benchmark-v1.1/evidence/wave1a-gpt56-luna-20260810/`
+- Wave 1B report: `reports/FICTION_ROLE_BENCHMARK_WAVE1B_2026-08-10.md`
+- Wave 1B evidence: `benchmarks/fiction-role-benchmark-v1.1/evidence/wave1b-gpt56-luna-20260810/`
 
 ## Completed
 
@@ -31,6 +33,10 @@ Status: WAVE 1A EVIDENCE COMPLETE; STOPPED BEFORE PROMOTION OR WAVE 1B
 - Wave 1A exact route passed 6/6, actual tool turns were 0/6, deterministic eligibility passed 6/6, and blind final scores ranged from 88 to 100.
 - Preserved six immutable attempts, a six-candidate leak-free blind bundle, schema-validated blind scores, aggregate summary, and a 94-file artifact manifest.
 - Made no canonical prose, profile/core configuration, deployment, payment, production-model policy, promotion, or extra-credit change.
+- After Andrew / Arden accepted Wave 1A, ran Wave 1B only on the same six non-writer roles through fresh independent executions against the frozen v1.1 tasks.
+- Wave 1B exact route passed 6/6, actual tool turns were 0/6, deterministic eligibility passed 6/6, and all six judged artifacts had hashes distinct from Wave 1A.
+- Wave 1B blind scores: Mechanical QA 100, Fresh Reader 95, Editor 96, Researcher 91, Showrunner 87, Continuity 93; leakage scan PASS with 0 leaks.
+- Proposed Mechanical QA, Fresh Reader, Editor, and Continuity for Andrew / Arden production-assignment review only; Showrunner and Researcher require Wave 1C because their warning patterns repeated.
 
 ## Controlling finding
 
@@ -38,6 +44,6 @@ v1.1 repairs the demonstrated harness defect and is eligible for Andrew / Arden 
 
 ## Exact next gate
 
-Andrew / Arden accepted the corrected pack and authorised bounded Wave 1A. Six non-writer cells ran on exact `gpt-5.6-luna / openai-codex`, all with zero actual tool turns and deterministic eligibility. Blind final scores: Mechanical QA 100, Fresh Reader 93, Showrunner 89, Editor 94, Researcher 90, Continuity 88. All six clear the role-promotion review threshold; Mechanical QA and Fresh Reader have the strongest repeated corrected-pack evidence. Writer was not rerun and remains `WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION`.
+Wave 1B is complete. Mechanical QA, Fresh Reader, Editor, and Continuity are ready for Andrew / Arden production-assignment review; Showrunner and Researcher require a separately authorised Wave 1C; Writer remains `WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION`.
 
-Stop for Andrew / Arden role-promotion review. Do not promote Luna, begin Wave 1B, test extra-credit models, change production runtime/model policy or Hermes configuration, or alter canonical prose.
+Stop for Andrew / Arden review. Do not promote Luna, begin production use or Wave 1C, test extra-credit models, change production runtime/model policy or Hermes configuration, or alter canonical prose.

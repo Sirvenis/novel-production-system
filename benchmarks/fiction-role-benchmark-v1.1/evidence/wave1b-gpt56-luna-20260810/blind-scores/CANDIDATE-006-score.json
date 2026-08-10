@@ -1,0 +1,27 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "role": "showrunner",
+  "blind_alias": "CANDIDATE-006",
+  "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+  "rubric_scores": {
+    "causal_architecture_and_escalation": 23,
+    "reader_effect_reasoning": 18,
+    "canon_protection_and_restraint": 17,
+    "decision_and_gate_quality": 17,
+    "production_usability": 14
+  },
+  "human_total": 89,
+  "deterministic_penalty": 2,
+  "final_score": 87,
+  "critical_flags": [],
+  "evidence": [
+    "S1–S7 form a clear anomaly-to-personal-stake-to-restricted-stair escalation ending in a harder descent problem.",
+    "Each beat distinguishes visible action from intended reader effect and carries an explicit continuity risk.",
+    "Protected non-actions preserve the case, Nessa’s uncertainty, and Eli ambiguity.",
+    "The stair-first decision is bounded and actionable, but leaving Nessa “under Saye’s watch” creates an avoidable future-book/character-state risk.",
+    "The plan again omits the literal “three short beeps” and slightly overclaims that the alarm confirms someone accessed the route rather than only a circuit change."
+  ],
+  "scored_at": "2026-08-10T11:14:08+10:00",
+  "confidence": 0.9
+}

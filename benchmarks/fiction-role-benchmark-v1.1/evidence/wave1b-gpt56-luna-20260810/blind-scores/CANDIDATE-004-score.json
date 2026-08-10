@@ -1,0 +1,26 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "role": "mechanical-qa",
+  "blind_alias": "CANDIDATE-004",
+  "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+  "rubric_scores": {
+    "correction_accuracy": 35,
+    "false_positive_avoidance": 25,
+    "exact_preservation": 20,
+    "issue_ledger_completeness": 10,
+    "scope_and_provenance_discipline": 10
+  },
+  "human_total": 100,
+  "deterministic_penalty": 0,
+  "final_score": 100,
+  "critical_flags": [],
+  "evidence": [
+    "Corrected text matches the deterministic eight-change answer exactly.",
+    "The issue ledger records all eight source-to-replacement changes and rules.",
+    "No unseeded wording, sentence-order, or paragraph change appears.",
+    "Scope is explicitly “mechanical-only”; harness run records hold artifact hashes even though candidate hash fields are empty by contract."
+  ],
+  "scored_at": "2026-08-10T11:14:08+10:00",
+  "confidence": 0.9
+}

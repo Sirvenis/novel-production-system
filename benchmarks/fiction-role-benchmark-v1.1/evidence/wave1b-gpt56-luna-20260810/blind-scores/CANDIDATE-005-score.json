@@ -1,0 +1,27 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "role": "continuity",
+  "blind_alias": "CANDIDATE-005",
+  "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+  "rubric_scores": {
+    "seeded_defect_recall": 27,
+    "precision_and_false_positive_control": 23,
+    "canon_grounding": 20,
+    "severity_and_classification_judgement": 13,
+    "role_restraint": 10
+  },
+  "human_total": 93,
+  "deterministic_penalty": 0,
+  "final_score": 93,
+  "critical_flags": [],
+  "evidence": [
+    "Finds the Tom/wheelhouse, water/roof, digital-ticket, invented-admission, alarm-time, north/compass, and case-content/action conflicts.",
+    "Each finding quotes a summary fragment and maps it to supplied canon without outside facts.",
+    "Direct contradictions and unsupported certainties are separated consistently.",
+    "Case contents and Mara taking records are correctly found but rated minor despite potentially material downstream plot damage.",
+    "The audit records defects only and invents no repair or rewritten prose."
+  ],
+  "scored_at": "2026-08-10T11:14:08+10:00",
+  "confidence": 0.9
+}

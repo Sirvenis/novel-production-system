@@ -1,0 +1,59 @@
+{
+  "assessments": [
+    {
+      "claim_id": "R1",
+      "verdict": "supported",
+      "evidence": "The centre vehicle lane is roofed, and the recorded wind-driven rain is expected to wet the outer port lane but not the covered centre lane beneath vehicles. Fresh water observed in that lane therefore does not fit the recorded rain path. [S3]",
+      "inference": "If the water is confirmed to be fresh and located in the covered centre lane, its presence is inconsistent with rain as described in the packet, though the source of the water is not established.",
+      "citations": [
+        "[S3]"
+      ],
+      "confidence": 0.96
+    },
+    {
+      "claim_id": "R2",
+      "verdict": "contradicted",
+      "evidence": "The ticketing note states that a 23:40 stamp establishes the intended sailing, not the holder's identity or exact boarding time. [S6]",
+      "inference": "The ticket cannot prove that Nessa boarded at exactly 23:40.",
+      "citations": [
+        "[S6]"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "claim_id": "R3",
+      "verdict": "contradicted",
+      "evidence": "Three short beeps indicate that the maintenance-stair door circuit changed from closed to open, but the alarm does not identify who opened the door and does not prove entry. [S4]",
+      "inference": "The alarm alone cannot prove that a passenger entered the stair.",
+      "citations": [
+        "[S4]"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "claim_id": "R4",
+      "verdict": "supported",
+      "evidence": "The ferry clock is documented as seven minutes slow, while alarm logs use an independent controller synchronised to actual local time. [S2]",
+      "inference": "An alarm-log time of 11:55 actual time corresponds to 11:48 on the ferry clock, so they refer to the same moment when the seven-minute offset is applied.",
+      "citations": [
+        "[S2]"
+      ],
+      "confidence": 0.99
+    },
+    {
+      "claim_id": "R5",
+      "verdict": "not-established",
+      "evidence": "A compass aboard a steel vessel may be deflected by nearby ferrous structures and electrical equipment; an observed turn does not by itself establish a supernatural cause or a reliable bearing. [S5]",
+      "inference": "The compass turn does not prove that a supernatural force acted.",
+      "citations": [
+        "[S5]"
+      ],
+      "confidence": 0.99
+    }
+  ],
+  "limitations": [
+    "The closed evidence set does not identify the source of the fresh water in the centre lane.",
+    "The alarm record establishes a door-circuit change but not the person's identity or whether anyone entered.",
+    "The supplied evidence does not establish a supernatural mechanism."
+  ]
+}

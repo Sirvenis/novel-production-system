@@ -1,0 +1,515 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "wave": "1B",
+  "candidate_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna"
+  },
+  "roles_tested": [
+    "mechanical-qa",
+    "reader",
+    "editor",
+    "researcher",
+    "showrunner",
+    "continuity"
+  ],
+  "roles_not_tested": {
+    "writer": "WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION"
+  },
+  "task_design": "fresh independent executions against the frozen v1.1 tasks; no fresh variants exist in the frozen 45-file pack and the pack was not modified",
+  "pack_verification": {
+    "files": 45,
+    "tests": "17/17 passed",
+    "python_compilation": "passed",
+    "packet_hash": "1aac9a7890a7ca4337719dae85f093d1d6ee24e2abf2810df49b23da55fc9ad8",
+    "full_manifest_sha256": "92e9dc13980b69aab21268ec38dcda1d62d8726a299317b960998faa1de65c05"
+  },
+  "aggregate": {
+    "exact_route_passed": 6,
+    "runs": 6,
+    "zero_tool_turn_runs": 6,
+    "deterministic_eligible": 6,
+    "input_tokens": 11941,
+    "output_tokens": 6402,
+    "total_tokens": 18343,
+    "mean_wall_latency_ms": 23526
+  },
+  "blinding": {
+    "bundle_candidates": 6,
+    "leakage_scan": "passed; 0 leaks",
+    "private_identity_map_sha256": "bd59a80ba482822a6338bc68370cbfb2676d94b5c178887924e70a29cfe7a470",
+    "seed_sha256": "b3c6e0883f9edc2546d1a5b58539f2ef92e7cf2f179167c418080d751d48e4c2"
+  },
+  "comparison": {
+    "continuity": {
+      "wave1a_submission_sha256": "b81c1bdeae51955e6ae3d9f3f73e7573f559c095fc5a67b660332f541df6cb54",
+      "wave1b_submission_sha256": "a7801427b2a4e7df12c3a456cdea9a9e8386742f1ee8855083b162e7256e1166",
+      "distinct_artifact": true,
+      "wave1a_score": 88,
+      "wave1b_score": 93,
+      "delta": 5
+    },
+    "editor": {
+      "wave1a_submission_sha256": "6c36f5633dc8bf9dfb06bec82d61a960873d922df3fe1f4d346173252c5f6313",
+      "wave1b_submission_sha256": "20c1ff8d5bb4f38b4047d56cf955b60170ba94c50cf025e8c6466620032b51fe",
+      "distinct_artifact": true,
+      "wave1a_score": 94,
+      "wave1b_score": 96,
+      "delta": 2
+    },
+    "mechanical-qa": {
+      "wave1a_submission_sha256": "3eb04dd3bd489dbbb48fb5c7106cd9492689dae04a3ec9d70be9c5663bc2d5bf",
+      "wave1b_submission_sha256": "b20378fa6d9bf9210b8c43aa684e0963791e4e2f215693a2c21f1ae28ecd17e5",
+      "distinct_artifact": true,
+      "wave1a_score": 100,
+      "wave1b_score": 100,
+      "delta": 0
+    },
+    "reader": {
+      "wave1a_submission_sha256": "caa7d1b8f7528117fc31c1cecfb39817656b4341eee9a0aecb9d119f1a59987b",
+      "wave1b_submission_sha256": "c755781473f98f1b299d014fa154e9cf78b2936101ed5fad9fda3005c2ba3913",
+      "distinct_artifact": true,
+      "wave1a_score": 93,
+      "wave1b_score": 95,
+      "delta": 2
+    },
+    "researcher": {
+      "wave1a_submission_sha256": "bdc43612d0487759ba828ea4632486d6b1fa3d3423b393f0167f59476ae53ce5",
+      "wave1b_submission_sha256": "61a6a4fc53f942a47a93edb9f01580e88629b336a8a5e47edaceaaa8a6cad7a9",
+      "distinct_artifact": true,
+      "wave1a_score": 90,
+      "wave1b_score": 91,
+      "delta": 1
+    },
+    "showrunner": {
+      "wave1a_submission_sha256": "7ab8b0213185569f70c032f402006987d33bfb7c4376d3a570c52c328e96b318",
+      "wave1b_submission_sha256": "52eab15d273d44e6122fa13be812376634425e68f0aa2139027b1e2aa9f835e7",
+      "distinct_artifact": true,
+      "wave1a_score": 89,
+      "wave1b_score": 87,
+      "delta": -2
+    }
+  },
+  "runs": [
+    {
+      "role": "continuity",
+      "attempt_id": "wave1b-luna-continuity-b1",
+      "requested_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "served_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "routing_status": "verified_exact",
+      "profile": "gpt56-luna",
+      "tool_policy": "none",
+      "actual_tool_turn_count": 0,
+      "status": "pass",
+      "usage": {
+        "input_tokens": 1839,
+        "output_tokens": 1886,
+        "cached_tokens": null,
+        "total_tokens": 3725
+      },
+      "latency_ms": 37105,
+      "api_latency_ms": 35500,
+      "session_identifier": "20260810_111228_cd5e6d",
+      "deterministic_eligible": true,
+      "deterministic_penalty": 0,
+      "hard_failures": [],
+      "warnings": [],
+      "checks": {
+        "json_schema_errors": [],
+        "missing_top_level_fields": [],
+        "expected_concepts_found": [
+          "Tom",
+          "wheelhouse",
+          "seawater",
+          "roof",
+          "digital ticket",
+          "alarm",
+          "ferry clock",
+          "north",
+          "case"
+        ],
+        "expected_concept_recall": 0.8182,
+        "repair_scope_hits": [],
+        "global_forbidden_hits": []
+      },
+      "artifact_hashes": {
+        "prompt.txt": "eb3b7f4c541cd14a6697afdcc65b791614d7e74b10c3a2138a93fcc2a259aa01",
+        "no-tool-policy-proof.json": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79",
+        "hermes-wrapper-stdout.raw.txt": "3be0599d4e5781e51d0bc8d2b06dabe2f699b946734103c5138dcd206eea2b8b",
+        "hermes-wrapper-stderr.raw.txt": "4c47e58ac8c9eeafcfe60e5c0b491a0bf24eff0190608ce2d53f3d62ea59aeab",
+        "provider-response.raw.txt": "a7801427b2a4e7df12c3a456cdea9a9e8386742f1ee8855083b162e7256e1166",
+        "wrapper-notices.txt": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e",
+        "route-evidence.log": "601f271b18996c7abd616228b16eeb1bb47f54052eceed80b0ddd83752618927",
+        "submission.json": "a7801427b2a4e7df12c3a456cdea9a9e8386742f1ee8855083b162e7256e1166",
+        "extraction-normalization.json": "c343654525f5436f04f822c336e09df6a194975d66b0840c58c47647ac3d5084",
+        "validation-result.json": "d7cffcf8484607a906c9020d1c2598c34104fa541406a0dcc76330b40425d3a8"
+      },
+      "blind_score": {
+        "blind_alias": "CANDIDATE-005",
+        "role": "continuity",
+        "human_total": 93,
+        "deterministic_penalty": 0,
+        "final_score": 93,
+        "critical_flags": []
+      }
+    },
+    {
+      "role": "editor",
+      "attempt_id": "wave1b-luna-editor-b1",
+      "requested_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "served_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "routing_status": "verified_exact",
+      "profile": "gpt56-luna",
+      "tool_policy": "none",
+      "actual_tool_turn_count": 0,
+      "status": "pass",
+      "usage": {
+        "input_tokens": 2149,
+        "output_tokens": 713,
+        "cached_tokens": null,
+        "total_tokens": 2862
+      },
+      "latency_ms": 16167,
+      "api_latency_ms": 14000,
+      "session_identifier": "20260810_111111_f0019f",
+      "deterministic_eligible": true,
+      "deterministic_penalty": 0,
+      "hard_failures": [],
+      "warnings": [],
+      "checks": {
+        "json_schema_errors": [],
+        "missing_top_level_fields": [],
+        "protected_missing": [],
+        "word_retention": 0.9825,
+        "diagnosis_count": 3,
+        "event_markers_missing": [],
+        "global_forbidden_hits": []
+      },
+      "artifact_hashes": {
+        "prompt.txt": "007fb7f65ab09fed02061748055c6822fc01bdbef862614236134ccf05d2c3b5",
+        "no-tool-policy-proof.json": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79",
+        "hermes-wrapper-stdout.raw.txt": "7f29bc59b90be7c268d6a4e988d95aee28574477b5a0c60f3278bfa353798ee0",
+        "hermes-wrapper-stderr.raw.txt": "8e8759abe4bfe9a70a545f3ed445972e1476cccc2862efc29ec157f720d2d544",
+        "provider-response.raw.txt": "20c1ff8d5bb4f38b4047d56cf955b60170ba94c50cf025e8c6466620032b51fe",
+        "wrapper-notices.txt": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e",
+        "route-evidence.log": "cbea73a4e70ec1b30261369bf40693b8b3b3a40760eaa3ef93ff1ceb81cf858b",
+        "submission.json": "20c1ff8d5bb4f38b4047d56cf955b60170ba94c50cf025e8c6466620032b51fe",
+        "extraction-normalization.json": "3c4001853ab6c6bc137681ad0ccabf1d299c0e62d3b152b0678970cf13b0e834",
+        "validation-result.json": "e1ee7e5f1512f4a6a54fb46ee592cfab7dfaad6c51f9b39075276dfcbef1b262"
+      },
+      "blind_score": {
+        "blind_alias": "CANDIDATE-002",
+        "role": "editor",
+        "human_total": 96,
+        "deterministic_penalty": 0,
+        "final_score": 96,
+        "critical_flags": []
+      }
+    },
+    {
+      "role": "mechanical-qa",
+      "attempt_id": "wave1b-luna-mechanical-qa-b1",
+      "requested_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "served_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "routing_status": "verified_exact",
+      "profile": "gpt56-luna",
+      "tool_policy": "none",
+      "actual_tool_turn_count": 0,
+      "status": "pass",
+      "usage": {
+        "input_tokens": 1831,
+        "output_tokens": 753,
+        "cached_tokens": null,
+        "total_tokens": 2584
+      },
+      "latency_ms": 17721,
+      "api_latency_ms": 14900,
+      "session_identifier": "20260810_111037_ab4c63",
+      "deterministic_eligible": true,
+      "deterministic_penalty": 0,
+      "hard_failures": [],
+      "warnings": [],
+      "checks": {
+        "json_schema_errors": [],
+        "missing_top_level_fields": [],
+        "exact_expected_match": true,
+        "expected_change_count": 8,
+        "reported_issue_count": 8,
+        "global_forbidden_hits": []
+      },
+      "artifact_hashes": {
+        "prompt.txt": "0099f44c4da65ff21bc9ab1956b3bbcd4f2e91c8e0a27011198127bfe5db87ff",
+        "no-tool-policy-proof.json": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79",
+        "hermes-wrapper-stdout.raw.txt": "69dc8161ff9321f7f8a7d448b0517173b1528dda6204f4d01be7b959e91b0353",
+        "hermes-wrapper-stderr.raw.txt": "b9485e8688c05805b7a45e875f8024253b8ac2367d7c60e6bd8ec8c05ffdc56d",
+        "provider-response.raw.txt": "b20378fa6d9bf9210b8c43aa684e0963791e4e2f215693a2c21f1ae28ecd17e5",
+        "wrapper-notices.txt": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e",
+        "route-evidence.log": "6cffe1390736f66442032e32ad84bbd54e4e5e1a26a15ee0eee1475f6203fb4b",
+        "submission.json": "b20378fa6d9bf9210b8c43aa684e0963791e4e2f215693a2c21f1ae28ecd17e5",
+        "extraction-normalization.json": "184b9a4d090e2263f34f8676fabd6c3137e66eac0b3c940afa47960eadcfe61d",
+        "validation-result.json": "9f9a7a3d32f8ae4a1d299436386c60f89bacd07453cfb62248c94c475bef90c6"
+      },
+      "blind_score": {
+        "blind_alias": "CANDIDATE-004",
+        "role": "mechanical-qa",
+        "human_total": 100,
+        "deterministic_penalty": 0,
+        "final_score": 100,
+        "critical_flags": []
+      }
+    },
+    {
+      "role": "reader",
+      "attempt_id": "wave1b-luna-reader-b1",
+      "requested_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "served_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "routing_status": "verified_exact",
+      "profile": "gpt56-luna",
+      "tool_policy": "none",
+      "actual_tool_turn_count": 0,
+      "status": "pass",
+      "usage": {
+        "input_tokens": 1970,
+        "output_tokens": 569,
+        "cached_tokens": null,
+        "total_tokens": 2539
+      },
+      "latency_ms": 14004,
+      "api_latency_ms": 11900,
+      "session_identifier": "20260810_111056_1370a2",
+      "deterministic_eligible": true,
+      "deterministic_penalty": 0,
+      "hard_failures": [],
+      "warnings": [],
+      "checks": {
+        "json_schema_errors": [],
+        "missing_top_level_fields": [],
+        "editorial_contamination_hits": [],
+        "global_forbidden_hits": []
+      },
+      "artifact_hashes": {
+        "prompt.txt": "6df2da3cc6d71c8529afb1a737b4f5e9ccacd05e41d07ae0e9ecbc0fc2eabafb",
+        "no-tool-policy-proof.json": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79",
+        "hermes-wrapper-stdout.raw.txt": "1697b7b27c40b4de0c60b01c3c6f480d394f39c1b0c631eac8ace25336c9c6ae",
+        "hermes-wrapper-stderr.raw.txt": "92339c45ec20d03fbe8be2e64261cc7b1613531feff342d445a9bf5aa612869f",
+        "provider-response.raw.txt": "c755781473f98f1b299d014fa154e9cf78b2936101ed5fad9fda3005c2ba3913",
+        "wrapper-notices.txt": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e",
+        "route-evidence.log": "7339109dd43d649eb7df72a44dd6366bed7f8420af24d82ca1544198be846990",
+        "submission.json": "c755781473f98f1b299d014fa154e9cf78b2936101ed5fad9fda3005c2ba3913",
+        "extraction-normalization.json": "829587c885188e50b57b17e5defb07aa7e44a249010f6a138e701e53d731d4b5",
+        "validation-result.json": "fca5585bcc57561458404f758bfaf12840e121dbe402ede0358bdae88e11f94c"
+      },
+      "blind_score": {
+        "blind_alias": "CANDIDATE-001",
+        "role": "reader",
+        "human_total": 95,
+        "deterministic_penalty": 0,
+        "final_score": 95,
+        "critical_flags": []
+      }
+    },
+    {
+      "role": "researcher",
+      "attempt_id": "wave1b-luna-researcher-b1",
+      "requested_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "served_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "routing_status": "verified_exact",
+      "profile": "gpt56-luna",
+      "tool_policy": "none",
+      "actual_tool_turn_count": 0,
+      "status": "pass",
+      "usage": {
+        "input_tokens": 2151,
+        "output_tokens": 887,
+        "cached_tokens": null,
+        "total_tokens": 3038
+      },
+      "latency_ms": 22054,
+      "api_latency_ms": 20000,
+      "session_identifier": "20260810_111128_46d9c2",
+      "deterministic_eligible": true,
+      "deterministic_penalty": 4,
+      "hard_failures": [],
+      "warnings": [
+        "known-answer verdict mismatch"
+      ],
+      "checks": {
+        "json_schema_errors": [],
+        "missing_top_level_fields": [],
+        "claim_ids": [
+          "R1",
+          "R2",
+          "R3",
+          "R4",
+          "R5"
+        ],
+        "wrong_verdicts": [
+          "R5"
+        ],
+        "invalid_citations": [],
+        "missing_citations": [],
+        "global_forbidden_hits": []
+      },
+      "artifact_hashes": {
+        "prompt.txt": "51c195489b6da25f0f60f6f8a81fc05b51c8364f1cb065c340603c5abd59fa9a",
+        "no-tool-policy-proof.json": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79",
+        "hermes-wrapper-stdout.raw.txt": "79ca13b2f4bd2c4adf4dffa082973e79e8842a5658a965a3e3cf6fa6281c8a5b",
+        "hermes-wrapper-stderr.raw.txt": "c3722ee870a48bbc2552589a289a80503e18a2e0d54e8b314c9557335316e044",
+        "provider-response.raw.txt": "61a6a4fc53f942a47a93edb9f01580e88629b336a8a5e47edaceaaa8a6cad7a9",
+        "wrapper-notices.txt": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e",
+        "route-evidence.log": "0aeae7cc7e9f0ba3796726289c59b4329a31f00fedde5652a4646bf71d1790af",
+        "submission.json": "61a6a4fc53f942a47a93edb9f01580e88629b336a8a5e47edaceaaa8a6cad7a9",
+        "extraction-normalization.json": "4bf3b82dc3a3bbb356658f64fef4442fd155b6ec1203ec986e4e7f8da56588eb",
+        "validation-result.json": "b3094d9740c7b1249e47ae4f9c8ece92df66debfaf6da4d7b777f8b7c2d8a7cc"
+      },
+      "blind_score": {
+        "blind_alias": "CANDIDATE-003",
+        "role": "researcher",
+        "human_total": 95,
+        "deterministic_penalty": 4,
+        "final_score": 91,
+        "critical_flags": []
+      }
+    },
+    {
+      "role": "showrunner",
+      "attempt_id": "wave1b-luna-showrunner-b1",
+      "requested_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "served_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "routing_status": "verified_exact",
+      "profile": "gpt56-luna",
+      "tool_policy": "none",
+      "actual_tool_turn_count": 0,
+      "status": "pass",
+      "usage": {
+        "input_tokens": 2001,
+        "output_tokens": 1594,
+        "cached_tokens": null,
+        "total_tokens": 3595
+      },
+      "latency_ms": 34105,
+      "api_latency_ms": 32600,
+      "session_identifier": "20260810_111152_d6705d",
+      "deterministic_eligible": true,
+      "deterministic_penalty": 2,
+      "hard_failures": [],
+      "warnings": [
+        "showrunner plan omits required story material"
+      ],
+      "checks": {
+        "json_schema_errors": [],
+        "missing_top_level_fields": [],
+        "beat_ids": [
+          "S1",
+          "S2",
+          "S3",
+          "S4",
+          "S5",
+          "S6",
+          "S7"
+        ],
+        "required_story_material_missing": [
+          "three short beeps"
+        ],
+        "global_forbidden_hits": []
+      },
+      "artifact_hashes": {
+        "prompt.txt": "68e55c2dcbb1808cde434bc6ecd670e57127daa2c8db73f92aa72acd87c084cb",
+        "no-tool-policy-proof.json": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79",
+        "hermes-wrapper-stdout.raw.txt": "fb082a09c30b9b178596f8c2d98d3623a14b5158843f6bd756fce6db9a057145",
+        "hermes-wrapper-stderr.raw.txt": "06b292b292f3ee2eb1fe7f0d2a993016f9cc8e8d83483cfd44ae03180c7c1ba7",
+        "provider-response.raw.txt": "52eab15d273d44e6122fa13be812376634425e68f0aa2139027b1e2aa9f835e7",
+        "wrapper-notices.txt": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e",
+        "route-evidence.log": "48f2c122205785366d917ae905c999ba050671415d0ead18dd01f3bfb15995e2",
+        "submission.json": "52eab15d273d44e6122fa13be812376634425e68f0aa2139027b1e2aa9f835e7",
+        "extraction-normalization.json": "4ad6594170dc24f2448ea521e77654344ab37ceef96f908788fb3bd122b87c1c",
+        "validation-result.json": "97f8d993ab77d8a2d2a6d4bbf4d214cfbd2276b19db6e6f8a3ec72f49311d6f3"
+      },
+      "blind_score": {
+        "blind_alias": "CANDIDATE-006",
+        "role": "showrunner",
+        "human_total": 89,
+        "deterministic_penalty": 2,
+        "final_score": 87,
+        "critical_flags": []
+      }
+    }
+  ],
+  "promotion_recommendation": {
+    "ready_for_andrew_arden_review": [
+      "mechanical-qa",
+      "reader",
+      "editor",
+      "continuity"
+    ],
+    "requires_wave1c": [
+      "showrunner",
+      "researcher"
+    ],
+    "excluded": [
+      "writer"
+    ]
+  },
+  "production_changes_made": false
+}
