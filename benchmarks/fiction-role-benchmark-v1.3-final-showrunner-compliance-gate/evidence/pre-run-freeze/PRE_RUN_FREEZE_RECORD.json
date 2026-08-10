@@ -1,0 +1,50 @@
+{
+  "record_type": "pre-run-freeze",
+  "recorded_at": "2026-08-10T18:54:56+10:00",
+  "authorisation": "One final Showrunner-only compliance gate; one fresh scenario; one gpt-5.6-luna candidate attempt; zero retries; no other role reruns; no production assignment or policy change.",
+  "candidate": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "tool_policy": "none",
+    "required_actual_tool_turns": 0
+  },
+  "scout_runtime": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-sol",
+    "evidence_path": "scout-runtime-evidence.log"
+  },
+  "frozen_git_commit": "71898e10dac66cb7aea8c6a1fc9d03b41889b8e2",
+  "frozen_pack_manifest_sha256": "37471ef1d564d8b2981612f0da9d872d803677463ef601a8984feaf5dcc3b25e",
+  "frozen_packet_manifest_sha256": "2c056e7e61566e37c0653018366cce112d02d506b24a8f37098748c94fdf5149",
+  "frozen_candidate_packet_hash": "a2e12669bdfe33fd3bd213ef5cf0989404627d4a758c5f1507ad870550d166ea",
+  "candidate_profile_hashes": {
+    "config_yaml_sha256": "6a20dac1947cf550aba9873cea33960abfb7b419fc2b2c54c730312f83d0ddc8",
+    "soul_md_sha256": "b6b1d4b3a1f9fabae386d78353c653db85fc2f9fbc629662ad3695c5c644782c"
+  },
+  "frozen_artifacts": [
+    "packets/common.md",
+    "packets/showrunner.md",
+    "tasks/showrunner.md",
+    "schemas/showrunner-output.schema.json",
+    "schemas/run-result.schema.json",
+    "validators/benchmark.py",
+    "validators/ground_truth.json",
+    "rubrics/showrunner.md",
+    "launchers/no_tool_runner.py",
+    "tests/test_gate.py",
+    "manifests/pack-sha256.json",
+    "manifests/packet-sha256.json",
+    "evidence/pre-run-freeze/freshness-validation.json"
+  ],
+  "pre_run_checks": {
+    "tests": "7/7 PASS",
+    "pack_verification": "PASS; 12 frozen files",
+    "freshness": "PASS; zero candidate-visible exact hash overlap and zero prohibited prior markers",
+    "git_divergence_before_run": "0/0",
+    "candidate_attempts_before_freeze": 0
+  },
+  "prohibited_reruns": ["mechanical-qa", "fresh-reader", "editor", "continuity", "researcher", "writer"],
+  "production_assignment_authorised": false,
+  "policy_or_configuration_change_authorised": false
+}
