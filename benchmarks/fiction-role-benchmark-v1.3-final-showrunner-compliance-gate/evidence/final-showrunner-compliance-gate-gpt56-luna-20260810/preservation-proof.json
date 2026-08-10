@@ -1,0 +1,12 @@
+{
+  "baseline_commit": "74e1c1a",
+  "verified_unchanged_paths": [
+    "benchmarks/fiction-role-benchmark-v1",
+    "benchmarks/fiction-role-benchmark-v1.1",
+    "benchmarks/fiction-role-benchmark-v1.2-wave1c-holdout"
+  ],
+  "v1_1_tree_hash": "9a56863b2a595e34218672b60ba6f258e17bde86",
+  "wave1c_tree_hash": "8e94fac2cd5de42589fdacb0a056cb8cd4bbb7af",
+  "method": "git diff --quiet baseline_commit -- each preserved benchmark path",
+  "result": "PASS"
+}

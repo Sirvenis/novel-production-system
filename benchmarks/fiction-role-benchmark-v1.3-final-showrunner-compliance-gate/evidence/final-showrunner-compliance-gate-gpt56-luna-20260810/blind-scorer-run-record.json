@@ -1,0 +1,17 @@
+{
+  "alias": "CANDIDATE-001",
+  "scorer_identity_exposed": false,
+  "candidate_route_or_history_exposed": false,
+  "requested_scorer_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-sol",
+    "profile": "gpt56-sol"
+  },
+  "served_route_line": "2026-08-10 19:01:36,463 INFO [20260810_190102_3fd93a] agent.conversation_loop: API call #1: model=gpt-5.6-sol provider=openai-codex in=4863 out=1685 total=6548 latency=32.3s",
+  "actual_tool_turn_count": 0,
+  "wrapper_exit_code": 0,
+  "wall_latency_ms": 33319,
+  "session_identifier": "20260810_190102_3fd93a",
+  "prompt_sha256": "aacb94aa8222169763c4e062a00caca42924b250ebe32f855440ccf7cb62a90c",
+  "raw_score_sha256": "c14586df75579b942826c79dd88e9037413c0f5e75aa1948b2e8d7fcf3efac3a"
+}

@@ -1,0 +1,188 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.3-final-showrunner-compliance-gate",
+  "algorithm": "sha256",
+  "scope": "all evidence files except this self-referential manifest",
+  "files_count": 36,
+  "files": [
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/README.md",
+      "bytes": 1105,
+      "sha256": "d389ae4d90d6f3d69cd711ab2374f667479b7618e88917cb27bf85514ee06e8a"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-bundle/CANDIDATE-001/blind-manifest.json",
+      "bytes": 233,
+      "sha256": "89326a8080414759c4175e25cfb3d49201ce3840fa9e5382e3842409ead11731"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-bundle/CANDIDATE-001/rubric.md",
+      "bytes": 1572,
+      "sha256": "dc3f6d9573511763a47062901578f74c6daa749bf8aebcdadbabe0990aaa612d"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-bundle/CANDIDATE-001/scenario.md",
+      "bytes": 2227,
+      "sha256": "8fe8992a784231db084ce00bf6688ea800e3e0ad7110431005a309f74593f220"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-bundle/CANDIDATE-001/submission.json",
+      "bytes": 13455,
+      "sha256": "6ed17dc957ec06103c30a1dde40641868e1e127fde297161eb4de1df405e0959"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-readiness-validation.json",
+      "bytes": 212,
+      "sha256": "d337b04357cd265b86fc114be1bc8e35e86b8e21edd2c949a8612844dbaa07f7"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-score-provider-response.raw.txt",
+      "bytes": 5957,
+      "sha256": "c14586df75579b942826c79dd88e9037413c0f5e75aa1948b2e8d7fcf3efac3a"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-score-validation.json",
+      "bytes": 369,
+      "sha256": "7a645dc4cb6bc2abad3de818996d45d8417464cbcab8c7070da8e3028e44dfd9"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-scorer-prompt.txt",
+      "bytes": 19316,
+      "sha256": "aacb94aa8222169763c4e062a00caca42924b250ebe32f855440ccf7cb62a90c"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-scorer-route-evidence.txt",
+      "bytes": 3951,
+      "sha256": "217737b6cee989dd69ffd6713f2a1b361fc7b3a6e04934eb10c78f58292135ef"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-scorer-run-record.json",
+      "bytes": 748,
+      "sha256": "0b4f8085c463be1ad3606f2fefb027aad53101762af005665932ad99c8e41816"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-scorer-wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-scorer-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "a18456f9f17182d9ecd41b4998a55eae137c7aa6b9cd687668e87e54f12ff99b"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/blind-scorer-wrapper-stdout.raw.txt",
+      "bytes": 5989,
+      "sha256": "fc137dcff6b8891e4a89eb5941c821e3a0249a03eb2795337add00ce292fc92e"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-adjudication.json",
+      "bytes": 1333,
+      "sha256": "31c2080dd24f77b50674ca5392136e83b9735bdbf55ff229d44be5be3a2761e0"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/extraction-normalization.json",
+      "bytes": 548,
+      "sha256": "24dc79ad47052ae7a598bd40ff7041e153393701a64f39dbfc947cd7670c08b6"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/harness-recovery-record.json",
+      "bytes": 924,
+      "sha256": "783e851d263ceea9918aff962131d5e26a1a671906f831d8d45facf26c734210"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/hermes-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "34f16a3f04f4fa6277966cdb2408f82261f3bb8ab638f4015f253e4c12f97ef5"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/hermes-wrapper-stdout.raw.txt",
+      "bytes": 13487,
+      "sha256": "5234d63029f759bd3ef152aff90caba41067a7c0db2f2a935ba2b38fbbf870d3"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/launcher-post-response-exception.txt",
+      "bytes": 636,
+      "sha256": "91aa5637357a74d116ade145305a60839f70b2447924549085a139f2d913e9cd"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/no-tool-policy-proof.json",
+      "bytes": 258,
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/prompt.txt",
+      "bytes": 6427,
+      "sha256": "8fc728d8747b483c9f2a11c14bcb41f2f5eb2dce5d0efa63c74306d3c399f6bd"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/provider-response.raw.txt",
+      "bytes": 13455,
+      "sha256": "6ed17dc957ec06103c30a1dde40641868e1e127fde297161eb4de1df405e0959"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/route-evidence.log",
+      "bytes": 3958,
+      "sha256": "dd30ce037735b34b3ab9cd64b1520d2ff436dbd282b367b6d3d40fc4d42dd886"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/run-record-validation.json",
+      "bytes": 33,
+      "sha256": "9bf5d597ef1cce6c355e1727229cc29f9433e59b89ec5ce3fdd64387b7217581"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/run-result.json",
+      "bytes": 2958,
+      "sha256": "fa677b78787c7587eab06cb4c3d5e7e47dd0772bd61ee21d346b76db9cc4e737"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/submission.json",
+      "bytes": 13455,
+      "sha256": "6ed17dc957ec06103c30a1dde40641868e1e127fde297161eb4de1df405e0959"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/validation-result.json",
+      "bytes": 855,
+      "sha256": "61235f53846ef44a8b2563bacda5939268a68d4be49aaabb48f0b1a6f416463e"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/gate-summary.json",
+      "bytes": 1025,
+      "sha256": "87ed4b46fee9b5828016cb10d18388944f7d6c6a270bab69faf382d4ad324835"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/preservation-proof.json",
+      "bytes": 453,
+      "sha256": "5f4d3bbfb46dd3bc369bdd9901f5399d94519b6de02f88b52199a933c610e92e"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/private/blind-seed.bin",
+      "bytes": 32,
+      "sha256": "232f6763be793c3e39fecdc53fa0daec1807a9a679aaba9c7b56e5486e74f81d"
+    },
+    {
+      "path": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/private/identity-map.json",
+      "bytes": 193,
+      "sha256": "00b945f03d1d52559b760f42c49abc652fda87d8b6c2c91eb7362b3fb1b1670e"
+    },
+    {
+      "path": "evidence/pre-run-freeze/PRE_RUN_FREEZE_RECORD.json",
+      "bytes": 2155,
+      "sha256": "5ab2039bea1ffad4d1da43e00e755e490d5e67bd89e32b233de6df1d1b65d01e"
+    },
+    {
+      "path": "evidence/pre-run-freeze/freshness-validation.json",
+      "bytes": 312,
+      "sha256": "3c1c331b85666a1e06301a71b246cf64da7af9ed6eb711f4f72ab935f6254db1"
+    },
+    {
+      "path": "evidence/pre-run-freeze/scout-runtime-evidence.txt",
+      "bytes": 380,
+      "sha256": "a9c9d2611612fb8e5185b146d387c8eabd972c69d02f08cb98ca9ed712486e9d"
+    }
+  ]
+}

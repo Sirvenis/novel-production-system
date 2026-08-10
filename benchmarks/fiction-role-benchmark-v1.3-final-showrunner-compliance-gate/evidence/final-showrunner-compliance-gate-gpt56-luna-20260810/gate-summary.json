@@ -1,0 +1,31 @@
+{
+  "gate": "Final Showrunner-only compliance gate",
+  "candidate_attempts": 1,
+  "candidate_retries": 0,
+  "candidate_requested_route": "openai-codex/gpt-5.6-luna via gpt56-luna",
+  "candidate_served_route": "openai-codex/gpt-5.6-luna",
+  "actual_tool_turns": 0,
+  "deterministic_schema": "PASS",
+  "structural_violations": [],
+  "dollar_schema_property": false,
+  "normalization_actions": [],
+  "blind_leakage": "PASS (0 leaks)",
+  "blind_substantive_score": 98,
+  "dimension_scores": [
+    20,
+    19,
+    20,
+    20,
+    19
+  ],
+  "material_regression": false,
+  "literal_detail": "PASS; exact tag appears 3 times; 1,200-word target omitted from writer handoff (minor)",
+  "evidence_inference": "PASS",
+  "canon_future_story_protection": "PASS",
+  "bounded_handoff": "PASS",
+  "binary_result": "PASS",
+  "recommendation": "SHOWRUNNER — ELIGIBLE FOR ANDREW / ARDEN FINAL PRODUCTION-ASSIGNMENT APPROVAL.",
+  "production_assignment_performed": false,
+  "policy_or_configuration_change": false,
+  "other_roles_rerun": []
+}

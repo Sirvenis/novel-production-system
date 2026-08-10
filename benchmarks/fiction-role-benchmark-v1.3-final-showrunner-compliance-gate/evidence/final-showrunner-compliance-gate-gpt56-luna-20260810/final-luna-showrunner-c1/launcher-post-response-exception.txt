@@ -1,0 +1,6 @@
+Post-response launcher exception (candidate was NOT retried):
+TypeError: validate_submission() takes 1 positional argument but 2 were given
+Location: launchers/no_tool_runner.py run_attempt, after provider response, wrapper artifacts, exact judged submission, normalization record, and route evidence had already been written.
+Outer launcher process exit code: 1.
+Hermes candidate wrapper exit code: 0.
+Recovery: invoked the already-frozen deterministic validator directly on the exact submission, then reconstructed the run record from the preserved immutable route/wrapper artifacts. No provider call and no candidate retry occurred.

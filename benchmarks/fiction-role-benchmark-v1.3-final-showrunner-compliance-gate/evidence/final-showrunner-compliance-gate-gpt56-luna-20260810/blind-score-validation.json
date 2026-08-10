@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "errors": [],
+  "dimension_scores": {
+    "causal_architecture": 20,
+    "literal_detail_retention": 19,
+    "evidence_inference_restraint": 20,
+    "canon_future_story_protection": 20,
+    "bounded_writer_handoff": 19
+  },
+  "computed_total": 98,
+  "reported_total": 98,
+  "material_regression": false,
+  "substantive_verdict": "production-worthy"
+}

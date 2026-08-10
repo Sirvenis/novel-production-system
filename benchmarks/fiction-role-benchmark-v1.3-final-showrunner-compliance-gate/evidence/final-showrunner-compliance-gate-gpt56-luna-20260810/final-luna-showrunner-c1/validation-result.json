@@ -1,0 +1,36 @@
+{
+  "role": "showrunner",
+  "submission": "evidence/final-showrunner-compliance-gate-gpt56-luna-20260810/final-luna-showrunner-c1/submission.json",
+  "hard_failures": [],
+  "warnings": [
+    "evidence overclaimed"
+  ],
+  "checks": {
+    "markdown_fence_present": false,
+    "raw_bytes": 13455,
+    "non_whitespace_trailing_content": false,
+    "json_schema_errors": [],
+    "beat_ids": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "G7",
+      "G8"
+    ],
+    "beat_ids_exact": true,
+    "required_literals_missing": [],
+    "exact_tag_occurrences": 3,
+    "future_explanation_classes_missing": [],
+    "forbidden_overclaim_hits": [
+      "Cal used the token"
+    ],
+    "protected_non_actions_count": 7,
+    "required_inclusions_count": 9,
+    "prohibited_conclusions_count": 8
+  },
+  "penalty": 0,
+  "eligible": true
+}

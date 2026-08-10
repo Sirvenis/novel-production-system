@@ -1,0 +1,129 @@
+# BENCHMARK INPUTS (all invented and noncanonical)
+
+## Common packet
+
+# Common Packet
+
+All names, places, incidents, systems, and story facts in this package are invented for this benchmark. They are noncanonical and must not be carried into any Arden Studios project.
+
+Use only the supplied packet. Do not use tools, outside sources, benchmark history, model identity, provider information, previous scores, or hidden reasoning.
+
+## showrunner packet
+
+# Showrunner Packet — The Flood Gallery Decision
+
+Adult near-future ecological suspense with grounded operational texture, restrained uncanny possibility, emotional clarity, Australian spelling, and no confirmed extraordinary mechanism.
+
+Blackglass Estuary Laboratory sits inside an offshore storm barrier during a king tide. Tamsin Roe is operations chief. Her brother Cal vanished five years ago when his survey skiff was lost; his blue access token was deactivated and sealed in an evidence locker afterward. Niko Pell is an apprentice diver stationed on the upper gantry. Esme Venn is a courier carrying a locked specimen case. Director Rian Sable controls the evacuation order from the remote operations room.
+
+Plan a 1,200-word scene from 4:42 to 4:50 a.m.
+
+Required:
+- Tamsin finds saltwater footprints that stop at the dry threshold of the quarantine bay.
+- Esme says Cal's deactivated blue token unlocked the outer service gate.
+- Tamsin knows the token was sealed in an evidence locker after Cal disappeared five years ago.
+- The quarantine-bay floor-load sensor changes from `clear` to `occupied` at 04:46.
+- The paper tag on Esme's locked specimen case reads exactly `LOT 6 / RETURN UNOPENED`; retain that wording verbatim.
+- Niko remains on the upper gantry throughout.
+- Sable redirects attention to the missing signature on Esme's delivery manifest.
+- Tamsin must choose between checking the culvert camera first and confronting Esme first.
+- End with a decision that increases immediate danger while preserving ambiguity.
+
+Evidence boundary: the floor-load sensor proves only that its configured load threshold was crossed, not whether a person, specimen, equipment, water, or sensor fault caused it. The gate log proves only that a registered credential was accepted, not who or what presented it or whether Cal is alive.
+
+Downstream canon: the specimen case stays locked, sealed, and intact; Esme is not exposed as knowingly lying; Cal cannot physically appear or be confirmed alive; a salinity probe cannot identify a cause or solve the mystery; do not isolate Esme alone with Sable; preserve equipment malfunction, staged human interference, and an unknown ecological event as viable future explanations.
+
+## Task
+
+Treat all material as invented and noncanonical. Use no tools or outside sources. Create exactly eight beats G1–G8. Each beat must provide purpose, visible action, reader effect, evidence boundary, continuity risk, and exit condition. Retain every explicit detail, including the exact paper-tag wording. Build causal escalation rather than a checklist. Separate evidence from character inference. Protect downstream canon and future-story options. Provide at least four protected non-actions, an escalation curve, Tamsin's final decision, and a bounded writer handoff with required inclusions and prohibited conclusions. Return no scene prose.
+
+STRICT OUTPUT CONTRACT:
+- Output exactly one JSON object satisfying the supplied schema.
+- Output ONLY properties permitted by the supplied schema.
+- Do not emit a `$schema` property; `$schema` is not defined as an allowed output property.
+- Do not place any explanatory preamble outside the JSON object.
+- Do not place any commentary after the JSON object.
+- Do not add Markdown fences.
+- Do not introduce metadata or unknown properties.
+- Property names must match exactly.
+- Every required property must be present.
+- Prohibited or unknown properties cause deterministic failure.
+- The evaluator will not repair, strip, or normalise candidate-created structural violations.
+
+## Exact output contract visible to the candidate
+
+Return exactly one JSON object satisfying this exact JSON Schema. Output no preamble, commentary, Markdown fence, metadata, unknown property, or `$schema` property. Unknown or prohibited properties cause deterministic failure and will not be repaired.
+
+```json
+
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "beats",
+    "decision",
+    "protected_non_actions",
+    "future_book_risks",
+    "escalation_curve",
+    "writer_handoff",
+    "verdict"
+  ],
+  "properties": {
+    "beats": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "purpose", "visible_action", "reader_effect", "evidence_boundary", "continuity_risk", "exit_condition"],
+        "properties": {
+          "id": {"type": "string", "pattern": "^G[1-8]$"},
+          "purpose": {"type": "string", "minLength": 1},
+          "visible_action": {"type": "string", "minLength": 1},
+          "reader_effect": {"type": "string", "minLength": 1},
+          "evidence_boundary": {"type": "string", "minLength": 1},
+          "continuity_risk": {"type": "string", "minLength": 1},
+          "exit_condition": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "decision": {"type": "string", "minLength": 1},
+    "protected_non_actions": {
+      "type": "array",
+      "minItems": 4,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "future_book_risks": {
+      "type": "array",
+      "minItems": 3,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "escalation_curve": {
+      "type": "array",
+      "minItems": 4,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "writer_handoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required_inclusions", "prohibited_conclusions", "scene_boundary"],
+      "properties": {
+        "required_inclusions": {
+          "type": "array",
+          "minItems": 6,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "prohibited_conclusions": {
+          "type": "array",
+          "minItems": 5,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "scene_boundary": {"type": "string", "minLength": 1}
+      }
+    },
+    "verdict": {"enum": ["proceed", "retry", "escalate"]}
+  }
+}
+
+```

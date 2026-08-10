@@ -1,0 +1,9 @@
+{
+  "normalization_actions": [],
+  "normalization_policy": "exact provider response; no fence/preamble/commentary/property repair",
+  "provider_response_sha256": "6ed17dc957ec06103c30a1dde40641868e1e127fde297161eb4de1df405e0959",
+  "wrapper_stdout_sha256": "5234d63029f759bd3ef152aff90caba41067a7c0db2f2a935ba2b38fbbf870d3",
+  "wrapper_stderr_sha256": "34f16a3f04f4fa6277966cdb2408f82261f3bb8ab638f4015f253e4c12f97ef5",
+  "wrapper_notice_separated": true,
+  "submission_sha256": "6ed17dc957ec06103c30a1dde40641868e1e127fde297161eb4de1df405e0959"
+}

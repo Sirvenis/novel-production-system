@@ -1,0 +1,94 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.3-final-showrunner-compliance-gate",
+  "pack_version": "1.3.0-final-gate",
+  "role": "showrunner",
+  "attempt_id": "final-luna-showrunner-c1",
+  "requested_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "evidence_path": "route-evidence.log"
+  },
+  "served_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "evidence_path": "route-evidence.log"
+  },
+  "routing_status": "verified_exact",
+  "profile": "gpt56-luna",
+  "tool_policy": "none",
+  "actual_tool_turn_count": 0,
+  "sampling_settings": {
+    "temperature": null,
+    "reasoning": "medium",
+    "max_output_tokens": 4096
+  },
+  "packet_manifest_sha256": "37471ef1d564d8b2981612f0da9d872d803677463ef601a8984feaf5dcc3b25e",
+  "started_at": "2026-08-10T18:56:40.097+10:00",
+  "ended_at": "2026-08-10T18:57:43.612+10:00",
+  "latency_ms": 63515,
+  "session_identifier": "20260810_185640_4e4009",
+  "route_evidence_path": "route-evidence.log",
+  "status": "pass",
+  "failures": [],
+  "artifacts": [
+    {
+      "path": "prompt.txt",
+      "sha256": "8fc728d8747b483c9f2a11c14bcb41f2f5eb2dce5d0efa63c74306d3c399f6bd"
+    },
+    {
+      "path": "no-tool-policy-proof.json",
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "hermes-wrapper-stdout.raw.txt",
+      "sha256": "5234d63029f759bd3ef152aff90caba41067a7c0db2f2a935ba2b38fbbf870d3"
+    },
+    {
+      "path": "hermes-wrapper-stderr.raw.txt",
+      "sha256": "34f16a3f04f4fa6277966cdb2408f82261f3bb8ab638f4015f253e4c12f97ef5"
+    },
+    {
+      "path": "provider-response.raw.txt",
+      "sha256": "6ed17dc957ec06103c30a1dde40641868e1e127fde297161eb4de1df405e0959"
+    },
+    {
+      "path": "wrapper-notices.txt",
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "route-evidence.log",
+      "sha256": "dd30ce037735b34b3ab9cd64b1520d2ff436dbd282b367b6d3d40fc4d42dd886"
+    },
+    {
+      "path": "submission.json",
+      "sha256": "6ed17dc957ec06103c30a1dde40641868e1e127fde297161eb4de1df405e0959"
+    },
+    {
+      "path": "extraction-normalization.json",
+      "sha256": "24dc79ad47052ae7a598bd40ff7041e153393701a64f39dbfc947cd7670c08b6"
+    },
+    {
+      "path": "validation-result.json",
+      "sha256": "61235f53846ef44a8b2563bacda5939268a68d4be49aaabb48f0b1a6f416463e"
+    },
+    {
+      "path": "launcher-post-response-exception.txt",
+      "sha256": "91aa5637357a74d116ade145305a60839f70b2447924549085a139f2d913e9cd"
+    },
+    {
+      "path": "harness-recovery-record.json",
+      "sha256": "783e851d263ceea9918aff962131d5e26a1a671906f831d8d45facf26c734210"
+    }
+  ],
+  "usage": {
+    "input_tokens": 2217,
+    "output_tokens": 3279,
+    "cached_tokens": null,
+    "total_tokens": 5496
+  },
+  "wrapper_exit_code": 0,
+  "api_latency_ms": 61200,
+  "score": null
+}

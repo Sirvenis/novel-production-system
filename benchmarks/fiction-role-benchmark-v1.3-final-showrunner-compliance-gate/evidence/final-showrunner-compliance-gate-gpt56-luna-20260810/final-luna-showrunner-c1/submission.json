@@ -1,0 +1,125 @@
+{
+  "beats": [
+    {
+      "id": "G1",
+      "purpose": "Establish the storm-barrier pressure, the operational setting, and the first anomaly without confirming an extraordinary cause.",
+      "visible_action": "At 04:42, Tamsin crosses the quarantine bay and finds a line of saltwater footprints that stops exactly at the dry threshold. Niko remains visible on the upper gantry. Esme arrives with a locked specimen case whose paper tag reads exactly `LOT 6 / RETURN UNOPENED`.",
+      "reader_effect": "Creates a precise, physical mystery and makes the dry threshold feel like a boundary someone or something has crossed.",
+      "evidence_boundary": "The footprints show saltwater on the floor ending at the threshold; they do not establish who made them, when they were made, or whether they came from a person, equipment, water movement, or staged interference.",
+      "continuity_risk": "Do not imply that Esme knowingly created the footprints or that the case has been opened; keep Niko on the upper gantry.",
+      "exit_condition": "Tamsin shifts from routine intake to access-control verification and asks Esme how she entered."
+    },
+    {
+      "id": "G2",
+      "purpose": "Tie the anomaly to Cal's unresolved disappearance while separating recorded fact from emotional inference.",
+      "visible_action": "Esme says Cal's deactivated blue token unlocked the outer service gate. Tamsin checks the access record and remembers that the token was sealed in an evidence locker after Cal disappeared five years ago.",
+      "reader_effect": "Raises the personal stakes and makes the gate entry feel impossible without making Cal's survival the answer.",
+      "evidence_boundary": "The gate log proves only that a registered credential was accepted, not who or what presented it, whether the credential was physically present, or whether Cal is alive.",
+      "continuity_risk": "Tamsin may infer a connection to Cal, but neither the log nor Esme's statement can confirm Cal's identity, presence, or intent.",
+      "exit_condition": "Tamsin keeps Esme and the sealed case in the quarantine bay while requesting a live systems check."
+    },
+    {
+      "id": "G3",
+      "purpose": "Turn suspicion into an operational conflict and give Sable a plausible counter-priority.",
+      "visible_action": "Tamsin questions Esme about the gate and the delivery route. Sable enters over the operations channel and redirects attention to the missing signature on Esme's delivery manifest, demanding that intake be regularised before any evacuation movement.",
+      "reader_effect": "Creates divided authority: Tamsin sees a possible breach, while Sable frames the immediate problem as paperwork and chain of custody.",
+      "evidence_boundary": "The absent signature is a documented procedural gap, not proof of smuggling or deception; Sable's redirection shows control of the response, not knowledge of the cause.",
+      "continuity_risk": "Do not expose Esme as knowingly lying, and do not isolate Esme alone with Sable; keep the exchange witnessed through the bay's cameras or Niko's position.",
+      "exit_condition": "Before Tamsin can complete the manifest check, the quarantine-bay floor-load alert changes state."
+    },
+    {
+      "id": "G4",
+      "purpose": "Convert the unease into a timed systems event that demands a decision.",
+      "visible_action": "At 04:46, the floor-load sensor changes from `clear` to `occupied`. Tamsin freezes the case in place, tells Esme not to move, and asks Niko from the upper gantry to report the bay floor and adjacent access points.",
+      "reader_effect": "Makes the unseen presence immediate while preserving multiple explanations.",
+      "evidence_boundary": "The sensor proves only that its configured load threshold was crossed; it does not prove that a person, specimen, equipment, water, or a sensor fault caused the reading.",
+      "continuity_risk": "Do not let the alert identify a body, validate the footprints, or become proof that Cal has entered the bay.",
+      "exit_condition": "Niko reports no clear person in the visible bay, while a culvert-camera feed begins dropping frames."
+    },
+    {
+      "id": "G5",
+      "purpose": "Offer concrete checks that narrow procedure without solving the mystery.",
+      "visible_action": "Tamsin visually confirms that the specimen case remains locked, sealed, and intact, then compares the manifest against the case tag. Sable repeats that the missing signature must be resolved. Niko remains on the upper gantry and tracks the access corridor from above.",
+      "reader_effect": "Protects the case's importance while tightening the sense that the threat may be elsewhere in the facility.",
+      "evidence_boundary": "The intact seal rules out visible tampering with the case at this point; it does not explain the sensor, footprints, gate event, or camera failure.",
+      "continuity_risk": "No salinity probe or inspection may identify a cause; Esme must remain a courier caught inside the uncertainty rather than a confirmed conspirator.",
+      "exit_condition": "The culvert feed loses a longer interval just as the barrier pumps change tone, forcing Tamsin to choose which uncertainty to confront first."
+    },
+    {
+      "id": "G6",
+      "purpose": "Make Tamsin's central choice explicit and costly.",
+      "visible_action": "Tamsin weighs checking the culvert camera first against confronting Esme first. She orders Niko to maintain overwatch from the upper gantry, keeps the sealed case inside the quarantine bay, and chooses to check the culvert camera before conducting a full confrontation.",
+      "reader_effect": "Shows Tamsin prioritising the possible physical ingress route while knowingly leaving a human variable unresolved.",
+      "evidence_boundary": "The choice reflects Tamsin's risk assessment, not proof that the culvert caused the event or that Esme is responsible.",
+      "continuity_risk": "The decision must not make Esme alone with Sable; preserve equipment malfunction, staged human interference, and an unknown ecological event as equally viable explanations.",
+      "exit_condition": "Tamsin opens the controlled route toward the culvert, accepting that doing so may alter the evidence or expose her to whatever triggered the alert."
+    },
+    {
+      "id": "G7",
+      "purpose": "Escalate immediate physical danger as the consequence of Tamsin's choice.",
+      "visible_action": "Between 04:47 and 04:49, Tamsin moves toward the culvert access while maintaining radio contact. A pressure fluctuation shakes the barrier, the camera feed breaks into static, and the quarantine-bay alert remains occupied. Niko continues watching from the upper gantry and reports only fragments: water movement, a shadowed obstruction, and no identifiable person.",
+      "reader_effect": "Accelerates danger without rewarding the reader with a definitive monster, survivor, or culprit.",
+      "evidence_boundary": "The pressure fluctuation, static, and obstruction are observations with several possible causes; none establishes whether the event is mechanical, human, ecological, or connected to Cal.",
+      "continuity_risk": "Do not show Cal, confirm a living intruder, open or damage the case, or allow the salinity data to identify a cause.",
+      "exit_condition": "A secondary quarantine warning indicates that the controlled route may no longer be secure, while Esme's position and the intact case remain unverified from Tamsin's new angle."
+    },
+    {
+      "id": "G8",
+      "purpose": "End the eight-minute sequence on an active, dangerous commitment rather than an explanation.",
+      "visible_action": "At 04:50, Tamsin decides to continue to the culvert camera and manually isolate the route instead of turning back to confront Esme first. She orders Niko to keep the upper-gantry line on Esme and the sealed case, and refuses Sable's demand to treat the missing signature as the primary issue.",
+      "reader_effect": "Leaves Tamsin moving toward the source of danger while the human and procedural questions remain alive behind her.",
+      "evidence_boundary": "The decision proves only Tamsin's chosen priority under pressure. It does not prove the culvert is the source, that Esme is innocent or guilty, that Cal is involved, or that the sensor event has a single cause.",
+      "continuity_risk": "The scene must preserve the locked, sealed, intact case; Esme must not be exposed as knowingly lying; Cal cannot physically appear or be confirmed alive; all three future explanations remain usable.",
+      "exit_condition": "The route isolation begins while the camera stays unreadable and the occupied alert persists, increasing immediate danger without resolving the ambiguity."
+    }
+  ],
+  "decision": "Tamsin chooses to check the culvert camera first and manually isolate the route, leaving Esme and the locked, sealed specimen case under Niko's upper-gantry overwatch rather than confronting Esme first; this increases immediate danger because Tamsin enters the unstable access route while the unexplained occupied alert persists.",
+  "protected_non_actions": [
+    "The specimen case is not opened, unsealed, damaged, exchanged, or separated from Esme.",
+    "Esme is not exposed as knowingly lying or confirmed as the source of the footprints or gate entry.",
+    "Cal does not physically appear and is not confirmed alive, present, or responsible.",
+    "Niko does not leave the upper gantry at any point.",
+    "The salinity probe is not used to identify a cause or solve the mystery.",
+    "Tamsin does not obtain a definitive reading from the floor-load sensor or culvert camera.",
+    "Esme is not left alone with Sable."
+  ],
+  "future_book_risks": [
+    "Do not collapse the gate log into proof that Cal used the token; preserve the possibility of credential misuse, system error, or an unknown presenter.",
+    "Keep equipment malfunction, staged human interference, and an unknown ecological event viable after the scene.",
+    "Avoid making the footprints, occupied sensor, and camera failure a single confirmed mechanism.",
+    "Preserve the missing manifest signature as a procedural problem that may matter later without making it proof of Esme's guilt.",
+    "Keep the intact case and its exact tag, `LOT 6 / RETURN UNOPENED`, available as an unresolved object rather than a revealed explanation."
+  ],
+  "escalation_curve": [
+    "04:42: A bounded physical anomaly appears at the quarantine-bay threshold.",
+    "04:43-04:45: The anomaly connects to Cal's deactivated credential and conflicts with Tamsin's known evidence-locker history.",
+    "04:46: The floor-load sensor reports `occupied`, converting suspicion into an immediate operational hazard while remaining causally ambiguous.",
+    "04:47-04:49: Sable's procedural diversion, the failing culvert feed, and barrier pressure force Tamsin to choose between a person and a route.",
+    "04:50: Tamsin commits to the culvert, opening a more dangerous access problem while the bay alert and all major explanations remain unresolved."
+  ],
+  "writer_handoff": {
+    "required_inclusions": [
+      "Write only the 4:42-4:50 scene in grounded operational detail, with restrained uncanny possibility and no confirmed extraordinary mechanism.",
+      "Include Tamsin's discovery of saltwater footprints stopping at the dry quarantine-bay threshold.",
+      "Have Esme state that Cal's deactivated blue token unlocked the outer service gate, and show Tamsin knowing it was sealed in an evidence locker after Cal disappeared five years ago.",
+      "Include the floor-load sensor changing from `clear` to `occupied` at 04:46 and state its limited evidentiary meaning through action or dialogue.",
+      "Show the locked specimen case with the paper tag reading exactly `LOT 6 / RETURN UNOPENED`; keep it locked, sealed, and intact.",
+      "Keep Niko on the upper gantry throughout and use his observations as limited visual corroboration rather than a solution.",
+      "Have Sable redirect attention to the missing signature on Esme's delivery manifest.",
+      "Make Tamsin explicitly choose checking the culvert camera first over confronting Esme first, then end on that choice increasing immediate danger.",
+      "Maintain Australian spelling and emotional clarity while separating recorded evidence from Tamsin's inferences."
+    ],
+    "prohibited_conclusions": [
+      "Do not confirm that Cal is alive, present, physically appearing, or responsible.",
+      "Do not establish that Esme knowingly lied, staged the evidence, or caused the gate event.",
+      "Do not identify the floor-load reading as a person, specimen, equipment, water, or definite sensor fault.",
+      "Do not use a salinity probe or any other instrument to identify the cause or solve the mystery.",
+      "Do not open, unseal, damage, or reveal the contents of the specimen case.",
+      "Do not isolate Esme alone with Sable.",
+      "Do not eliminate equipment malfunction, staged human interference, or an unknown ecological event as future explanations.",
+      "Do not turn the gate log into proof that the credential presenter was Cal."
+    ],
+    "scene_boundary": "End at 04:50 with Tamsin committed to the culvert-camera route and the isolation action underway, while Esme, Niko, Sable, the intact case, the occupied sensor, and the ambiguous evidence remain available for the next scene."
+  },
+  "verdict": "proceed"
+}

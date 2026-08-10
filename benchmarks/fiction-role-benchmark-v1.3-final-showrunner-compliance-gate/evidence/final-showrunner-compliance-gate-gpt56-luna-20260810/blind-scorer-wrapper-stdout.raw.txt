@@ -1,0 +1,70 @@
+Warning: Unknown toolsets: none
+{
+  "alias": "CANDIDATE-001",
+  "dimensions": {
+    "causal_architecture": {
+      "score": 20,
+      "evidence": [
+        "\"Tamsin shifts from routine intake to access-control verification and asks Esme how she entered.\"",
+        "\"Before Tamsin can complete the manifest check, the quarantine-bay floor-load alert changes state.\"",
+        "\"The culvert feed loses a longer interval just as the barrier pumps change tone, forcing Tamsin to choose which uncertainty to confront first.\"",
+        "\"At 04:50, Tamsin decides to continue to the culvert camera and manually isolate the route instead of turning back to confront Esme first.\""
+      ],
+      "finding": "G1–G8 form a clear causal escalation from physical anomaly to credential conflict, procedural diversion, sensor change, degraded surveillance, explicit choice, and a danger-increasing commitment. Each beat has an actionable exit condition that drives the next beat."
+    },
+    "literal_detail_retention": {
+      "score": 19,
+      "evidence": [
+        "\"At 04:42, Tamsin crosses the quarantine bay and finds a line of saltwater footprints that stops exactly at the dry threshold.\"",
+        "\"Esme says Cal's deactivated blue token unlocked the outer service gate. Tamsin checks the access record and remembers that the token was sealed in an evidence locker after Cal disappeared five years ago.\"",
+        "\"At 04:46, the floor-load sensor changes from `clear` to `occupied`.\"",
+        "\"Esme arrives with a locked specimen case whose paper tag reads exactly `LOT 6 / RETURN UNOPENED`.\"",
+        "\"Niko does not leave the upper gantry at any point.\"",
+        "\"Sable enters over the operations channel and redirects attention to the missing signature on Esme's delivery manifest\"",
+        "\"Maintain Australian spelling and emotional clarity\""
+      ],
+      "finding": "All required story facts, exact tag wording, timing, positions, choice, and endpoint are retained. The sole minor omission is that the handoff never states the requested approximately 1,200-word target."
+    },
+    "evidence_inference_restraint": {
+      "score": 20,
+      "evidence": [
+        "\"The sensor proves only that its configured load threshold was crossed; it does not prove that a person, specimen, equipment, water, or a sensor fault caused the reading.\"",
+        "\"The gate log proves only that a registered credential was accepted, not who or what presented it, whether the credential was physically present, or whether Cal is alive.\"",
+        "\"The pressure fluctuation, static, and obstruction are observations with several possible causes; none establishes whether the event is mechanical, human, ecological, or connected to Cal.\"",
+        "\"Do not turn the gate log into proof that the credential presenter was Cal.\""
+      ],
+      "finding": "The submission repeatedly and correctly separates observations from conclusions. Neither the floor-load status nor credential acceptance is converted into proof of identity, presenter, intrusion type, cause, or Cal's survival."
+    },
+    "canon_future_story_protection": {
+      "score": 20,
+      "evidence": [
+        "\"Tamsin visually confirms that the specimen case remains locked, sealed, and intact\"",
+        "\"Esme is not exposed as knowingly lying or confirmed as the source of the footprints or gate entry.\"",
+        "\"Cal does not physically appear and is not confirmed alive, present, or responsible.\"",
+        "\"The salinity probe is not used to identify a cause or solve the mystery.\"",
+        "\"Esme is not left alone with Sable.\"",
+        "\"Keep equipment malfunction, staged human interference, and an unknown ecological event viable after the scene.\""
+      ],
+      "finding": "Every downstream-canon protection is explicit and consistently reinforced in the beats, protected non-actions, future risks, and writer prohibitions. The three required future explanations remain viable."
+    },
+    "bounded_writer_handoff": {
+      "score": 19,
+      "evidence": [
+        "\"Write only the 4:42-4:50 scene in grounded operational detail, with restrained uncanny possibility and no confirmed extraordinary mechanism.\"",
+        "\"Make Tamsin explicitly choose checking the culvert camera first over confronting Esme first, then end on that choice increasing immediate danger.\"",
+        "\"Do not identify the floor-load reading as a person, specimen, equipment, water, or definite sensor fault.\"",
+        "\"End at 04:50 with Tamsin committed to the culvert-camera route and the isolation action underway\""
+      ],
+      "finding": "The handoff is highly actionable, explicitly bounds prohibited conclusions, and supplies a precise endpoint that preserves ambiguity. It loses one point because it does not carry the 1,200-word target into the writer instructions."
+    }
+  },
+  "total": 98,
+  "material_regression": false,
+  "critical_dimensions": [],
+  "literal_detail_result": "PASS — all required narrative details and exact tag wording are retained; only the 1,200-word target is omitted from the handoff.",
+  "evidence_inference_result": "PASS — sensor and credential evidence are expressly limited to what each record can prove.",
+  "canon_future_story_result": "PASS — the case, characters, salinity limitation, and all three future explanations are protected.",
+  "bounded_handoff_result": "PASS — inclusions, prohibitions, decision, and scene boundary are actionable and explicit, with a minor word-count omission.",
+  "substantive_verdict": "production-worthy",
+  "summary": "A strong, causally linked scene plan that retains the required facts, exact wording, operational timing, evidentiary limits, and downstream canon. It ends on a genuinely danger-increasing decision without resolving the human, mechanical, or ecological ambiguity. The only substantive imperfection is failure to state the requested 1,200-word target in the writer handoff."
+}

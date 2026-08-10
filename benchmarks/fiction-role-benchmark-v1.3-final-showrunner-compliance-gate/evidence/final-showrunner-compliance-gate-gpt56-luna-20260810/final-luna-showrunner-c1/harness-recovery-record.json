@@ -1,0 +1,18 @@
+{
+  "recovery_type": "post-response harness bookkeeping recovery",
+  "candidate_retry_performed": false,
+  "additional_provider_calls": 0,
+  "candidate_attempt_count": 1,
+  "frozen_validator_modified": false,
+  "candidate_submission_modified": false,
+  "normalization_actions": [],
+  "exception": "TypeError: validate_submission() takes 1 positional argument but 2 were given",
+  "failure_stage": "after exact submission and route evidence were preserved; before deterministic validation/run-record write",
+  "recovery_actions": [
+    "ran frozen validators/benchmark.py validate against exact submission.json",
+    "wrote validation-result.json verbatim from frozen validator",
+    "reconstructed run-result.json from preserved route/wrapper evidence",
+    "preserved exception and recovery record"
+  ],
+  "eligibility_effect": "none; candidate instruction compliance remains the evidence and zero retries were honoured"
+}

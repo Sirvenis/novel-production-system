@@ -1,0 +1,38 @@
+{
+  "candidate_attempts": 1,
+  "candidate_retries": 0,
+  "exact_route": true,
+  "requested_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "evidence_path": "route-evidence.log"
+  },
+  "served_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "evidence_path": "route-evidence.log"
+  },
+  "resolved_tool_count": 0,
+  "actual_tool_turn_count": 0,
+  "schema_compliance": true,
+  "structural_violations": [],
+  "dollar_schema_property_present": false,
+  "markdown_fence_present": false,
+  "trailing_commentary_present": false,
+  "literal_exact_tag_occurrences": 3,
+  "required_literals_missing": [],
+  "deterministic_warning_review": {
+    "warning": [
+      "evidence overclaimed"
+    ],
+    "finding": "The substring \"Cal used the token\" appears only inside negated protections (for example, \"Do not collapse ... into proof that Cal used the token\"). It is not an evidentiary overclaim. The frozen warning is preserved without alteration."
+  },
+  "blind_leakage_pass": true,
+  "blind_score": 98,
+  "substantive_material_regression": false,
+  "substantive_verdict": "production-worthy",
+  "binary_gate_pass": true,
+  "recommendation": "SHOWRUNNER \u2014 ELIGIBLE FOR ANDREW / ARDEN FINAL PRODUCTION-ASSIGNMENT APPROVAL."
+}
