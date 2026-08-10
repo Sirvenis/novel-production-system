@@ -1,0 +1,187 @@
+{
+  "evidence_id": "wave1c-gpt56-luna-20260810",
+  "algorithm": "sha256",
+  "file_count": 36,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 620,
+      "sha256": "4288d71a6227a609dd7f2a961d3607ecf4a98473081ddfbb175db29d94a00d5a"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-001/blind-manifest.json",
+      "bytes": 227,
+      "sha256": "60adad07f2a806efcbd3705a7cc535f9c1e8ad1ee3ae78cb8fa33d8296c082b9"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-001/submission.json",
+      "bytes": 13543,
+      "sha256": "b85f86b9fad8b176498e5fca2704f833ac2b4e48541d11cb3ef0904d1d73795e"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-002/blind-manifest.json",
+      "bytes": 227,
+      "sha256": "6a2a219780465e3c6978af93adecc49ae43d7a546585895eb8a4ebda01078386"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-002/submission.json",
+      "bytes": 1985,
+      "sha256": "e08a646f904602d4ce669270533dff5f5b00fac344ed052f529adb53f7da2f1f"
+    },
+    {
+      "path": "blind-readiness-validation.json",
+      "bytes": 292,
+      "sha256": "8a3cfabd50100db6ac88e20b31e90eb17eede7c09adfad2c6fe9db8df361ad10"
+    },
+    {
+      "path": "blind-score-validation.json",
+      "bytes": 55,
+      "sha256": "148e135ea1d3b1b63657a1b4aa994cf1ece5ec6f118c34733d344ea533e43473"
+    },
+    {
+      "path": "blind-score.schema.json",
+      "bytes": 1819,
+      "sha256": "bc67106b201b8e3dcf2bc3e9d56636c813b5d51609e39f5f1c35aa42afd31aa4"
+    },
+    {
+      "path": "blind-scores/CANDIDATE-001-score.json",
+      "bytes": 1597,
+      "sha256": "d8fb5a6ed66b1f2cd225850beb98727e76ead9033e14c6f126a1bf20b927b05d"
+    },
+    {
+      "path": "blind-scores/CANDIDATE-002-score.json",
+      "bytes": 1279,
+      "sha256": "2291a0a614dd1e4f3f9d210e4d9dad36b2cb3943b8354cd40aa85f84677682db"
+    },
+    {
+      "path": "freshness-validation.json",
+      "bytes": 822,
+      "sha256": "e60eea2a35dad92b5c33af342aa99a390375912f2b8225406c2402b00a05f227"
+    },
+    {
+      "path": "wave1c-luna-researcher-c1/extraction-normalization.json",
+      "bytes": 449,
+      "sha256": "0e93536cdfeaa6d6d83d136cd1279969fa342963ba32817bff99cfaafb4b7857"
+    },
+    {
+      "path": "wave1c-luna-researcher-c1/hermes-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "047bd12e1741fffccc63430e09336f3af186cb28269701411f87d14961ffb51a"
+    },
+    {
+      "path": "wave1c-luna-researcher-c1/hermes-wrapper-stdout.raw.txt",
+      "bytes": 2017,
+      "sha256": "ba9a7345d5cce58f6b7e1686884c608a4cffb0cc980e2ca08d406ca6349e774c"
+    },
+    {
+      "path": "wave1c-luna-researcher-c1/no-tool-policy-proof.json",
+      "bytes": 258,
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "wave1c-luna-researcher-c1/prompt.txt",
+      "bytes": 4376,
+      "sha256": "d9a8f34ada533246c3b447a049f9090612f1b4271ecb3937df3908f81251fbdc"
+    },
+    {
+      "path": "wave1c-luna-researcher-c1/provider-response.raw.txt",
+      "bytes": 1985,
+      "sha256": "e08a646f904602d4ce669270533dff5f5b00fac344ed052f529adb53f7da2f1f"
+    },
+    {
+      "path": "wave1c-luna-researcher-c1/route-evidence.log",
+      "bytes": 3956,
+      "sha256": "978836bfb8e16fda51a184188621d2910dd5f2823ad0c83fa0b49f1a2f0d07a0"
+    },
+    {
+      "path": "wave1c-luna-researcher-c1/run-record-validation.json",
+      "bytes": 221,
+      "sha256": "fb2e1681311ed477643bb209ada5712b5508ab3f597f88c3c3a9069e8e4b5c2c"
+    },
+    {
+      "path": "wave1c-luna-researcher-c1/run-result.json",
+      "bytes": 2651,
+      "sha256": "4e5ca159213605338edd4fda3fe9a5726750fe6f0b570e08fff2f1e9d97bad29"
+    },
+    {
+      "path": "wave1c-luna-researcher-c1/submission.json",
+      "bytes": 1985,
+      "sha256": "e08a646f904602d4ce669270533dff5f5b00fac344ed052f529adb53f7da2f1f"
+    },
+    {
+      "path": "wave1c-luna-researcher-c1/validation-result.json",
+      "bytes": 655,
+      "sha256": "a61bdce1037642c7cae914b12edc2d83c733a4f79ab4d71cd07a17225d75159b"
+    },
+    {
+      "path": "wave1c-luna-researcher-c1/wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "wave1c-luna-showrunner-c1/extraction-normalization.json",
+      "bytes": 449,
+      "sha256": "1508aee1b1a08268b31f5b72078aeb108624feba8b834b4a53d0ce5683c9ec17"
+    },
+    {
+      "path": "wave1c-luna-showrunner-c1/hermes-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "a677f9c5090a1d7f37f417e841c71ddafca89e6c418a601f7f8e11389ebc4351"
+    },
+    {
+      "path": "wave1c-luna-showrunner-c1/hermes-wrapper-stdout.raw.txt",
+      "bytes": 13575,
+      "sha256": "978903d38bc7f51d075d11516d8ba70b3e915313e1f8872ce663a92442d46347"
+    },
+    {
+      "path": "wave1c-luna-showrunner-c1/no-tool-policy-proof.json",
+      "bytes": 258,
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "wave1c-luna-showrunner-c1/prompt.txt",
+      "bytes": 5976,
+      "sha256": "0cf0067010a3e76afd2e929bdcd5e6106f77ff31f514f1bda896263e70883491"
+    },
+    {
+      "path": "wave1c-luna-showrunner-c1/provider-response.raw.txt",
+      "bytes": 13543,
+      "sha256": "b85f86b9fad8b176498e5fca2704f833ac2b4e48541d11cb3ef0904d1d73795e"
+    },
+    {
+      "path": "wave1c-luna-showrunner-c1/route-evidence.log",
+      "bytes": 3958,
+      "sha256": "2273b103fd2258db61605cce35a83b97c696835bfbe86a38a0a65a0d4453a0c2"
+    },
+    {
+      "path": "wave1c-luna-showrunner-c1/run-record-validation.json",
+      "bytes": 221,
+      "sha256": "53bfe8739c892e5b2bbacb78821022435c861318b28d39f8a6de3f1af495c6b8"
+    },
+    {
+      "path": "wave1c-luna-showrunner-c1/run-result.json",
+      "bytes": 2841,
+      "sha256": "d84b3edfb5135a590df9aeff6e3cb9f80d926ce7c885a2f45c3547a8ef2fdca2"
+    },
+    {
+      "path": "wave1c-luna-showrunner-c1/submission.json",
+      "bytes": 13543,
+      "sha256": "b85f86b9fad8b176498e5fca2704f833ac2b4e48541d11cb3ef0904d1d73795e"
+    },
+    {
+      "path": "wave1c-luna-showrunner-c1/validation-result.json",
+      "bytes": 848,
+      "sha256": "a8df42b347a94bd876db5a85467b8fc610ea606ba38a4a9bfe44f330c2fc9952"
+    },
+    {
+      "path": "wave1c-luna-showrunner-c1/wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "wave1c-summary.json",
+      "bytes": 6772,
+      "sha256": "6f3a6d88bdb14bdb81231e9e19337e52aeefc3695060c27150b768f1d024608c"
+    }
+  ]
+}

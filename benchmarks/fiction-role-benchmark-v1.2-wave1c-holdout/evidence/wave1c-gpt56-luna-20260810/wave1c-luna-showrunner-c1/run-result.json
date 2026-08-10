@@ -1,0 +1,92 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.2-wave1c-holdout",
+  "pack_version": "1.2.0-holdout",
+  "role": "showrunner",
+  "attempt_id": "wave1c-luna-showrunner-c1",
+  "requested_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "evidence_path": "route-evidence.log"
+  },
+  "served_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "evidence_path": "route-evidence.log"
+  },
+  "routing_status": "verified_exact",
+  "profile": "gpt56-luna",
+  "tool_policy": "none",
+  "actual_tool_turn_count": 0,
+  "sampling_settings": {
+    "temperature": null,
+    "reasoning": "medium",
+    "max_output_tokens": 4096
+  },
+  "packet_manifest_sha256": "085b2d6aade816e8f567e7d137dc928927a5180d19be187b0a225a80d78f3a70",
+  "started_at": "2026-08-10T07:47:40.973450+00:00",
+  "ended_at": "2026-08-10T07:48:39.782931+00:00",
+  "latency_ms": 57129,
+  "session_identifier": "20260810_174741_3b30f7",
+  "route_evidence_path": "route-evidence.log",
+  "status": "fail",
+  "failures": [
+    {
+      "class": "instruction",
+      "message": "schema validation failed: <root>: Additional properties are not allowed ('$schema' was unexpected)",
+      "retryable": false
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "prompt.txt",
+      "sha256": "0cf0067010a3e76afd2e929bdcd5e6106f77ff31f514f1bda896263e70883491"
+    },
+    {
+      "path": "no-tool-policy-proof.json",
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "hermes-wrapper-stdout.raw.txt",
+      "sha256": "978903d38bc7f51d075d11516d8ba70b3e915313e1f8872ce663a92442d46347"
+    },
+    {
+      "path": "hermes-wrapper-stderr.raw.txt",
+      "sha256": "a677f9c5090a1d7f37f417e841c71ddafca89e6c418a601f7f8e11389ebc4351"
+    },
+    {
+      "path": "provider-response.raw.txt",
+      "sha256": "b85f86b9fad8b176498e5fca2704f833ac2b4e48541d11cb3ef0904d1d73795e"
+    },
+    {
+      "path": "wrapper-notices.txt",
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "route-evidence.log",
+      "sha256": "2273b103fd2258db61605cce35a83b97c696835bfbe86a38a0a65a0d4453a0c2"
+    },
+    {
+      "path": "submission.json",
+      "sha256": "b85f86b9fad8b176498e5fca2704f833ac2b4e48541d11cb3ef0904d1d73795e"
+    },
+    {
+      "path": "extraction-normalization.json",
+      "sha256": "1508aee1b1a08268b31f5b72078aeb108624feba8b834b4a53d0ce5683c9ec17"
+    },
+    {
+      "path": "validation-result.json",
+      "sha256": "a8df42b347a94bd876db5a85467b8fc610ea606ba38a4a9bfe44f330c2fc9952"
+    }
+  ],
+  "usage": {
+    "input_tokens": 2110,
+    "output_tokens": 2886,
+    "cached_tokens": null,
+    "total_tokens": 4996
+  },
+  "wrapper_exit_code": 0,
+  "api_latency_ms": 56700,
+  "score": null
+}

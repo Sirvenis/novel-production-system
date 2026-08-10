@@ -1,0 +1,7 @@
+{
+  "blind_alias": "CANDIDATE-002",
+  "role": "researcher",
+  "submission_file": "submission.json",
+  "submission_sha256": "e08a646f904602d4ce669270533dff5f5b00fac344ed052f529adb53f7da2f1f",
+  "pack_version": "1.2.0-holdout"
+}

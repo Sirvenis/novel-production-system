@@ -1,0 +1,185 @@
+{
+  "evidence_id": "wave1c-gpt56-luna-20260810",
+  "benchmark_id": "fiction-role-benchmark-v1.2-wave1c-holdout",
+  "pack_version": "1.2.0-holdout",
+  "authorised_roles": [
+    "researcher",
+    "showrunner"
+  ],
+  "excluded_roles": [
+    "mechanical-qa",
+    "reader",
+    "editor",
+    "continuity",
+    "writer"
+  ],
+  "runs": [
+    {
+      "attempt_id": "wave1c-luna-researcher-c1",
+      "role": "researcher",
+      "requested_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "served_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "routing_status": "verified_exact",
+      "tool_policy": "none",
+      "actual_tool_turn_count": 0,
+      "status": "pass",
+      "run_record_valid": true,
+      "deterministic_eligible": true,
+      "warnings": [
+        "objective verdict mismatch"
+      ],
+      "hard_failures": [],
+      "penalty": 12,
+      "usage": {
+        "input_tokens": 1782,
+        "output_tokens": 840,
+        "cached_tokens": null,
+        "total_tokens": 2622
+      },
+      "latency_ms": 19474,
+      "submission_sha256": "e08a646f904602d4ce669270533dff5f5b00fac344ed052f529adb53f7da2f1f"
+    },
+    {
+      "attempt_id": "wave1c-luna-showrunner-c1",
+      "role": "showrunner",
+      "requested_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "served_route": {
+        "provider": "openai-codex",
+        "model": "gpt-5.6-luna",
+        "profile": "gpt56-luna",
+        "evidence_path": "route-evidence.log"
+      },
+      "routing_status": "verified_exact",
+      "tool_policy": "none",
+      "actual_tool_turn_count": 0,
+      "status": "fail",
+      "run_record_valid": true,
+      "deterministic_eligible": false,
+      "warnings": [],
+      "hard_failures": [
+        "schema validation failed: <root>: Additional properties are not allowed ('$schema' was unexpected)"
+      ],
+      "penalty": 0,
+      "usage": {
+        "input_tokens": 2110,
+        "output_tokens": 2886,
+        "cached_tokens": null,
+        "total_tokens": 4996
+      },
+      "latency_ms": 57129,
+      "submission_sha256": "b85f86b9fad8b176498e5fca2704f833ac2b4e48541d11cb3ef0904d1d73795e"
+    }
+  ],
+  "blind": {
+    "bundle_files": 4,
+    "leakage": {
+      "ok": true,
+      "files_scanned": 4,
+      "forbidden_terms": [
+        "gpt-5.6-luna",
+        "openai-codex",
+        "gpt56-luna",
+        "Wave 1A",
+        "Wave 1B",
+        "Wave 1C",
+        "Bellwether",
+        "three short beeps",
+        "provider-response",
+        "route-evidence",
+        "attempt_id"
+      ],
+      "leaks": []
+    },
+    "score_validation": {
+      "ok": true,
+      "files_checked": 2,
+      "errors": []
+    },
+    "private_identity_map_sha256": "27b5aa642e37b186a7f22ce2336589832192c8855f13b3c1467227e96c74afdc",
+    "private_seed_sha256": "2ad6d39eb674e921ce875586460822223bf685285b62ffc750d92d7b3d5189c4"
+  },
+  "scores": [
+    {
+      "benchmark_id": "fiction-role-benchmark-v1.2-wave1c-holdout",
+      "pack_version": "1.2.0-holdout",
+      "role": "showrunner",
+      "blind_alias": "CANDIDATE-001",
+      "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+      "rubric_scores": {
+        "causal_architecture_and_escalation": 20,
+        "literal_detail_retention": 20,
+        "evidence_inference_restraint": 20,
+        "canon_and_future_book_protection": 20,
+        "bounded_writer_handoff_and_usability": 20
+      },
+      "human_total": 100,
+      "deterministic_penalty": 0,
+      "final_score": 100,
+      "deterministic_eligibility": "ineligible",
+      "hard_failures": [
+        "Schema validation failed because the submission added prohibited top-level property '$schema'."
+      ],
+      "critical_flags": [
+        "INELIGIBLE_SCHEMA_CONTRACT"
+      ],
+      "evidence": [
+        "H1–H8 form a causal anomaly→personal history→telemetry→institutional pressure→power-transfer→bounded decision chain.",
+        "The exact small requirement “amber twice, pause, amber once” appears three times, including visible action and writer handoff.",
+        "Every hatch and panel statement preserves the limited pressure-state/power-request conclusion and rejects opening, crossing, sender and identity overclaims.",
+        "Protected non-actions and future-book risks preserve the capsule, Jo, Arun, Keir, Voss and three future explanation classes.",
+        "The writer handoff is unusually complete and bounded, but the extra $schema property violates the exact no-additional-properties contract and makes the run deterministically ineligible."
+      ],
+      "scored_at": "2026-08-10T17:50:32+10:00",
+      "confidence": 0.97
+    },
+    {
+      "benchmark_id": "fiction-role-benchmark-v1.2-wave1c-holdout",
+      "pack_version": "1.2.0-holdout",
+      "role": "researcher",
+      "blind_alias": "CANDIDATE-002",
+      "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+      "rubric_scores": {
+        "exact_verdict_classification": 27,
+        "citation_integrity": 20,
+        "evidence_inference_separation": 15,
+        "uncertainty_calibration": 13,
+        "production_usability": 10
+      },
+      "human_total": 85,
+      "deterministic_penalty": 12,
+      "final_score": 73,
+      "deterministic_eligibility": "eligible_with_warning",
+      "hard_failures": [],
+      "critical_flags": [],
+      "evidence": [
+        "R1, R2, R3 and R6 match frozen ground truth; R4 is labelled supported instead of qualified and R5 not-established instead of unsupported.",
+        "All six assessments cite the correct closed source, and no external evidence appears.",
+        "Evidence and inference are cleanly separated and the prose reasoning is accurate and cautious.",
+        "The two wrong labels directly repeat the tested failure class: correct/restrained prose paired with a verdict outside the frozen taxonomy.",
+        "The output is concise and usable, but two of six required classifications need correction before production reliance."
+      ],
+      "scored_at": "2026-08-10T17:50:32+10:00",
+      "confidence": 0.95
+    }
+  ],
+  "findings": {
+    "researcher": "C — repeated classification-boundary weakness materially persists; R4 and R5 labels miss frozen ground truth despite accurate cautious reasoning.",
+    "showrunner": "D — prior literal-retention and overclaim weaknesses resolved, but a new strict-schema production-significant failure makes the cell ineligible.",
+    "writer": "WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION"
+  }
+}

@@ -1,0 +1,178 @@
+# BENCHMARK INPUTS (all invented and noncanonical)
+
+## Common packet
+
+# Common Packet
+
+All material is invented, noncanonical, and closed-source. Use only the supplied packet. Do not use tools or outside facts. Preserve explicit evidence boundaries and do not convert uncertainty into contradiction or proof.
+
+## showrunner packet
+
+# Showrunner Packet — The Archive Pressure Scene
+
+Adult speculative suspense with grounded technical texture, restrained uncanny elements, emotional clarity, Australian spelling, and no confirmed supernatural mechanism.
+
+Vesper Ridge is an isolated desert radio observatory during a dust storm. Imani Rook is duty systems lead. Her former mentor Arun Vale disappeared eight years ago after a transmitter accident; his private-channel transmitter crystal was removed then. Keir Dast is in the north control room. Jo Neri, nineteen, is a courier with an unsigned delivery docket. Director Voss controls the archive. The sealed archive capsule must remain intact for later books.
+
+Plan a 1,100-word scene from 2:13 to 2:20 a.m.
+
+Required:
+- Imani finds new condensate beneath the sealed archive cabinet although the room is dry.
+- Jo says a dead private radio channel spoke her full name.
+- Imani knows Arun's transmitter crystal was removed eight years ago.
+- Service-hatch telemetry changes `sealed` to `equalised` at 02:16.
+- The backup panel displays exactly `amber twice, pause, amber once`; retain that wording verbatim.
+- Keir remains in the north control room throughout.
+- Voss redirects attention to Jo's unsigned courier docket.
+- Imani chooses between confronting Jo and checking the service hatch first.
+- End with a decision that increases danger while preserving ambiguity.
+
+Evidence boundary: hatch telemetry proves only a pressure-state change, not opening, crossing, intrusion, cause, or identity. The panel proves only a registered power-transfer request, not who or what initiated it.
+
+Downstream canon: archive capsule stays sealed and intact; Jo is not exposed as knowingly lying; Arun cannot physically appear or be confirmed alive; a seismometer cannot identify a cause or solve the mystery; do not strand Jo alone with Voss; preserve benign automation, human interference, and uncanny possibilities for later books.
+
+## Task
+
+Treat all material as invented and noncanonical. Return only JSON matching the schema. Do not mention identity, provider, benchmark history, scoring, or hidden reasoning. Use no tools or outside sources.
+
+# Showrunner — Fresh Holdout
+Create exactly eight beats H1–H8. Each gives purpose, visible action, reader effect, evidence boundary, continuity risk, and exit condition. Retain every explicit detail, including small literal requirements. Build causal escalation, not a checklist. Separate evidence from character inference. Identify future-book risks. Give a bounded writer handoff with required inclusions and prohibited conclusions. Include at least four protected non-actions, escalation curve, Imani's final decision, and proceed/retry/escalate verdict. No scene prose.
+
+## Exact output contract visible to the candidate
+
+Return only one JSON object satisfying this exact JSON Schema. Do not add prose or code fences.
+
+```json
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "beats",
+    "decision",
+    "protected_non_actions",
+    "future_book_risks",
+    "escalation_curve",
+    "writer_handoff",
+    "verdict"
+  ],
+  "properties": {
+    "beats": {
+      "type": "array",
+      "minItems": 8,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "purpose",
+          "visible_action",
+          "reader_effect",
+          "evidence_boundary",
+          "continuity_risk",
+          "exit_condition"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "purpose": {
+            "type": "string",
+            "minLength": 1
+          },
+          "visible_action": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reader_effect": {
+            "type": "string",
+            "minLength": 1
+          },
+          "evidence_boundary": {
+            "type": "string",
+            "minLength": 1
+          },
+          "continuity_risk": {
+            "type": "string",
+            "minLength": 1
+          },
+          "exit_condition": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "decision": {
+      "type": "string",
+      "minLength": 1
+    },
+    "protected_non_actions": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "future_book_risks": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "escalation_curve": {
+      "type": "array",
+      "minItems": 4,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "writer_handoff": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "required_inclusions",
+        "prohibited_conclusions",
+        "scene_boundary"
+      ],
+      "properties": {
+        "required_inclusions": {
+          "type": "array",
+          "minItems": 5,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "prohibited_conclusions": {
+          "type": "array",
+          "minItems": 4,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "scene_boundary": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "verdict": {
+      "enum": [
+        "proceed",
+        "retry",
+        "escalate"
+      ]
+    }
+  }
+}
+
+```

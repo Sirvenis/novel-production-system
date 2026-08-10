@@ -1,0 +1,30 @@
+{
+  "role": "showrunner",
+  "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1.2-wave1c-holdout/evidence/wave1c-gpt56-luna-20260810/wave1c-luna-showrunner-c1/submission.json",
+  "hard_failures": [
+    "schema validation failed: <root>: Additional properties are not allowed ('$schema' was unexpected)"
+  ],
+  "warnings": [],
+  "checks": {
+    "json_schema_errors": [
+      "<root>: Additional properties are not allowed ('$schema' was unexpected)"
+    ],
+    "missing_top_level_fields": [],
+    "beat_ids": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8"
+    ],
+    "required_story_material_missing": [],
+    "exact_panel_sequence_occurrences": 3,
+    "evidentiary_overclaim_hits": [],
+    "global_forbidden_hits": []
+  },
+  "penalty": 0,
+  "eligible": false
+}

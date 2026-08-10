@@ -1,0 +1,7 @@
+{
+  "blind_alias": "CANDIDATE-001",
+  "role": "showrunner",
+  "submission_file": "submission.json",
+  "submission_sha256": "b85f86b9fad8b176498e5fca2704f833ac2b4e48541d11cb3ef0904d1d73795e",
+  "pack_version": "1.2.0-holdout"
+}

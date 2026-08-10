@@ -1,0 +1,29 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.2-wave1c-holdout",
+  "pack_version": "1.2.0-holdout",
+  "role": "researcher",
+  "blind_alias": "CANDIDATE-002",
+  "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+  "rubric_scores": {
+    "exact_verdict_classification": 27,
+    "citation_integrity": 20,
+    "evidence_inference_separation": 15,
+    "uncertainty_calibration": 13,
+    "production_usability": 10
+  },
+  "human_total": 85,
+  "deterministic_penalty": 12,
+  "final_score": 73,
+  "deterministic_eligibility": "eligible_with_warning",
+  "hard_failures": [],
+  "critical_flags": [],
+  "evidence": [
+    "R1, R2, R3 and R6 match frozen ground truth; R4 is labelled supported instead of qualified and R5 not-established instead of unsupported.",
+    "All six assessments cite the correct closed source, and no external evidence appears.",
+    "Evidence and inference are cleanly separated and the prose reasoning is accurate and cautious.",
+    "The two wrong labels directly repeat the tested failure class: correct/restrained prose paired with a verdict outside the frozen taxonomy.",
+    "The output is concise and usable, but two of six required classifications need correction before production reliance."
+  ],
+  "scored_at": "2026-08-10T17:50:32+10:00",
+  "confidence": 0.95
+}

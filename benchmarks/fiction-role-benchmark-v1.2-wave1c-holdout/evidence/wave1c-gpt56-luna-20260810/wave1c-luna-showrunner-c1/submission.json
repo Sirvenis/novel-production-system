@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "beats": [
+    {
+      "id": "H1",
+      "purpose": "Establish the 2:13 a.m. baseline, the storm pressure, and the first physical anomaly without declaring a cause.",
+      "visible_action": "Imani enters the dry archive room, checks the sealed archive cabinet, and finds new condensate gathered beneath it. She notes the time as 2:13 a.m. and confirms that Keir remains in the north control room.",
+      "reader_effect": "Creates immediate unease through a concrete contradiction: moisture is present where the room should be dry.",
+      "evidence_boundary": "The condensate proves only that moisture is present beneath the sealed cabinet; it does not prove leakage, movement, intrusion, a temperature source, or anything supernatural.",
+      "continuity_risk": "The archive capsule and cabinet must remain sealed and intact; the anomaly must not become proof that someone entered the archive.",
+      "exit_condition": "Imani photographs the condensate, leaves the cabinet untouched, and hears Jo calling from the adjoining access corridor."
+    },
+    {
+      "id": "H2",
+      "purpose": "Give Jo a credible, frightening report that links the immediate disturbance to the observatory's history without making her knowingly deceptive.",
+      "visible_action": "Jo presents her unsigned delivery docket and says that a dead private radio channel spoke her full name. Imani checks the channel designation while Keir answers over the north control room intercom and confirms he has not left his post.",
+      "reader_effect": "Turns the anomaly personal for Jo and raises the possibility of deliberate human interference, faulty equipment, or an uncanny event.",
+      "evidence_boundary": "Jo's statement establishes what she heard and reports, not who transmitted it, whether the channel was truly dead, or whether Jo misunderstood a signal.",
+      "continuity_risk": "Jo must not be exposed as knowingly lying, and Keir must remain in the north control room throughout the scene.",
+      "exit_condition": "The channel log shows no authorised traffic, while Jo's unsigned docket gives Voss a reason to challenge her credibility."
+    },
+    {
+      "id": "H3",
+      "purpose": "Activate Imani's personal history and make the radio anomaly materially dangerous rather than merely eerie.",
+      "visible_action": "Imani states that Arun Vale's private-channel transmitter crystal was removed eight years ago, after his transmitter accident and disappearance. She prevents Jo from touching the radio controls and asks Keir to preserve the channel log from the north control room.",
+      "reader_effect": "Invites the reader to connect the dead channel with Arun while keeping that connection inferential and emotionally charged.",
+      "evidence_boundary": "Imani knows the crystal was removed eight years ago; this proves neither that Arun transmitted, that the crystal is present, nor that Arun is alive.",
+      "continuity_risk": "Arun cannot physically appear or be confirmed alive, and the removed crystal cannot be treated as recovered evidence without later support.",
+      "exit_condition": "A status alert reports a change pending at the archive service hatch, forcing Imani to choose between Jo and the infrastructure."
+    },
+    {
+      "id": "H4",
+      "purpose": "Introduce the first system-level escalation and force the required immediate choice.",
+      "visible_action": "At 2:16 a.m., service-hatch telemetry changes from `sealed` to `equalised`. Imani looks from Jo and the unsigned docket to the service-hatch route, explicitly weighing confronting Jo against checking the hatch first.",
+      "reader_effect": "Compresses the scene's pressure: either Jo is a distraction, or the hatch is the more urgent threat.",
+      "evidence_boundary": "The telemetry proves only a pressure-state change from `sealed` to `equalised`; it does not prove opening, crossing, intrusion, cause, or identity.",
+      "continuity_risk": "The hatch must not be shown open, crossed, or breached, and the telemetry must not identify a person or agent.",
+      "exit_condition": "Imani chooses to check the service hatch first, ordering Jo to stay with the visible control-room line while Keir monitors remotely."
+    },
+    {
+      "id": "H5",
+      "purpose": "Delay direct resolution by placing institutional pressure against Imani's safety priority.",
+      "visible_action": "Voss enters the control-room exchange and redirects attention to Jo's unsigned courier docket, demanding its chain of custody and implying that an unauthorised delivery explains the disruption. Imani keeps Jo within sight and does not strand her alone with Voss.",
+      "reader_effect": "Creates competing explanations and makes authority itself feel potentially obstructive without proving Voss is responsible.",
+      "evidence_boundary": "The unsigned docket proves only that the delivery lacks a signature; it does not prove fraud, sabotage, Jo's guilt, or a connection to the hatch or radio channel.",
+      "continuity_risk": "Voss may pressure or redirect but cannot be confirmed as the instigator; Jo must remain accompanied and not be isolated with Voss.",
+      "exit_condition": "Imani assigns Voss to read the docket aloud over the open channel while she proceeds toward the service hatch with Jo in controlled proximity."
+    },
+    {
+      "id": "H6",
+      "purpose": "Use the backup panel to add a second ambiguous system signal and increase time pressure.",
+      "visible_action": "Near the service-hatch corridor, Imani checks the backup panel. It displays exactly `amber twice, pause, amber once`; she records the display while Keir reports that the north control room shows a registered power-transfer request.",
+      "reader_effect": "Suggests coordination between systems while preserving multiple plausible causes, including benign automation and human interference.",
+      "evidence_boundary": "The panel proves only a registered power-transfer request, not who or what initiated it. The display does not establish a message, code, intent, or identity.",
+      "continuity_risk": "The backup panel cannot become a supernatural communication device or a definitive identification mechanism; Keir remains physically in the north control room.",
+      "exit_condition": "The power-transfer request begins rerouting load towards the archive corridor, making delay more dangerous without opening the capsule."
+    },
+    {
+      "id": "H7",
+      "purpose": "Bring the physical and social pressures together at the sealed boundary.",
+      "visible_action": "Imani reaches the service hatch with Jo beside her and Voss still on the monitored channel. She checks the hatch indicators, confirms no visible breach, and orders Keir to hold the north control-room systems steady while the pressure equalisation continues.",
+      "reader_effect": "Provides proximity to the apparent threat without rewarding the reader with an explanation, while testing Imani's trust and command judgement.",
+      "evidence_boundary": "No visible breach plus the telemetry establish only that the hatch remains an unresolved pressure-state anomaly; they do not prove that it opened, that anything crossed, or that the archive was accessed.",
+      "continuity_risk": "The sealed archive capsule must remain intact; no seismometer reading may identify a cause or solve the mystery; Jo must not be abandoned with Voss.",
+      "exit_condition": "A fresh vibration interrupts the inspection, the corridor power drops briefly, and Imani must decide whether to preserve the hatch status or interrupt the transfer."
+    },
+    {
+      "id": "H8",
+      "purpose": "End on an active choice that increases danger while preserving ambiguity for later books.",
+      "visible_action": "At 2:20 a.m., Imani orders Keir to keep the north control room locked in monitoring mode and chooses to interrupt the registered power-transfer request at the service-hatch controls rather than retreat or confront Jo about the radio report. Jo stays beside her, and the sealed archive cabinet remains untouched.",
+      "reader_effect": "Ends with agency, risk, and unresolved possibility: Imani may prevent a harmful transfer or trigger a more serious systems response.",
+      "evidence_boundary": "The decision changes the system state but proves neither the source nor the intent behind the transfer, the radio voice, the condensate, or the pressure equalisation.",
+      "continuity_risk": "The interruption must not open the hatch, damage or expose the capsule, confirm Arun alive, identify a supernatural mechanism, or resolve whether automation, human interference, or an uncanny event is involved.",
+      "exit_condition": "The transfer interruption registers as accepted, then the hatch status flickers without resolving, leaving Imani, Jo, Keir, and Voss facing an escalating but unexplained system condition."
+    }
+  ],
+  "decision": "Imani chooses to check the service hatch first, then at 2:20 a.m. interrupts the registered power-transfer request while keeping Jo beside her and Keir in the north control room; this increases danger by altering the active system state without proving who or what caused it.",
+  "protected_non_actions": [
+    "The sealed archive capsule is not opened, moved, damaged, or exposed, and the archive cabinet remains intact.",
+    "Arun Vale does not physically appear and is not confirmed alive; the removed transmitter crystal remains an unresolved historical fact.",
+    "The service-hatch telemetry does not prove opening, crossing, intrusion, cause, or identity.",
+    "The backup panel display exactly `amber twice, pause, amber once` does not identify a sender, message, intent, or supernatural mechanism.",
+    "Jo is not exposed as knowingly lying and is not left alone with Voss.",
+    "Keir remains in the north control room throughout and does not become a physical witness at the hatch.",
+    "No seismometer reading identifies a cause or solves the mystery.",
+    "The scene does not decide between benign automation, human interference, and uncanny possibilities."
+  ],
+  "future_book_risks": [
+    "Treating the condensate, radio report, telemetry, or panel display as proof of a single supernatural explanation would collapse the intended ambiguity.",
+    "Confirming Arun's survival, recovery of his transmitter crystal, or physical involvement would overtake later revelations.",
+    "Making Voss the proven saboteur or Jo the knowingly deceptive courier would remove future political and interpersonal possibilities.",
+    "Opening or compromising the archive capsule would violate the sealed-capsule premise and eliminate later-book pressure.",
+    "Allowing the service-hatch event to identify an intruder or allowing a seismometer to solve its cause would resolve the mystery prematurely."
+  ],
+  "escalation_curve": [
+    "2:13 a.m.: A dry archive room contains new condensate beneath the sealed cabinet, creating a contained physical contradiction.",
+    "2:14–2:15 a.m.: Jo reports that a dead private radio channel spoke her full name, linking the anomaly to personal fear and Arun's history.",
+    "2:16 a.m.: Telemetry changes from `sealed` to `equalised`, converting unease into an unresolved infrastructure threat.",
+    "2:17–2:19 a.m.: Voss redirects attention to the unsigned docket while the backup panel and power-transfer request suggest concurrent system activity.",
+    "2:20 a.m.: Imani interrupts the transfer, increasing immediate operational danger while leaving cause, identity, and mechanism ambiguous."
+  ],
+  "writer_handoff": {
+    "required_inclusions": [
+      "Plan the scene from 2:13 to 2:20 a.m. as eight causal beats rather than a checklist.",
+      "Show new condensate beneath the sealed archive cabinet in an otherwise dry room.",
+      "Include Jo saying that a dead private radio channel spoke her full name.",
+      "State that Imani knows Arun's private-channel transmitter crystal was removed eight years ago.",
+      "Use the exact telemetry change from `sealed` to `equalised` at 02:16.",
+      "Retain the exact wording `amber twice, pause, amber once` for the backup panel.",
+      "Keep Keir in the north control room throughout and keep Jo accompanied rather than alone with Voss.",
+      "Have Imani choose the service hatch before confronting Jo, then end with her interrupting the power-transfer request.",
+      "Separate observed evidence from Imani's inferences and preserve benign automation, human interference, and uncanny possibilities."
+    ],
+    "prohibited_conclusions": [
+      "Do not conclude that the hatch opened, that anything crossed it, or that the archive was entered.",
+      "Do not conclude that Arun is alive, that he transmitted, or that his crystal has returned.",
+      "Do not conclude that the radio channel, condensate, telemetry, or panel display proves a supernatural cause.",
+      "Do not identify Voss as the saboteur or Jo as knowingly lying.",
+      "Do not use a seismometer to identify a cause or solve the mystery.",
+      "Do not open, damage, or expose the sealed archive capsule.",
+      "Do not strand Jo alone with Voss or move Keir out of the north control room."
+    ],
+    "scene_boundary": "End at 2:20 a.m. immediately after Imani interrupts the registered power-transfer request and the hatch status flickers without resolving; preserve the sealed archive and all competing explanations for later books."
+  },
+  "verdict": "proceed"
+}

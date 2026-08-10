@@ -111,4 +111,16 @@ Full report: `reports/FICTION_ROLE_BENCHMARK_WAVE1B_2026-08-10.md`. Canonical ev
 
 ## Immediate next gate
 
-Wave 1B evidence is ready for Andrew / Arden production-assignment review. Mechanical QA, Fresh Reader, Editor, and Continuity are proposed for review only; Showrunner and Researcher require Wave 1C; Writer remains ineligible. No model has been promoted or assigned. Stop before production use, Wave 1C, extra-credit testing, production model-policy changes, profile/configuration changes, or canonical prose work.
+Andrew / Arden approved Mechanical QA and Fresh Reader for bounded production assignment, Editor with an explicit diagnosis-only versus authorised-surgical-revision control, and Continuity as a bounded secondary audit role. Those role-specific decisions do not constitute universal Luna promotion or automatic routing.
+
+## Wave 1C fresh-holdout evidence
+
+Andrew / Arden authorised a genuinely fresh Wave 1C for Researcher and Showrunner only. The frozen v1.1 45-file pack remains unchanged. A separately frozen `fiction-role-benchmark-v1.2-wave1c-holdout` extension introduced new conservation-record and desert-observatory tasks, objective ground truth, role schemas and rubrics. Candidate-visible exact hash overlap with v1.1 was zero.
+
+Both cells used exact `gpt-5.6-luna / openai-codex` through `gpt56-luna`, with 0 actual tool turns and a leak-free blind bundle. Researcher scored 73 after two wrong verdict labels and is category C: the classification-boundary weakness repeats materially. Showrunner earned a 100-point human score, retained every explicit detail and resisted overclaiming, but added a prohibited top-level `$schema` property and is deterministically ineligible; prior weaknesses resolved, but category D applies because a new production-significant strict-output failure appeared.
+
+Full report: `reports/FICTION_ROLE_BENCHMARK_WAVE1C_2026-08-10.md`. Canonical evidence: `benchmarks/fiction-role-benchmark-v1.2-wave1c-holdout/evidence/wave1c-gpt56-luna-20260810/`.
+
+## Immediate next gate
+
+Stop for Andrew / Arden's final Wave 1C production-assignment review. Do not assign Researcher or Showrunner to production, rerun Writer, test extra-credit models, promote Luna universally, enable automatic routing, change production model policy/profile/configuration/runtime state, alter canonical prose, or begin unrelated work.

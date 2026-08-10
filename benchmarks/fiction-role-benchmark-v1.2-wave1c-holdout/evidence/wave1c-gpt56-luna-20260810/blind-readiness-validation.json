@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "files_scanned": 4,
+  "forbidden_terms": [
+    "gpt-5.6-luna",
+    "openai-codex",
+    "gpt56-luna",
+    "Wave 1A",
+    "Wave 1B",
+    "Wave 1C",
+    "Bellwether",
+    "three short beeps",
+    "provider-response",
+    "route-evidence",
+    "attempt_id"
+  ],
+  "leaks": []
+}

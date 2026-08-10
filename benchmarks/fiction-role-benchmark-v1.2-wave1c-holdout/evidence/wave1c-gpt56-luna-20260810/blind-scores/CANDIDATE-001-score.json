@@ -1,0 +1,33 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.2-wave1c-holdout",
+  "pack_version": "1.2.0-holdout",
+  "role": "showrunner",
+  "blind_alias": "CANDIDATE-001",
+  "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+  "rubric_scores": {
+    "causal_architecture_and_escalation": 20,
+    "literal_detail_retention": 20,
+    "evidence_inference_restraint": 20,
+    "canon_and_future_book_protection": 20,
+    "bounded_writer_handoff_and_usability": 20
+  },
+  "human_total": 100,
+  "deterministic_penalty": 0,
+  "final_score": 100,
+  "deterministic_eligibility": "ineligible",
+  "hard_failures": [
+    "Schema validation failed because the submission added prohibited top-level property '$schema'."
+  ],
+  "critical_flags": [
+    "INELIGIBLE_SCHEMA_CONTRACT"
+  ],
+  "evidence": [
+    "H1–H8 form a causal anomaly→personal history→telemetry→institutional pressure→power-transfer→bounded decision chain.",
+    "The exact small requirement “amber twice, pause, amber once” appears three times, including visible action and writer handoff.",
+    "Every hatch and panel statement preserves the limited pressure-state/power-request conclusion and rejects opening, crossing, sender and identity overclaims.",
+    "Protected non-actions and future-book risks preserve the capsule, Jo, Arun, Keir, Voss and three future explanation classes.",
+    "The writer handoff is unusually complete and bounded, but the extra $schema property violates the exact no-additional-properties contract and makes the run deterministically ineligible."
+  ],
+  "scored_at": "2026-08-10T17:50:32+10:00",
+  "confidence": 0.97
+}

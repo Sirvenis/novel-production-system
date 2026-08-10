@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "parent_pack_files": 45,
+  "parent_manifest_sha256": "92e9dc13980b69aab21268ec38dcda1d62d8726a299317b960998faa1de65c05",
+  "parent_packet_hash": "1aac9a7890a7ca4337719dae85f093d1d6ee24e2abf2810df49b23da55fc9ad8",
+  "holdout_pack_files": 16,
+  "holdout_manifest_sha256": "085b2d6aade816e8f567e7d137dc928927a5180d19be187b0a225a80d78f3a70",
+  "holdout_packet_hash": "30f4830640314efb744cab2e16052b5531b0bb57b2e8e627bf13664a2082f1a1",
+  "candidate_visible_exact_hash_overlap_count": 0,
+  "old_new_prompt_hash_overlap_count": 0,
+  "old_new_submission_hash_overlap_count": 0,
+  "old_content_marker_hits": [],
+  "holdout_freeze_commit": "76a73eb363a2d875c5ec7e0fb38a2213ba80255c",
+  "holdout_freeze_commit_time": "2026-08-10T17:46:51+10:00",
+  "first_candidate_started_at": "2026-08-10T07:47:19.333947+00:00"
+}
