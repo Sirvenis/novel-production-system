@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "findings",
+    "checked_domains",
+    "verdict"
+  ],
+  "properties": {
+    "findings": {
+      "type": "array",
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "summary_fragment",
+          "canon_evidence",
+          "severity",
+          "classification"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "summary_fragment": {
+            "type": "string"
+          },
+          "canon_evidence": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "critical",
+              "major",
+              "minor"
+            ]
+          },
+          "classification": {
+            "enum": [
+              "contradiction",
+              "unsupported-certainty"
+            ]
+          }
+        }
+      }
+    },
+    "checked_domains": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "verdict": {
+      "enum": [
+        "pass",
+        "fail",
+        "needs-review"
+      ]
+    }
+  }
+}

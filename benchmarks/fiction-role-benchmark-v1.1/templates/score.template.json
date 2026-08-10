@@ -1,0 +1,15 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "role": "writer",
+  "blind_alias": "replace-me",
+  "scorer_id": "replace-me",
+  "rubric_scores": {},
+  "human_total": 0,
+  "deterministic_penalty": 0,
+  "final_score": 0,
+  "critical_flags": [],
+  "evidence": [],
+  "scored_at": "1970-01-01T00:00:00Z",
+  "confidence": 0
+}

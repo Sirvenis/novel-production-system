@@ -1,0 +1,18 @@
+{
+  "role": "writer",
+  "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1.1/evidence/wave0b-gpt56-luna-20260810/wave0b-luna-writer-a1/submission.md",
+  "hard_failures": [
+    "word count 1231 outside 900-1200",
+    "required beat markers out of order"
+  ],
+  "warnings": [],
+  "checks": {
+    "word_count": 1231,
+    "required_markers_missing": [],
+    "eli_line_occurrences": 1,
+    "prohibited_event_hits": [],
+    "global_forbidden_hits": []
+  },
+  "penalty": 0,
+  "eligible": false
+}

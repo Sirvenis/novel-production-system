@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "diagnoses",
+    "revised_text",
+    "preservation",
+    "deferred_issues"
+  ],
+  "properties": {
+    "diagnoses": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "issue",
+          "evidence",
+          "severity"
+        ],
+        "properties": {
+          "issue": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          }
+        }
+      }
+    },
+    "revised_text": {
+      "type": "string"
+    },
+    "preservation": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "protected_sentences_retained",
+        "events_retained",
+        "scope"
+      ],
+      "properties": {
+        "protected_sentences_retained": {
+          "const": true
+        },
+        "events_retained": {
+          "const": true
+        },
+        "scope": {
+          "const": "surgical"
+        }
+      }
+    },
+    "deferred_issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

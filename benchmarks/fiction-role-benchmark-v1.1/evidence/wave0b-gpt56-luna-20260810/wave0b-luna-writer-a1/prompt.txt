@@ -1,0 +1,86 @@
+# BENCHMARK INPUTS (all invented and noncanonical)
+
+## Common packet
+
+# Common Packet — The Last Ferry from Bellwether
+
+This is an invented, noncanonical benchmark scenario.
+
+## Reader contract
+
+Adult speculative suspense with grounded coastal texture, restrained uncanny elements, emotional clarity, and no lore lecture. Australian spelling. Close third person unless a task says otherwise.
+
+## Setting
+
+Bellwether is an isolated tidal town. At 11:40 p.m. the final car ferry crosses a black estuary to the mainland. A storm has cut mobile service. The crossing takes eighteen minutes. The ferry has an enclosed passenger lounge, a vehicle deck, a wheelhouse, and a locked maintenance stair.
+
+## Canon facts
+
+- Mara Vale, 38, is the ferry's relief engineer. Practical, observant, and privately angry at her younger brother Eli.
+- Eli Vale, 31, vanished from Bellwether eleven years ago after being blamed for a marina fire. Mara did not defend him publicly.
+- Tom Arlen, 62, is the skipper. He never leaves the wheelhouse while the vessel is under way.
+- Nessa Quill, 17, is travelling alone with a red canvas backpack and a paper ticket stamped 23:40.
+- Councillor Hugh Saye is transporting a locked grey document case.
+- The ferry clock is seven minutes slow. All official incident times use actual time, not ferry-clock time.
+- The maintenance stair alarm records openings with actual timestamps.
+- Salt water on the vehicle deck is ordinary. Fresh water there is anomalous because the rain cannot reach beneath the enclosed centre lane.
+- Mara carries Eli's old brass compass. Since the marina fire it points inland, not north.
+- No supernatural mechanism is confirmed in this packet.
+
+## Voice constraints
+
+Concrete sensory detail; emotion shown through choice, perception, and withheld speech. Avoid faux-poetic abstraction, generic trailer language, and explanatory monologues.
+
+## Global forbidden expressions
+
+Do not use: `little did she know`, `everything changed`, `a chill ran down her spine`, `ancient evil`, `destiny`, `somehow`, `for some reason`.
+
+## writer packet
+
+# Writer Packet
+
+Write the mid-channel scene described below. The scene begins as Mara kneels beside Councillor Saye's car and touches fresh water. It ends when she opens the maintenance-stair door.
+
+Required beats, in order:
+
+- W1: Mara confirms by taste that the water is fresh.
+- W2: Saye tries to make Nessa's 23:40 ticket the main issue.
+- W3: Nessa says, exactly once, that Eli sent her a message tonight.
+- W4: Mara notices the ferry clock reads 11:48 while her wristwatch reads 11:55.
+- W5: the maintenance alarm gives three short beeps.
+- W6: Mara chooses to check the stair before questioning Nessa.
+- W7: the brass compass turns in Mara's pocket but provides no direction or answer.
+
+Target length: 900–1,200 words. Close third from Mara. No headings, notes, analysis, or postscript in the output.
+
+## Task
+
+Treat all supplied material as invented, noncanonical benchmark data. Follow the output contract exactly. Do not mention model identity, provider, benchmark scoring, or hidden reasoning. Do not use external tools or sources.
+
+# Task: Writer
+
+Using `common.md` and `writer.md`, write only the requested scene in Markdown.
+
+## Hard length boundary
+
+- The complete submission must contain 900–1,200 words inclusive under the benchmark validator's Unicode word-token count.
+- headings count toward the word count. Do not add a title, preface, afterword, notes, commentary, or word-count declaration.
+- Even a brief overrun above 1,200 words or underrun below 900 words is an AUTOMATIC HARD-GATE FAILURE. Do not finish a sentence beyond the upper boundary; budget the ending before you reach it.
+
+## Mandatory beat order
+
+Beat order is mandatory. A beat counts only when the submitted scene explicitly contains the listed literal marker phrase (case-insensitive). The first occurrence of each marker must appear in this order:
+
+1. `fresh water`
+2. `ticket`
+3. `Eli sent me a message tonight`
+4. `11:55`
+5. `three short beeps`
+6. `maintenance stair`
+7. `compass`
+
+These marker phrases are compliance anchors, not headings or labels. Integrate each naturally into scene prose. Do not use a later marker early in setup, foreshadowing, a heading, or commentary, because the validator uses first occurrence order.
+
+## Story constraints
+
+Preserve close-third viewpoint. Do not solve the mystery, explain the compass, expose Nessa as lying, open Saye's case, move Tom out of the wheelhouse, or use globally forbidden expressions.

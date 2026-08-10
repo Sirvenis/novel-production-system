@@ -1,0 +1,16 @@
+{
+  "role": "mechanical-qa",
+  "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1.1/evidence/wave0b-gpt56-luna-20260810/wave0b-luna-mechanical-qa-a1/submission.json",
+  "hard_failures": [],
+  "warnings": [],
+  "checks": {
+    "json_schema_errors": [],
+    "missing_top_level_fields": [],
+    "exact_expected_match": true,
+    "expected_change_count": 8,
+    "reported_issue_count": 8,
+    "global_forbidden_hits": []
+  },
+  "penalty": 0,
+  "eligible": true
+}

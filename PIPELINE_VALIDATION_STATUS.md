@@ -83,14 +83,14 @@ Scout produces the final evidence synthesis. Andrew approves or rejects the prop
 
 ## Gate 2 benchmark-pack state
 
-`benchmarks/fiction-role-benchmark-v1/` was built and deterministically verified as the first reusable noncanonical role-evaluation pack. Wave 0 then ran one ordinary-account comparison route across all seven roles: `gpt-5.6-luna` via `openai-codex`.
+`benchmarks/fiction-role-benchmark-v1/` remains preserved as the original calibration/audit pack. Wave 0 proved exact routing and isolation but exposed a defective no-tool input contract: structured candidates saw schema paths without schema contents. Its 0/7 eligibility therefore cannot support model comparison.
 
-Wave 0 preserved fourteen attempts: seven invalid launcher attempts with unintended tool availability and seven controlled no-tool attempts. Exact routing passed 7/7 controlled cells, but deterministic eligibility was 0/7. The principal defect is the execution contract: the documented no-tool workflow gives structured roles task prompts that reference schemas by path without supplying the schema contents, forcing candidates to guess strict field names and enums. The writer also exceeded its word range and beat-order contract.
+Andrew authorised a corrected successor, `benchmarks/fiction-role-benchmark-v1.1/`. v1.1 embeds exact structured-output schemas in candidate-visible prompts, proves zero resolved tools and zero actual tool turns, separates immutable provider response from Hermes wrapper output and normalization, records explicit route/profile/settings/usage/latency/session metadata, validates full nested schemas, tightens writer length/order rules, rejects overwrite/leakage, and freezes a 45-file full manifest plus packet hash.
 
-Blind craft scores were compressed at 90–94 even though every run was hard-gate ineligible. This confirms that human craft scoring and deterministic compliance measure different things, but the current single-scorer spread is not discriminating enough for model selection. Full evidence and route corrections are recorded in `reports/FICTION_ROLE_BENCHMARK_WAVE0_CALIBRATION_2026-08-10.md`.
+A bounded three-cell calibration used only `gpt-5.6-luna / openai-codex`: mechanical QA and fresh reader were deterministically eligible; writer remained ineligible at 1,231 words with markers out of order. Exact route passed 3/3 and tool turns were 0/3. These results validate the repaired harness and do not select or reject a production model. Full report: `reports/FICTION_ROLE_BENCHMARK_CORRECTED_WAVE0B_2026-08-10.md`.
 
 No canonical prose, live profile configuration, series model policy, deployment, payment infrastructure, or extra-credit model was changed.
 
 ## Immediate next gate
 
-Wave 0 is complete. Stop before Wave 1 for evidence review. The next proposed gate is a bounded benchmark-pack revision under a new version/hash: make the no-tool launcher explicit, supply each strict output contract without exposing rubrics or ground truth, preserve raw provider output separately from CLI wrapper text, correct scorer-route capture, strengthen pre-reveal score locking/hashing, and recalibrate writer length/beat compliance. Do not start that revision or any Wave 1 model screen until Andrew authorises the next phase. Kimi K3 and all other extra-credit use remain separately cost-gated.
+Corrected Wave 0B is complete. The v1.1 pack is eligible for Andrew / Arden evidence review. Stop before Wave 1. A Wave 1 model screen may be proposed only after review and still requires Andrew's separate authorization. Kimi K3 and all other extra-credit use remain separately cost-gated.

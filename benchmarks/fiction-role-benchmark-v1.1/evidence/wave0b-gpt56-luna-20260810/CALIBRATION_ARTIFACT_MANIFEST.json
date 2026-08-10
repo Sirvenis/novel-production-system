@@ -1,0 +1,266 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "calibration_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna"
+  },
+  "runs": [
+    {
+      "attempt_id": "wave0b-luna-mechanical-qa-a1",
+      "role": "mechanical-qa",
+      "status": "pass",
+      "routing_status": "verified_exact",
+      "actual_tool_turn_count": 0,
+      "deterministic_eligible": true,
+      "hard_failures": [],
+      "session_identifier": "20260810_095958_0d0fe9"
+    },
+    {
+      "attempt_id": "wave0b-luna-reader-a1",
+      "role": "reader",
+      "status": "pass",
+      "routing_status": "verified_exact",
+      "actual_tool_turn_count": 0,
+      "deterministic_eligible": true,
+      "hard_failures": [],
+      "session_identifier": "20260810_100108_6c4811"
+    },
+    {
+      "attempt_id": "wave0b-luna-writer-a1",
+      "role": "writer",
+      "status": "fail",
+      "routing_status": "verified_exact",
+      "actual_tool_turn_count": 0,
+      "deterministic_eligible": false,
+      "hard_failures": [
+        "word count 1231 outside 900-1200",
+        "required beat markers out of order"
+      ],
+      "session_identifier": "20260810_100022_a0b8b1"
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1554,
+      "sha256": "42f66ee668eb8f75f27c6334fd3ce2bce4f474f1cb996115bf11e5174082b3a4"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-001/blind-manifest.json",
+      "bytes": 213,
+      "sha256": "c9271bcffc371ebeb5b407b210ed24ba02417fda0399014c485834d9b79e82af"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-001/submission.md",
+      "bytes": 7331,
+      "sha256": "55fa88bb32cb79d860735a868fe7549da24529912314544ddc55085f8179c5ac"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-002/blind-manifest.json",
+      "bytes": 215,
+      "sha256": "6f4ed4dd179d6ac0e18afe7de3e4000a524ff299396ceefaa45850df753db241"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-002/submission.json",
+      "bytes": 2110,
+      "sha256": "72c8187ff591d339678560d15af3d9ed1549f704ddb6873dc5fba8319c26fc41"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-003/blind-manifest.json",
+      "bytes": 222,
+      "sha256": "1d56c8a6bc812bedb1a7786a07b13e6cc5bd3ad8523be141f36dd61a78a8d12e"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-003/submission.json",
+      "bytes": 1317,
+      "sha256": "d8ce8c7f125bbe08900b16e0614fc7cbdfad49ae4cbc3cc71b0aa0ad5084720c"
+    },
+    {
+      "path": "blind-readiness-validation.json",
+      "bytes": 1026,
+      "sha256": "4bc3e532befb8a8b640da9de0d6f97150354ce7c4267f3f971b4ebb763159221"
+    },
+    {
+      "path": "wave0b-luna-mechanical-qa-a1/extraction-normalization.json",
+      "bytes": 449,
+      "sha256": "8fbfccce696bc73d2b369ea2f83be42e1eec5322dc4967ddcfb881bb5aa98fd9"
+    },
+    {
+      "path": "wave0b-luna-mechanical-qa-a1/hermes-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "27d262a5d58eae73c1439aaff2fb260369da0cc3dfe3306b1a90f63099f0cb05"
+    },
+    {
+      "path": "wave0b-luna-mechanical-qa-a1/hermes-wrapper-stdout.raw.txt",
+      "bytes": 1349,
+      "sha256": "d78d799ef37afdd26693bef077e208ac01fa052b535b9fbde43c75cb9d8bc398"
+    },
+    {
+      "path": "wave0b-luna-mechanical-qa-a1/no-tool-policy-proof.json",
+      "bytes": 258,
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "wave0b-luna-mechanical-qa-a1/prompt.txt",
+      "bytes": 4780,
+      "sha256": "0099f44c4da65ff21bc9ab1956b3bbcd4f2e91c8e0a27011198127bfe5db87ff"
+    },
+    {
+      "path": "wave0b-luna-mechanical-qa-a1/provider-response.raw.txt",
+      "bytes": 1317,
+      "sha256": "d8ce8c7f125bbe08900b16e0614fc7cbdfad49ae4cbc3cc71b0aa0ad5084720c"
+    },
+    {
+      "path": "wave0b-luna-mechanical-qa-a1/route-evidence.log",
+      "bytes": 3956,
+      "sha256": "eb214cc42bac7d3a29568bb03aad50665f5729b0a49d9efc80e19fc6c4761ceb"
+    },
+    {
+      "path": "wave0b-luna-mechanical-qa-a1/run-record-validation.json",
+      "bytes": 209,
+      "sha256": "129d2ede384971d0baa715b437eea400e4df61ff80965157d2bae204e40b1460"
+    },
+    {
+      "path": "wave0b-luna-mechanical-qa-a1/run-result.json",
+      "bytes": 2634,
+      "sha256": "6750c2b55f7cd35f7b5b26723a919bb3bc8bac22381e602ce8e04aa1df604246"
+    },
+    {
+      "path": "wave0b-luna-mechanical-qa-a1/submission.json",
+      "bytes": 1317,
+      "sha256": "d8ce8c7f125bbe08900b16e0614fc7cbdfad49ae4cbc3cc71b0aa0ad5084720c"
+    },
+    {
+      "path": "wave0b-luna-mechanical-qa-a1/validation-result.json",
+      "bytes": 497,
+      "sha256": "4ef561f490b6d233a870840ae9a312300efa02f0345812a4d9f726e6a6e20e33"
+    },
+    {
+      "path": "wave0b-luna-mechanical-qa-a1/wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "wave0b-luna-reader-a1/extraction-normalization.json",
+      "bytes": 449,
+      "sha256": "b9c1aca9c294f19cab14205c7bee5700ea22b9a9760ab1568e70577ed76817e7"
+    },
+    {
+      "path": "wave0b-luna-reader-a1/hermes-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "ea222d299f6b2c1e6778ae6f213e32dcc4d0de3b3101686f95855ce2776361ac"
+    },
+    {
+      "path": "wave0b-luna-reader-a1/hermes-wrapper-stdout.raw.txt",
+      "bytes": 2142,
+      "sha256": "abd771d98a5c6cba37c52b86a57aa6f36925934fe779fb7ca9d265722d3be6c6"
+    },
+    {
+      "path": "wave0b-luna-reader-a1/no-tool-policy-proof.json",
+      "bytes": 258,
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "wave0b-luna-reader-a1/prompt.txt",
+      "bytes": 5305,
+      "sha256": "6df2da3cc6d71c8529afb1a737b4f5e9ccacd05e41d07ae0e9ecbc0fc2eabafb"
+    },
+    {
+      "path": "wave0b-luna-reader-a1/provider-response.raw.txt",
+      "bytes": 2110,
+      "sha256": "72c8187ff591d339678560d15af3d9ed1549f704ddb6873dc5fba8319c26fc41"
+    },
+    {
+      "path": "wave0b-luna-reader-a1/route-evidence.log",
+      "bytes": 3955,
+      "sha256": "eb686fe900bec0b3a76f6be4416714742b92b8be41e478dc8c7d7c33af85bb3d"
+    },
+    {
+      "path": "wave0b-luna-reader-a1/run-record-validation.json",
+      "bytes": 202,
+      "sha256": "7928a86b05e56ab578113bf95bab2f3c6720093bac851522e4be6734bdb06bb8"
+    },
+    {
+      "path": "wave0b-luna-reader-a1/run-result.json",
+      "bytes": 2619,
+      "sha256": "142311e136e3e1c4e303d3e54427f692555d321819a77d8ac2f074841cce7943"
+    },
+    {
+      "path": "wave0b-luna-reader-a1/submission.json",
+      "bytes": 2110,
+      "sha256": "72c8187ff591d339678560d15af3d9ed1549f704ddb6873dc5fba8319c26fc41"
+    },
+    {
+      "path": "wave0b-luna-reader-a1/validation-result.json",
+      "bytes": 426,
+      "sha256": "6df6e9a96b58022611ab5d69ddbae957d4ae56aced19bd4a613285e5083dd948"
+    },
+    {
+      "path": "wave0b-luna-reader-a1/wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "wave0b-luna-writer-a1/extraction-normalization.json",
+      "bytes": 449,
+      "sha256": "d57746346e9a4b0368b82f5dccff040e3bca3fcc36638c750f14e3d27ecdd6ed"
+    },
+    {
+      "path": "wave0b-luna-writer-a1/hermes-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "cd6d36f5ec5adc7bd8f1f0428fc366eeb951e6d367597c8df4defd25ac319441"
+    },
+    {
+      "path": "wave0b-luna-writer-a1/hermes-wrapper-stdout.raw.txt",
+      "bytes": 7363,
+      "sha256": "7af2ca2612a00091f8d0148f0bff60168a75ef3aaad0c20ba1a136ba79425b30"
+    },
+    {
+      "path": "wave0b-luna-writer-a1/no-tool-policy-proof.json",
+      "bytes": 258,
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "wave0b-luna-writer-a1/prompt.txt",
+      "bytes": 4526,
+      "sha256": "a0769083b9980aaba82967f363c2cb24c4a9e9473f1655b0744e55ce2d41a496"
+    },
+    {
+      "path": "wave0b-luna-writer-a1/provider-response.raw.txt",
+      "bytes": 7331,
+      "sha256": "55fa88bb32cb79d860735a868fe7549da24529912314544ddc55085f8179c5ac"
+    },
+    {
+      "path": "wave0b-luna-writer-a1/route-evidence.log",
+      "bytes": 3957,
+      "sha256": "e7b4b4707be885ccbaaf240383409b74ad393c75059a03398f873c198e6a5efe"
+    },
+    {
+      "path": "wave0b-luna-writer-a1/run-record-validation.json",
+      "bytes": 202,
+      "sha256": "700313da4fd2a4362a97fc7325e5ec4138d8dc8ece5d879ee7fc5530e88c7b2f"
+    },
+    {
+      "path": "wave0b-luna-writer-a1/run-result.json",
+      "bytes": 2865,
+      "sha256": "1bf04871c630fb63dc54308aef602670e7d1ed849b0d48203093a5fb4735306d"
+    },
+    {
+      "path": "wave0b-luna-writer-a1/submission.md",
+      "bytes": 7331,
+      "sha256": "55fa88bb32cb79d860735a868fe7549da24529912314544ddc55085f8179c5ac"
+    },
+    {
+      "path": "wave0b-luna-writer-a1/validation-result.json",
+      "bytes": 527,
+      "sha256": "03d5a56b1864372360d1229b1f5520c640b4ddacc5e05cf86f11054390dec817"
+    },
+    {
+      "path": "wave0b-luna-writer-a1/wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    }
+  ]
+}

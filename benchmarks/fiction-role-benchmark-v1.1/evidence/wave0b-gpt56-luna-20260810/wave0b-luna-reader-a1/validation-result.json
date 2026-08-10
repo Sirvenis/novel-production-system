@@ -1,0 +1,14 @@
+{
+  "role": "reader",
+  "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1.1/evidence/wave0b-gpt56-luna-20260810/wave0b-luna-reader-a1/submission.json",
+  "hard_failures": [],
+  "warnings": [],
+  "checks": {
+    "json_schema_errors": [],
+    "missing_top_level_fields": [],
+    "editorial_contamination_hits": [],
+    "global_forbidden_hits": []
+  },
+  "penalty": 0,
+  "eligible": true
+}

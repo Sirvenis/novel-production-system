@@ -1,0 +1,7 @@
+{
+  "toolset_argument": "none",
+  "resolved_tool_count": 0,
+  "resolved_tool_names": [],
+  "known_cli_warning": "Warning: Unknown toolsets: none",
+  "warning_effect": "display-only; invalid sentinel resolves to an explicit empty enabled-toolset selection"
+}

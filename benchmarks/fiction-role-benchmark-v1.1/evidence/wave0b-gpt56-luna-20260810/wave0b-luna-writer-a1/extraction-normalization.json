@@ -1,0 +1,8 @@
+{
+  "normalization_actions": [],
+  "provider_response_sha256": "55fa88bb32cb79d860735a868fe7549da24529912314544ddc55085f8179c5ac",
+  "wrapper_stdout_sha256": "7af2ca2612a00091f8d0148f0bff60168a75ef3aaad0c20ba1a136ba79425b30",
+  "wrapper_stderr_sha256": "cd6d36f5ec5adc7bd8f1f0428fc366eeb951e6d367597c8df4defd25ac319441",
+  "wrapper_notice_separated": true,
+  "submission_sha256": "55fa88bb32cb79d860735a868fe7549da24529912314544ddc55085f8179c5ac"
+}

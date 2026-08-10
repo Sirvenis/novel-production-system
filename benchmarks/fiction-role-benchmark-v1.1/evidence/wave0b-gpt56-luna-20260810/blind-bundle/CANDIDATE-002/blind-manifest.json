@@ -1,0 +1,7 @@
+{
+  "blind_alias": "CANDIDATE-002",
+  "role": "reader",
+  "submission_file": "submission.json",
+  "submission_sha256": "72c8187ff591d339678560d15af3d9ed1549f704ddb6873dc5fba8319c26fc41",
+  "pack_version": "1.1.0"
+}

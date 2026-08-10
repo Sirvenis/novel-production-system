@@ -1,0 +1,67 @@
+{
+  "writer": {
+    "required_markers": [
+      "fresh water",
+      "ticket",
+      "Eli sent me a message tonight",
+      "11:55",
+      "three short beeps",
+      "maintenance stair",
+      "compass"
+    ],
+    "min_words": 900,
+    "max_words": 1200
+  },
+  "editor": {
+    "protected": [
+      "It was fresh.",
+      "The maintenance alarm gave three short beeps.",
+      "The brass compass turned once in Mara's pocket and stopped."
+    ],
+    "min_retention": 0.85
+  },
+  "researcher": {
+    "verdicts": {
+      "R1": "supported",
+      "R2": "contradicted",
+      "R3": "contradicted",
+      "R4": "supported",
+      "R5": "contradicted"
+    },
+    "sources": [
+      "[S1]",
+      "[S2]",
+      "[S3]",
+      "[S4]",
+      "[S5]",
+      "[S6]"
+    ]
+  },
+  "continuity": {
+    "expected_concepts": [
+      "official time",
+      "Tom",
+      "wheelhouse",
+      "seawater",
+      "roof",
+      "digital ticket",
+      "lying",
+      "alarm",
+      "ferry clock",
+      "north",
+      "case"
+    ]
+  },
+  "mechanical": {
+    "replacements": {
+      "11:55 pm": "11:55 p.m.",
+      "wheel house": "wheelhouse",
+      "backpack were": "backpack was",
+      "Hugh Say": "Hugh Saye",
+      "Toms": "Tom's",
+      "reason were": "reason was",
+      "11.55 p.m": "11:55 p.m.",
+      "gray": "grey"
+    }
+  }
+}

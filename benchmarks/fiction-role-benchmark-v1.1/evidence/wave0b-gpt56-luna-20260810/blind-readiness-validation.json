@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "identity_leaks": [],
+  "overwrite_protection": "blind output directory already exists; never overwrite a scored bundle",
+  "files": [
+    {
+      "path": "CANDIDATE-001/blind-manifest.json",
+      "sha256": "c9271bcffc371ebeb5b407b210ed24ba02417fda0399014c485834d9b79e82af"
+    },
+    {
+      "path": "CANDIDATE-001/submission.md",
+      "sha256": "55fa88bb32cb79d860735a868fe7549da24529912314544ddc55085f8179c5ac"
+    },
+    {
+      "path": "CANDIDATE-002/blind-manifest.json",
+      "sha256": "6f4ed4dd179d6ac0e18afe7de3e4000a524ff299396ceefaa45850df753db241"
+    },
+    {
+      "path": "CANDIDATE-002/submission.json",
+      "sha256": "72c8187ff591d339678560d15af3d9ed1549f704ddb6873dc5fba8319c26fc41"
+    },
+    {
+      "path": "CANDIDATE-003/blind-manifest.json",
+      "sha256": "1d56c8a6bc812bedb1a7786a07b13e6cc5bd3ad8523be141f36dd61a78a8d12e"
+    },
+    {
+      "path": "CANDIDATE-003/submission.json",
+      "sha256": "d8ce8c7f125bbe08900b16e0614fc7cbdfad49ae4cbc3cc71b0aa0ad5084720c"
+    }
+  ]
+}

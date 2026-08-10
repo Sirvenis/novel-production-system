@@ -1,0 +1,21 @@
+Warning: Unknown toolsets: none
+{
+  "hook": "The fresh water beneath a car in a storm-sealed ferry immediately feels wrong, and Eli's name makes the mystery personal for Mara.",
+  "tension": "The tension rises sharply from the anomalous water to Nessa's message, the impossible timing, the maintenance stair alarm, and the door opening towards whatever is leaking out.",
+  "clarity": "I understood the immediate situation and the key relationships. I was briefly uncertain whether Nessa meant Eli had contacted her directly tonight or whether she was carrying an older message, but the uncertainty added intrigue rather than blocking the scene.",
+  "character_pull": "Mara is compelling because she is practical under pressure while carrying guilt and anger about Eli. Her decision to stop questioning Nessa and deal with the open stair makes her feel capable and emotionally contained.",
+  "emotional_movement": "Mara moves from investigating an odd physical detail to being personally destabilised by Eli's name, then forces herself back into urgent action. Her private conflict becomes inseparable from the immediate danger.",
+  "strongest_moment": "“Questions could wait eighteen seconds. An open maintenance stair could not.” It shows Mara's priorities clearly while the fresh-water trail beneath the door makes the choice feel dangerous.",
+  "confusions": [
+    "I do not yet know what Nessa's paper ticket stamped 23:40 has to do with Eli or why Saye calls it impossible.",
+    "I am unsure what the three beeps signify beyond indicating that the maintenance stair has opened.",
+    "The compass turning is intriguing, but I cannot tell whether Mara reads its movement as a warning or as a familiar malfunction."
+  ],
+  "predictions": [
+    "Mara will open the maintenance stair and find fresh water, a person, or evidence connected to Eli.",
+    "Nessa's message will provide a specific link between Eli and the ferry's crossing tonight.",
+    "Saye's locked case will become important, possibly because it contains records about the marina fire or Eli's disappearance."
+  ],
+  "desire_to_continue": "yes",
+  "confidence": 0.97
+}
