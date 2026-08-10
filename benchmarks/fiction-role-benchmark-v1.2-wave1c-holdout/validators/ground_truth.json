@@ -1,0 +1,52 @@
+{
+  "researcher": {
+    "verdicts": {
+      "R1": "supported",
+      "R2": "contradicted",
+      "R3": "not-established",
+      "R4": "qualified",
+      "R5": "unsupported",
+      "R6": "not-established"
+    },
+    "sources": [
+      "[S1]",
+      "[S2]",
+      "[S3]",
+      "[S4]",
+      "[S5]",
+      "[S6]"
+    ]
+  },
+  "showrunner": {
+    "beat_ids": [
+      "H1",
+      "H2",
+      "H3",
+      "H4",
+      "H5",
+      "H6",
+      "H7",
+      "H8"
+    ],
+    "required_literals": [
+      "condensate",
+      "unsigned courier docket",
+      "Arun",
+      "02:16",
+      "amber twice, pause, amber once",
+      "service hatch",
+      "north control room",
+      "decision"
+    ],
+    "exact_panel_sequence": "amber twice, pause, amber once",
+    "overclaim_patterns": [
+      "proves the hatch opened",
+      "confirms the hatch opened",
+      "proves someone entered",
+      "confirms someone entered",
+      "intruder entered",
+      "jo opened the hatch"
+    ],
+    "minimum_non_actions": 4
+  }
+}

@@ -1,0 +1,2 @@
+# Researcher Fresh-Holdout Rubric
+Total 100, blind. Exact verdict classification 40; citation integrity 20; evidence/inference separation 15; uncertainty calibration 15; production usability 10. Quote evidence. Cautious wording never substitutes for the required label. Apply deterministic penalties after human scoring. Schema/citation/route/tool hard failure is ineligible; any dimension below half is critical.

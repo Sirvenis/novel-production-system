@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "run-result.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "benchmark_id", "pack_version", "role", "attempt_id",
+    "requested_route", "served_route", "routing_status", "profile",
+    "tool_policy", "actual_tool_turn_count", "sampling_settings",
+    "packet_manifest_sha256", "started_at", "ended_at", "latency_ms",
+    "session_identifier", "route_evidence_path", "status", "failures",
+    "artifacts", "usage", "wrapper_exit_code", "api_latency_ms", "score"
+  ],
+  "properties": {
+    "benchmark_id": {"const": "fiction-role-benchmark-v1.2-wave1c-holdout"},
+    "pack_version": {"const": "1.2.0-holdout"},
+    "role": {"enum": ["showrunner", "researcher"]},
+    "attempt_id": {"type": "string", "minLength": 1},
+    "requested_route": {"$ref": "#/$defs/route"},
+    "served_route": {"anyOf": [{"$ref": "#/$defs/route"}, {"type": "null"}]},
+    "routing_status": {"enum": ["verified_exact", "mismatch", "unverified"]},
+    "profile": {"type": "string", "minLength": 1},
+    "tool_policy": {"const": "none"},
+    "actual_tool_turn_count": {"const": 0},
+    "sampling_settings": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["temperature", "reasoning", "max_output_tokens"],
+      "properties": {
+        "temperature": {"type": ["number", "null"]},
+        "reasoning": {"type": "string"},
+        "max_output_tokens": {"type": ["integer", "null"]}
+      }
+    },
+    "packet_manifest_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "started_at": {"type": "string", "format": "date-time"},
+    "ended_at": {"type": "string", "format": "date-time"},
+    "latency_ms": {"type": "integer", "minimum": 0},
+    "session_identifier": {"type": ["string", "null"]},
+    "route_evidence_path": {"type": "string", "minLength": 1},
+    "status": {"enum": ["pass", "fail", "blocked", "invalid"]},
+    "failures": {"type": "array", "items": {"$ref": "#/$defs/failure"}},
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": {"type": "string"},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+        }
+      }
+    },
+    "usage": {
+      "type": "object", "additionalProperties": false,
+      "required": ["input_tokens", "output_tokens", "cached_tokens", "total_tokens"],
+      "properties": {
+        "input_tokens": {"type": ["integer", "null"]},
+        "output_tokens": {"type": ["integer", "null"]},
+        "cached_tokens": {"type": ["integer", "null"]},
+        "total_tokens": {"type": ["integer", "null"]}
+      }
+    },
+    "wrapper_exit_code": {"type": "integer"},
+    "api_latency_ms": {"type": ["integer", "null"], "minimum": 0},
+    "score": {"type": "null"}
+  },
+  "$defs": {
+    "route": {
+      "type": "object", "additionalProperties": false,
+      "required": ["provider", "model", "profile", "evidence_path"],
+      "properties": {
+        "provider": {"type": "string", "minLength": 1},
+        "model": {"type": "string", "minLength": 1},
+        "profile": {"type": "string", "minLength": 1},
+        "evidence_path": {"type": "string", "minLength": 1}
+      }
+    },
+    "failure": {
+      "type": "object", "additionalProperties": false,
+      "required": ["class", "message", "retryable"],
+      "properties": {
+        "class": {"enum": ["route_mismatch", "auth", "rate_limit", "entitlement", "timeout", "truncation", "empty_output", "schema", "instruction", "preservation", "hallucination", "citation", "continuity", "scope_creep", "quality", "other"]},
+        "message": {"type": "string"},
+        "retryable": {"type": "boolean"}
+      }
+    }
+  }
+}

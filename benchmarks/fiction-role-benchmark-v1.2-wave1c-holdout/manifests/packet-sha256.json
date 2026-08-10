@@ -1,0 +1,48 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.2-wave1c-holdout",
+  "pack_version": "1.2.0-holdout",
+  "algorithm": "sha256",
+  "scope": [
+    "packets/*.md",
+    "tasks/*.md",
+    "schemas/*-output.schema.json"
+  ],
+  "packet_hash": "30f4830640314efb744cab2e16052b5531b0bb57b2e8e627bf13664a2082f1a1",
+  "files": [
+    {
+      "path": "packets/common.md",
+      "bytes": 239,
+      "sha256": "a5282ff202c94542daf864f8a8ef367afc96a9127e77036247c6a7d0e6bfb56b"
+    },
+    {
+      "path": "packets/researcher.md",
+      "bytes": 1449,
+      "sha256": "925764e0b6a39446ad91068c305f1afd01f7980dafcdd7a6c37c61a97bac3aef"
+    },
+    {
+      "path": "packets/showrunner.md",
+      "bytes": 1940,
+      "sha256": "c90aeeca67875e19a2aa1e4a13b49e1da7ce700a140371da414fcf54f27a5200"
+    },
+    {
+      "path": "schemas/researcher-output.schema.json",
+      "bytes": 1534,
+      "sha256": "f80b668d938ccfe710befe2d6220339e752f6f84bbeddb9463d5ef32263d0884"
+    },
+    {
+      "path": "schemas/showrunner-output.schema.json",
+      "bytes": 2748,
+      "sha256": "0817c68fa4a0830bb4dcd3bca56cb7796a2b279532744d7e1d4ac75f16921722"
+    },
+    {
+      "path": "tasks/researcher.md",
+      "bytes": 888,
+      "sha256": "3329c8bc974a517808c14ca0bc793737fb23840d30f81077a443a269e8cdeb06"
+    },
+    {
+      "path": "tasks/showrunner.md",
+      "bytes": 783,
+      "sha256": "5e89df8475347cb14fed9bd88466b01b86418657996a50fb7651699fae60ee86"
+    }
+  ]
+}
