@@ -1,0 +1,38 @@
+{
+  "showrunner": {
+    "beat_ids": ["G1", "G2", "G3", "G4", "G5", "G6", "G7", "G8"],
+    "required_literals": [
+      "saltwater footprints",
+      "dry threshold",
+      "deactivated blue token",
+      "evidence locker",
+      "five years",
+      "04:46",
+      "LOT 6 / RETURN UNOPENED",
+      "upper gantry",
+      "missing signature",
+      "delivery manifest",
+      "culvert camera",
+      "confronting Esme"
+    ],
+    "exact_tag": "LOT 6 / RETURN UNOPENED",
+    "minimum_non_actions": 4,
+    "minimum_required_inclusions": 6,
+    "minimum_prohibited_conclusions": 5,
+    "protected_future_classes": [
+      "equipment malfunction",
+      "staged human interference",
+      "unknown ecological event"
+    ],
+    "forbidden_overclaims": [
+      "proves Cal is alive",
+      "confirms Cal is alive",
+      "Cal presented the token",
+      "Cal used the token",
+      "proves a person entered",
+      "confirms a person entered",
+      "proves an intruder entered",
+      "confirms an intruder entered"
+    ]
+  }
+}

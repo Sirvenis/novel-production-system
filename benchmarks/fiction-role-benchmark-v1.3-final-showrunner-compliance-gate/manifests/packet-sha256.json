@@ -1,0 +1,33 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.3-final-showrunner-compliance-gate",
+  "pack_version": "1.3.0-final-gate",
+  "algorithm": "sha256",
+  "scope": [
+    "packets/*.md",
+    "tasks/*.md",
+    "schemas/showrunner-output.schema.json"
+  ],
+  "packet_hash": "a2e12669bdfe33fd3bd213ef5cf0989404627d4a758c5f1507ad870550d166ea",
+  "files": [
+    {
+      "path": "packets/common.md",
+      "bytes": 360,
+      "sha256": "d0104730c3abba13e8c4010a1d4526d7af7aef02407ac492b3f25e4665927c4a"
+    },
+    {
+      "path": "packets/showrunner.md",
+      "bytes": 2227,
+      "sha256": "8fe8992a784231db084ce00bf6688ea800e3e0ad7110431005a309f74593f220"
+    },
+    {
+      "path": "schemas/showrunner-output.schema.json",
+      "bytes": 2094,
+      "sha256": "6267783d78a17c26219e2255ed950710f99f237ef3fb8cfb68b0f86c7efb9f7d"
+    },
+    {
+      "path": "tasks/showrunner.md",
+      "bytes": 1324,
+      "sha256": "f58ac21bae34529334dc34105f37c1dee9f9f1fb3d9f9d1e2fc676dc6099d9d4"
+    }
+  ]
+}
