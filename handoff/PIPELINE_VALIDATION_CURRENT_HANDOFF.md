@@ -1,8 +1,8 @@
 # Pipeline Validation Current Handoff
 
-Updated: 2026-08-10
+Updated: 2026-08-11
 Custodian: Scout / Hermes under Andrew's final authority
-Status: FINAL SHOWRUNNER COMPLIANCE GATE PASSED; STOPPED BEFORE PRODUCTION ASSIGNMENT
+Status: FINAL LUNA ROLE DISPOSITION RECORDED; QUALIFICATION SEQUENCE CLOSED
 
 ## Canonical lane
 
@@ -48,14 +48,16 @@ Status: FINAL SHOWRUNNER COMPLIANCE GATE PASSED; STOPPED BEFORE PRODUCTION ASSIG
 - Showrunner resolved literal-detail and overclaim weaknesses with a 100-point human score but failed strict schema by adding `$schema`: category D/new production-significant weakness, deterministically ineligible and not recommended for production assignment.
 - Andrew / Arden accepted Wave 1C, rejected Researcher for production and authorised one final Showrunner-only compliance gate.
 - The separately frozen final gate ran one candidate attempt with zero retries: exact `gpt-5.6-luna / openai-codex`, 0 tools, exact schema PASS, no `$schema`/extra properties/fences/commentary, blind score 98/100, no material regression.
-- Final binary result: PASS. Recommendation only: `SHOWRUNNER — ELIGIBLE FOR ANDREW / ARDEN FINAL PRODUCTION-ASSIGNMENT APPROVAL.` No assignment or policy change occurred.
+- Final binary result: PASS.
+- Andrew / Arden accepted the PASS and approved Showrunner for bounded production assignment.
+- Final role-specific disposition is recorded in `reports/FINAL_LUNA_ROLE_DISPOSITION_2026-08-11.md`; no universal Luna promotion, Writer authority, automatic routing, or policy/configuration change occurred.
 
 ## Controlling finding
 
 v1.1 repairs the demonstrated harness defect and is eligible for Andrew / Arden evidence review. Calibration confirms the structured contract works and that the writer gate remains discriminating. Calibration is not production-model evidence.
 
-## Exact next gate
+## Closed gate and next boundary
 
-The final Showrunner compliance gate passed. Stop for Andrew's production-assignment decision. Do not implement the recommendation. Researcher remains rejected and closed to rerun unless explicitly reconsidered; Writer remains `WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION`; Mechanical QA, Fresh Reader, controlled Editor and bounded-secondary Continuity retain only their approved role-specific dispositions.
+The Luna qualification sequence is complete and closed. Mechanical QA, Fresh Reader, controlled Editor, bounded-secondary Continuity, and bounded Showrunner hold role-specific production approval. Researcher remains rejected and closed unless Andrew / Arden explicitly reopens it. Writer remains `WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION`.
 
-Do not rerun any role, test extra models, promote Luna universally, enable automatic routing, change production runtime/model policy/profile/configuration state, or alter canonical prose.
+Do not rerun completed benchmark roles or conduct more Luna qualification testing without a new production-significant reason and Andrew / Arden authority. No explicitly deferred GLM-5.2 fiction-role test was found here; preliminary catalogue/test-order entries do not constitute authorisation. Resume broader pipeline validation only from a separately authorised gate. Do not promote Luna universally, enable automatic routing, change production runtime/model policy/profile/configuration state, or alter canonical prose.

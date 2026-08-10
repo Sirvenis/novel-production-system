@@ -1,6 +1,6 @@
 # Arden Studios Novel Production Pipeline Validation Status
 
-Updated: 2026-08-10
+Updated: 2026-08-11
 Authority: Andrew is Founder and final authority; Scout / Hermes is Master Architect and validation custodian
 Status: FINAL PIPELINE NOT YET SELECTED
 
@@ -127,8 +127,8 @@ Andrew / Arden accepted the Wave 1C evidence and fixed the role disposition: Mec
 
 One final Showrunner-only compliance gate then ran on a separately frozen fresh package. The single `gpt-5.6-luna / openai-codex` candidate attempt used 0 tools, served the exact route, passed the exact `additionalProperties: false` schema with no `$schema` or other structural contamination, and scored 98/100 in blind substantive review with no material regression. The binary gate passed.
 
-Recommendation only: `SHOWRUNNER — ELIGIBLE FOR ANDREW / ARDEN FINAL PRODUCTION-ASSIGNMENT APPROVAL.` No assignment or policy change has occurred. Full report: `reports/FINAL_SHOWRUNNER_COMPLIANCE_GATE_2026-08-10.md`. Evidence: `benchmarks/fiction-role-benchmark-v1.3-final-showrunner-compliance-gate/`.
+Andrew / Arden accepted the gate PASS and approved Showrunner for bounded production assignment. Final role disposition is recorded in `reports/FINAL_LUNA_ROLE_DISPOSITION_2026-08-11.md`. This is role-specific approval only; it does not universally promote Luna, make Luna a writer, or enable automatic routing.
 
-## Immediate next gate
+## Closed gate and next programme boundary
 
-Stop for Andrew's final production-assignment decision on Showrunner. Do not implement the recommendation, reopen Researcher/Writer testing, rerun any approved role, test extra models, promote Luna universally, enable automatic routing, change production model policy/profile/configuration/runtime state, or alter canonical prose.
+The Luna qualification sequence is closed. Do not rerun completed roles, reopen Researcher/Writer, or perform further Luna qualification testing without a new production-significant reason and Andrew / Arden authority. No explicitly deferred GLM-5.2 fiction-role test was found in this repository; catalogue shortlists and candidate-order previews are not execution authorisation. Gate 2 remains broader programme work only when Andrew separately authorises another model/role comparison. No canonical prose, canon, profile, runtime, routing, or core configuration changed in this administrative closeout.
