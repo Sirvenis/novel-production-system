@@ -2,7 +2,7 @@
 
 Updated: 2026-08-11
 Custodian: Scout / Hermes under Andrew's final authority
-Status: FINAL LUNA ROLE DISPOSITION RECORDED; QUALIFICATION SEQUENCE CLOSED
+Status: HISTORICAL FICTION PRODUCTION-EVIDENCE AUDIT COMPLETE; STOPPED FOR ANDREW / ARDEN REVIEW
 
 ## Canonical lane
 
@@ -56,8 +56,18 @@ Status: FINAL LUNA ROLE DISPOSITION RECORDED; QUALIFICATION SEQUENCE CLOSED
 
 v1.1 repairs the demonstrated harness defect and is eligible for Andrew / Arden evidence review. Calibration confirms the structured contract works and that the writer gate remains discriminating. Calibration is not production-model evidence.
 
+## Historical production-evidence audit completed
+
+- Report: `reports/HISTORICAL_FICTION_MODEL_ROLE_EVIDENCE_AUDIT_2026-08-11.md`.
+- Verified count: 16 Library-ready novels plus Anunnaki Book 4 and Night Shift Book 1 as complete substantial first drafts, for 18 complete novel-length manuscripts.
+- Strongest historical Writer evidence: GPT-5.5 and Kimi K2.6; GLM-5.2 is an evidence-bearing challenger with one complete 45,555-word raw draft but unknown editorial survival/revision burden.
+- Nemotron fallback Sunken Bell Chapters 19–20 and StepFun Anunnaki Book 3 Chapters 4–8 remain direct negative Writer evidence and noncanonical archives.
+- Luna Writer remains ineligible; all closed Luna non-writer dispositions remain unchanged.
+- Recommended next controlled cell, subject to Andrew / Arden approval only: GPT-5.5 vs Kimi K2.6 vs GLM-5.2 Writer qualification on a fresh packet, then a cross-genre holdout for survivors.
+- No new benchmark, GLM fiction test, role assignment, prose, policy, routing, profile, runtime, configuration, or web work occurred.
+
 ## Closed gate and next boundary
 
 The Luna qualification sequence is complete and closed. Mechanical QA, Fresh Reader, controlled Editor, bounded-secondary Continuity, and bounded Showrunner hold role-specific production approval. Researcher remains rejected and closed unless Andrew / Arden explicitly reopens it. Writer remains `WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION`.
 
-Do not rerun completed benchmark roles or conduct more Luna qualification testing without a new production-significant reason and Andrew / Arden authority. No explicitly deferred GLM-5.2 fiction-role test was found here; preliminary catalogue/test-order entries do not constitute authorisation. Resume broader pipeline validation only from a separately authorised gate. Do not promote Luna universally, enable automatic routing, change production runtime/model policy/profile/configuration state, or alter canonical prose.
+Do not run the proposed Writer trio, any GLM fiction test, completed Luna roles, or other qualification work until Andrew / Arden selects the next cell. Do not promote models universally, enable automatic routing, change production runtime/model policy/profile/configuration state, or alter canonical prose.

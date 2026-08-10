@@ -132,3 +132,15 @@ Andrew / Arden accepted the gate PASS and approved Showrunner for bounded produc
 ## Closed gate and next programme boundary
 
 The Luna qualification sequence is closed. Do not rerun completed roles, reopen Researcher/Writer, or perform further Luna qualification testing without a new production-significant reason and Andrew / Arden authority. No explicitly deferred GLM-5.2 fiction-role test was found in this repository; catalogue shortlists and candidate-order previews are not execution authorisation. Gate 2 remains broader programme work only when Andrew separately authorises another model/role comparison. No canonical prose, canon, profile, runtime, routing, or core configuration changed in this administrative closeout.
+
+## Historical fiction production-evidence audit
+
+Andrew / Arden authorised a read-only reconstruction of the fiction evidence Arden Studios had already earned before any further benchmark spending. The completed audit is:
+
+`reports/HISTORICAL_FICTION_MODEL_ROLE_EVIDENCE_AUDIT_2026-08-11.md`
+
+Verified portfolio result: 16 Library-ready novels plus two complete novel-length first drafts not yet Library-ready (Anunnaki Book 4 and Night Shift Book 1), for 18 complete novel-length manuscripts. The evidence supports GPT-5.5 and Kimi K2.6 as the strongest historically proven Writer candidates and GLM-5.2 as an evidence-bearing challenger with one complete 45,555-word raw first draft. Nemotron and StepFun carry material fallback-prose failure evidence; Luna remains Writer-ineligible and its closed non-writer dispositions remain unchanged.
+
+The audit recommends, but does not authorise, a fresh controlled Writer comparison of GPT-5.5 vs Kimi K2.6 vs GLM-5.2 followed by a cross-genre holdout for survivors. No benchmark was executed, no GLM fiction test was run, and no role assignment, prose, model policy, profile, routing, runtime, configuration, or web project changed.
+
+Current gate: stop for Andrew / Arden review and candidate selection.
