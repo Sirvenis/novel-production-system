@@ -12,7 +12,7 @@
   "scout_runtime": {
     "provider": "openai-codex",
     "model": "gpt-5.6-sol",
-    "evidence_path": "scout-runtime-evidence.log"
+    "evidence_path": "scout-runtime-evidence.txt"
   },
   "frozen_git_commit": "71898e10dac66cb7aea8c6a1fc9d03b41889b8e2",
   "frozen_pack_manifest_sha256": "37471ef1d564d8b2981612f0da9d872d803677463ef601a8984feaf5dcc3b25e",
