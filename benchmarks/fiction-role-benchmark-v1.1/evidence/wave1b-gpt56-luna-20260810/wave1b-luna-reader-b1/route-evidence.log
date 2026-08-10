@@ -1,0 +1,31 @@
+2026-08-10 11:10:55,916 INFO hermes_cli.plugins: Plugin 'browser-browser-use' registered browser provider: browser-use
+2026-08-10 11:10:55,917 INFO hermes_cli.plugins: Plugin 'browser-browserbase' registered browser provider: browserbase
+2026-08-10 11:10:55,918 INFO hermes_cli.plugins: Plugin 'browser-firecrawl' registered browser provider: firecrawl
+2026-08-10 11:10:55,978 INFO hermes_cli.plugins: Plugin 'deepinfra' registered image_gen provider: deepinfra
+2026-08-10 11:10:55,978 INFO hermes_cli.plugins: Plugin 'fal' registered image_gen provider: fal
+2026-08-10 11:10:55,979 INFO hermes_cli.plugins: Plugin 'krea' registered image_gen provider: krea
+2026-08-10 11:10:55,980 INFO hermes_cli.plugins: Plugin 'openai' registered image_gen provider: openai
+2026-08-10 11:10:55,980 INFO hermes_cli.plugins: Plugin 'openai-codex' registered image_gen provider: openai-codex
+2026-08-10 11:10:55,980 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: openrouter
+2026-08-10 11:10:55,980 INFO hermes_cli.plugins: Plugin 'openrouter' registered image_gen provider: nous
+2026-08-10 11:10:55,981 INFO hermes_cli.plugins: Plugin 'xai' registered image_gen provider: xai
+2026-08-10 11:10:55,986 INFO hermes_cli.plugins: Plugin 'deepinfra' registered video_gen provider: deepinfra
+2026-08-10 11:10:55,986 INFO hermes_cli.plugins: Plugin 'fal' registered video_gen provider: fal
+2026-08-10 11:10:55,987 INFO hermes_cli.plugins: Plugin 'xai' registered video_gen provider: xai
+2026-08-10 11:10:55,987 INFO hermes_cli.plugins: Plugin 'web-brave-free' registered web provider: brave-free
+2026-08-10 11:10:55,988 INFO hermes_cli.plugins: Plugin 'web-ddgs' registered web provider: ddgs
+2026-08-10 11:10:55,988 INFO hermes_cli.plugins: Plugin 'web-exa' registered web provider: exa
+2026-08-10 11:10:55,989 INFO hermes_cli.plugins: Plugin 'web-firecrawl' registered web provider: firecrawl
+2026-08-10 11:10:55,990 INFO hermes_cli.plugins: Plugin 'web-parallel' registered web provider: parallel
+2026-08-10 11:10:55,991 INFO hermes_cli.plugins: Plugin 'web-searxng' registered web provider: searxng
+2026-08-10 11:10:55,992 INFO hermes_cli.plugins: Plugin 'web-tavily' registered web provider: tavily
+2026-08-10 11:10:55,992 INFO hermes_cli.plugins: Plugin 'web-xai' registered web provider: xai
+2026-08-10 11:10:56,010 INFO hermes_cli.plugins: Plugin discovery complete: 55 found, 48 enabled
+2026-08-10 11:10:57,201 WARNING cli: Background MCP discovery previously exited with no connected servers; retrying discovery thread
+2026-08-10 11:10:57,204 INFO run_agent: Loaded environment variables from /home/andrew/.hermes/profiles/gpt56-luna/.env
+2026-08-10 11:10:57,546 INFO run_agent: OpenAI client created (agent_init, shared=True) thread=MainThread:138731327964992 provider=openai-codex base_url=https://chatgpt.com/backend-api/codex model=gpt-5.6-luna
+2026-08-10 11:10:58,051 INFO [20260810_111056_1370a2] agent.turn_context: conversation turn: session=20260810_111056_1370a2 model=gpt-5.6-luna provider=openai-codex platform=cli history=0 msg='# BENCHMARK INPUTS (all invented and noncanonical)  ## Common packet  # Common P...'
+2026-08-10 11:10:58,090 INFO run_agent: OpenAI client created (codex_stream_request, shared=False) thread=Thread-4 (<lambda>):138731201754816 provider=openai-codex base_url=https://chatgpt.com/backend-api/codex model=gpt-5.6-luna
+2026-08-10 11:11:09,979 INFO [20260810_111056_1370a2] agent.conversation_loop: API call #1: model=gpt-5.6-luna provider=openai-codex in=1970 out=569 total=2539 latency=11.9s
+2026-08-10 11:11:09,999 INFO [20260810_111056_1370a2] agent.conversation_loop: Turn ended: reason=text_response(finish_reason=stop) model=gpt-5.6-luna api_calls=1/1 budget=1/1 tool_turns=0 last_msg_role=assistant response_len=2408 session=20260810_111056_1370a2
+2026-08-10 11:11:10,004 INFO [20260810_111056_1370a2] cli: CLI cleanup calling memory shutdown for session 20260810_111056_1370a2 with 2 message(s)
