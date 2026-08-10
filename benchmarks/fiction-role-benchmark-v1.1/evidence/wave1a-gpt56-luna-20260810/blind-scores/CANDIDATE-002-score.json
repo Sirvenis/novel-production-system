@@ -1,0 +1,27 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "role": "mechanical-qa",
+  "blind_alias": "CANDIDATE-002",
+  "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+  "rubric_scores": {
+    "correction_accuracy": 35,
+    "false_positive_avoidance": 25,
+    "exact_preservation": 20,
+    "issue_ledger_completeness": 10,
+    "scope_and_provenance_discipline": 10
+  },
+  "human_total": 100,
+  "deterministic_penalty": 0,
+  "final_score": 100,
+  "critical_flags": [],
+  "evidence": [
+    "Corrected all eight seeded errors exactly, including “11:55 p.m.”, “wheelhouse”, “Hugh Saye”, and “grey”.",
+    "No unseeded stylistic substitution appears in the corrected passage.",
+    "Sentence order, paragraphing, and all non-error wording are preserved.",
+    "The ledger contains eight one-to-one original/replacement entries with governing rules.",
+    "Scope is declared “mechanical-only”; harness run artifacts preserve and hash source response, corrected submission, wrapper, route, and validation evidence."
+  ],
+  "scored_at": "2026-08-10T10:50:30+10:00",
+  "confidence": 0.9
+}

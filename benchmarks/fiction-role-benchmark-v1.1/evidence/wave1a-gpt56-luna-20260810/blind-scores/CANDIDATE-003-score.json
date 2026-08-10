@@ -1,0 +1,27 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "role": "reader",
+  "blind_alias": "CANDIDATE-003",
+  "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+  "rubric_scores": {
+    "experiential_authenticity": 22,
+    "text_grounded_specificity": 19,
+    "role_separation": 20,
+    "uncertainty_and_prediction_quality": 18,
+    "commercial_continuation_signal": 14
+  },
+  "human_total": 93,
+  "deterministic_penalty": 0,
+  "final_score": 93,
+  "critical_flags": [],
+  "evidence": [
+    "The response speaks as a reader—“makes me trust her competence”—though “deepens the hook” is slightly craft-analytic.",
+    "It identifies exact moments including Eli’s message, the two clocks, three beeps, Saye’s case, and the water trail.",
+    "It offers no fixes, rewrites, author instructions, or technique prescriptions.",
+    "Confusions are held as uncertainty and predictions use “may” and “possibly”; overall confidence 0.98 is somewhat stronger than the unresolved evidence warrants.",
+    "Desire to continue is an internally consistent “yes” tied to the stair, Eli/Nessa uncertainty, and Saye’s case."
+  ],
+  "scored_at": "2026-08-10T10:50:30+10:00",
+  "confidence": 0.9
+}

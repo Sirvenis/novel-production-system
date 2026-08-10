@@ -1,0 +1,27 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "role": "showrunner",
+  "blind_alias": "CANDIDATE-001",
+  "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+  "rubric_scores": {
+    "causal_architecture_and_escalation": 23,
+    "reader_effect_reasoning": 18,
+    "canon_protection_and_restraint": 18,
+    "decision_and_gate_quality": 18,
+    "production_usability": 14
+  },
+  "human_total": 91,
+  "deterministic_penalty": 2,
+  "final_score": 89,
+  "critical_flags": [],
+  "evidence": [
+    "Causal chain runs from “Concrete anomaly” through “Committed danger” and ends with Mara beginning to open the stair.",
+    "Each beat separates visible action from reader effect; S2 deliberately keeps Nessa “vulnerable rather than plainly deceptive.”",
+    "Protected non-actions preserve Nessa, the locked case, and ambiguity around Eli/compass.",
+    "The proceed verdict gives a bounded stair-first decision without scene prose.",
+    "The plan is ordered S1–S7 and production-usable, but it omits the literal required “three short beeps” and introduces a minor unsupported description of Saye’s car as locked."
+  ],
+  "scored_at": "2026-08-10T10:50:30+10:00",
+  "confidence": 0.9
+}

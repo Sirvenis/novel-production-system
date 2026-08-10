@@ -1,0 +1,26 @@
+{
+  "role": "continuity",
+  "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1.1/evidence/wave1a-gpt56-luna-20260810/wave1a-luna-continuity-a1/submission.json",
+  "hard_failures": [],
+  "warnings": [],
+  "checks": {
+    "json_schema_errors": [],
+    "missing_top_level_fields": [],
+    "expected_concepts_found": [
+      "Tom",
+      "wheelhouse",
+      "seawater",
+      "roof",
+      "digital ticket",
+      "alarm",
+      "ferry clock",
+      "north",
+      "case"
+    ],
+    "expected_concept_recall": 0.8182,
+    "repair_scope_hits": [],
+    "global_forbidden_hits": []
+  },
+  "penalty": 0,
+  "eligible": true
+}

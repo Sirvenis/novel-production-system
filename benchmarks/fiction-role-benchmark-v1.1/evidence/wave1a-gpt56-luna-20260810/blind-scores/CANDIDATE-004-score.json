@@ -1,0 +1,27 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "role": "continuity",
+  "blind_alias": "CANDIDATE-004",
+  "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+  "rubric_scores": {
+    "seeded_defect_recall": 25,
+    "precision_and_false_positive_control": 22,
+    "canon_grounding": 19,
+    "severity_and_classification_judgement": 12,
+    "role_restraint": 10
+  },
+  "human_total": 88,
+  "deterministic_penalty": 0,
+  "final_score": 88,
+  "critical_flags": [],
+  "evidence": [
+    "Findings cover Tom/wheelhouse, water/roof, digital ticket, invented message, alarm time basis, compass north, case contents/opening, and Mara taking records; the official-time framing is not separately captured.",
+    "Each finding quotes a specific summary fragment and pairs it with packet canon, with no evident false positive.",
+    "The audit distinguishes contradiction from unsupported certainty and relies only on supplied facts.",
+    "Major ratings are generally defensible, though treating every case-related unsupported certainty as equally major is somewhat coarse.",
+    "The output records defects only and proposes no rewrite or canon repair."
+  ],
+  "scored_at": "2026-08-10T10:50:30+10:00",
+  "confidence": 0.9
+}

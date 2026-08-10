@@ -1,0 +1,55 @@
+{
+  "ok": true,
+  "score_count": 6,
+  "schema": "schemas/score.schema.json",
+  "scores": [
+    {
+      "blind_alias": "CANDIDATE-001",
+      "role": "showrunner",
+      "human_total": 91,
+      "deterministic_penalty": 2,
+      "final_score": 89,
+      "critical_flags": []
+    },
+    {
+      "blind_alias": "CANDIDATE-002",
+      "role": "mechanical-qa",
+      "human_total": 100,
+      "deterministic_penalty": 0,
+      "final_score": 100,
+      "critical_flags": []
+    },
+    {
+      "blind_alias": "CANDIDATE-003",
+      "role": "reader",
+      "human_total": 93,
+      "deterministic_penalty": 0,
+      "final_score": 93,
+      "critical_flags": []
+    },
+    {
+      "blind_alias": "CANDIDATE-004",
+      "role": "continuity",
+      "human_total": 88,
+      "deterministic_penalty": 0,
+      "final_score": 88,
+      "critical_flags": []
+    },
+    {
+      "blind_alias": "CANDIDATE-005",
+      "role": "editor",
+      "human_total": 94,
+      "deterministic_penalty": 0,
+      "final_score": 94,
+      "critical_flags": []
+    },
+    {
+      "blind_alias": "CANDIDATE-006",
+      "role": "researcher",
+      "human_total": 94,
+      "deterministic_penalty": 4,
+      "final_score": 90,
+      "critical_flags": []
+    }
+  ]
+}

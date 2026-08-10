@@ -1,0 +1,27 @@
+{
+  "role": "showrunner",
+  "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1.1/evidence/wave1a-gpt56-luna-20260810/wave1a-luna-showrunner-a1/submission.json",
+  "hard_failures": [],
+  "warnings": [
+    "showrunner plan omits required story material"
+  ],
+  "checks": {
+    "json_schema_errors": [],
+    "missing_top_level_fields": [],
+    "beat_ids": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "required_story_material_missing": [
+      "three short beeps"
+    ],
+    "global_forbidden_hits": []
+  },
+  "penalty": 2,
+  "eligible": true
+}

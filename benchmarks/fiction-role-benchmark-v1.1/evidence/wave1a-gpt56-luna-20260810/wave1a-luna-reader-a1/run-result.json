@@ -1,0 +1,86 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "role": "reader",
+  "attempt_id": "wave1a-luna-reader-a1",
+  "requested_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "evidence_path": "route-evidence.log"
+  },
+  "served_route": {
+    "provider": "openai-codex",
+    "model": "gpt-5.6-luna",
+    "profile": "gpt56-luna",
+    "evidence_path": "route-evidence.log"
+  },
+  "routing_status": "verified_exact",
+  "profile": "gpt56-luna",
+  "tool_policy": "none",
+  "actual_tool_turn_count": 0,
+  "sampling_settings": {
+    "temperature": null,
+    "reasoning": "medium",
+    "max_output_tokens": 4096
+  },
+  "packet_manifest_sha256": "92e9dc13980b69aab21268ec38dcda1d62d8726a299317b960998faa1de65c05",
+  "started_at": "2026-08-10T00:45:51.966461+00:00",
+  "ended_at": "2026-08-10T00:46:05.807957+00:00",
+  "latency_ms": 13841,
+  "session_identifier": "20260810_104552_ab1984",
+  "route_evidence_path": "route-evidence.log",
+  "status": "pass",
+  "failures": [],
+  "artifacts": [
+    {
+      "path": "prompt.txt",
+      "sha256": "6df2da3cc6d71c8529afb1a737b4f5e9ccacd05e41d07ae0e9ecbc0fc2eabafb"
+    },
+    {
+      "path": "no-tool-policy-proof.json",
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "hermes-wrapper-stdout.raw.txt",
+      "sha256": "f1d4a35ce7aba503f5c370c199b7f9627200acb906b307fccfde164df54e4fa8"
+    },
+    {
+      "path": "hermes-wrapper-stderr.raw.txt",
+      "sha256": "0a3ced29889ca9cdcf84e1be77e3ed3557428bea64d9be99c45d5df8945658d9"
+    },
+    {
+      "path": "provider-response.raw.txt",
+      "sha256": "caa7d1b8f7528117fc31c1cecfb39817656b4341eee9a0aecb9d119f1a59987b"
+    },
+    {
+      "path": "wrapper-notices.txt",
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "route-evidence.log",
+      "sha256": "a0e67d4111447023788c5ebfa4e98b696736be69163906371f0abcd1881f2099"
+    },
+    {
+      "path": "submission.json",
+      "sha256": "caa7d1b8f7528117fc31c1cecfb39817656b4341eee9a0aecb9d119f1a59987b"
+    },
+    {
+      "path": "extraction-normalization.json",
+      "sha256": "7f79a09ef87e78ee3510d8ecf7248886ff77d1f8da29ea639eaee48499477821"
+    },
+    {
+      "path": "validation-result.json",
+      "sha256": "1a1118e627c85d95cf810245d2a28d7d6fa55dc1041a1cf2488829282ca70cf6"
+    }
+  ],
+  "usage": {
+    "input_tokens": 1970,
+    "output_tokens": 601,
+    "cached_tokens": null,
+    "total_tokens": 2571
+  },
+  "wrapper_exit_code": 0,
+  "api_latency_ms": 11600,
+  "score": null
+}

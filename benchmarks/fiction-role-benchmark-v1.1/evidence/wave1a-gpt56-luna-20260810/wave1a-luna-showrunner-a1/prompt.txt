@@ -1,0 +1,156 @@
+# BENCHMARK INPUTS (all invented and noncanonical)
+
+## Common packet
+
+# Common Packet — The Last Ferry from Bellwether
+
+This is an invented, noncanonical benchmark scenario.
+
+## Reader contract
+
+Adult speculative suspense with grounded coastal texture, restrained uncanny elements, emotional clarity, and no lore lecture. Australian spelling. Close third person unless a task says otherwise.
+
+## Setting
+
+Bellwether is an isolated tidal town. At 11:40 p.m. the final car ferry crosses a black estuary to the mainland. A storm has cut mobile service. The crossing takes eighteen minutes. The ferry has an enclosed passenger lounge, a vehicle deck, a wheelhouse, and a locked maintenance stair.
+
+## Canon facts
+
+- Mara Vale, 38, is the ferry's relief engineer. Practical, observant, and privately angry at her younger brother Eli.
+- Eli Vale, 31, vanished from Bellwether eleven years ago after being blamed for a marina fire. Mara did not defend him publicly.
+- Tom Arlen, 62, is the skipper. He never leaves the wheelhouse while the vessel is under way.
+- Nessa Quill, 17, is travelling alone with a red canvas backpack and a paper ticket stamped 23:40.
+- Councillor Hugh Saye is transporting a locked grey document case.
+- The ferry clock is seven minutes slow. All official incident times use actual time, not ferry-clock time.
+- The maintenance stair alarm records openings with actual timestamps.
+- Salt water on the vehicle deck is ordinary. Fresh water there is anomalous because the rain cannot reach beneath the enclosed centre lane.
+- Mara carries Eli's old brass compass. Since the marina fire it points inland, not north.
+- No supernatural mechanism is confirmed in this packet.
+
+## Voice constraints
+
+Concrete sensory detail; emotion shown through choice, perception, and withheld speech. Avoid faux-poetic abstraction, generic trailer language, and explanatory monologues.
+
+## Global forbidden expressions
+
+Do not use: `little did she know`, `everything changed`, `a chill ran down her spine`, `ancient evil`, `destiny`, `somehow`, `for some reason`.
+
+## showrunner packet
+
+# Showrunner Packet
+
+The proposed 1,000-word scene occurs from 11:52 p.m. actual time until the ferry reaches mid-channel at 11:58 p.m.
+
+Required story material:
+
+- Mara discovers fresh water beneath Councillor Saye's car.
+- Nessa claims she boarded because Eli sent her a message that evening.
+- Mara knows Eli's number was disconnected eleven years ago.
+- The maintenance stair alarm logs an opening at 11:55 p.m.
+- Tom remains in the wheelhouse.
+- Saye tries to redirect attention to Nessa's ticket.
+- Mara must choose between immediately confronting Nessa and first checking the maintenance stair.
+- The scene must end with a decision that increases danger and preserves ambiguity.
+
+Downstream chapters need the document case intact. Nessa cannot be exposed as knowingly lying. Eli cannot physically appear. The compass may react but cannot solve the mystery.
+
+## Task
+
+Treat all supplied material as invented, noncanonical benchmark data. Follow the output contract exactly. Do not mention model identity, provider, benchmark scoring, or hidden reasoning. Do not use external tools or sources.
+
+# Task: Showrunner
+
+Using `common.md` and `showrunner.md`, produce one JSON object conforming to `schemas/showrunner-output.schema.json`.
+
+Create exactly seven ordered beats with IDs S1–S7. Each beat must state purpose, visible action, reader effect, continuity risk, and exit condition. Include the decision Mara makes, two explicit non-actions that protect downstream canon, an escalation curve, a stop/escalation decision, and no scene prose.
+
+## Exact output contract visible to the candidate
+
+Return only one JSON object satisfying this exact JSON Schema. Do not add prose or code fences.
+
+```json
+
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "beats",
+    "decision",
+    "protected_non_actions",
+    "escalation_curve",
+    "verdict"
+  ],
+  "properties": {
+    "beats": {
+      "type": "array",
+      "minItems": 7,
+      "maxItems": 7,
+      "items": {
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "purpose",
+          "visible_action",
+          "reader_effect",
+          "continuity_risk",
+          "exit_condition"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "purpose": {
+            "type": "string",
+            "minLength": 1
+          },
+          "visible_action": {
+            "type": "string",
+            "minLength": 1
+          },
+          "reader_effect": {
+            "type": "string",
+            "minLength": 1
+          },
+          "continuity_risk": {
+            "type": "string",
+            "minLength": 1
+          },
+          "exit_condition": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "decision": {
+      "type": "string"
+    },
+    "protected_non_actions": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "string"
+      }
+    },
+    "escalation_curve": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "string"
+      }
+    },
+    "verdict": {
+      "enum": [
+        "proceed",
+        "retry",
+        "escalate"
+      ]
+    }
+  }
+}
+
+```

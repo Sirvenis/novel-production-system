@@ -1,0 +1,27 @@
+{
+  "role": "researcher",
+  "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1.1/evidence/wave1a-gpt56-luna-20260810/wave1a-luna-researcher-a1/submission.json",
+  "hard_failures": [],
+  "warnings": [
+    "known-answer verdict mismatch"
+  ],
+  "checks": {
+    "json_schema_errors": [],
+    "missing_top_level_fields": [],
+    "claim_ids": [
+      "R1",
+      "R2",
+      "R3",
+      "R4",
+      "R5"
+    ],
+    "wrong_verdicts": [
+      "R5"
+    ],
+    "invalid_citations": [],
+    "missing_citations": [],
+    "global_forbidden_hits": []
+  },
+  "penalty": 4,
+  "eligible": true
+}

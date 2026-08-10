@@ -1,0 +1,477 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "wave": "1A",
+  "file_count": 94,
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1226,
+      "sha256": "47dde306042052509f8a840f603a92676a32be5da9e8d3d12d37c51d65f1a44b"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-001/blind-manifest.json",
+      "bytes": 219,
+      "sha256": "db375c58a25b2089e44afd9ed26ad3fe8b504b115487089c8a9f5818ba9dea13"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-001/submission.json",
+      "bytes": 6773,
+      "sha256": "7ab8b0213185569f70c032f402006987d33bfb7c4376d3a570c52c328e96b318"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-002/blind-manifest.json",
+      "bytes": 222,
+      "sha256": "f78238b1e3f8ba3687b4bf6fa46f08498c46f133fac85bfdb5940ffe6fcce01d"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-002/submission.json",
+      "bytes": 1357,
+      "sha256": "3eb04dd3bd489dbbb48fb5c7106cd9492689dae04a3ec9d70be9c5663bc2d5bf"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-003/blind-manifest.json",
+      "bytes": 215,
+      "sha256": "501c9d173109381dbf5b387087bd3ade11934478eaab57eafa094867b6d21824"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-003/submission.json",
+      "bytes": 2762,
+      "sha256": "caa7d1b8f7528117fc31c1cecfb39817656b4341eee9a0aecb9d119f1a59987b"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-004/blind-manifest.json",
+      "bytes": 219,
+      "sha256": "2290d4c9345671b57ae30cfa9e75623ef014821ecad09a4940496806a8b2d704"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-004/submission.json",
+      "bytes": 2997,
+      "sha256": "b81c1bdeae51955e6ae3d9f3f73e7573f559c095fc5a67b660332f541df6cb54"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-005/blind-manifest.json",
+      "bytes": 215,
+      "sha256": "ff6248322a3a0313233117b550b67eccde79c8b393c623e156816063e660f155"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-005/submission.json",
+      "bytes": 2490,
+      "sha256": "6c36f5633dc8bf9dfb06bec82d61a960873d922df3fe1f4d346173252c5f6313"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-006/blind-manifest.json",
+      "bytes": 219,
+      "sha256": "f2a8ec96881d32d967f1427b3307eb199291de37ab925f413313a6ce42d05220"
+    },
+    {
+      "path": "blind-bundle/CANDIDATE-006/submission.json",
+      "bytes": 2656,
+      "sha256": "bdc43612d0487759ba828ea4632486d6b1fa3d3423b393f0167f59476ae53ce5"
+    },
+    {
+      "path": "blind-readiness-validation.json",
+      "bytes": 55,
+      "sha256": "02669e0993afcabde5c472bfe88937ce56a937ace16b1e3b2eb51d7761dfa301"
+    },
+    {
+      "path": "blind-score-validation.json",
+      "bytes": 1233,
+      "sha256": "7accbaa0640bf337e85e45c620a5bac11329c4fa8330f1cd4bbf06a314c616da"
+    },
+    {
+      "path": "blind-scores/CANDIDATE-001-score.json",
+      "bytes": 1219,
+      "sha256": "2beb8cf840cd792dd47d89ad1633b441b6bd19f904edfcc7dc507195439bf43c"
+    },
+    {
+      "path": "blind-scores/CANDIDATE-002-score.json",
+      "bytes": 1114,
+      "sha256": "2d17a6f23d51799663610b71fdb76db6367b3169bf946f700f2930edcf4f32da"
+    },
+    {
+      "path": "blind-scores/CANDIDATE-003-score.json",
+      "bytes": 1222,
+      "sha256": "6f8771f578c509b513a6725923f728b88ab9019c842eecd5c11f39ced65232ae"
+    },
+    {
+      "path": "blind-scores/CANDIDATE-004-score.json",
+      "bytes": 1234,
+      "sha256": "dd40c8b3c1c91e6264c1a8d504958c523883a5f615e87e756b639b4ff8839ef5"
+    },
+    {
+      "path": "blind-scores/CANDIDATE-005-score.json",
+      "bytes": 1208,
+      "sha256": "992b145599dad54145d8e8e710d55b8f05e209824acc7effd0c3dd68d9de9805"
+    },
+    {
+      "path": "blind-scores/CANDIDATE-006-score.json",
+      "bytes": 1127,
+      "sha256": "0fcec3a6577368bb83c2ce9b98cf8ca91ff19fa898a581ab36c2b6579bc1db6d"
+    },
+    {
+      "path": "wave1a-luna-continuity-a1/extraction-normalization.json",
+      "bytes": 449,
+      "sha256": "a479d14b4d966904d9434971173c8e23272b13f0c2a3a1859250bb260fc02049"
+    },
+    {
+      "path": "wave1a-luna-continuity-a1/hermes-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "a040e01fdc3ead97577a1b893fec8e67a8d6e7ec6ddeb29a1deaa94c3facd81f"
+    },
+    {
+      "path": "wave1a-luna-continuity-a1/hermes-wrapper-stdout.raw.txt",
+      "bytes": 3029,
+      "sha256": "d5f0c33cc1e0dfe511480990ba33df9b8746bef22c73a3a19a7532c13e929c7e"
+    },
+    {
+      "path": "wave1a-luna-continuity-a1/no-tool-policy-proof.json",
+      "bytes": 258,
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "wave1a-luna-continuity-a1/prompt.txt",
+      "bytes": 5014,
+      "sha256": "eb3b7f4c541cd14a6697afdcc65b791614d7e74b10c3a2138a93fcc2a259aa01"
+    },
+    {
+      "path": "wave1a-luna-continuity-a1/provider-response.raw.txt",
+      "bytes": 2997,
+      "sha256": "b81c1bdeae51955e6ae3d9f3f73e7573f559c095fc5a67b660332f541df6cb54"
+    },
+    {
+      "path": "wave1a-luna-continuity-a1/route-evidence.log",
+      "bytes": 3957,
+      "sha256": "96e0c05f0e0731ee355a0261e49a17c2ab04392f88846fbc2345bea214f6fe10"
+    },
+    {
+      "path": "wave1a-luna-continuity-a1/run-record-validation.json",
+      "bytes": 206,
+      "sha256": "6b0025ab9ae7581e205302ea4d0dff2717ab9701920f0bd2ac545130c57a4ff6"
+    },
+    {
+      "path": "wave1a-luna-continuity-a1/run-result.json",
+      "bytes": 2629,
+      "sha256": "2d8fbf3b02de06012d387a81f7cc7a7ae4c0bdb910799035f58fbc522a3401b3"
+    },
+    {
+      "path": "wave1a-luna-continuity-a1/submission.json",
+      "bytes": 2997,
+      "sha256": "b81c1bdeae51955e6ae3d9f3f73e7573f559c095fc5a67b660332f541df6cb54"
+    },
+    {
+      "path": "wave1a-luna-continuity-a1/validation-result.json",
+      "bytes": 655,
+      "sha256": "53fe48817e8026f7428ab39907d312c5eb910afd8e0e00b69354b954ae777124"
+    },
+    {
+      "path": "wave1a-luna-continuity-a1/wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "wave1a-luna-editor-a1/extraction-normalization.json",
+      "bytes": 449,
+      "sha256": "3c346d2fa8219e6af9730be9c29669f8747f9af5490573d2fc6b2f6d425b7a4b"
+    },
+    {
+      "path": "wave1a-luna-editor-a1/hermes-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "8ea994eb9e69f81aa01e1d2d116f0d5562385fe6c88d34a176e4856cbdd5f408"
+    },
+    {
+      "path": "wave1a-luna-editor-a1/hermes-wrapper-stdout.raw.txt",
+      "bytes": 2522,
+      "sha256": "3f36b606e1e6ee43d3eb9ebb9edecb99a4efdc3aa85a5fe76f4a5c7a54baac8d"
+    },
+    {
+      "path": "wave1a-luna-editor-a1/no-tool-policy-proof.json",
+      "bytes": 258,
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "wave1a-luna-editor-a1/prompt.txt",
+      "bytes": 6335,
+      "sha256": "007fb7f65ab09fed02061748055c6822fc01bdbef862614236134ccf05d2c3b5"
+    },
+    {
+      "path": "wave1a-luna-editor-a1/provider-response.raw.txt",
+      "bytes": 2490,
+      "sha256": "6c36f5633dc8bf9dfb06bec82d61a960873d922df3fe1f4d346173252c5f6313"
+    },
+    {
+      "path": "wave1a-luna-editor-a1/route-evidence.log",
+      "bytes": 3956,
+      "sha256": "133bcb7f0f2631c6c08c7953d2bc280b4241121d708ee2a7ffb4780d0750d9bc"
+    },
+    {
+      "path": "wave1a-luna-editor-a1/run-record-validation.json",
+      "bytes": 202,
+      "sha256": "18b135d3c57a7549a1e59c14576dd47dbed4b2f7e08ba89a6fa0f5da53610a94"
+    },
+    {
+      "path": "wave1a-luna-editor-a1/run-result.json",
+      "bytes": 2620,
+      "sha256": "61ea4cb9098c7f54028ff2f97980c6251aee70990c97cade7e29c12cfbd45790"
+    },
+    {
+      "path": "wave1a-luna-editor-a1/submission.json",
+      "bytes": 2490,
+      "sha256": "6c36f5633dc8bf9dfb06bec82d61a960873d922df3fe1f4d346173252c5f6313"
+    },
+    {
+      "path": "wave1a-luna-editor-a1/validation-result.json",
+      "bytes": 503,
+      "sha256": "b73751b9195ab70ca7dd77c1110e52e3d76380fc2f5a5d94ae6c0ab7c94500ff"
+    },
+    {
+      "path": "wave1a-luna-editor-a1/wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "wave1a-luna-mechanical-qa-a1/extraction-normalization.json",
+      "bytes": 449,
+      "sha256": "b2f16f5164e59887bfd8ceff070f08c3bf3d5ff8f3204e2d000911e6cc5b586e"
+    },
+    {
+      "path": "wave1a-luna-mechanical-qa-a1/hermes-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "334c2191ca03f3d69ee56919d554c6227a0b01b22f30eea8e215c9ba70b34ed9"
+    },
+    {
+      "path": "wave1a-luna-mechanical-qa-a1/hermes-wrapper-stdout.raw.txt",
+      "bytes": 1389,
+      "sha256": "82d98669a1bb96db06954ced713f35ed56ac7560fa09a5a21bacdc200fe0b146"
+    },
+    {
+      "path": "wave1a-luna-mechanical-qa-a1/no-tool-policy-proof.json",
+      "bytes": 258,
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "wave1a-luna-mechanical-qa-a1/prompt.txt",
+      "bytes": 4780,
+      "sha256": "0099f44c4da65ff21bc9ab1956b3bbcd4f2e91c8e0a27011198127bfe5db87ff"
+    },
+    {
+      "path": "wave1a-luna-mechanical-qa-a1/provider-response.raw.txt",
+      "bytes": 1357,
+      "sha256": "3eb04dd3bd489dbbb48fb5c7106cd9492689dae04a3ec9d70be9c5663bc2d5bf"
+    },
+    {
+      "path": "wave1a-luna-mechanical-qa-a1/route-evidence.log",
+      "bytes": 3956,
+      "sha256": "cb31513bedea57a96d7ad0cea0b2c31ebf5ee3cf1e62552e35d85198004e247a"
+    },
+    {
+      "path": "wave1a-luna-mechanical-qa-a1/run-record-validation.json",
+      "bytes": 209,
+      "sha256": "d60e6e5cf9ed5be9660e3cb18711c4f2a0462a02dcc02a64d284b0c7f6cb3cf2"
+    },
+    {
+      "path": "wave1a-luna-mechanical-qa-a1/run-result.json",
+      "bytes": 2634,
+      "sha256": "3c96d8915fd40be7bd745545d930200b2130840a83600f666498d419e9433b23"
+    },
+    {
+      "path": "wave1a-luna-mechanical-qa-a1/submission.json",
+      "bytes": 1357,
+      "sha256": "3eb04dd3bd489dbbb48fb5c7106cd9492689dae04a3ec9d70be9c5663bc2d5bf"
+    },
+    {
+      "path": "wave1a-luna-mechanical-qa-a1/validation-result.json",
+      "bytes": 497,
+      "sha256": "34d57eeecbaaf8467509ea5c0afe3ddfdc47750504bf5f7b7781f7b20465cfd3"
+    },
+    {
+      "path": "wave1a-luna-mechanical-qa-a1/wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "wave1a-luna-reader-a1/extraction-normalization.json",
+      "bytes": 449,
+      "sha256": "7f79a09ef87e78ee3510d8ecf7248886ff77d1f8da29ea639eaee48499477821"
+    },
+    {
+      "path": "wave1a-luna-reader-a1/hermes-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "0a3ced29889ca9cdcf84e1be77e3ed3557428bea64d9be99c45d5df8945658d9"
+    },
+    {
+      "path": "wave1a-luna-reader-a1/hermes-wrapper-stdout.raw.txt",
+      "bytes": 2794,
+      "sha256": "f1d4a35ce7aba503f5c370c199b7f9627200acb906b307fccfde164df54e4fa8"
+    },
+    {
+      "path": "wave1a-luna-reader-a1/no-tool-policy-proof.json",
+      "bytes": 258,
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "wave1a-luna-reader-a1/prompt.txt",
+      "bytes": 5305,
+      "sha256": "6df2da3cc6d71c8529afb1a737b4f5e9ccacd05e41d07ae0e9ecbc0fc2eabafb"
+    },
+    {
+      "path": "wave1a-luna-reader-a1/provider-response.raw.txt",
+      "bytes": 2762,
+      "sha256": "caa7d1b8f7528117fc31c1cecfb39817656b4341eee9a0aecb9d119f1a59987b"
+    },
+    {
+      "path": "wave1a-luna-reader-a1/route-evidence.log",
+      "bytes": 3956,
+      "sha256": "a0e67d4111447023788c5ebfa4e98b696736be69163906371f0abcd1881f2099"
+    },
+    {
+      "path": "wave1a-luna-reader-a1/run-record-validation.json",
+      "bytes": 202,
+      "sha256": "96520762f6d3670ad00c40b72b6d0c6176a658eba359cfad00f1476b03db9dec"
+    },
+    {
+      "path": "wave1a-luna-reader-a1/run-result.json",
+      "bytes": 2620,
+      "sha256": "691fcc61ff9a660b65c3a1a4f3e1517a71e77d6c4d53630e883d11a91b5c20a1"
+    },
+    {
+      "path": "wave1a-luna-reader-a1/submission.json",
+      "bytes": 2762,
+      "sha256": "caa7d1b8f7528117fc31c1cecfb39817656b4341eee9a0aecb9d119f1a59987b"
+    },
+    {
+      "path": "wave1a-luna-reader-a1/validation-result.json",
+      "bytes": 426,
+      "sha256": "1a1118e627c85d95cf810245d2a28d7d6fa55dc1041a1cf2488829282ca70cf6"
+    },
+    {
+      "path": "wave1a-luna-reader-a1/wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "wave1a-luna-researcher-a1/extraction-normalization.json",
+      "bytes": 449,
+      "sha256": "1e1b4f73275a5d788f2e13092de1f4bf9b93a356e18c0d1e083b1a788000f10e"
+    },
+    {
+      "path": "wave1a-luna-researcher-a1/hermes-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "698d022d93956eb76c21f9bab67df910b89340efe96166d5c9ab15c693c7d2a8"
+    },
+    {
+      "path": "wave1a-luna-researcher-a1/hermes-wrapper-stdout.raw.txt",
+      "bytes": 2688,
+      "sha256": "2e34fe915500b920ec5821f83773740a0028693bbb90b9e2d7988ecc0ecd89e1"
+    },
+    {
+      "path": "wave1a-luna-researcher-a1/no-tool-policy-proof.json",
+      "bytes": 258,
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "wave1a-luna-researcher-a1/prompt.txt",
+      "bytes": 6342,
+      "sha256": "51c195489b6da25f0f60f6f8a81fc05b51c8364f1cb065c340603c5abd59fa9a"
+    },
+    {
+      "path": "wave1a-luna-researcher-a1/provider-response.raw.txt",
+      "bytes": 2656,
+      "sha256": "bdc43612d0487759ba828ea4632486d6b1fa3d3423b393f0167f59476ae53ce5"
+    },
+    {
+      "path": "wave1a-luna-researcher-a1/route-evidence.log",
+      "bytes": 3956,
+      "sha256": "2b87bf167ce4c90d51d77039bdc482d21be0013c01b56bb1013fe5c784730c3c"
+    },
+    {
+      "path": "wave1a-luna-researcher-a1/run-record-validation.json",
+      "bytes": 206,
+      "sha256": "640f56e8b627527c7993909f3e67941397d2ebfdf6c78bf434d8c3309627a9a8"
+    },
+    {
+      "path": "wave1a-luna-researcher-a1/run-result.json",
+      "bytes": 2628,
+      "sha256": "0bd085b32f5172287cfd5f933572dca07cba04f94833b6f61c5cafbb2dca6740"
+    },
+    {
+      "path": "wave1a-luna-researcher-a1/submission.json",
+      "bytes": 2656,
+      "sha256": "bdc43612d0487759ba828ea4632486d6b1fa3d3423b393f0167f59476ae53ce5"
+    },
+    {
+      "path": "wave1a-luna-researcher-a1/validation-result.json",
+      "bytes": 618,
+      "sha256": "37a0852fd1ec5e5cb0ab2a8a0e1c8b19e8eb76145d698e8eaf1447ae4c2aa0a3"
+    },
+    {
+      "path": "wave1a-luna-researcher-a1/wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "wave1a-luna-showrunner-a1/extraction-normalization.json",
+      "bytes": 449,
+      "sha256": "014677cc24799f100da65a579ee5a22720b5baf02cfa79ff86dde02bdb08a99f"
+    },
+    {
+      "path": "wave1a-luna-showrunner-a1/hermes-wrapper-stderr.raw.txt",
+      "bytes": 36,
+      "sha256": "f59d9a70385e4525650cc8289cc2dde9232073fba240f85f205292ac1ff4faa5"
+    },
+    {
+      "path": "wave1a-luna-showrunner-a1/hermes-wrapper-stdout.raw.txt",
+      "bytes": 6805,
+      "sha256": "b190d6a3f0d0cbb5a38b63251b25b09368d432dd98ccc8fb47ee2c8af9f04ca7"
+    },
+    {
+      "path": "wave1a-luna-showrunner-a1/no-tool-policy-proof.json",
+      "bytes": 258,
+      "sha256": "69ba17fb1e9bb742ae8ed5446c2e9a4c06a81bc5ca57fc5ba1a22a2131b3ad79"
+    },
+    {
+      "path": "wave1a-luna-showrunner-a1/prompt.txt",
+      "bytes": 5505,
+      "sha256": "68e55c2dcbb1808cde434bc6ecd670e57127daa2c8db73f92aa72acd87c084cb"
+    },
+    {
+      "path": "wave1a-luna-showrunner-a1/provider-response.raw.txt",
+      "bytes": 6773,
+      "sha256": "7ab8b0213185569f70c032f402006987d33bfb7c4376d3a570c52c328e96b318"
+    },
+    {
+      "path": "wave1a-luna-showrunner-a1/route-evidence.log",
+      "bytes": 3957,
+      "sha256": "dabcf9352d44e96a7ae34a25f1e09d754621ecbd66895a582059de13c57b801e"
+    },
+    {
+      "path": "wave1a-luna-showrunner-a1/run-record-validation.json",
+      "bytes": 206,
+      "sha256": "f00641536d414273100d691a403500a1403a1e15580bc4c9ee96369f124aee44"
+    },
+    {
+      "path": "wave1a-luna-showrunner-a1/run-result.json",
+      "bytes": 2629,
+      "sha256": "0019408339fd4f84dba7c348bec4cea3f4ac67c81c723e82b3a97b5ce0d0151e"
+    },
+    {
+      "path": "wave1a-luna-showrunner-a1/submission.json",
+      "bytes": 6773,
+      "sha256": "7ab8b0213185569f70c032f402006987d33bfb7c4376d3a570c52c328e96b318"
+    },
+    {
+      "path": "wave1a-luna-showrunner-a1/validation-result.json",
+      "bytes": 631,
+      "sha256": "8d6eff9fe2b8a0bffaf1977ba624ff7db00595b0a924de32e7913099a262ab73"
+    },
+    {
+      "path": "wave1a-luna-showrunner-a1/wrapper-notices.txt",
+      "bytes": 32,
+      "sha256": "619de2490fd385c23f54e620cf4f402df819a66820dbdd6fc708a16d08733e7e"
+    },
+    {
+      "path": "wave1a-summary.json",
+      "bytes": 16891,
+      "sha256": "d64a0c0c21e4b18a69ddaec988ba3babd6f5d3fe0b8734032d9b7a247b7c3d99"
+    }
+  ]
+}

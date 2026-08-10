@@ -1,0 +1,7 @@
+{
+  "blind_alias": "CANDIDATE-002",
+  "role": "mechanical-qa",
+  "submission_file": "submission.json",
+  "submission_sha256": "3eb04dd3bd489dbbb48fb5c7106cd9492689dae04a3ec9d70be9c5663bc2d5bf",
+  "pack_version": "1.1.0"
+}

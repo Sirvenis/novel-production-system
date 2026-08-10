@@ -2,7 +2,7 @@
 
 Updated: 2026-08-10
 Custodian: Scout / Hermes under Andrew's final authority
-Status: CORRECTED WAVE 0B COMPLETE; STOPPED BEFORE WAVE 1
+Status: WAVE 1A EVIDENCE COMPLETE; STOPPED BEFORE PROMOTION OR WAVE 1B
 
 ## Canonical lane
 
@@ -13,6 +13,8 @@ Status: CORRECTED WAVE 0B COMPLETE; STOPPED BEFORE WAVE 1
 - Corrected report: `reports/FICTION_ROLE_BENCHMARK_CORRECTED_WAVE0B_2026-08-10.md`
 - Corrected pack: `benchmarks/fiction-role-benchmark-v1.1/`
 - Calibration evidence: `benchmarks/fiction-role-benchmark-v1.1/evidence/wave0b-gpt56-luna-20260810/`
+- Wave 1A report: `reports/FICTION_ROLE_BENCHMARK_WAVE1A_2026-08-10.md`
+- Wave 1A evidence: `benchmarks/fiction-role-benchmark-v1.1/evidence/wave1a-gpt56-luna-20260810/`
 
 ## Completed
 
@@ -25,6 +27,9 @@ Status: CORRECTED WAVE 0B COMPLETE; STOPPED BEFORE WAVE 1
 - Created and froze v1.1 with 45 full-pack files, 17 passing tests, strict schema validation, exact schema injection, zero-tool proof, immutable response/wrapper separation, explicit metadata, blinding leakage/overwrite controls, and v1 preservation proof.
 - Ran only mechanical QA, writer, and fresh reader on `gpt-5.6-luna / openai-codex`.
 - Exact route passed 3/3; actual tool turns were 0/3; structured roles passed deterministic eligibility; writer failed at 1,231 words and marker order.
+- After Andrew / Arden accepted the corrected pack, ran Wave 1A on all six non-writer roles only.
+- Wave 1A exact route passed 6/6, actual tool turns were 0/6, deterministic eligibility passed 6/6, and blind final scores ranged from 88 to 100.
+- Preserved six immutable attempts, a six-candidate leak-free blind bundle, schema-validated blind scores, aggregate summary, and a 94-file artifact manifest.
 - Made no canonical prose, profile/core configuration, deployment, payment, production-model policy, promotion, or extra-credit change.
 
 ## Controlling finding
@@ -33,4 +38,6 @@ v1.1 repairs the demonstrated harness defect and is eligible for Andrew / Arden 
 
 ## Exact next gate
 
-Stop for Andrew / Arden evidence review. Wave 1 may be proposed after review but cannot begin without Andrew's separate authorization. Do not run extra-credit models or alter production policy.
+Andrew / Arden accepted the corrected pack and authorised bounded Wave 1A. Six non-writer cells ran on exact `gpt-5.6-luna / openai-codex`, all with zero actual tool turns and deterministic eligibility. Blind final scores: Mechanical QA 100, Fresh Reader 93, Showrunner 89, Editor 94, Researcher 90, Continuity 88. All six clear the role-promotion review threshold; Mechanical QA and Fresh Reader have the strongest repeated corrected-pack evidence. Writer was not rerun and remains `WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION`.
+
+Stop for Andrew / Arden role-promotion review. Do not promote Luna, begin Wave 1B, test extra-credit models, change production runtime/model policy or Hermes configuration, or alter canonical prose.

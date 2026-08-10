@@ -1,0 +1,27 @@
+{
+  "benchmark_id": "fiction-role-benchmark-v1.1",
+  "pack_version": "1.1.0",
+  "role": "editor",
+  "blind_alias": "CANDIDATE-005",
+  "scorer_id": "SCOUT-BLIND-REVIEWER-001",
+  "rubric_scores": {
+    "diagnosis_accuracy_and_priority": 24,
+    "surgical_improvement": 23,
+    "voice_and_event_preservation": 19,
+    "scope_discipline_and_restraint": 19,
+    "editorial_record_quality": 9
+  },
+  "human_total": 94,
+  "deterministic_penalty": 0,
+  "final_score": 94,
+  "critical_flags": [],
+  "evidence": [
+    "Exactly three diagnoses target redundancy, viewpoint explanation, and repetitive decision narration with direct source quotations.",
+    "The revision sharpens locally—e.g. “His fingers did not”—while retaining 86.4% of source words and the same event sequence.",
+    "All three protected sentences are byte-exact and Mara remains grounded and practical.",
+    "No new lore or event is added, the forbidden cliché is removed, and scope stays within the supplied passage.",
+    "The preservation declaration is true and deferred issues are explicit, though diagnoses are not formally cross-indexed to individual edits."
+  ],
+  "scored_at": "2026-08-10T10:50:30+10:00",
+  "confidence": 0.9
+}

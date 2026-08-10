@@ -1,0 +1,17 @@
+{
+  "role": "editor",
+  "submission": "/home/andrew/novel-production-system/benchmarks/fiction-role-benchmark-v1.1/evidence/wave1a-gpt56-luna-20260810/wave1a-luna-editor-a1/submission.json",
+  "hard_failures": [],
+  "warnings": [],
+  "checks": {
+    "json_schema_errors": [],
+    "missing_top_level_fields": [],
+    "protected_missing": [],
+    "word_retention": 0.864,
+    "diagnosis_count": 3,
+    "event_markers_missing": [],
+    "global_forbidden_hits": []
+  },
+  "penalty": 0,
+  "eligible": true
+}

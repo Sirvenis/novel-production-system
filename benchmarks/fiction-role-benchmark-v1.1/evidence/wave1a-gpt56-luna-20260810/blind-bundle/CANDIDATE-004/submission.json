@@ -1,0 +1,73 @@
+{
+  "findings": [
+    {
+      "id": "C-001",
+      "summary_fragment": "Mara leaves Tom on the vehicle deck; Tom follows her to the wheelhouse",
+      "canon_evidence": "Tom never leaves the wheelhouse while the vessel is under way.",
+      "severity": "major",
+      "classification": "contradiction"
+    },
+    {
+      "id": "C-002",
+      "summary_fragment": "Beneath Saye's car she finds seawater that could only have fallen through the open roof",
+      "canon_evidence": "Salt water on the vehicle deck is ordinary. Fresh water there is anomalous because rain cannot reach beneath the enclosed centre lane. The canon does not establish an open roof or that seawater there came from rainfall.",
+      "severity": "major",
+      "classification": "unsupported-certainty"
+    },
+    {
+      "id": "C-003",
+      "summary_fragment": "Nessa shows a digital ticket stamped 23:40",
+      "canon_evidence": "Nessa is travelling with a paper ticket stamped 23:40.",
+      "severity": "major",
+      "classification": "contradiction"
+    },
+    {
+      "id": "C-004",
+      "summary_fragment": "Nessa admits she invented the message from Eli",
+      "canon_evidence": "The canon does not establish that Nessa sent or possessed a message from Eli, or that she invented one.",
+      "severity": "major",
+      "classification": "unsupported-certainty"
+    },
+    {
+      "id": "C-005",
+      "summary_fragment": "The maintenance alarm records its opening at 11:55 on the ferry clock",
+      "canon_evidence": "The maintenance stair alarm records openings with actual timestamps. The ferry clock is seven minutes slow.",
+      "severity": "major",
+      "classification": "contradiction"
+    },
+    {
+      "id": "C-006",
+      "summary_fragment": "Mara uses Eli's compass to establish that the maintenance stair lies due north",
+      "canon_evidence": "Since the marina fire, Eli's brass compass points inland, not north.",
+      "severity": "major",
+      "classification": "contradiction"
+    },
+    {
+      "id": "C-007",
+      "summary_fragment": "Saye opens the grey case, revealing marina-fire records",
+      "canon_evidence": "Saye is transporting a locked grey document case. The canon does not establish that it contains marina-fire records or that Saye opens it.",
+      "severity": "major",
+      "classification": "unsupported-certainty"
+    },
+    {
+      "id": "C-008",
+      "summary_fragment": "Mara takes the marina-fire records",
+      "canon_evidence": "The canon does not establish the case contents or that Mara takes any records.",
+      "severity": "major",
+      "classification": "unsupported-certainty"
+    }
+  ],
+  "checked_domains": [
+    "character roles and movement",
+    "ferry operation and location",
+    "vehicle-deck water conditions",
+    "Nessa's ticket",
+    "Eli-related information",
+    "timekeeping and incident timestamps",
+    "maintenance stair alarm",
+    "Eli's compass",
+    "Saye's document case",
+    "marina-fire records"
+  ],
+  "verdict": "fail"
+}

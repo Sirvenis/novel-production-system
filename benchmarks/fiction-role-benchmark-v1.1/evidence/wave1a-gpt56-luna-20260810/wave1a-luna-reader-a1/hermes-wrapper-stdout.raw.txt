@@ -1,0 +1,22 @@
+Warning: Unknown toolsets: none
+{
+  "hook": "The fresh water under a car in an enclosed vehicle deck immediately feels wrong, and Mara's matter-of-fact taste of it makes the danger concrete. Eli's impossible message and the maintenance-stair alarm deepen the hook without explaining too much.",
+  "tension": "The scene builds pressure quickly through the storm, the trapped ferry, Saye's guarded case, Nessa's connection to Eli, and the alarm. Mara's decision to deal with the stair before asking questions gives the moment urgency and makes the final water trail feel like a direct threat.",
+  "clarity": "I could follow the physical action and understood that the ferry clock was seven minutes slow, that Nessa had received a message from Eli, and that the maintenance stair was opening or signalling an opening. I am less certain whether the three beeps mean the stair has actually opened, whether Nessa's ticket is impossible because of its timestamp, and what Saye believes he is witnessing.",
+  "character_pull": "Mara is compelling because she is practical under pressure while carrying guilt about Eli. Her instinct to verify the water herself and then prioritise the alarm over questioning Nessa makes me trust her competence, even as her withheld history with Eli creates emotional unease.",
+  "emotional_movement": "Mara moves from investigating an anomalous physical detail to being personally shaken by Eli's name, then forces herself back into action. The shift from private shock to controlled urgency leaves her emotionally exposed but still purposeful.",
+  "strongest_moment": "Nessa saying, \"Eli sent me a message tonight,\" followed by Mara checking the two clocks and remembering that his number was disconnected eleven years ago, is the strongest moment. The final image of fresh water tracing a line from beneath the maintenance-stair door then converts that personal impossibility into immediate physical danger.",
+  "confusions": [
+    "I am unsure what makes Nessa's paper ticket impossible beyond the ferry time being stamped 23:40.",
+    "I do not know whether the three beeps confirm that someone has opened the maintenance stair or merely indicate an alarm condition.",
+    "Saye's reaction to the water and his locked case suggest he knows more, but his exact concern is unclear."
+  ],
+  "predictions": [
+    "Mara will open the maintenance stair despite the danger.",
+    "The stair or the space beyond it will contain evidence connected to Eli, Nessa, or both.",
+    "Saye's document case will become important, possibly because it contains records about the marina fire or Eli's disappearance.",
+    "Tom may be unable to help from the wheelhouse, leaving Mara responsible for containing the threat."
+  ],
+  "desire_to_continue": "yes",
+  "confidence": 0.98
+}

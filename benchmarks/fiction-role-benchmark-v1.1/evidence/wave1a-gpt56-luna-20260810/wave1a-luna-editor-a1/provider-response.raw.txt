@@ -1,0 +1,29 @@
+{
+  "diagnoses": [
+    {
+      "issue": "The opening repeats the same sensory information and explains Mara's observation too explicitly.",
+      "evidence": "\"The water was cold. It was very cold\" and the extended explanation of why fresh water is unexpected dilute the immediate discovery.",
+      "severity": "medium"
+    },
+    {
+      "issue": "Mara's viewpoint is weakened by direct explanation of her emotions and of Saye's behaviour.",
+      "evidence": "\"She realised she was afraid\" and \"it was the kind of casual movement that was not casual at all\" name and interpret reactions instead of grounding them in her perception.",
+      "severity": "high"
+    },
+    {
+      "issue": "The passage uses repetitive decision narration before the final movement.",
+      "evidence": "\"Mara considered\" and \"She also considered\" followed by an explicit explanation of urgency makes the choice feel procedural rather than tense.",
+      "severity": "medium"
+    }
+  ],
+  "revised_text": "Mara crouched beside the councillor's sedan and put two fingers into the narrow ribbon of water. It was cold, clear rather than oily. Before she could talk herself out of it, she tasted it.\n\nIt was fresh.\n\nThey were crossing a salt estuary; the water around the ferry should have been salt. Rain might have explained it, except the centre lane was roofed, and the storm was blowing from the port side. Mara looked up at the steel overhead, then round at the faces turned towards her.\n\n\"What is it?\" Nessa asked.\n\nThe maintenance alarm gave three short beeps.\n\nMara's hand tightened against the deck. Fear moved through her in a quick, hard beat, and she saw Councillor Saye step nearer to his grey document case. He made the movement look casual. His fingers did not.\n\n\"Her ticket,\" Saye said. \"You should be asking how she got on with that ticket.\"\n\nThe brass compass turned once in Mara's pocket and stopped.\n\nNessa watched her. Mara could question the girl, or check the maintenance stair. The alarm had made the stair the more urgent choice. She rose, keeping her eyes on the locked door, and moved towards it.",
+  "preservation": {
+    "protected_sentences_retained": true,
+    "events_retained": true,
+    "scope": "surgical"
+  },
+  "deferred_issues": [
+    "The passage does not resolve whether the fresh water has a mundane or uncanny source.",
+    "The wider implications of Nessa's ticket and Saye's document case remain outside this surgical revision."
+  ]
+}

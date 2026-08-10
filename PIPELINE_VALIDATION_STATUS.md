@@ -91,6 +91,14 @@ A bounded three-cell calibration used only `gpt-5.6-luna / openai-codex`: mechan
 
 No canonical prose, live profile configuration, series model policy, deployment, payment infrastructure, or extra-credit model was changed.
 
+## Wave 1A evidence
+
+Andrew / Arden accepted the corrected pack for bounded Wave 1A testing. Wave 1A ran `gpt-5.6-luna / openai-codex` through the existing `gpt56-luna` profile on all six non-writer roles. Exact route passed 6/6, actual tool turns were 0/6, and deterministic eligibility passed 6/6. Blind final scores were Mechanical QA 100, Fresh Reader 93, Showrunner 89, Editor 94, Researcher 90, and Continuity 88. Showrunner carried a 2-point required-phrase penalty; Researcher carried a 4-point verdict penalty. No hard failures or critical-dimension failures occurred.
+
+Writer was deliberately not rerun and remains: `WRITER ROLE — INELIGIBLE UNDER CORRECTED WAVE 0B CALIBRATION`.
+
+Full report: `reports/FICTION_ROLE_BENCHMARK_WAVE1A_2026-08-10.md`. Canonical evidence: `benchmarks/fiction-role-benchmark-v1.1/evidence/wave1a-gpt56-luna-20260810/`.
+
 ## Immediate next gate
 
-Corrected Wave 0B is complete. The v1.1 pack is eligible for Andrew / Arden evidence review. Stop before Wave 1. A Wave 1 model screen may be proposed only after review and still requires Andrew's separate authorization. Kimi K3 and all other extra-credit use remain separately cost-gated.
+Wave 1A evidence is ready for Andrew / Arden role-promotion review. All six tested non-writer roles clear the pack's review threshold, with Mechanical QA and Fresh Reader holding the strongest repeated corrected-pack evidence. No model has been promoted. Stop before Wave 1B, extra-credit testing, production model-policy changes, profile/configuration changes, or canonical prose work. Further Wave 1B replication/comparison requires separate authorization.
