@@ -36,4 +36,4 @@ Status: COMPLETE FOR REVIEW — EXECUTION GATES CLOSED
 
 ## Review notes
 
-Independent background challenge review should be added under `acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/reviews/` before final commit if suitable non-Codex profiles complete in time.
+Independent background challenge reviews were completed and incorporated before the execution gate. Three challenge lanes ran successfully: GLM-5.2 pipeline architecture challenge, Kimi K2.6 Writer benchmark fairness/bias challenge, and Qwen3.5 preservation/anti-overediting challenge (replacement after DeepSeek V3.2 returned HTTP 410 retired). All material changes from these reviews were applied to the design. See `acceptance-programmes/novel-production-pipeline-acceptance-v1.0-design/DESIGN_CHALLENGE_SYNTHESIS.md` for the full synthesis, disagreements preserved, and changes applied.
