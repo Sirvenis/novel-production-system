@@ -12,6 +12,44 @@ This document describes the current candidate production framework for a multi-b
 
 ---
 
+## Pre-Stage: Series Longevity Contract (Before Voice Test)
+
+**Purpose:** Determine the series's structural architecture before any voice testing or book-level planning.
+
+**When:** Before Stage 0, for any new series or when formally classifying an existing series.
+
+**Inputs:**
+- Series concept brief
+- Genre/audience decision
+
+**Process:**
+1. Complete the Series Longevity Contract (see `templates/SERIES_LONGEVITY_CONTRACT_TEMPLATE.md`)
+2. Apply the seven structural axes
+3. Identify the narrative economy (generators, consumers, protected, renewable, finite)
+4. Apply the Interest Diagnostic
+5. Declare continuity tier, escalation mode, reader promise
+6. Run the contradiction check
+7. Review failure mode exposure
+
+**Reference:** See `infrastructure/series-architecture/` for the full framework, decision system, and failure mode catalogue.
+
+**Outputs:**
+- Completed Series Longevity Contract (in the creative repository)
+- Structural axis declarations
+- Failure mode risk assessment
+
+**Verdict to proceed:** Contract approved by Andrew. No Voice Test until the series architecture is declared.
+
+**Relationship to existing documents:**
+- The Contract informs the Series SOUL (creative identity, voice, character priorities)
+- The SOUL informs the Voice Guardrails (Stage 0)
+- The Voice Test (Stage 0) validates the voice that the SOUL and Contract have established
+- The book-level Architecture (Stage 1) inherits the Contract's structural decisions
+
+**For existing series:** The Contract supplements the existing SOUL. It does not replace it. The Contract adds structural analysis (axes, economy, escalation modes, contradiction check, failure modes) that the SOUL does not provide.
+
+---
+
 ## Stage 0: Voice Test & Guardrails (CRITICAL — Before Architecture)
 
 **Purpose:** Test the protagonist's voice, the setting's texture, and the fear engine in prose BEFORE architecting the entire novel around them. Voice is the project engine. If voice fails, the project stops.

@@ -7,6 +7,12 @@
 - Hermes Agent (or equivalent AI agent with profile support)
 - A project directory for your creative work
 
+## Step 0: Complete a Series Longevity Contract (New Series Only)
+
+Before setting up profiles or copying templates, complete a Series Longevity Contract for your new series. See `infrastructure/series-architecture/` for the framework and `templates/SERIES_LONGEVITY_CONTRACT_TEMPLATE.md` for the template.
+
+Skip this step if the series already has a SOUL and you are classifying retrospectively.
+
 ## Step 1: Clone This Repository
 
 ```bash
